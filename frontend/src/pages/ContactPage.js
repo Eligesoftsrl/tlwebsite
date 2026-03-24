@@ -7,7 +7,7 @@ import { siteConfig, eventTypes } from '../data/siteData';
 const API_URL = process.env.NODE_ENV === 'production' 
   ? '/api/contact' 
   : 'https://www.tenutaleone.eliclient.it/api/nuova_richiesta';
-const BASE_URL = 'https://tenutaleone.it';
+const BASE_URL = 'https://www.tenutaleone.it';
 
 const ContactPage = () => {
   const [formData, setFormData] = useState({

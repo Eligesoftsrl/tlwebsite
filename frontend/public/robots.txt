@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://tenutaleone.it/sitemap.xml
+Sitemap: https://www.tenutaleone.it/sitemap.xml
 
 # Crawl-delay for polite crawling
 Crawl-delay: 1

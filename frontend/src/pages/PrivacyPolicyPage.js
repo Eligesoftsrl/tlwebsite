@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 
-const BASE_URL = 'https://tenutaleone.it';
+const BASE_URL = 'https://www.tenutaleone.it';
 
 const PrivacyPolicyPage = () => {
   return (

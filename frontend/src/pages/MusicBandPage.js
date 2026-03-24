@@ -2,7 +2,7 @@ import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import LazyImage from '../components/LazyImage';
 
-const BASE_URL = 'https://tenutaleone.it';
+const BASE_URL = 'https://www.tenutaleone.it';
 
 const MusicBandPage = () => {
   const structuredData = {
@@ -30,7 +30,7 @@ const MusicBandPage = () => {
         <title>Music Band per Matrimoni Salerno | Tenuta Leone Music Band | Musica Live Eventi</title>
         <meta name="description" content="Tenuta Leone Music Band: quintetto professionale per matrimoni ed eventi a Salerno e Campania. Musica live Jazz, Pop, Soul e Dance per il vostro ricevimento." />
         <meta name="keywords" content="band matrimonio salerno, musica live matrimonio campania, gruppo musicale eventi, jazz band wedding, tenuta leone music band" />
-        <link rel="canonical" href="https://tenutaleone.it/music-band" />
+        <link rel="canonical" href="https://www.tenutaleone.it/music-band" />
         <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
       </Helmet>
 

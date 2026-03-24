@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet-async';
 import { spaces, siteConfig } from '../data/siteData';
 import LazyImage from '../components/LazyImage';
 
-const BASE_URL = 'https://tenutaleone.it';
+const BASE_URL = 'https://www.tenutaleone.it';
 
 const TourPage = () => {
   const structuredData = {
@@ -41,7 +41,7 @@ const TourPage = () => {
         <meta property="og:description" content="Esplora ogni angolo della nostra dimora con i tour virtuali 360°" />
         <meta property="og:image" content={`${BASE_URL}/img/tenuta_antica/antica_8.jpg`} />
         
-        <link rel="canonical" href="https://tenutaleone.it/tour" />
+        <link rel="canonical" href="https://www.tenutaleone.it/tour" />
         
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}

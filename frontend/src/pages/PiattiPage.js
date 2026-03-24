@@ -6,7 +6,7 @@ import LazyImage from '../components/LazyImage';
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 
-const BASE_URL = 'https://tenutaleone.it';
+const BASE_URL = 'https://www.tenutaleone.it';
 
 const PiattiPage = () => {
   const [activeFilter, setActiveFilter] = useState('tutti');
@@ -65,7 +65,7 @@ const PiattiPage = () => {
         <meta property="og:description" content="Cucina tradizionale campana per matrimoni ed eventi esclusivi" />
         <meta property="og:image" content={`${BASE_URL}/img/piatti/p1.jpg`} />
         
-        <link rel="canonical" href="https://tenutaleone.it/piatti" />
+        <link rel="canonical" href="https://www.tenutaleone.it/piatti" />
         
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}

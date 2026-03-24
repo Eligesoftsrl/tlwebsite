@@ -65,7 +65,7 @@ const GoogleReviews = ({ limit = 3 }) => {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Tenuta Leone",
-    "image": "https://tenutaleone.it/img/slide/slide_1.jpg",
+    "image": "https://www.tenutaleone.it/img/slide/slide_1.jpg",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Via Roma, 19",

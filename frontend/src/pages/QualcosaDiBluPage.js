@@ -2,7 +2,7 @@ import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import LazyImage from '../components/LazyImage';
 
-const BASE_URL = 'https://tenutaleone.it';
+const BASE_URL = 'https://www.tenutaleone.it';
 
 const QualcosaDiBluPage = () => {
   const structuredData = {
@@ -19,7 +19,7 @@ const QualcosaDiBluPage = () => {
         <title>Wedding Planner Salerno | Qualcosa di Blu | Organizzazione Matrimoni Campania</title>
         <meta name="description" content="Qualcosa di Blu: il team di Wedding Consultant interno di Tenuta Leone. Organizzazione professionale matrimoni a Salerno e Campania." />
         <meta name="keywords" content="wedding planner salerno, organizzazione matrimoni campania, wedding consultant, allestimenti matrimonio" />
-        <link rel="canonical" href="https://tenutaleone.it/qualcosa-di-blu" />
+        <link rel="canonical" href="https://www.tenutaleone.it/qualcosa-di-blu" />
         <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
       </Helmet>
 

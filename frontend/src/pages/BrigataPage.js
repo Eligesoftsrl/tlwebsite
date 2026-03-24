@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { brigata } from '../data/siteData';
 import LazyImage from '../components/LazyImage';
 
-const BASE_URL = 'https://tenutaleone.it';
+const BASE_URL = 'https://www.tenutaleone.it';
 
 const BrigataPage = () => {
   const structuredData = {
@@ -33,7 +33,7 @@ const BrigataPage = () => {
         <meta property="og:description" content="Tradizione e innovazione: il team di chef che rende speciale ogni evento" />
         <meta property="og:image" content={`${BASE_URL}/img/brigata/c1.jpg`} />
         
-        <link rel="canonical" href="https://tenutaleone.it/brigata" />
+        <link rel="canonical" href="https://www.tenutaleone.it/brigata" />
         
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}

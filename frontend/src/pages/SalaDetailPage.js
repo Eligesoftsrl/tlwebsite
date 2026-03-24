@@ -6,7 +6,7 @@ import LazyImage from '../components/LazyImage';
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 
-const BASE_URL = 'https://tenutaleone.it';
+const BASE_URL = 'https://www.tenutaleone.it';
 
 const SalaDetailPage = () => {
   const { slug } = useParams();
@@ -76,7 +76,7 @@ const SalaDetailPage = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={`${sala.name || 'Sala'} - Tour Virtuale 360°`} />
         
-        <link rel="canonical" href={`https://tenutaleone.it/sala/${sala.slug || ''}`} />
+        <link rel="canonical" href={`https://www.tenutaleone.it/sala/${sala.slug || ''}`} />
         
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}

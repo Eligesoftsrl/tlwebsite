@@ -5,7 +5,7 @@ import LazyImage from '../components/LazyImage';
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 
-const BASE_URL = 'https://tenutaleone.it';
+const BASE_URL = 'https://www.tenutaleone.it';
 
 const pasticciere = {
   name: "Gelsomino Cuozzo",
@@ -53,7 +53,7 @@ const PasticceriaPage = () => {
         <meta property="og:description" content="Torte nuziali e dessert artigianali per il tuo matrimonio" />
         <meta property="og:image" content={`${BASE_URL}/img/brigata/p1.jpg`} />
         
-        <link rel="canonical" href="https://tenutaleone.it/pasticceria" />
+        <link rel="canonical" href="https://www.tenutaleone.it/pasticceria" />
         
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}

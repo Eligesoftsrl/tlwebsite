@@ -9,7 +9,7 @@ import InstagramFeed from '../components/InstagramFeed';
 import FAQSection from '../components/FAQSection';
 import LazyImage from '../components/LazyImage';
 
-const BASE_URL = 'https://tenutaleone.it';
+const BASE_URL = 'https://www.tenutaleone.it';
 
 const HomePage = () => {
   // Enhanced structured data for SEO
