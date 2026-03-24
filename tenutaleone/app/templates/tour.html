@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+
+{% block title %}Tenuta Leone – Il Tour{% endblock %}
+
+{% block content %}
+<!--==============================
+    Breadcumb
+============================== -->
+    <div class="breadcumb-banner">
+        <div class="breadcumb-wrapper " data-bg-src="{{ url_for('static', filename='img/bg/bg_tour.jpg') }}">
+            <div class="container">
+                <div class="breadcumb-content">
+                    <h1 class="breadcumb-title">TOUR 360</h1>
+                    <ul class="breadcumb-menu">
+                        <li><a href="/">Home</a></li>
+                        <li>Scopri gli ambienti</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+<section class="overflow-hidden space-bottom">
+  <div class="container">
+    <div class="title-area text-center">
+    
+    </div>
+
+    {% if stanze and stanze|length > 0 %}
+      <div class="row gy-4">
+        {% for room in stanze %}
+          {# Cover: accetta sia lista che stringa #}
+          {% set cover = None %}
+          {% if room.immagini %}
+            {% if room.immagini is string %}
+              {% set cover = room.immagini %}
+            {% elif room.immagini|length > 0 %}
+              {% set cover = room.immagini[0] %}
+            {% endif %}
+          {% endif %}
+
+          <div class="col-lg-6 col-xxl-4">
+            <div class="room-box">
+              <div class="box-img">
+                {% if cover %}
+                  <img
+                    src="{% if cover.startswith('http') %}{{ cover }}{% else %}{{ url_for('static', filename=cover) }}{% endif %}"
+                    alt="{{ room.nome }}" loading="lazy">
+                {% else %}
+                  <img
+                    src="{{ url_for('static', filename='img/room/room_6_1.jpg') }}"
+                    alt="{{ room.nome }}" loading="lazy">
+                {% endif %}
+              </div>
+
+              <div class="box-title-area">
+                <div class="box-number">{{ "%02d"|format(loop.index) }}</div>
+                <h3 class="box-title">
+                  <a href="{{ url_for('sala', slug=room.slug) }}">{{ room.nome }}</a>
+                </h3>
+                <div class="mt-10">
+                  <a href="{{ url_for('sala', slug=room.slug) }}" class="th-btn2 style2">SCOPRI ORA</a>
+                </div>
+              </div>
+
+              <div class="box-content">
+                <div class="box-wrapp">
+                  <div class="box-number">{{ "%02d"|format(loop.index) }}</div>
+                  <h3 class="box-title">
+                    <a href="{{ url_for('sala', slug=room.slug) }}">{{ room.nome }}</a>
+                  </h3>
+                  <div class="mt-10">
+                    <a href="{{ url_for('sala', slug=room.slug) }}" class="th-btn2 style2">SCOPRI ORA</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    {% else %}
+      <p class="text-center mt-4">Nessun ambiente disponibile al momento.</p>
+    {% endif %}
+  </div>
+</section>
+{% endblock %}
+

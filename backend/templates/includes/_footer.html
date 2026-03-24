@@ -1,0 +1,82 @@
+<footer class="footer-wrapper footer-layout1 footer-layout3">
+  <div class="widget-area">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-md-6 col-xl-auto">
+          <div class="widget footer-widget footer-line">
+            <div class="th-widget-about">
+              <div class="about-logo">
+                <a href="{{ url_for('index') }}"><img src="{{ url_for('static', filename='img/logo-white2.svg') }}" style="width:40%;" alt="Tenuta Leone"></a>
+              </div>
+              <p class="about-text">Tenuta Leone, nel verde di Calvanico (SA), è una residenza storica dove eleganza e charme si incontrano. Location ideale per matrimoni ed eventi.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-xl-auto">
+          <div class="widget widget_nav_menu footer-line footer-widget">
+            <h3 class="widget_title">Link Utili</h3>
+            <div class="menu-all-pages-container">
+              <ul class="menu">
+                <li><a href="">Chi Siamo</a></li>
+                <li><a href="/tour">Dimora Storica</a></li>
+                <li><a href="/sala/sala_ricevimenti">La Sala</a></li>
+                <li><a href="sala/sala_esterni">Gli Esterni</a></li>
+                <li><a href="/tour">Tour 360</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-xl-auto">
+          <div class="widget widget_nav_menu footer-line footer-widget">
+            <h3 class="widget_title">Scopri ancora</h3>
+            <div class="menu-all-pages-container">
+              <ul class="menu">
+                <li><a href="#">Ludoteca</a></li>
+                <li><a href="#">Suite Leone</a></li>
+                <li><a href="https://www.instagram.com/qualcosadibluwedding">Qualcosa di blu</a></li>
+                <li><a href="https://www.instagram.com/tenutaleonemusicband">Music Band</a></li>
+                <li><a href="#">Cafè Bar</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-xl-auto">
+          <div class="widget footer-widget">
+            <h3 class="widget_title">Contattaci</h3>
+            <div class="th-widget-contact">
+              <div class="info-box">
+                <div class="box-icon"><i class="fal fa-location-dot"></i></div>
+                <p class="box-text"> Via Roma, 19, 84080 Calvanico SA</p>
+              </div>
+              <div class="info-box">
+                <div class="box-icon"><i class="fal fa-phone"></i></div>
+                <p class="box-text"><a href="tel:089.957360" class="box-link">089.957360</a></p>
+              </div>
+              <div class="info-box">
+                <div class="box-icon"><i class="fal fa-envelope"></i></div>
+                <p class="box-text"><a href="mailto:info@tenutaleone.it" class="box-link">info@tenutaleone.it</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="copyright-wrap">
+      <div class="row gy-2 align-items-center">
+        <div class="col-lg-6">
+          <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> {{ current_year|default(2025) }} <a href="{{ url_for('index') }}">Tenuta Leone</a>. Tutti i diritti sono riservati</p>
+        </div>
+        <div class="col-lg-6 text-center text-md-end">
+          <div class="footer-links">
+            <ul>
+              <li><a href="/contatti">Contatti</a></li>
+              <li><a href="">Privacy policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

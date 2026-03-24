@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block title %}Tenuta Leone – Pasticceria{% endblock %}
+
+{% block content %}
+<!--==============================
+    Breadcumb
+============================== -->
+    <div class="breadcumb-banner">
+        <div class="breadcumb-wrapper " data-bg-src="{{ url_for('static', filename='img/bg/bg_pasticceria.jpg') }}">
+            <div class="container">
+                <div class="breadcumb-content">
+                    <h1 class="breadcumb-title">La Pasticceria</h1>
+                    <ul class="breadcumb-menu">
+                        <li><a href="/">Home</a></li>
+                        <li>Pasticceria</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+  <section class="overflow-hidden space" id="service-sec">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-xxl-6">
+                    <div class="service-grid style-flex">
+                        <div class="box-img global-img">
+                            <img src="{{ url_for('static', filename='img/brigata/p1.jpg') }}" alt="img">
+                        </div>
+                        <div class="box-content">
+                            <span class="sub-title2 style1">Pastry Chef</span>
+                            <h3 class="box-title"><a href="#">Gelsomino Cuozzo</a></h3>
+  Firma dessert su misura per matrimoni ed eventi; stagionalità, tecnica e senso estetico si fondono in dolci che emozionano al primo sguardo e al primo assaggio.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-6">
+                    <div class="service-grid style-flex">
+                        <div class="box-img global-img">
+                            <img src="{{ url_for('static', filename='img/brigata/p2.jpg') }}" alt="img">
+                        </div>
+                        <div class="box-content">
+                            <span class="sub-title2 style1">Sous Pastry Chef</span>
+                            <h3 class="box-title"><a href="#">Giulia Iannone</a></h3>
+  Traduce la visione in esecuzione impeccabile; coordina tempi e consistenze, cura lievitazioni e glassature, perché ogni fetta sia memorabile.
+                        </div>
+                    </div>
+                </div>
+             
+
+            </div>
+        </div>
+    </section>
+{% endblock %}

@@ -1,0 +1,683 @@
+{# templates/index.html #}
+{% extends "base.html" %}
+
+{% block title %}Tenuta Leone – Home{% endblock %}
+
+{% block content %}
+  <!-- Hero Section -->
+  <section class="hero-wrapper hero-3" id="hero">
+    <div class="swiper th-slider" id="heroSlide3" data-slider-options='{"effect":"fade","loop":true,"autoHeight":false,"autoplay":{"delay":6000}}'>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" data-bg-src="{{ url_for('static', filename='img/slide/slide_1.jpg') }}">
+                    <div class="hero-inner">
+                        <div class="container">
+                            <div class="hero-style3">
+                                
+                                <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.6s">Dove l’amore si celebra con stile e autenticità </h1>
+                                <p class="hero-text" data-ani="slideinup" data-ani-delay="0.7s">Un’antica tenuta immersa nel verde, pensata per emozioni che durano nel tempo.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+         <div class="swiper-slide" data-bg-src="{{ url_for('static', filename='img/slide/slide_2.jpg') }}">
+                    <div class="hero-inner">
+                        <div class="container">
+                            <div class="hero-style3">
+                               
+                                <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.6s">Ogni storia d’amore merita un luogo indimenticabile </h1>
+                                <p class="hero-text" data-ani="slideinup" data-ani-delay="0.7s">Una sala incantevole, una piscina immersa nella natura, la magia di un “sì” indimenticabile.
+
+.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" data-bg-src="{{ url_for('static', filename='img/slide/slide_3.jpg') }}">
+                    <div class="hero-inner">
+                        <div class="container">
+                            <div class="hero-style3">
+                                
+                                <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.6s">Eleganza, emozione, bellezza. Tutto in un solo luogo.</h1>
+                                <p class="hero-text" data-ani="slideinup" data-ani-delay="0.7s">Benvenuti a Tenuta Leone, qui ogni sogno diventa realtà.
+
+</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+      </div>
+  <button class="slider-arrow slider-prev slider-prev-bg" style="background-image: url('assets/img/hero/hero_bg_2_3.jpg');">
+                <span class="arrow">
+                    <img src="{{ url_for('static', filename='img/icon/hero-arrow-left.svg') }}" alt="">
+                </span>
+            </button>
+            <button class="slider-arrow slider-next slider-next-bg" style="background-image: url('assets/img/hero/hero_bg_2_2.jpg');">
+                <span class="arrow">
+                    <img src="{{ url_for('static', filename='img/icon/hero-arrow-right.svg') }}" alt="">
+                </span>
+            </button>
+        </div>
+
+        <div class="scroll-down">
+            <a href="#offer-sec" class="hero-scroll-wrap"><span>Scroll Down</span></a>
+        </div>
+    </div>
+    <div class="booking-area style2">
+        <div class="container">
+            <form action="mail.php" method="POST" class="booking-form style2 ajax-contact">
+                <div class="hero-wrap">
+                    <div class="form-group has-label">
+                        <label>Tipologia</label>
+							<select name="subject" id="subject" class="form-select">
+                            <option value="" disabled selected hidden>Matrimonio</option>
+                            <option value="option1">Comunione</option>
+                            <option value="option2">Battesimo</option>
+                            <option value="option3">Party di compleanno</option>
+                            <option value="option4">Eventi aziendali</option>
+                        </select>                        <i class="far fa-map-marker-alt"></i>
+                    </div>
+                    <div class="form-group">
+                        <label>Data</label>
+                        <input type="date" class="form-control" name="date" id="date" value="2025-02-23">
+                    </div>
+                    <div class="form-group has-label">
+                        <label>Numero di persone</label>
+                        <select name="subject" id="subject" class="form-select">
+                            <option value="" disabled selected hidden>Numero di persone</option>
+                            <option value="option1">0-60</option>
+                            <option value="option2">60-90</option>
+                            <option value="option3">90-120</option>
+                            <option value="option4">Oltre 120</option>
+                        </select>
+                        <i class="fa-light fa-users"></i>
+                    </div>
+                    <div class="form-btn">
+                        <button type="submit" class="th-btn btn-fw style1">RICHIEDI DISPONIBILITA'</button>
+                    </div>
+                </div>
+            </form>
+            <div class="booking-arraw"><i class="fa-light fa-angle-down"></i></div>
+        </div>
+    </div>
+
+  <!-- About Section -->
+    <div class="overflow-hidden space" id="about-sec">
+        <div class="container">
+            <div class="row gy-5 align-items-center">
+                <div class="col-xl-6">
+                    <div class="img-box5">
+                        <div class="about-img-area">
+                            <div class="img1 th-parallax">
+                                <img class="w-100" src="{{ url_for('static', filename='img/normal/about_5.jpg') }}" alt="">
+                            </div>
+                        </div>
+                        <div class="about-wrapp">
+                            <div class="img2">
+                                <img src="{{ url_for('static', filename='img/normal/about_6.jpg') }}" alt="">
+                            </div>
+                            <div class="box-content">
+                                <div class="award"><img src="{{ url_for('static', filename='img/normal/awards.jpg') }}" alt=""></div>
+                       
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-xl-5">
+                    <div class="ps-xxl-5 ms-xxl-2">
+                        <div class="title-area mb-37">
+                            <span class="sub-title2 style1">Orocifrado Group</span>
+                            <h2 class="sec-title">Benvenuti a Tenuta Leone</h2>
+                        </div>
+                        <p class="extra-text text-body fs-18 mb-0">Con una solida tradizione nella ristorazione, la famiglia Stasi porta passione e cura in ogni dettaglio.</p>
+                        <p class="extra-text text-body fs-18 mb-50">Attraverso le sue due location d’eccellenza – Tenuta Leone e Villa Vittoria – il gruppo Orocifrado offre accoglienza autentica, eleganza e un servizio impeccabile, per rendere ogni evento davvero indimenticabile.</p>
+						<p  class="extra-text text-body fs-18 mb-50">Scegliere Orocifrado significa vivere un’esperienza curata con amore, raffinatezza e dedizione.</p>
+
+                    
+
+                        <div class="btn-group mt-70 justify-content-start">
+                            <a href="/tour" class="th-btn th-icon">DIMORA STORICA</a>
+                            <a href="/piatti" class="th-btn style3 th-icon">I PIATTI</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <section class="package-area space overflow-hidden" data-bg-src="{{ url_for('static', filename='img/bg/package_bg_1.jpg') }}">
+  <div class="container">
+    <div class="row justify-content-lg-between justify-content-center align-items-center">
+      <div class="col-xl-6">
+        <div class="title-area text-center text-lg-start">
+          <span class="sub-title2 style1">SCOPRI OGNI ANGOLO DELLA DIMORA STORICA</span>
+          <h2 class="sec-title text-white">Ogni spazio racconta<span> una storia</span></h2>
+        </div>
+      </div>
+      <div class="col-md-auto">
+        <div class="sec-btn mt-n3 mt-md-0">
+          <a href="/tour" class="th-btn style3 th-icon">SCOPRI LE AREE</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="slider-area">
+    <div class="package-list-area">
+      <div class="swiper th-slider packageSlider1 has-shadow" id="packageSlider1"
+           data-slider-options='{"paginationType":"progressbar","breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"1"},"992":{"slidesPerView":"3"},"1400":{"centeredSlides":"true","slidesPerView":"auto","mousewheel":{"enabled":true,"sensitivity":4}}}}'>
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <div class="package-list" data-bg-src="{{ url_for('static', filename='img/tenuta_antica/antica_8.jpg') }}">
+              <div class="package-content">
+                <span class="sub-title2 style1">LA DIMORA STORICA</span>
+                <h4 class="box-title"><a href="/sala/corte_accoglienza">La Corte d’Accoglienza</a></h4>
+              </div>
+              <a href="/sala/corte_accoglienza" class="icon-btn"><i class="fa-sharp fa-thin fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="package-list" data-bg-src="{{ url_for('static', filename='img/tenuta_antica/antica_6.jpg') }}">
+              <div class="package-content">
+                <span class="sub-title2 style1">LA DIMORA STORICA<</span>
+                <h4 class="box-title"><a href="/sala/cappella_dimora">La Chiesa</a></h4>
+              </div>
+              <a href="/sala/cappella_dimora" class="icon-btn"><i class="fa-sharp fa-thin fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="package-list" data-bg-src="{{ url_for('static', filename='img/tenuta_antica/antica_11.jpg') }}">
+              <div class="package-content">
+                <span class="sub-title2 style1">LA DIMORA STORICA</span>
+                <h4 class="box-title"><a href="/sala/foyer">Il Foyer</a></h4>
+              </div>
+              <a href="/sala/foyer" class="icon-btn"><i class="fa-sharp fa-thin fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="package-list" data-bg-src="{{ url_for('static', filename='img/tenuta_antica/antica_4.jpg') }}">
+              <div class="package-content">
+                <span class="sub-title2 style1">LA DIMORA STORICA</span>
+                <h4 class="box-title"><a href="/sala/la_bottaia">La Bottaia</a></h4>
+              </div>
+              <a href="/sala/la_bottaia" class="icon-btn"><i class="fa-sharp fa-thin fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="package-list" data-bg-src="{{ url_for('static', filename='img/tenuta_antica/antica_5.jpg') }}">
+              <div class="package-content">
+                <span class="sub-title2 style1">LA DIMORA STORICA</span>
+                <h4 class="box-title"><a href="/sala/antico_forno">L'antico Forno</a></h4>
+              </div>
+              <a href="/sala/antico_forno" class="icon-btn"><i class="fa-sharp fa-thin fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="package-list" data-bg-src="{{ url_for('static', filename='img/tenuta_antica/antica_7.jpg') }}">
+              <div class="package-content">
+                <span class="sub-title2 style1">LA DIMORA STORICA</span>
+                <h4 class="box-title"><a href="/sala/scala_maestra">La Scala maestra</a></h4>
+              </div>
+              <a href="/sala/scala_maestra" class="icon-btn"><i class="fa-sharp fa-thin fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="package-list" data-bg-src="{{ url_for('static', filename='img/tenuta_antica/antica_1.jpg') }}">
+              <div class="package-content">
+                <span class="sub-title2 style1">LA DIMORA STORICA</span>
+                <h4 class="box-title"><a href="/sala/sala_tempo">La sala del tempo</a></h4>
+              </div>
+              <a href="/sala/sala_tempo" class="icon-btn"><i class="fa-sharp fa-thin fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="package-list" data-bg-src="{{ url_for('static', filename='img/tenuta_antica/antica_10.jpg') }}">
+              <div class="package-content">
+                <span class="sub-title2 style1">LA DIMORA STORICA</span>
+                <h4 class="box-title"><a href="/sala/sala_note">La Sala delle Note</a></h4>
+              </div>
+              <a href="/sala/sala_note" class="icon-btn"><i class="fa-sharp fa-thin fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="package-list" data-bg-src="{{ url_for('static', filename='img/tenuta_antica/antica_2.jpg') }}">
+              <div class="package-content">
+                <span class="sub-title2 style1">LA DIMORA STORICA</span>
+                <h4 class="box-title"><a href="/sala/sala_parole">La sala delle parole</a></h4>
+              </div>
+              <a href="/sala/sala_parole" class="icon-btn"><i class="fa-sharp fa-thin fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="package-list" data-bg-src="{{ url_for('static', filename='img/tenuta_antica/antica_3.jpg') }}">
+              <div class="package-content">
+                <span class="sub-title2 style1">LA DIMORA STORICA</span>
+                <h4 class="box-title"><a href="/sala/sala_ottocentesca">La sala ottocentesca</a></h4>
+              </div>
+              <a href="/sala/sala_ottocentesca" class="icon-btn"><i class="fa-sharp fa-thin fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="package-list" data-bg-src="{{ url_for('static', filename='img/tenuta_antica/antica_12.jpg') }}">
+              <div class="package-content">
+                <span class="sub-title2 style1">LA DIMORA STORICA</span>
+                <h4 class="box-title"><a href="/sala/sala_affreschi">La sala degli affreschi</a></h4>
+              </div>
+              <a href="/sala/sala_affreschi" class="icon-btn"><i class="fa-sharp fa-thin fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="slider-controller">
+          <button data-slider-prev="#packageSlider1" class="slider-arrow style2 default slider-prev">
+            <img src="{{ url_for('static', filename='img/icon/left-arrow2.svg') }}" alt="">
+          </button>
+          <div class="slider-pagination" data-slider-id="#packageSlider1"></div>
+          <button data-slider-next="#packageSlider1" class="slider-arrow style2 default slider-next">
+            <img src="{{ url_for('static', filename='img/icon/right-arrow2.svg') }}" alt="">
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="hotel-area2" data-background="{{ url_for('static', filename='img/servizi/parcheggio.jpg') }}">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-5">
+        <div class="title-area text-center space">
+          <span class="sub-title2 ">TENUTA LEONE</span>
+          <h2 class="sec-title">Tutti i servizi di Tenuta Leone</h2>
+          <p class=" fs-18 mt-30">
+            Un luogo incantevole non basta: a Tenuta Leone offriamo molto di più.
+            Mettiamo a disposizione dei nostri ospiti una selezione di servizi esclusivi, pensati per rendere ogni evento o soggiorno un’esperienza indimenticabile.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xl-12 hotel-card2_wrapp">
+
+        <div class="hotel-card2 hover-item item-active" data-bg="{{ url_for('static', filename='img/servizi/parcheggio.jpg') }}">
+          <div class="box-icon">
+            <img src="{{ url_for('static', filename='img/icon/hotel_1_1.svg') }}" alt="Icon">
+          </div>
+          <div class="box-content">
+            <div class="box-img">
+              <img src="{{ url_for('static', filename='img/servizi/parcheggio.jpg') }}" alt="">
+            </div>
+            <h3 class="box-title">Ampio Parcheggio</h3>
+          </div>
+        </div>
+
+        <div class="hotel-card2 hover-item" data-bg="{{ url_for('static', filename='img/servizi/wifi.jpg') }}">
+          <div class="box-icon">
+            <img src="{{ url_for('static', filename='img/icon/hotel_1_2.svg') }}" alt="Icon">
+          </div>
+          <div class="box-content">
+            <div class="box-img">
+              <img src="{{ url_for('static', filename='img/servizi/wifi.jpg') }}" alt="">
+            </div>
+            <h3 class="box-title">Free Charge & Free Wifi </h3>
+          </div>
+        </div>
+
+        <div class="hotel-card2 hover-item" data-bg="{{ url_for('static', filename='img/servizi/ludoteca.jpg') }}">
+          <div class="box-icon">
+            <img src="{{ url_for('static', filename='img/icon/hotel_1_3.svg') }}" alt="Icon">
+          </div>
+          <div class="box-content">
+            <div class="box-img">
+              <img src="{{ url_for('static', filename='img/servizi/ludoteca.jpg') }}" alt="">
+            </div>
+            <h3 class="box-title">Ludoteca</h3>
+          </div>
+        </div>
+
+        <div class="hotel-card2 hover-item" data-bg="{{ url_for('static', filename='img/servizi/suite.jpg') }}">
+          <div class="box-icon">
+            <img src="{{ url_for('static', filename='img/icon/hotel_1_4.svg') }}" alt="Icon">
+          </div>
+          <div class="box-content">
+            <div class="box-img">
+              <img src="{{ url_for('static', filename='img/servizi/suite.jpg') }}" alt="">
+            </div>
+            <h3 class="box-title">Suite Leone</h3>
+          </div>
+        </div>
+
+        <div class="hotel-card2 hover-item" data-bg="{{ url_for('static', filename='img/servizi/allestimenti.jpg') }}">
+          <div class="box-icon">
+            <img src="{{ url_for('static', filename='img/icon/hotel_1_5.svg') }}" alt="Icon">
+          </div>
+          <div class="box-content">
+            <div class="box-img">
+              <img src="{{ url_for('static', filename='img/servizi/allestimenti.jpg') }}" alt="">
+            </div>
+            <h3 class="box-title">Qualcosa di blu Wedding</h3>
+          </div>
+        </div>
+
+        <div class="hotel-card2 hover-item" data-bg="{{ url_for('static', filename='img/servizi/bar.jpg') }}">
+          <div class="box-icon">
+            <img src="{{ url_for('static', filename='img/icon/hotel_1_6.svg') }}" alt="Icon">
+          </div>
+          <div class="box-content">
+            <div class="box-img">
+              <img src="{{ url_for('static', filename='img/servizi/bar.jpg') }}" alt="">
+            </div>
+            <h3 class="box-title">Cafè Bar</h3>
+          </div>
+        </div>
+
+        <div class="hotel-card2 hover-item" data-bg="{{ url_for('static', filename='img/servizi/piscina.jpg') }}">
+          <div class="box-icon">
+            <img src="{{ url_for('static', filename='img/icon/hotel_1_7.svg') }}" alt="Icon">
+          </div>
+          <div class="box-content">
+            <div class="box-img">
+              <img src="{{ url_for('static', filename='img/servizi/piscina.jpg') }}" alt="">
+            </div>
+            <h3 class="box-title">Piscina Panoramica</h3>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="circle-line">
+    <img src="{{ url_for('static', filename='img/shape/circle-line.png') }}" alt="">
+  </div>
+</div>
+
+<div class="marquee-area space-top overflow-hidden">
+  <div class="marquee-content positive-relative overflow-hidden">
+    <div class="marquee">
+      <div class="marquee-group">
+        <div class="item"><img src="{{ url_for('static', filename='img/icon/star.svg') }}" alt=""><span>EVENTI DA SOGNO</span></div>
+        <div class="item"><img src="{{ url_for('static', filename='img/icon/star.svg') }}" alt=""><span>WEDDING</span></div>
+        <div class="item"><img src="{{ url_for('static', filename='img/icon/star.svg') }}" alt=""><span>PARTY</span></div>
+        <div class="item"><img src="{{ url_for('static', filename='img/icon/star.svg') }}" alt=""><span>CELEBRAZIONI</span></div>
+        <div class="item"><img src="{{ url_for('static', filename='img/icon/star.svg') }}" alt=""><span>EVENTI AZIENDALI</span></div>
+        <div class="item"><img src="{{ url_for('static', filename='img/icon/star.svg') }}" alt=""><span>EVENTI</span></div>
+        <div class="item"><img src="{{ url_for('static', filename='img/icon/star.svg') }}" alt=""><span>WEDDING</span></div>
+        <div class="item"><img src="{{ url_for('static', filename='img/icon/star.svg') }}" alt=""><span>PARTY</span></div>
+        <div class="item"><img src="{{ url_for('static', filename='img/icon/star.svg') }}" alt=""><span>CELEBRAZIONI</span></div>
+        <div class="item"><img src="{{ url_for('static', filename='img/icon/star.svg') }}" alt=""><span>EVENTI AZIENDALI</span></div>
+      </div>
+
+      <div aria-hidden="true" class="marquee-group">
+        <div class="item"><img src="{{ url_for('static', filename='img/icon/star.svg') }}" alt=""><span>EVENTI DA SOGNO</span></div>
+        <div class="item"><img src="{{ url_for('static', filename='img/icon/star.svg') }}" alt=""><span>WEDDING</span></div>
+        <div class="item"><img src="{{ url_for('static', filename='img/icon/star.svg') }}" alt=""><span>PARTY</span></div>
+        <div class="item"><img src="{{ url_for('static', filename='img/icon/star.svg') }}" alt=""><span>CELEBRAZIONI</span></div>
+        <div class="item"><img src="{{ url_for('static', filename='img/icon/star.svg') }}" alt=""><span>EVENTI AZIENDALI</span></div>
+        <div class="item"><img src="{{ url_for('static', filename='img/icon/star.svg') }}" alt=""><span>EVENTI</span></div>
+        <div class="item"><img src="{{ url_for('static', filename='img/icon/star.svg') }}" alt=""><span>WEDDING</span></div>
+        <div class="item"><img src="{{ url_for('static', filename='img/icon/star.svg') }}" alt=""><span>PARTY</span></div>
+        <div class="item"><img src="{{ url_for('static', filename='img/icon/star.svg') }}" alt=""><span>CELEBRAZIONI</span></div>
+        <div class="item"><img src="{{ url_for('static', filename='img/icon/star.svg') }}" alt=""><span>EVENTI AZIENDALI</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="space-extra2-top space-bottom overflow-hidden">
+  <div class="container">
+    <iframe width="100%" height="750" frameborder="0"
+            allow="xr-spatial-tracking; gyroscope; accelerometer" allowfullscreen
+            scrolling="no"
+            src="https://kuula.co/share/hTPh8?logo=1&info=1&fs=1&vr=0&thumbs=1&inst=it&autorotate=1.2"></iframe>
+  </div>
+</section>
+
+<section class="overflow-hidden space bg-light3" id="testi-sec">
+  <div class="container">
+    <div class="row justify-content-between align-items-center">
+      <div class="col-xxl-4 col-xl-5 col-lg-6">
+        <div class="title-area mb-30 text-center text-md-start">
+          <span class="sub-title2 style1">Recensioni</span>
+          <h2 class="sec-title text-white">Alcune recensioni dei nostri clienti su Google</h2>
+        </div>
+      </div>
+      <div class="col-md-auto">
+        <div class="sec-btn mt-n3 mt-md-0">
+          <a href="#" class="th-btn th-icon style3">Vedi Tutte</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="slider-area">
+      <div class="swiper th-slider testiSlider3 has-shadow" id="testiSlider3"
+           data-slider-options='{"paginationType":"progressbar","mousewheel":{"enabled":true,"sensitivity":4},"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"1"},"992":{"slidesPerView":"2"},"1200":{"slidesPerView":"3","centeredSlides":"true"}}}'>
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <div class="testi-box style2">
+              <div class="box-quote"><img src="{{ url_for('static', filename='img/icon/quote2.svg') }}" alt=""></div>
+              <p class="box-text">“Una giornata da sogno alla Tenuta Leone
+Ho avuto il piacere di partecipare a un matrimonio presso la Tenuta Leone, e l’esperienza è stata davvero indimenticabile. La location è straordinaria immersa nel verde, elegante e curata in ogni minimo dettaglio.”</p>
+              <div class="box-wrapper">
+                <div class="box-content"><h3 class="box-title">SaraOO</h3></div>
+                <div class="box-avater">
+                  <img src="{{ url_for('static', filename='img/testimonial/testimonial.webp') }}" alt="Google Review">
+                  <div class="ratting"><i class="fa-sharp fa-solid fa-star"></i><span class="title">5.0</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="testi-box style2">
+              <div class="box-quote"><img src="{{ url_for('static', filename='img/icon/quote2.svg') }}" alt=""></div>
+              <p class="box-text">“Tutto molto bello,location magnifica cucina ottima, servizio di sala impeccabile.”</p>
+              <div class="box-wrapper">
+                <div class="box-content"><h3 class="box-title">Antonio Nunziata</h3></div>
+                <div class="box-avater">
+                  <img src="{{ url_for('static', filename='img/testimonial/testimonial.webp') }}" alt="Google Review">
+                  <div class="ratting"><i class="fa-sharp fa-solid fa-star"></i><span class="title">5.0</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="testi-box style2">
+              <div class="box-quote"><img src="{{ url_for('static', filename='img/icon/quote2.svg') }}" alt=""></div>
+              <p class="box-text">Sono stata in questa struttura in occasione di un matrimonio. La location è ampia, immersa nel verde, ben tenuta, nel complesso scenica. Le pietanze erano buone e ben presentate. Il personale è gentile e disponibile. Consigliato!</p>
+              <div class="box-wrapper">
+                <div class="box-content"><h3 class="box-title">Libera Mente</h3></div>
+                <div class="box-avater">
+                  <img src="{{ url_for('static', filename='img/testimonial/testimonial.webp') }}" alt="Google Review">
+                  <div class="ratting"><i class="fa-sharp fa-solid fa-star"></i><span class="title">5.0</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="testi-box style2">
+              <div class="box-quote"><img src="{{ url_for('static', filename='img/icon/quote2.svg') }}" alt=""></div>
+              <p class="box-text">Abbiamo avuto la fortuna di celebrare questo giorno speciale in un ambiente assolutamente incantevole Tenuta leone!!</p>
+              <div class="box-wrapper">
+                <div class="box-content"><h3 class="box-title">Elisabetta Spisso</h3></div>
+                <div class="box-avater">
+                  <img src="{{ url_for('static', filename='img/testimonial/testimonial.webp') }}" alt="Google Review">
+                  <div class="ratting"><i class="fa-sharp fa-solid fa-star"></i><span class="title">5.0</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="testi-box style2">
+              <div class="box-quote"><img src="{{ url_for('static', filename='img/icon/quote2.svg') }}" alt=""></div>
+              <p class="box-text">“Ottima esperienza, spazi ben curati eleganti e tutto curato al dettaglio. Personale competente, discreti e estremamente gentile. Organizzazione impeccabile e cibo buonissimo”</p>
+              <div class="box-wrapper">
+                <div class="box-content"><h3 class="box-title">Giusi Fedele</h3></div>
+                <div class="box-avater">
+                  <img src="{{ url_for('static', filename='img/testimonial/testimonial.webp') }}" alt="Google Review">
+                  <div class="ratting"><i class="fa-sharp fa-solid fa-star"></i><span class="title">5.0</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="slider-controller">
+          <button data-slider-prev="#testiSlider3" class="slider-arrow default slider-prev style2">
+            <img src="{{ url_for('static', filename='img/icon/left-arrow2.svg') }}" alt="">
+          </button>
+          <div class="slider-pagination" data-slider-id="#testiSlider2"></div>
+          <button data-slider-next="#testiSlider3" class="slider-arrow default slider-next style2">
+            <img src="{{ url_for('static', filename='img/icon/right-arrow2.svg') }}" alt="">
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="position-relative overflow-hidden space-top" data-bg-src="{{ url_for('static', filename='img/bg/gallery_bg_2.png') }}">
+  <div class="container">
+    <div class="gallery-title-area">
+      <div class="title-area">
+        <span class="sub-title2 style1">INSTAGRAM</span>
+        <h2 class="sec-title">Visualizza il feed</h2>
+      </div>
+    </div>
+
+    <div class="row gy-4">
+      <div class="col-md-6 col-lg-4 gallery-card_wrapp">
+        <div class="gallery-card">
+          <div class="box-img">
+            <img src="{{ url_for('static', filename='img/gallery/insta_1.jpg') }}" alt="gallery image">
+          </div>
+          <a href="https://www.instagram.com/" class="simple-btn"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 gallery-card_wrapp">
+        <div class="gallery-card">
+          <div class="box-img">
+            <img src="{{ url_for('static', filename='img/gallery/insta_2.jpg') }}" alt="gallery image">
+          </div>
+          <a href="https://www.instagram.com/" class="simple-btn"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 gallery-card_wrapp">
+        <div class="gallery-card">
+          <div class="box-img">
+            <img src="{{ url_for('static', filename='img/gallery/insta_3.jpg') }}" alt="gallery image">
+          </div>
+          <a href="https://www.instagram.com/" class="simple-btn"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 gallery-card_wrapp">
+        <div class="gallery-card">
+          <div class="box-img">
+            <img src="{{ url_for('static', filename='img/gallery/insta_4.jpg') }}" alt="gallery image">
+          </div>
+          <a href="https://www.instagram.com/" class="simple-btn"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 gallery-card_wrapp">
+        <div class="gallery-card">
+          <div class="box-img">
+            <img src="{{ url_for('static', filename='img/gallery/insta_5.jpg') }}" alt="gallery image">
+          </div>
+          <a href="https://www.instagram.com/" class="simple-btn"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 gallery-card_wrapp">
+        <div class="gallery-card">
+          <div class="box-img">
+            <img src="{{ url_for('static', filename='img/gallery/insta_6.jpg') }}" alt="gallery image">
+          </div>
+          <a href="https://www.instagram.com/" class="simple-btn"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="gallery-btn">
+      <h2 class="sec-title">
+        <a class="text-white" href="https://www.instagram.com/">@tenutaleone</a>
+      </h2>
+      <a href="#" class="th-btn style3 th-icon">SCOPRI ORA</a>
+    </div>
+  </div>
+</div>
+
+<div class="space overflow-hidden"></div>
+
+
+<section class="overflow-hidden space" id="blog-sec">
+  <div class="container">
+    <div class="row justify-content-between align-items-center">
+      <div class="col-xl-5 col-lg-6 col-md-7">
+        <div class="title-area text-center text-md-start">
+          <span class="sub-title2 style1">BLOG & NEWS</span>
+          <h2 class="sec-title">Scopri le ultime novità e tendenze 2025</h2>
+        </div>
+      </div>
+      <div class="col-md-auto"><div class="sec-btn mt-n3 mt-md-0"></div></div>
+    </div>
+
+    <div class="row gy-4">
+      <div class="col-lg-6">
+        <div class="blog-card style3">
+          <a href="#" class="blog-img">
+            <img src="{{ url_for('static', filename='img/blog/giostra.jpg') }}" alt="blog image">
+          </a>
+          <div class="blog-meta">
+            <a href="#"><span class="date">22 Giu, 2025</span><span class="meta-title">COMUNIONE</span></a>
+          </div>
+          <h3 class="box-title"><a href="#">Come una favola 🌟</a></h3>
+          <div class="blog-content">
+            <p class="box-text">Caroselli che giravano come in un sogno, morbidi gonfiabili pronti a far sorridere i più piccoli, alberi parlanti che raccontavano storie incantate, farfalle colorate che danzavano nell'aria e casette a forma di fungo che spuntavano come per magia…</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="blog-card style3">
+          <a href="#" class="blog-img">
+            <img src="{{ url_for('static', filename='img/blog/sala.jpg') }}" alt="blog image">
+          </a>
+          <div class="blog-meta">
+            <a href="#"><span class="date">16 Mag, 2025</span><span class="meta-title">WEDDING</span></a>
+          </div>
+          <h3 class="box-title"><a href="#">Un sogno in fiore alla Tenuta 💐</a></h3>
+          <div class="blog-content">
+            <p class="box-text">Per un giorno, la nostra Tenuta si è trasformata in un giardino incantato: una mise en place unica, dove fiori freschi, profumati e colori delicati hanno avvolto ogni tavolo, creando un’atmosfera romantica e senza tempo.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+{% endblock %}

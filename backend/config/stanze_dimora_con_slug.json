@@ -1,0 +1,160 @@
+[
+  {
+    "nome": "Foyer d’Ingresso",
+    "headline": "Là dove inizia la magia",
+    "descrizione": "Varcando la soglia, si viene accolti da un ambiente che conserva intatta l’eleganza dell’epoca. Il pavimento in cotto antico e il soffitto a volta guidano lo sguardo verso i dettagli architettonici che raccontano storie di un tempo passato.",
+   "foto_360": "<iframe width=\"100%\" height=\"640\" frameborder=\"0\" allow=\"xr-spatial-tracking; gyroscope; accelerometer\" allowfullscreen scrolling=\"no\" src=\"https://kuula.co/share/hxcJ2?logo=1&amp;info=1&amp;fs=1&amp;vr=0&amp;autorotate=0.81&amp;thumbs=1&amp;inst=it\"></iframe>",
+    "immagini": [
+      "media/stanze/foyer/foyer1.webp",
+      "media/stanze/foyer/foyer2.webp",
+      "media/stanze/foyer/foyer3.webp",
+	  "media/stanze/foyer/foyer4.webp"
+    ],
+    "slug": "foyer"
+  },
+  {
+    "nome": "La Bottaia",
+    "headline": "Dove il tempo si versa lento, come il vino buono",
+    "descrizione": "Tra pietra viva e botti antiche, qui il tempo si custodisce e i sapori si celebrano.Luci calde avvolgono bottiglie che raccontano territori e passioni, mentre un tavolo su botte invita alla degustazione e al dialogo.Più di una cantina: un rifugio autentico per chi ama il ritmo lento e il gusto pieno.",
+    "foto_360": "<iframe width=\"100%\" height=\"640\" frameborder=\"0\" allow=\"xr-spatial-tracking; gyroscope; accelerometer\" allowfullscreen scrolling=\"no\" src=\"https://kuula.co/share/hxDhZ?logo=1&amp;info=1&amp;fs=1&amp;vr=0&amp;autorotate=0.81&amp;thumbs=1&amp;inst=it\"></iframe>",
+    "immagini": [
+      "media/stanze/la_bottaia/bottaia1.webp",
+	  "media/stanze/la_bottaia/bottaia3.webp"
+    ],
+    "slug": "la_bottaia"
+  },
+  {
+    "nome": "Antico Forno",
+    "headline": "Sapori e calore del passato",
+    "descrizione": "Tra profumi antichi e dettagli autentici, l’Antico Forno celebra la cucina di un tempo.Pentole in rame, legno vivo e il calore del forno a legna evocano atmosfere familiari, dove la storia profuma di pane e di casa.",
+    "foto_360": "<iframe width=\"100%\" height=\"640\" frameborder=\"0\" allow=\"xr-spatial-tracking; gyroscope; accelerometer\" allowfullscreen scrolling=\"no\" src=\"https://kuula.co/share/hxDhy?logo=1&amp;info=1&amp;fs=1&amp;vr=0&amp;autorotate=0.81&amp;thumbs=1&amp;inst=it\"></iframe>",
+    "immagini": [
+      "media/stanze/forno/forno1.webp",
+      "media/stanze/forno/forno3.webp"
+    ],
+    "slug": "antico_forno"
+  },
+  {
+    "nome": "La Scala Maestra",
+    "headline": "Un viaggio tra arte e luce",
+    "descrizione": "Ogni passo su questa scalinata è un viaggio nel tempo.Affreschi e decori raccontano epoche lontane, mentre la luce e il ferro battuto guidano lo sguardo verso l’alto, in un’ascesa di eleganza e incanto.",
+   "foto_360": "<iframe width=\"100%\" height=\"640\" frameborder=\"0\" allow=\"xr-spatial-tracking; gyroscope; accelerometer\" allowfullscreen scrolling=\"no\" src=\"https://kuula.co/share/hxcJ2?logo=1&amp;info=1&amp;fs=1&amp;vr=0&amp;autorotate=0.81&amp;thumbs=1&amp;inst=it\"></iframe>",
+    "immagini": [
+      "media/stanze/scala_maestra/scala1.webp",
+	  "media/stanze/scala_maestra/scala3.webp"
+    ],
+    "slug": "scala_maestra"
+  },
+  {
+    "nome": "Sala delle note",
+    "headline": "Note che attraversano i secoli",
+    "descrizione": "Tra libri antichi, quadri e un pianoforte d’epoca, questa sala è un rifugio di serenità.Luce soffusa, arredi armoniosi e atmosfere intime la rendono un luogo dove la bellezza, la cultura e la musica si incontrano senza tempo..",
+    "foto_360": "<iframe width=\"100%\" height=\"640\" frameborder=\"0\" allow=\"xr-spatial-tracking; gyroscope; accelerometer\" allowfullscreen scrolling=\"no\" src=\"https://kuula.co/share/hxlB9?logo=1&amp;info=1&amp;fs=1&amp;vr=0&amp;autorotate=0.81&amp;thumbs=1&amp;inst=it\"></iframe>",
+    "immagini": [
+      "media/stanze/sala_note/note1.webp",
+      "media/stanze/sala_note/note2.webp"
+    ],
+    "slug": "sala_note"
+  },
+  {
+    "nome": "Sala delle Parole",
+    "headline": "Dove il silenzio racconta",
+    "descrizione": "Tonalità cipria, arredi d’epoca e sedute morbide creano un angolo intimo e raccolto.Tra una macchina da cucire d’altri tempi e un leggio vissuto, qui la bellezza si esprime con lentezza, tra letture, conversazioni e ricordi che restano nel cuore.",
+    "foto_360": "<iframe width=\"100%\" height=\"640\" frameborder=\"0\" allow=\"xr-spatial-tracking; gyroscope; accelerometer\" allowfullscreen scrolling=\"no\" src=\"https://kuula.co/share/hxlSf?logo=1&amp;info=1&amp;fs=1&amp;vr=0&amp;autorotate=0.81&amp;thumbs=1&amp;inst=it\"></iframe>",
+    "immagini": [
+      "media/stanze/sala_parole/parole1.webp",
+      "media/stanze/sala_parole/parole2.webp"
+    ],
+    "slug": "sala_parole"
+  },
+  {
+    "nome": "La corte dell'accoglienza",
+    "headline": "Benvenuti, qui inizia la vostra storia",
+    "descrizione": "Cuore vivo della dimora, questa corte accoglie con calore e bellezza, invitando ogni ospite a sentirsi subito a casa.",
+    "foto_360": "<iframe width=\"100%\" height=\"640\" frameborder=\"0\" allow=\"xr-spatial-tracking; gyroscope; accelerometer\" allowfullscreen scrolling=\"no\" src=\"https://kuula.co/share/hTYph?logo=1&amp;info=1&amp;fs=1&amp;vr=0&amp;autorotate=0.81&amp;thumbs=1&amp;inst=it\"></iframe>",
+    "immagini": [
+      "media/stanze/corte_accoglienza/corte1.webp",
+      "media/stanze/corte_accoglienza/corte2.webp"
+    ],
+    "slug": "corte_accoglienza"
+	},
+  {
+    "nome": "Sala del Marmo Azzurro",
+    "headline": "Eleganza che respira luce",
+    "descrizione": "Marmo celeste, riflessi cangianti e un’atmosfera di quiete fanno di questa sala un angolo di raffinata bellezza senza tempo.",
+    "foto_360": "media/360/sala_azzurro.jpg",
+    "immagini": [
+      "media/stanze/sala_azzurro/azzurro1.jpg",
+      "media/stanze/sala_azzurro/azzurro2.jpg"
+    ],
+    "slug": "sala_azzurro"
+},
+  {
+    "nome": "La Cappella della Dimora",
+    "headline": "Un angolo di silenzio e luce",
+    "descrizione": "Tra affreschi che narrano scene sacre e il marmo dell’altare che riflette la luce, la Cappella custodisce un’atmosfera di raccoglimento e devozione. Il pavimento, con lo stemma di famiglia, intreccia storia e spiritualità, accogliendo chi cerca un momento di pace, preghiera o semplice contemplazione.",
+    "foto_360": "<iframe width=\"100%\" height=\"640\" frameborder=\"0\" allow=\"xr-spatial-tracking; gyroscope; accelerometer\" allowfullscreen scrolling=\"no\" src=\"https://kuula.co/share/hxDps?logo=1&amp;info=1&amp;fs=1&amp;vr=0&amp;autorotate=0.81&amp;thumbs=1&amp;inst=it\"></iframe>",
+    "immagini": [
+      "media/stanze/cappella_dimora/cappella1.webp",
+      "media/stanze/cappella_dimora/cappella2.webp"
+    ],
+    "slug": "cappella_dimora"
+	},
+  {
+    "nome": "Sala del Tempo",
+    "headline": "Dove il tempo si fa racconto",
+    "descrizione": "Nel cuore della dimora, il salone con camino accoglie con calore e autenticità.Tra soffitti in legno, dipinti d’epoca e divani color pesca, ogni incontro diventa un momento prezioso, avvolto da luce e storie senza tempo.",
+    "foto_360": "<iframe width=\"100%\" height=\"640\" frameborder=\"0\" allow=\"xr-spatial-tracking; gyroscope; accelerometer\" allowfullscreen scrolling=\"no\" src=\"https://kuula.co/share/hxlyf?logo=1&amp;info=1&amp;fs=1&amp;vr=0&amp;autorotate=0.81&amp;thumbs=1&amp;inst=it\"></iframe>",
+    "immagini": [
+      "media/stanze/sala_tempo/tempo1.webp",
+      "media/stanze/sala_tempo/tempo2.webp"
+    ],
+    "slug": "sala_tempo"
+	},
+  {
+    "nome": "Sala ottocentesca",
+    "headline": "L’eleganza che attraversa i secoli",
+    "descrizione": "Specchi dorati, arredi intagliati e un soffitto affrescato raccontano il fascino di un’epoca raffinata, dove ogni dettaglio è pensato per accogliere con grazia.",
+   "foto_360": "<iframe width=\"100%\" height=\"640\" frameborder=\"0\" allow=\"xr-spatial-tracking; gyroscope; accelerometer\" allowfullscreen scrolling=\"no\" src=\"https://kuula.co/share/hxlyj?logo=1&amp;info=1&amp;fs=1&amp;vr=0&amp;autorotate=0.81&amp;thumbs=1&amp;inst=it\"></iframe>",
+    "immagini": [
+      "media/stanze/sala_ottocentesca/ottocento1.webp",
+      "media/stanze/sala_ottocentesca/ottocento2.webp"
+    ],
+    "slug": "sala_ottocentesca"
+	},
+  {
+    "nome": "Sala degli Affreschi",
+    "headline": "Dove l’arte incontra l’accoglienza",
+    "descrizione": "Avvolta da travi a vista e luce morbida, la Sala degli Affreschi accoglie con eleganza.Il dipinto murale regala una veduta poetica, tra arredi d’epoca e dettagli che invitano alla conversazione.",
+    "foto_360": "<iframe width=\"100%\" height=\"640\" frameborder=\"0\" allow=\"xr-spatial-tracking; gyroscope; accelerometer\" allowfullscreen scrolling=\"no\" src=\"https://kuula.co/share/hxlrs?logo=1&amp;info=1&amp;fs=1&amp;vr=0&amp;autorotate=0.81&amp;thumbs=1&amp;inst=it\"></iframe>",
+    "immagini": [
+      "media/stanze/sala_affreschi/affreschi1.webp",
+      "media/stanze/sala_affreschi/affreschi2.webp"
+    ],
+    "slug": "sala_affreschi"
+  },
+  {
+    "nome": "Sala Ricevimenti",
+    "headline": "L’arte dell’ospitalità, firmata Tenuta Leone",
+    "descrizione": "Dall’ingresso alla Sala Ricevimenti, Tenuta Leone accoglie in un abbraccio di eleganza e armonia, dove ogni dettaglio diventa emozione e ogni momento un ricordo indimenticabile.",
+    "foto_360": "<iframe width=\"100%\" height=\"640\" frameborder=\"0\" allow=\"xr-spatial-tracking; gyroscope; accelerometer\" allowfullscreen scrolling=\"no\" src=\"https://kuula.co/share/hxP4P?logo=1&amp;info=1&amp;fs=1&amp;vr=0&amp;autorotate=0.81&amp;thumbs=1&amp;inst=it\"></iframe>",
+    "immagini": [
+      "media/stanze/sala_ricevimenti/sala1.webp",
+	    "media/stanze/sala_ricevimenti/sala2.webp"
+	  ],
+    "slug": "sala_ricevimenti"
+  },
+  {
+    "nome": "Gli Esterni",
+    "headline": "Un’oasi di charme tra natura e raffinatezza",
+    "descrizione": "Gli spazi esterni di Tenuta Leone accolgono gli ospiti in un’atmosfera senza tempo, dove la bellezza della natura si intreccia con l’eleganza architettonica. Giardini curati, scorci suggestivi e ambienti pensati per stupire fanno da cornice perfetta ai momenti più importanti, regalando emozioni autentiche e ricordi indelebili.",
+    "foto_360": "<iframe width=\"100%\" height=\"640\" frameborder=\"0\" allow=\"xr-spatial-tracking; gyroscope; accelerometer\" allowfullscreen scrolling=\"no\" src=\"https://kuula.co/share/hxP4y?logo=1&amp;info=1&amp;fs=1&amp;vr=0&amp;autorotate=0.81&amp;thumbs=1&amp;inst=it\"></iframe>",
+    "immagini": [
+      "media/stanze/gli_esterni/esterno1.webp",
+	    "media/stanze/gli_esterni/esterno2.webp",
+	    "media/stanze/gli_esterni/esterno3.webp",
+      "media/stanze/gli_esterni/esterno4.webp"
+    ],
+    "slug": "sala_esterni"
+  }
+]

@@ -1,0 +1,8 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!-- Puzzle piece - universally recognized as kids play icon -->
+<path d="M8 12C8 10.8954 8.89543 10 10 10H14C14 8.34315 15.3431 7 17 7C18.6569 7 20 8.34315 20 10H24C24 8.34315 25.3431 7 27 7C28.6569 7 30 8.34315 30 10H32C33.1046 10 34 10.8954 34 12V16C35.6569 16 37 17.3431 37 19C37 20.6569 35.6569 22 34 22V26C35.6569 26 37 27.3431 37 29C37 30.6569 35.6569 32 34 32V34C34 35.1046 33.1046 36 32 36H10C8.89543 36 8 35.1046 8 34V32C6.34315 32 5 30.6569 5 29C5 27.3431 6.34315 26 8 26V22C6.34315 22 5 20.6569 5 19C5 17.3431 6.34315 16 8 16V12Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- Inner circles decoration -->
+<circle cx="15" cy="19" r="2" stroke="white" stroke-width="1.2"/>
+<circle cx="27" cy="19" r="2" stroke="white" stroke-width="1.2"/>
+<circle cx="21" cy="27" r="2" stroke="white" stroke-width="1.2"/>
+</svg>

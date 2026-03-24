@@ -1,0 +1,191 @@
+{% extends "base.html" %}
+
+{% block title %}Tenuta Leone – Piatti{% endblock %}
+
+{% block content %}
+<!--==============================
+    Breadcumb
+============================== -->
+    <div class="breadcumb-banner">
+        <div class="breadcumb-wrapper " data-bg-src="{{ url_for('static', filename='img/bg/bg_piatti.jpg') }}">
+            <div class="container">
+                <div class="breadcumb-content">
+                    <h1 class="breadcumb-title">I Piatti</h1>
+                    <ul class="breadcumb-menu">
+                        <li><a href="/">Home</a></li>
+                        <li>Le nostre proposte 2025/2026</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--==============================
+Gallery Area  
+==============================-->
+    <div class="overflow-hidden space">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="filter-menu style2 indicator-active mb-60 filter-menu-active">
+                        <button data-filter="*" class="tab-btn active" type="button">Tutti</button>
+                        <button data-filter=".cat1" class="tab-btn" type="button">I Primi</button>
+                        <button data-filter=".cat2" class="tab-btn" type="button">I Secondi</button>
+                        <button data-filter=".cat3" class="tab-btn" type="button">Il Dolce</button>
+                   
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                 
+                </div>
+            </div>
+            <div class="row gy-4 filter-active">
+                <div class="col-lg-6 col-xxl-auto filter-item cat1">
+                    <div class="gallery-card2 style2">
+                        <div class="box-img">
+                            <img src="{{ url_for('static', filename='img/piatti/p1.jpg') }}" alt="gallery image" style="width:544px;">
+                            <a href="{{ url_for('static', filename='img/piatti/p1.jpg') }}" class="simple-btn popup-image"><i class="fa-sharp fa-light fa-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xxl-auto filter-item cat1">
+                    <div class="gallery-card2 style2">
+                        <div class="box-img">
+                             <img src="{{ url_for('static', filename='img/piatti/p2.jpg') }}" alt="gallery image" style="width:544px;">
+                            <a href="{{ url_for('static', filename='img/piatti/p2.jpg') }}" class="simple-btn popup-image"><i class="fa-sharp fa-light fa-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xxl-auto filter-item cat1">
+                    <div class="gallery-card2 style2">
+                        <div class="box-img">
+                              <img src="{{ url_for('static', filename='img/piatti/p3.jpg') }}" alt="gallery image" style="width:544px;">
+                            <a href="{{ url_for('static', filename='img/piatti/p3.jpg') }}" class="simple-btn popup-image"><i class="fa-sharp fa-light fa-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xxl-auto filter-item cat1">
+                    <div class="gallery-card2 style2">
+                        <div class="box-img">
+                          <img src="{{ url_for('static', filename='img/piatti/p4.jpg') }}" alt="gallery image" style="width:544px;">
+                            <a href="{{ url_for('static', filename='img/piatti/p4.jpg') }}" class="simple-btn popup-image"><i class="fa-sharp fa-light fa-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xxl-auto filter-item cat1">
+                    <div class="gallery-card2 style2">
+                        <div class="box-img">
+                             <img src="{{ url_for('static', filename='img/piatti/p5.jpg') }}" alt="gallery image" style="width:544px;">
+                            <a href="{{ url_for('static', filename='img/piatti/p5.jpg') }}" class="simple-btn popup-image"><i class="fa-sharp fa-light fa-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xxl-auto filter-item cat1">
+                    <div class="gallery-card2 style2">
+                        <div class="box-img">
+                            <img src="{{ url_for('static', filename='img/piatti/p6.jpg') }}" alt="gallery image" style="width:544px;">
+                            <a href="{{ url_for('static', filename='img/piatti/p6.jpg') }}" class="simple-btn popup-image"><i class="fa-sharp fa-light fa-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xxl-auto filter-item cat1">
+                    <div class="gallery-card2 style2">
+                        <div class="box-img">
+                          <img src="{{ url_for('static', filename='img/piatti/p7.jpg') }}" alt="gallery image" style="width:544px;">
+                            <a href="{{ url_for('static', filename='img/piatti/p7.jpg') }}" class="simple-btn popup-image"><i class="fa-sharp fa-light fa-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xxl-auto filter-item cat1">
+                    <div class="gallery-card2 style2">
+                        <div class="box-img">
+                            <img src="{{ url_for('static', filename='img/piatti/p8.jpg') }}" alt="gallery image" style="width:544px;">
+                            <a href="{{ url_for('static', filename='img/piatti/p8.jpg') }}" class="simple-btn popup-image"><i class="fa-sharp fa-light fa-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xxl-auto filter-item cat1">
+                    <div class="gallery-card2 style2">
+                        <div class="box-img">
+                            <img src="{{ url_for('static', filename='img/piatti/p9.jpg') }}" alt="gallery image" style="width:544px;">
+                            <a href="{{ url_for('static', filename='img/piatti/p9.jpg') }}" class="simple-btn popup-image"><i class="fa-sharp fa-light fa-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                  <div class="col-lg-6 col-xxl-auto filter-item cat1">
+                    <div class="gallery-card2 style2">
+                        <div class="box-img">
+                            <img src="{{ url_for('static', filename='img/piatti/p10.jpg') }}" alt="gallery image" style="width:544px;">
+                            <a href="{{ url_for('static', filename='img/piatti/p10.jpg') }}" class="simple-btn popup-image"><i class="fa-sharp fa-light fa-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                  <div class="col-lg-6 col-xxl-auto filter-item cat1">
+                    <div class="gallery-card2 style2">
+                        <div class="box-img">
+                            <img src="{{ url_for('static', filename='img/piatti/p11.jpg') }}" alt="gallery image" style="width:544px;">
+                            <a href="{{ url_for('static', filename='img/piatti/p11.jpg') }}" class="simple-btn popup-image"><i class="fa-sharp fa-light fa-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                  <div class="col-lg-6 col-xxl-auto filter-item cat1">
+                    <div class="gallery-card2 style2">
+                        <div class="box-img">
+                            <img src="{{ url_for('static', filename='img/piatti/p12.jpg') }}" alt="gallery image" style="width:544px;">
+                            <a href="{{ url_for('static', filename='img/piatti/p12.jpg') }}" class="simple-btn popup-image"><i class="fa-sharp fa-light fa-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                  <div class="col-lg-6 col-xxl-auto filter-item cat2">
+                    <div class="gallery-card2 style2">
+                        <div class="box-img">
+                            <img src="{{ url_for('static', filename='img/piatti/p13.jpg') }}" alt="gallery image" style="width:544px;">
+                            <a href="{{ url_for('static', filename='img/piatti/p13.jpg') }}" class="simple-btn popup-image"><i class="fa-sharp fa-light fa-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                  <div class="col-lg-6 col-xxl-auto filter-item cat2">
+                    <div class="gallery-card2 style2">
+                        <div class="box-img">
+                            <img src="{{ url_for('static', filename='img/piatti/p14.jpg') }}" alt="gallery image" style="width:544px;">
+                            <a href="{{ url_for('static', filename='img/piatti/p14.jpg') }}" class="simple-btn popup-image"><i class="fa-sharp fa-light fa-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                  <div class="col-lg-6 col-xxl-auto filter-item cat2">
+                    <div class="gallery-card2 style2">
+                        <div class="box-img">
+                            <img src="{{ url_for('static', filename='img/piatti/p15.jpg') }}" alt="gallery image" style="width:544px;">
+                            <a href="{{ url_for('static', filename='img/piatti/p15.jpg') }}" class="simple-btn popup-image"><i class="fa-sharp fa-light fa-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                  <div class="col-lg-6 col-xxl-auto filter-item cat3">
+                    <div class="gallery-card2 style2">
+                        <div class="box-img">
+                            <img src="{{ url_for('static', filename='img/piatti/p16.jpg') }}" alt="gallery image" style="width:544px;">
+                            <a href="{{ url_for('static', filename='img/piatti/p16.jpg') }}" class="simple-btn popup-image"><i class="fa-sharp fa-light fa-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                  <div class="col-lg-6 col-xxl-auto filter-item cat3">
+                    <div class="gallery-card2 style2">
+                        <div class="box-img">
+                            <img src="{{ url_for('static', filename='img/piatti/p17.jpg') }}" alt="gallery image" style="width:544px;">
+                            <a href="{{ url_for('static', filename='img/piatti/p17.jpg') }}" class="simple-btn popup-image"><i class="fa-sharp fa-light fa-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                  <div class="col-lg-6 col-xxl-auto filter-item cat3">
+                    <div class="gallery-card2 style2">
+                        <div class="box-img">
+                            <img src="{{ url_for('static', filename='img/piatti/p18.jpg') }}" alt="gallery image" style="width:544px;">
+                            <a href="{{ url_for('static', filename='img/piatti/p18.jpg') }}" class="simple-btn popup-image"><i class="fa-sharp fa-light fa-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+               
+            </div>
+        </div>
+    </div>
+    {% endblock %}

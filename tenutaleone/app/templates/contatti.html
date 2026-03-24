@@ -1,0 +1,125 @@
+{% extends "base.html" %}
+
+{% block title %}Tenuta Leone – Contatti{% endblock %}
+
+{% block content %}
+<!--==============================
+    Breadcumb
+============================== -->
+    <div class="breadcumb-banner">
+        <div class="breadcumb-wrapper " data-bg-src="{{ url_for('static', filename='img/bg/bg_contatti.jpg') }}">
+            <div class="container">
+                <div class="breadcumb-content">
+                    <h1 class="breadcumb-title">Contatti</h1>
+                    <ul class="breadcumb-menu">
+                        <li><a href="/">Home</a></li>
+                        <li>Contatti</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div><!--==============================
+Contact Info Area  
+==============================-->
+    <div class="contact-info-area space-top">
+        <div class="container">
+            <div class="contact-info-wrapp">
+                <div class="team-contact-title">
+                    <h3 class="box-title">Info:</h3>
+                </div>
+
+                <div class="contact-info">
+                    <div class="team-contact">
+                        <div class="icon-btn">
+                            <i class="fas fa-location-dot"></i>
+                        </div>
+                        <div class="media-body">
+                            <h5 class="box-title">Dove Siamo</h5>
+                            <p class="box-text">Via Roma, 19 -  84080  - Calvanico (SA)</p>
+                        </div>
+                    </div>
+                    <div class="team-contact">
+                        <div class="icon-btn">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="media-body">
+                            <h5 class="box-title">Telefono</h5>
+                            <p class="box-text">
+                                <a href="tel:+39089957360">+39 089.957360</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="team-contact">
+                        <div class="icon-btn">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="media-body">
+                            <h5 class="box-title">Email</h5>
+                            <p class="box-text">
+                                <a href="mailto:info@tenutaleone.it">info@tenutaleone.it</a>
+                              
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact-map2">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.3522042631184!2d14.829491!3d40.776270499999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133bc538decdc601%3A0x85ab4f234f14784e!2sTenuta%20Leone!5e0!3m2!1sit!2sit!4v1756119445965!5m2!1sit!2sit" allowfullscreen="" loading="lazy"></iframe>
+        <div class="contact-icon">
+            <img src="assets/img/icon/location-dot.svg" alt="">
+        </div>
+    </div>
+    <!--==============================
+Contact Area   
+==============================-->
+    <div class="space">
+        <div class="container">
+            <div class="row gx-0">
+                <div class="col-xl-6">
+                    <form action="mail.php" method="POST" class="contact-form ajax-contact">
+                        <div class="title-area mb-45 text-center text-lg-start">
+                            <span class="sub-title2 style1">Scrivici ora!</span>
+                            <h2 class="sec-title text-white">Per info commerciali o appuntamenti</h2>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" name="name" id="name" placeholder="Nome*">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="tel" class="form-control" name="number" id="number" placeholder="Telefono*">
+                            </div>
+                            <div class="form-group col-12">
+                                <input type="email" class="form-control" name="email" id="email*" placeholder="Email*">
+                            </div>
+                            <div class="form-group col-12">
+                                <select name="subject" id="subject" class="form-select nice-select">
+                                    <option value="" disabled selected hidden>Evento</option>
+                                    <option value="Matrimonio">Matrimonio</option>
+                                    <option value="Comunione">Comunione</option>
+                                    <option value="Battesimo">Battesimo</option>
+                                    <option value="Compleanno">Compleanno</option>
+                                    <option value="Altro">Altro</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-12">
+                                <textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder="Messaggio"></textarea>
+                            </div>
+                            <div class="form-btn col-12">
+                                <button class="th-btn">INVIA MESSAGGIO</button>
+                            </div>
+                        </div>
+                        <p class="form-messages mb-0 mt-3"></p>
+                    </form>
+                </div>
+
+                <div class="col-xl-6">
+                    <div class="contact-image global-img">
+                        <img src="{{ url_for('static', filename='img/normal/contact-img.jpg') }}" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

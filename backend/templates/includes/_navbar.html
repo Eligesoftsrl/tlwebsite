@@ -1,0 +1,221 @@
+<header class="th-header header-layout3 ">
+  <div class="header-top">
+    <div class="container th-container2">
+      <div class="row justify-content-center justify-content-lg-between align-items-center gy-2">
+        <div class="col-auto">
+          <div class="header-links d-none d-lg-inline-block">
+            <ul>
+              <li><i class="fas fa-map-marker-alt"></i> Via Roma, 19 - 84080 - Calvanico (SA)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-auto">
+          <div class="header-links">
+            <ul>
+              <li class="d-none d-lg-inline-block"><i class="fa-sharp fa-solid fa-phone"></i>089.957360</li>
+              <li class="d-none d-lg-inline-block"><a href="https://www.facebook.com/MatrimonioSalerno">FACEBOOK</a></li>
+              <li class="d-none d-lg-inline-block"><a href="https://www.instagram.com/tenutaleone">INSTAGRAM</a></li>
+            
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sticky-wrapper">
+    <div class="menu-area">
+      <div class="container-fluid">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-auto">
+            <div class="header-wrapp">
+              <div class="header-button">
+  <a href="#" class="simple-btn th-menu-toggle mobile-burger-with-logo">
+    <i class="fa-sharp-duotone fa-light fa-bars"></i>
+    <img src="{{ url_for('static', filename='img/logo-white.svg') }}"
+         alt="Tenuta Leone"
+         class="mobile-inline-logo">
+  </a>
+</div>
+
+              <nav class="main-menu d-none d-xl-block">
+                <ul>
+                  <li class="menu-item-has-children">
+                    <a href="/">LA TENUTA</a>
+                    <ul class="mega-menu style2 mega-menu-content allow-natural-scroll">
+                      <li>
+                        <div class="container">
+                          <div class="row gy-4">
+                            <div class="col-lg-4">
+                              <div class="mega-menu-box style2">
+                                <div class="mega-menu-img">
+                                  <img src="{{ url_for('static', filename='img/pages/m1.jpg') }}" alt="Tenuta Leone">
+                                </div>
+                                <h3 class="mega-menu-title"><a href="/sala/sala_esterni">Esterni</a></h3>
+                              </div>
+                            </div>
+                            <div class="col-lg-4">
+                              <div class="mega-menu-box style2">
+                                <div class="mega-menu-img">
+                                  <img src="{{ url_for('static', filename='img/pages/m2.jpg') }}" alt="Tenuta Leone">
+                                </div>
+                                <h3 class="mega-menu-title"><a href="/sala/sala_ricevimenti">La Sala</a></h3>
+                              </div>
+                            </div>
+                            <div class="col-lg-4">
+                              <div class="mega-menu-box style2">
+                                <div class="mega-menu-img">
+                                  <img src="{{ url_for('static', filename='img/pages/m3.jpg') }}" alt="Tenuta Leone">
+                                </div>
+                                <h3 class="mega-menu-title"><a href="/sala/foyer">Dimora Storica</a></h3>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="btn-room mt-40">
+                              <a href="/tour" class="th-btn btn-fw th-icon">VISUALIZZA IL TOUR 360</a>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          
+      <div class="col-auto">
+  <div class="header-wrapp">
+    <nav class="main-menu style3 d-none d-xl-block">
+      <ul>
+        <li class="menu-item-has-children">
+          <a href="#">LA CUCINA</a>
+          <ul class="mega-menu style2 mega-menu-content allow-natural-scroll">
+            <li>
+              <div class="container">
+                <div class="row gy-4">
+                  <div class="col-lg-4">
+                    <div class="mega-menu-box style2">
+                      <div class="mega-menu-img">
+                        <img src="{{ url_for('static', filename='img/pages/brigata.jpg') }}" alt="Tenuta Leone">
+                      </div>
+                      <h3 class="mega-menu-title">
+                        <a href="/brigata">Gli Chef</a>
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="mega-menu-box style2">
+                      <div class="mega-menu-img">
+                        <img src="{{ url_for('static', filename='img/pages/piatti.jpg') }}" alt="Tenuta Leone">
+                      </div>
+                      <h3 class="mega-menu-title">
+                        <a href="/piatti">I Piatti</a>
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="mega-menu-box style2">
+                      <div class="mega-menu-img">
+                        <img src="{{ url_for('static', filename='img/pages/pasticceria.jpg') }}" alt="Tenuta Leone">
+                      </div>
+                      <h3 class="mega-menu-title">
+                        <a href="/pasticceria">La Pasticceria</a>
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <a href="/contatti" class="th-btn booking">
+      CONTATTI
+      <img src="{{ url_for('static', filename='img/icon/bed.svg') }}" alt="">
+    </a>
+  </div>
+</div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sidemenu -->
+  <div class="sidemenu-wrapper ">
+    <div class="sidemenu-content allow-natural-scroll">
+      <button class="closeButton sideMenuCls"><i class="far fa-times"></i></button>
+      <div class="sidemenu-layout">
+        <div class="th-side-menu">
+          <div class="side-logo">
+            <a href="{{ url_for('index') }}"><img src="{{ url_for('static', filename='img/logo-white.svg') }}" alt="Tenuta Leone" style="width:35%;"></a>
+          </div>
+          <ul>
+            <li><a href="{{ url_for('index') }}">Home</a></li>
+            <li><a href="#">Il Gruppo</a></li>
+            <li class="menu-item-has-children">
+              <a href="#">Tenuta Leone</a>
+              <ul class="sub-menu">
+                <li><a href="">L'esterno</a></li>
+                <li><a href="">La Sala</a></li>
+                <li><a href="/tour">Dimora Storica</a></li>
+               
+              </ul>
+            </li>
+            <li><a href="/brigata">Gli Chef</a></li>
+            <li><a href="/piatti">I piatti</a></li>
+            <li><a href="/pasticceria">La Pasticceria</a></li>
+            <li><a href="/tour">Tour 360</a></li>
+            <li><a href="/contatti">Contatti</a></li>
+          </ul>
+        </div>
+
+        <div class="widget side-menu-contact pt-80 footer-widget" data-bg-src="{{ url_for('static', filename='img/pages/touch.jpg') }}">
+          <h3 class="widget_title">Restiamo in contatto</h3>
+          <div class="th-widget-contact">
+            <div class="info-box">
+              <div class="box-icon"><i class="fal fa-location-dot"></i></div>
+              <p class="box-text"> Via Roma, 19 - 84080 - Calvanico - SA</p>
+            </div>
+            <div class="info-box">
+              <div class="box-icon"><i class="fal fa-phone"></i></div>
+              <p class="box-text"><a href="tel:089.957360" class="box-link"> 089.957360</a></p>
+            </div>
+            <div class="info-box">
+              <div class="box-icon"><i class="fal fa-envelope"></i></div>
+              <p class="box-text"><a href="mailto:info@tenutaleone.com" class="box-link">info@tenutaleone.com</a></p>
+            </div>
+          </div>
+          <div class="mt-50">
+            <a href="/contatti" class="th-btn th-icon">RICHIEDI UN APPUNTAMENTO</a>
+          </div>
+        </div>
+
+        <div class="widget menu-rooms-area footer-widget">
+          <h3 class="h4 text-center">Tenuta Leone: Dove ogni sogno diventa realtà</h3>
+          <div class="menu-rooms-list">
+            <a class="menu-room-link" href="">
+              <div class="menu-room-image global-img">
+                <img src="{{ url_for('static', filename='img/pages/t1.jpg') }}" alt="Gallery Image">
+              </div>
+            </a>
+            <a class="menu-room-link" href="">
+              <div class="menu-room-image global-img">
+                <img src="{{ url_for('static', filename='img/pages/t2.jpg') }}" alt="Gallery Image">
+              </div>
+            </a>
+            <a class="menu-room-link" href="">
+              <div class="menu-room-image global-img">
+                <img src="{{ url_for('static', filename='img/pages/t3.jpg') }}" alt="Gallery Image">
+              </div>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</header>

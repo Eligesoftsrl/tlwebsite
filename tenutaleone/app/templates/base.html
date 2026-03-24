@@ -1,0 +1,173 @@
+<!doctype html>
+<html class="no-js" lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>{% block title %}Tenuta Leone - Location per Matrimoni ed Eventi a Salerno{% endblock %}</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="author" content="Tenuta Leone">
+  <meta name="description" content="{% block meta_description %}Tenuta Leone a Calvanico (Salerno) - Location esclusiva per matrimoni, eventi e ricevimenti in Campania. Dimora storica immersa nel verde con piscina panoramica e cucina gourmet.{% endblock %}">
+  <meta name="keywords" content="matrimoni salerno, location matrimoni campania, villa matrimoni, eventi salerno, ricevimenti campania, tenuta leone, calvanico, wedding venue italy">
+  <meta name="robots" content="INDEX,FOLLOW">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tenutaleone.it/">
+  <meta property="og:title" content="{% block og_title %}Tenuta Leone - Location per Matrimoni ed Eventi{% endblock %}">
+  <meta property="og:description" content="Dimora storica per matrimoni ed eventi esclusivi a Calvanico, Salerno. Eleganza, tradizione e cucina d'eccellenza.">
+  <meta property="og:image" content="{{ url_for('static', filename='img/slide/slide_1.jpg') }}">
+  <meta property="og:locale" content="it_IT">
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Tenuta Leone - Location Matrimoni Salerno">
+  <meta name="twitter:description" content="Location esclusiva per matrimoni ed eventi in Campania">
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://tenutaleone.it{% block canonical %}{{ request.path }}{% endblock %}">
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='img/favicons/apple-icon-180x180.png') }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='img/favicons/favicon-32x32.png') }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename='img/favicons/favicon-16x16.png') }}">
+  <link rel="manifest" href="{{ url_for('static', filename='img/favicons/manifest.json') }}">
+  <meta name="theme-color" content="#112E2E">
+
+  <!-- Preconnect for Performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <!-- Modern Fonts: Playfair Display + Manrope -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Manrope:wght@300;400;500;600;700&family=Pinyon+Script&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/fontawesome.min.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/magnific-popup.min.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/swiper-bundle.min.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/modern.css') }}">
+  {% block extra_css %}{% endblock %}
+  
+  <!-- Structured Data for SEO & AI -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EventVenue",
+    "name": "Tenuta Leone",
+    "description": "Location esclusiva per matrimoni ed eventi a Calvanico, Salerno. Dimora storica con piscina panoramica, sale ricevimenti e cucina gourmet.",
+    "url": "https://tenutaleone.it",
+    "telephone": "+39089957360",
+    "email": "info@tenutaleone.it",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Via Roma, 19",
+      "addressLocality": "Calvanico",
+      "addressRegion": "SA",
+      "postalCode": "84080",
+      "addressCountry": "IT"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "40.776270",
+      "longitude": "14.829491"
+    },
+    "image": "{{ url_for('static', filename='img/slide/slide_1.jpg', _external=True) }}",
+    "priceRange": "$$$$",
+    "amenityFeature": [
+      {"@type": "LocationFeatureSpecification", "name": "Piscina Panoramica"},
+      {"@type": "LocationFeatureSpecification", "name": "Parcheggio Gratuito"},
+      {"@type": "LocationFeatureSpecification", "name": "WiFi Gratuito"},
+      {"@type": "LocationFeatureSpecification", "name": "Ludoteca"},
+      {"@type": "LocationFeatureSpecification", "name": "Suite Sposi"}
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "reviewCount": "150"
+    },
+    "sameAs": [
+      "https://www.facebook.com/MatrimonioSalerno",
+      "https://www.instagram.com/tenutaleone"
+    ]
+  }
+  </script>
+  {% block structured_data %}{% endblock %}
+</head>
+<body class="home-luxury-hotel">
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">Stai utilizzando un browser <strong>obsoleto</strong>. Per favore <a href="https://browsehappy.com/">aggiorna il tuo browser</a> per migliorare la tua esperienza.</p>
+  <![endif]-->
+
+  <!-- Slider Drag Cursor -->
+  <div class="slider-drag-cursor"><i class="fal fa-arrows-up-down-left-right"></i></div>
+
+  <!-- Modern Preloader -->
+  <div class="preloader">
+    <button class="th-btn preloaderCls">Salta</button>
+    <div id="preloader" class="preloader-inner">
+      <img src="{{ url_for('static', filename='img/logo.svg') }}" style="width:35%; max-width: 200px;" alt="Tenuta Leone">
+      <div class="txt-loading">
+        <span data-text-preloader="T" class="letters-loading">T</span>
+        <span data-text-preloader="E" class="letters-loading">E</span>
+        <span data-text-preloader="N" class="letters-loading">N</span>
+        <span data-text-preloader="U" class="letters-loading">U</span>
+        <span data-text-preloader="T" class="letters-loading">T</span>
+        <span data-text-preloader="A" class="letters-loading">A</span>
+        <span data-text-preloader=" " class="letters-loading"> </span>
+        <span data-text-preloader="L" class="letters-loading">L</span>
+        <span data-text-preloader="E" class="letters-loading">E</span>
+        <span data-text-preloader="O" class="letters-loading">O</span>
+        <span data-text-preloader="N" class="letters-loading">N</span>
+        <span data-text-preloader="E" class="letters-loading">E</span>
+      </div>
+    </div>
+  </div>
+
+  {% include 'includes/_navbar.html' %}
+
+  <!-- Page content -->
+  <main id="content" role="main">
+    {% block content %}{% endblock %}
+  </main>
+
+  {% include 'includes/_footer.html' %}
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/39089957360?text=Ciao!%20Vorrei%20informazioni%20sulla%20vostra%20location%20per%20eventi." 
+     class="whatsapp-float" 
+     target="_blank" 
+     rel="noopener noreferrer"
+     aria-label="Contattaci su WhatsApp"
+     data-testid="whatsapp-button">
+    <i class="fab fa-whatsapp"></i>
+    <span class="whatsapp-tooltip">Scrivici su WhatsApp</span>
+  </a>
+
+  <!-- Scroll To Top -->
+  <div class="scroll-top" aria-label="Torna in alto">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+    </svg>
+  </div>
+
+  <!-- JS -->
+  <script src="{{ url_for('static', filename='js/vendor/jquery-3.7.1.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/swiper-bundle.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/jquery.magnific-popup.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/jquery.counterup.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/imagesloaded.pkgd.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/isotope.pkgd.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/gsap.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/ScrollTrigger.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/SplitText.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/lenis.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/360.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/panolens.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+  {% block extra_js %}{% endblock %}
+</body>
+</html>

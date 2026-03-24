@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+
+{% block title %}Tenuta Leone – Contatti{% endblock %}
+
+{% block content %}
+<!--==============================
+    Breadcumb
+============================== -->
+    <div class="breadcumb-banner">
+        <div class="breadcumb-wrapper " data-bg-src="{{ url_for('static', filename='img/bg/bg_cucina.jpg') }}">
+            <div class="container">
+                <div class="breadcumb-content">
+                    <h1 class="breadcumb-title">Gli Chef</h1>
+                    <ul class="breadcumb-menu">
+                        <li><a href="/">Home</a></li>
+                        <li>Gli Chef</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+   <!--==============================
+Team Area  
+==============================-->
+    <section class="space">
+        <div class="container z-index-common">
+            <div class="row gy-30">
+                <!--==============================
+Team Area  
+==============================-->
+                <div class=" overflow-hidden">
+                    <div class="container">
+                        <div class="row justify-content-between align-items-center">
+                            <div class="col-lg-3">
+                                <div class="th-team team-card">
+                                    <div class="box-img">
+                                        <img src="{{ url_for('static', filename='img/brigata/c1.jpg') }}" alt="Salvatore Mosca - Executive Chef">
+                                    </div>
+                                    <div class="box-content">
+                                        <h3 class="box-title"><a href="#">Salvatore Mosca</a></h3>
+                                        <p class="box-desig">Executive Chef</p>
+                                    </div>
+                                </div>
+                                <div class="th-team team-card mt-45">
+                                    <div class="box-img">
+                                        <img src="{{ url_for('static', filename='img/brigata/c2.jpg') }}" alt="Antonio Buonocore">
+                                    </div>
+                                    <div class="box-content">
+                                        <h3 class="box-title"><a href="#">Antonio Buonocore</a></h3>
+                                        <p class="box-desig">Chef de Partie</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="team-member-area">
+                                    <div class="team-content">
+                                        <div class="title-area mb-10 text-center">
+                                            <span class="sub-title2">LA NOSTRA CUCINA</span>
+                                            <h2 class="sec-title">Tradizione &<span> Innovazione</span></h2>
+                                            <p class="sec-text">A Tenuta Leone ogni piatto nasce da un lavoro di squadra: lo Chef firma i menù e guida la visione culinaria, il Sous Chef coordina tempi e qualità in ogni servizio, gli Chef de Partie presidiano i reparti — antipasti, primi e secondi — con precisione artigianale. Tradizione campana, ingredienti di stagione e cura del dettaglio danno vita a menù personalizzati per eventi e matrimoni indimenticabili.</p>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="th-team team-card">
+                                    <div class="box-img">
+                                        <img src="{{ url_for('static', filename='img/brigata/c3.jpg') }}" alt="Nunzio Avventurato - Sous Chef">
+                                    </div>
+                                    <div class="box-content">
+                                        <h3 class="box-title"><a href="#">Nunzio Avventurato</a></h3>
+                                        <p class="box-desig">Sous Chef</p>
+                                    </div>
+                                </div>
+                                <div class="th-team team-card mt-45">
+                                    <div class="box-img">
+                                        <img src="{{ url_for('static', filename='img/brigata/c5.jpg') }}" alt="Team">
+                                    </div>
+                                    <div class="box-content">
+                                        <h3 class="box-title"><a href="#">Gli Chef</a></h3>
+                                           <p class="box-desig">La nostra forza in cucina</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}

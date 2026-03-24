@@ -1,53 +1,84 @@
-import { useEffect } from "react";
-import "@/App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import axios from "axios";
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { useEffect, lazy, Suspense } from "react";
+import { HelmetProvider } from 'react-helmet-async';
 
-const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
-const API = `${BACKEND_URL}/api`;
+// Components (sempre caricati)
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import WhatsAppButton from "./components/WhatsAppButton";
+import CookieConsent from "./components/CookieConsent";
 
-const Home = () => {
-  const helloWorldApi = async () => {
-    try {
-      const response = await axios.get(`${API}/`);
-      console.log(response.data.message);
-    } catch (e) {
-      console.error(e, `errored out requesting / api`);
-    }
-  };
+// Pages - Lazy loaded per performance
+const HomePage = lazy(() => import("./pages/HomePage"));
+const ContactPage = lazy(() => import("./pages/ContactPage"));
+const TourPage = lazy(() => import("./pages/TourPage"));
+const SalaDetailPage = lazy(() => import("./pages/SalaDetailPage"));
+const PiattiPage = lazy(() => import("./pages/PiattiPage"));
+const BrigataPage = lazy(() => import("./pages/BrigataPage"));
+const PasticceriaPage = lazy(() => import("./pages/PasticceriaPage"));
+const MusicBandPage = lazy(() => import("./pages/MusicBandPage"));
+const QualcosaDiBluPage = lazy(() => import("./pages/QualcosaDiBluPage"));
+const PrivacyPolicyPage = lazy(() => import("./pages/PrivacyPolicyPage"));
+const CookiePolicyPage = lazy(() => import("./pages/CookiePolicyPage"));
 
+// Styles
+import "./App.css";
+
+// Loading fallback component
+const PageLoader = () => (
+  <div className="page-loader">
+    <div className="loader-spinner"></div>
+  </div>
+);
+
+// Scroll to top on route change
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+  
   useEffect(() => {
-    helloWorldApi();
-  }, []);
-
-  return (
-    <div>
-      <header className="App-header">
-        <a
-          className="App-link"
-          href="https://emergent.sh"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src="https://avatars.githubusercontent.com/in/1201222?s=120&u=2686cf91179bbafbc7a71bfbc43004cf9ae1acea&v=4" />
-        </a>
-        <p className="mt-5">Building something incredible ~!</p>
-      </header>
-    </div>
-  );
+    window.scrollTo(0, 0);
+  }, [pathname]);
+  
+  return null;
 };
+
+function AppContent() {
+  return (
+    <>
+      <ScrollToTop />
+      <div className="app">
+        <Navbar />
+        <Suspense fallback={<PageLoader />}>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/contatti" element={<ContactPage />} />
+            <Route path="/tour" element={<TourPage />} />
+            <Route path="/piatti" element={<PiattiPage />} />
+            <Route path="/brigata" element={<BrigataPage />} />
+            <Route path="/pasticceria" element={<PasticceriaPage />} />
+            <Route path="/music-band" element={<MusicBandPage />} />
+            <Route path="/qualcosa-di-blu" element={<QualcosaDiBluPage />} />
+            <Route path="/sala/:slug" element={<SalaDetailPage />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+            <Route path="/cookie-policy" element={<CookiePolicyPage />} />
+            <Route path="*" element={<HomePage />} />
+          </Routes>
+        </Suspense>
+        <Footer />
+        <WhatsAppButton />
+        <CookieConsent />
+      </div>
+    </>
+  );
+}
 
 function App() {
   return (
-    <div className="App">
+    <HelmetProvider>
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />}>
-            <Route index element={<Home />} />
-          </Route>
-        </Routes>
+        <AppContent />
       </BrowserRouter>
-    </div>
+    </HelmetProvider>
   );
 }
 

@@ -1,0 +1,173 @@
+{# templates/sala.html #}
+{% extends "base.html" %}
+
+{% block title %}Tenuta Leone – {{stanza.nome}}{% endblock %}
+
+{% block content %}
+<div class="breadcumb-banner">
+ {{stanza.foto_360 | safe}}
+</div>
+
+<!--==============================
+    room Area
+==============================-->
+<section class="room-area space-top space-extra-bottom overflow-hidden">
+  <div class="container">
+    <div class="row flex-row-reverse">
+      <div class="col-xl-9 col-lg-8">
+        <div class="room-page-single">
+          <div class="main-container">
+          </div>
+
+          <div class="page-content">
+            <h2 class="box-title mt-50">{{stanza.nome}}</h2>
+            <p class="box-text fs-18 mb-10">{{stanza.headline}}</p>
+            <p class="box-text fs-18 mb-50">{{stanza.descrizione}}</p>
+          </div>
+
+          <div class="room-gallery-wrapper">
+                            <h3 class="page-title fs-28 mt-60 mb-30">Gallery</h3>
+                            <div class="row gy-4 filter-active">
+                             {# Gallery dinamica dalle immagini nel JSON #}
+                              {% for img in stanza.immagini|default([]) %}
+                                <div class="col-xxl-auto filter-item">
+                                  <div class="gallery-box">
+                                    <div class="gallery-img global-img">
+                                      <img
+                                        src="{% if img.startswith('http') %}{{ img }}{% else %}{{ url_for('static', filename=img) }}{% endif %}"
+                                        alt="{{ stanza.nome }} – foto {{ loop.index }}"
+                                        loading="lazy" style="width: 386px;">
+                                    </div>
+                                  </div>
+                                </div>
+                              {% endfor %}
+
+                            
+                              
+                               
+                               
+                            </div>
+                        </div>
+
+      
+
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-lg-4">
+        <aside class="sidebar-area">
+          <div class="widget widget_quote">
+             <form action="mail.php" method="POST" class="booking-form2 style4 ajax-contact">
+                                <div class="input-wrap">
+                                    <div class="title-area mb-40">
+                                        <span class="sub-title2 style1 mb-15">VUOI VISITARE LA TENUTA?</span>
+                                        <h2 class="box-title text-white">Verifica disponibilità</h2>
+                                    </div>
+                                    <div class="row gx-24 align-items-center justify-content-between">
+                                        <div class="form-group col-12">
+                                            <div class="form-item">
+                                                <label>Data</label>
+                                                <input type="date" class="form-control" name="date" id="date" value="2025-01-20">
+                                                <i class="fa-solid fa-calendar-days"></i>
+                                            </div>
+                                        </div>
+                                      
+                                        <div class="col-12 form-group">
+                                            <div class="form-item">
+                                                <label>Tipologia</label>
+                                                <select name="subject" id="subject" class="form-select nice-select">
+                                                    <option value="Adults" selected disabled>Matrimonio</option>
+                                                    <option value="2 Room">Comunione</option>
+                                                    <option value="3 Room">Battesimo</option>
+                                                    <option value="3 Room">Compleanno</option>
+                                                    <option value="3 Room">Eventi</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 form-group">
+                                            <div class="form-item">
+                                                <label>Persone</label>
+                                                <select name="subject" id="subject2" class="form-select nice-select">
+                                                    <option value="0" selected disabled>0/60</option>
+                                                    <option value="1">60/90</option>
+                                                    <option value="2">90/120</option>
+                                                    <option value="2">Oltre 120</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="form-messages mb-0 mt-3"></p>
+                                </div>
+                            </form>
+
+            <div class="widget-service-list">
+              <div class="btn-form">
+                <button type="submit" class="th-btn style1">INVIA RICHIESTA</button>
+              </div>
+            </div>
+          </div>
+
+        </aside>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--==============================
+Rooms & suits
+==============================-->
+{% if related and related|length > 0 %}
+<section class="overflow-hidden space-bottom">
+  <div class="container">
+    <div class="title-area text-center">
+      <span class="sub-title2 style1">SCOPRI ANCORA</span>
+      <h2 class="sec-title">Visualizza gli ambienti</h2>
+    </div>
+
+    <div class="row gy-4">
+      {% for room in related %}
+        {% set cover = (room.immagini[0] if room.immagini and room.immagini|length > 0 else None) %}
+        <div class="col-lg-6 col-xxl-4">
+          <div class="room-box">
+            <div class="box-img">
+              {% if cover %}
+                <img
+                  src="{% if cover.startswith('http') %}{{ cover }}{% else %}{{ url_for('static', filename=cover) }}{% endif %}"
+                  alt="{{ room.nome }}" loading="lazy">
+              {% else %}
+                <img src="{{ url_for('static', filename='img/room/room_6_1.jpg') }}" alt="{{ room.nome }}" loading="lazy">
+              {% endif %}
+            </div>
+
+            <div class="box-title-area">
+              <div class="box-number">{{ "%02d"|format(loop.index) }}</div>
+              <h3 class="box-title">
+                <a href="{{ url_for('sala', slug=room.slug) }}">{{ room.nome }}</a>
+              </h3>
+              <div class="mt-10">
+                <a href="{{ url_for('sala', slug=room.slug) }}" class="th-btn2 style2">SCOPRI ORA</a>
+              </div>
+            </div>
+
+            <div class="box-content">
+              <div class="box-wrapp">
+                <div class="box-number">{{ "%02d"|format(loop.index) }}</div>
+                <h3 class="box-title">
+                  <a href="{{ url_for('sala', slug=room.slug) }}">{{ room.nome }}</a>
+                </h3>
+             
+
+                <div class="mt-10">
+                  <a href="{{ url_for('sala', slug=room.slug) }}" class="th-btn2 style2">SCOPRI ORA</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+{% endblock %}
