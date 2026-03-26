@@ -110,6 +110,25 @@
     <priority>0.7</priority>
   </url>
   
+  <!-- Team -->
+  <url>
+    <loc>https://www.tenutaleone.it/direzione</loc>
+    <lastmod>2026-03-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tenutaleone.it/img/team/luigi-ceruso.jpg</image:loc>
+      <image:title>Luigi Ceruso - Direttore Tenuta Leone</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://www.tenutaleone.it/frontdesk</loc>
+    <lastmod>2026-03-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
   <!-- Contatti -->
   <url>
     <loc>https://www.tenutaleone.it/contatti</loc>

@@ -29,6 +29,14 @@ const menuStructure = [
       { label: "Qualcosa di Blu", path: "/qualcosa-di-blu", subtitle: "Wedding Consultant" }
     ]
   },
+  { 
+    label: "Team", 
+    path: "/direzione",
+    submenu: [
+      { label: "Direzione di Struttura", path: "/direzione" },
+      { label: "Frontdesk", path: "/frontdesk" }
+    ]
+  },
   { label: "Contatti", path: "/contatti" }
 ];
 

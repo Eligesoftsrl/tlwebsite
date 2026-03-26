@@ -18,6 +18,8 @@ const BrigataPage = lazy(() => import("./pages/BrigataPage"));
 const PasticceriaPage = lazy(() => import("./pages/PasticceriaPage"));
 const MusicBandPage = lazy(() => import("./pages/MusicBandPage"));
 const QualcosaDiBluPage = lazy(() => import("./pages/QualcosaDiBluPage"));
+const DirezionePage = lazy(() => import("./pages/DirezionePage"));
+const FrontdeskPage = lazy(() => import("./pages/FrontdeskPage"));
 const PrivacyPolicyPage = lazy(() => import("./pages/PrivacyPolicyPage"));
 const CookiePolicyPage = lazy(() => import("./pages/CookiePolicyPage"));
 
@@ -58,6 +60,8 @@ function AppContent() {
             <Route path="/pasticceria" element={<PasticceriaPage />} />
             <Route path="/music-band" element={<MusicBandPage />} />
             <Route path="/qualcosa-di-blu" element={<QualcosaDiBluPage />} />
+            <Route path="/direzione" element={<DirezionePage />} />
+            <Route path="/frontdesk" element={<FrontdeskPage />} />
             <Route path="/sala/:slug" element={<SalaDetailPage />} />
             <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
             <Route path="/cookie-policy" element={<CookiePolicyPage />} />
