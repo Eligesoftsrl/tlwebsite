@@ -92,8 +92,9 @@ const DirezionePage = () => {
           </div>
         </section>
 
-        {/* I 3 Pilastri - Dark Section */}
-        <section className="dark-section">
+        {/* I 3 Pilastri - Dark Section con Background */}
+        <section className="dark-section direzione-pillars">
+          <div className="direzione-pillars-bg" style={{ backgroundImage: 'url(/img/slide/slide_1.jpg)' }}></div>
           <div className="container">
             <div className="section-header centered">
               <span className="section-label">I 3 PILASTRI DELLA MIA REGIA</span>
@@ -104,41 +105,29 @@ const DirezionePage = () => {
               </p>
             </div>
 
-            <div className="instruments-showcase">
-              <div className="instrument-card">
-                <div className="instrument-visual">
-                  <div className="instrument-icon-wrapper">
-                    <i className="fas fa-clock"></i>
-                  </div>
+            <div className="pillars-showcase">
+              <div className="pillar-card-large">
+                <div className="pillar-icon-wrapper">
+                  <i className="fas fa-clock"></i>
                 </div>
-                <div className="instrument-info">
-                  <h3>Sincronia Millimetrica</h3>
-                  <p>Coordino personalmente la Brigata di cucina e il personale di sala. Il ritmo del banchetto deve essere fluido, elegante e dinamico: niente attese estenuanti, solo il piacere del gusto.</p>
-                </div>
+                <h3>Sincronia Millimetrica</h3>
+                <p>Coordino personalmente la Brigata di cucina e il personale di sala. Il ritmo del banchetto deve essere fluido, elegante e dinamico: niente attese estenuanti, solo il piacere del gusto.</p>
               </div>
               
-              <div className="instrument-card">
-                <div className="instrument-visual">
-                  <div className="instrument-icon-wrapper">
-                    <i className="fas fa-lightbulb"></i>
-                  </div>
+              <div className="pillar-card-large">
+                <div className="pillar-icon-wrapper">
+                  <i className="fas fa-lightbulb"></i>
                 </div>
-                <div className="instrument-info">
-                  <h3>Sound & Light Design</h3>
-                  <p>Supervisiono ogni aspetto tecnico affinché l'atmosfera sonora e luminosa della Tenuta si evolva in armonia con i momenti della festa, dal rito civile al party finale.</p>
-                </div>
+                <h3>Sound & Light Design</h3>
+                <p>Supervisiono ogni aspetto tecnico affinché l'atmosfera sonora e luminosa della Tenuta si evolva in armonia con i momenti della festa, dal rito civile al party finale.</p>
               </div>
               
-              <div className="instrument-card">
-                <div className="instrument-visual">
-                  <div className="instrument-icon-wrapper">
-                    <i className="fas fa-shield-alt"></i>
-                  </div>
+              <div className="pillar-card-large">
+                <div className="pillar-icon-wrapper">
+                  <i className="fas fa-shield-alt"></i>
                 </div>
-                <div className="instrument-info">
-                  <h3>Problem Solving Invisibile</h3>
-                  <p>La mia presenza garantisce che ogni imprevisto venga gestito dietro le quinte. Gli sposi e gli ospiti percepiranno solo naturalezza e armonia, anche nei momenti di massima complessità.</p>
-                </div>
+                <h3>Problem Solving Invisibile</h3>
+                <p>La mia presenza garantisce che ogni imprevisto venga gestito dietro le quinte. Gli sposi e gli ospiti percepiranno solo naturalezza e armonia, anche nei momenti di massima complessità.</p>
               </div>
             </div>
           </div>
@@ -205,25 +194,11 @@ const DirezionePage = () => {
               <h2>Volete la certezza di una regia impeccabile per il vostro Sì?</h2>
               <p>Iniziate il percorso con una consulenza tecnica insieme a Luigi Ceruso</p>
               <div className="cta-buttons">
-                <Link to="/contatti" className="btn-primary" data-testid="direzione-cta-btn">
+                <Link to="/contatti" className="btn-outline" data-testid="direzione-cta-btn">
                   Prenota Ora il Tuo Appuntamento
                   <i className="fas fa-arrow-right"></i>
                 </Link>
-                <Link to="/brigata" className="btn-outline">
-                  Scopri la Brigata di Cucina
-                </Link>
               </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Signature */}
-        <section className="signature-section">
-          <div className="container">
-            <div className="signature-box">
-              <p className="signature-text">Con dedizione e professionalità,</p>
-              <p className="signature-name">Luigi Ceruso</p>
-              <p className="signature-role">General Manager & Direttore di Regia</p>
             </div>
           </div>
         </section>
