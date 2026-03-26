@@ -46,7 +46,7 @@ const BrigataPage = () => {
           <div className="page-hero-overlay"></div>
           <div className="container">
             <div className="page-hero-content">
-              <h1 className="page-title">La Brigata</h1>
+              <h1 className="page-title">La Brigata di Cucina</h1>
               <p className="page-subtitle">I nostri Chef</p>
               <nav className="breadcrumb">
                 <Link to="/">Home</Link>

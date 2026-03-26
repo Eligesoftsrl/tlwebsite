@@ -58,7 +58,7 @@ const TourPage = () => {
                 <i className="fas fa-vr-cardboard"></i>
                 TOUR VIRTUALI 360°
               </div>
-              <h1 className="page-title">La Dimora Storica</h1>
+              <h1 className="page-title">La Dimora Storica di Tenuta Leone</h1>
               <p className="page-subtitle">Esplora ogni angolo come se fossi qui</p>
               <nav className="breadcrumb">
                 <Link to="/">Home</Link>

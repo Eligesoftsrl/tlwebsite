@@ -26,17 +26,17 @@ export const siteConfig = {
 export const heroSlides = [
   {
     image: "/img/slide/slide_1.jpg",
-    title: "Dove l'amore si celebra con stile e autenticità",
+    title: "Tenuta Leone - Location Matrimoni Salerno",
     text: "Un'antica tenuta immersa nel verde, pensata per emozioni che durano nel tempo."
   },
   {
     image: "/img/slide/slide_2.jpg",
-    title: "Ogni storia d'amore merita un luogo indimenticabile",
+    title: "Dimora Storica per Eventi in Campania",
     text: "Una sala incantevole, una piscina immersa nella natura, la magia di un \"sì\" indimenticabile."
   },
   {
     image: "/img/slide/slide_3.jpg",
-    title: "Eleganza, emozione, bellezza. Tutto in un solo luogo.",
+    title: "Ricevimenti e Matrimoni a Calvanico",
     text: "Benvenuti a Tenuta Leone, qui ogni sogno diventa realtà."
   }
 ];

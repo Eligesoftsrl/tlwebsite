@@ -78,7 +78,7 @@ const PiattiPage = () => {
           <div className="page-hero-overlay"></div>
           <div className="container">
             <div className="page-hero-content">
-              <h1 className="page-title">I Piatti</h1>
+              <h1 className="page-title">I Piatti della Tradizione Campana</h1>
               <p className="page-subtitle">Le nostre proposte 2025/2026</p>
               <nav className="breadcrumb">
                 <Link to="/">Home</Link>

@@ -139,7 +139,7 @@ const ContactPage = () => {
         <div className="page-hero-overlay"></div>
         <div className="container">
           <div className="page-hero-content">
-            <h1 className="page-title">Contatti</h1>
+            <h1 className="page-title">Contattaci per il Tuo Evento</h1>
             <nav className="breadcrumb">
               <a href="/">Home</a>
               <span>/</span>
