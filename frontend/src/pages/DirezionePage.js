@@ -44,122 +44,181 @@ const DirezionePage = () => {
       </Helmet>
 
       <main className="direzione-page" data-testid="direzione-page">
-        {/* Hero Section */}
-        <section className="page-hero direzione-hero">
-          <div className="page-hero-bg" style={{ backgroundImage: 'url(/img/slide/slide_1.jpg)' }}></div>
+        {/* Hero Full Screen */}
+        <section className="page-hero" style={{ backgroundImage: 'url(/img/slide/slide_1.jpg)' }}>
           <div className="page-hero-overlay"></div>
-          <div className="page-hero-content">
-            <div className="container">
-              <h1 className="page-title">La Regia dell'Evento: La Visione di Luigi Ceruso</h1>
+          <div className="container">
+            <div className="page-hero-content">
+              <span className="hero-label">DIREZIONE DI STRUTTURA</span>
+              <h1 className="page-title">La Regia dell'Evento:<br/><span>La Visione di Luigi Ceruso</span></h1>
               <p className="page-subtitle">General Manager & Direttore di Regia</p>
             </div>
           </div>
-        </section>
-
-        {/* Quote Section */}
-        <section className="direzione-quote-section">
-          <div className="container">
-            <blockquote className="direzione-quote">
-              <p>"Il mio obiettivo non è farvi vivere un bel matrimonio, ma garantirvi l'esecuzione perfetta di un progetto d'autore. Voi pensate a emozionarvi, alla sincronia di ogni istante penso io."</p>
-              <cite>— Luigi Ceruso</cite>
-            </blockquote>
+          <div className="hero-scroll-indicator">
+            <span>Scopri</span>
+            <i className="fas fa-chevron-down"></i>
           </div>
         </section>
 
-        {/* Main Content */}
-        <section className="direzione-content">
+        {/* Intro Section */}
+        <section className="content-section">
           <div className="container">
-            <div className="direzione-grid">
-              {/* Image */}
-              <div className="direzione-image">
-                <LazyImage 
-                  src="/img/team/luigi-ceruso.jpg" 
-                  alt="Luigi Ceruso - General Manager Tenuta Leone" 
-                />
-              </div>
-
-              {/* Text */}
-              <div className="direzione-text">
-                <h2>Luigi Ceruso: Il Garante del vostro Investimento in Tenuta Leone</h2>
+            <div className="intro-block">
+              <div className="intro-text-side">
+                <span className="section-label">IL GARANTE DEL VOSTRO INVESTIMENTO</span>
+                <h2>Luigi Ceruso:<br/><span className="highlight">Il vostro punto di riferimento</span></h2>
+                <p className="lead-text">
+                  "Il mio obiettivo non è farvi vivere un bel matrimonio, ma garantirvi l'esecuzione 
+                  perfetta di un progetto d'autore. Voi pensate a emozionarvi, alla sincronia di ogni 
+                  istante penso io."
+                </p>
                 <p>
                   Organizzare un evento di alto profilo nel cuore della Campania richiede rigore logistico 
-                  e una visione d'insieme che non ammette distrazioni.
+                  e una visione d'insieme che non ammette distrazioni. Come Direttore di Tenuta Leone, 
+                  il mio ruolo è quello di trasformare la visione della Famiglia Stasi e i desideri degli 
+                  sposi in una realtà senza sbavature.
                 </p>
                 <p>
-                  Come Direttore di Tenuta Leone, il mio ruolo è quello di trasformare la visione della 
-                  Famiglia Stasi e i desideri degli sposi in una realtà senza sbavature. Sono il punto 
-                  di riferimento per le coppie di <strong>Salerno, Napoli e Avellino</strong> che non accettano 
-                  il caso e pretendono la certezza di un risultato impeccabile.
+                  Sono il punto di riferimento per le coppie di <strong>Salerno, Napoli e Avellino</strong> che 
+                  non accettano il caso e pretendono la certezza di un risultato impeccabile.
                 </p>
+              </div>
+              <div className="intro-image-side">
+                <div className="image-card">
+                  <LazyImage src="/img/team/luigi-ceruso.jpg" alt="Luigi Ceruso - General Manager Tenuta Leone" />
+                </div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Pillars Section */}
-        <section className="direzione-pillars">
+        {/* I 3 Pilastri - Dark Section */}
+        <section className="dark-section">
           <div className="container">
-            <h3>Perché la mia Regia fa la differenza tra un "Ricevimento" e un "Evento Leggendario"</h3>
-            <p className="pillars-intro">
-              Molti sposi temono i tempi morti, il disordine nel servizio o la musica che sovrasta i dialoghi. 
-              In Tenuta Leone, ho implementato un modello operativo basato su 3 pilastri:
-            </p>
+            <div className="section-header centered">
+              <span className="section-label">I 3 PILASTRI DELLA MIA REGIA</span>
+              <h2>Perché la mia Regia fa la differenza<br/>tra un "Ricevimento" e un <span className="highlight">"Evento Leggendario"</span></h2>
+              <p className="section-intro">
+                Molti sposi temono i tempi morti, il disordine nel servizio o la musica che sovrasta i dialoghi. 
+                In Tenuta Leone, ho implementato un modello operativo basato su 3 pilastri:
+              </p>
+            </div>
 
-            <div className="pillars-grid">
-              <div className="pillar-card">
-                <div className="pillar-icon">
-                  <i className="fas fa-clock"></i>
+            <div className="instruments-showcase">
+              <div className="instrument-card">
+                <div className="instrument-visual">
+                  <div className="instrument-icon-wrapper">
+                    <i className="fas fa-clock"></i>
+                  </div>
                 </div>
-                <h4>Sincronia Millimetrica</h4>
-                <p>
-                  Coordino personalmente la Brigata di cucina e il personale di sala. Il ritmo del banchetto 
-                  deve essere fluido, elegante e dinamico: niente attese estenuanti, solo il piacere del gusto.
-                </p>
+                <div className="instrument-info">
+                  <h3>Sincronia Millimetrica</h3>
+                  <p>Coordino personalmente la Brigata di cucina e il personale di sala. Il ritmo del banchetto deve essere fluido, elegante e dinamico: niente attese estenuanti, solo il piacere del gusto.</p>
+                </div>
               </div>
-
-              <div className="pillar-card">
-                <div className="pillar-icon">
-                  <i className="fas fa-lightbulb"></i>
+              
+              <div className="instrument-card">
+                <div className="instrument-visual">
+                  <div className="instrument-icon-wrapper">
+                    <i className="fas fa-lightbulb"></i>
+                  </div>
                 </div>
-                <h4>Sound & Light Design</h4>
-                <p>
-                  Supervisiono ogni aspetto tecnico affinché l'atmosfera sonora e luminosa della Tenuta 
-                  si evolva in armonia con i momenti della festa, dal rito civile al party finale.
-                </p>
+                <div className="instrument-info">
+                  <h3>Sound & Light Design</h3>
+                  <p>Supervisiono ogni aspetto tecnico affinché l'atmosfera sonora e luminosa della Tenuta si evolva in armonia con i momenti della festa, dal rito civile al party finale.</p>
+                </div>
               </div>
-
-              <div className="pillar-card">
-                <div className="pillar-icon">
-                  <i className="fas fa-shield-alt"></i>
+              
+              <div className="instrument-card">
+                <div className="instrument-visual">
+                  <div className="instrument-icon-wrapper">
+                    <i className="fas fa-shield-alt"></i>
+                  </div>
                 </div>
-                <h4>Problem Solving Invisibile</h4>
-                <p>
-                  La mia presenza garantisce che ogni imprevisto venga gestito dietro le quinte. Gli sposi 
-                  e gli ospiti percepiranno solo naturalezza e armonia, anche nei momenti di massima complessità.
-                </p>
+                <div className="instrument-info">
+                  <h3>Problem Solving Invisibile</h3>
+                  <p>La mia presenza garantisce che ogni imprevisto venga gestito dietro le quinte. Gli sposi e gli ospiti percepiranno solo naturalezza e armonia, anche nei momenti di massima complessità.</p>
+                </div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* CTA Section */}
-        <section className="cta-section cta-with-bg direzione-cta">
-          <div className="cta-bg" style={{ backgroundImage: 'url(/img/normal/about_5.jpg)' }}></div>
+        {/* Perché Sceglierci - Feature Boxes */}
+        <section className="accent-section">
+          <div className="container">
+            <div className="features-grid">
+              <div className="feature-main">
+                <span className="section-label">LA MIA PROMESSA</span>
+                <h2>Non gestisco solo eventi,<br/><span className="highlight">creo esperienze impeccabili</span></h2>
+                <p>
+                  Ogni matrimonio in Tenuta Leone è un progetto unico che merita 
+                  una regia all'altezza delle vostre aspettative.
+                </p>
+                <Link to="/contatti" className="btn-primary">
+                  Prenota una Consulenza
+                  <i className="fas fa-arrow-right"></i>
+                </Link>
+              </div>
+              
+              <div className="feature-box">
+                <div className="feature-icon">
+                  <i className="fas fa-user-tie"></i>
+                </div>
+                <h4>Esperienza Decennale</h4>
+                <p>Anni di gestione di eventi di alto profilo in Campania</p>
+              </div>
+              
+              <div className="feature-box">
+                <div className="feature-icon">
+                  <i className="fas fa-handshake"></i>
+                </div>
+                <h4>Rapporto Diretto</h4>
+                <p>Un unico referente per ogni aspetto del vostro evento</p>
+              </div>
+              
+              <div className="feature-box">
+                <div className="feature-icon">
+                  <i className="fas fa-tasks"></i>
+                </div>
+                <h4>Coordinamento Totale</h4>
+                <p>Gestione completa di fornitori, staff e tempistiche</p>
+              </div>
+              
+              <div className="feature-box">
+                <div className="feature-icon">
+                  <i className="fas fa-star"></i>
+                </div>
+                <h4>Standard Eccellenza</h4>
+                <p>Ogni dettaglio curato secondo i più alti standard</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* CTA Final */}
+        <section className="cta-section cta-with-bg">
+          <div className="cta-bg-image" style={{ backgroundImage: 'url(/img/normal/about_5.jpg)' }}></div>
           <div className="cta-overlay"></div>
-          <div className="cta-content">
-            <div className="container">
+          <div className="container">
+            <div className="cta-content">
               <h2>Volete la certezza di una regia impeccabile per il vostro Sì?</h2>
-              <p>Iniziate il percorso con una consulenza tecnica insieme a Luigi Ceruso.</p>
-              <Link to="/contatti" className="btn btn-primary" data-testid="direzione-cta-btn">
-                <i className="fas fa-calendar-check"></i>
-                Prenota Ora il Tuo Appuntamento
-              </Link>
+              <p>Iniziate il percorso con una consulenza tecnica insieme a Luigi Ceruso</p>
+              <div className="cta-buttons">
+                <Link to="/contatti" className="btn-primary" data-testid="direzione-cta-btn">
+                  Prenota Ora il Tuo Appuntamento
+                  <i className="fas fa-arrow-right"></i>
+                </Link>
+                <Link to="/brigata" className="btn-outline">
+                  Scopri la Brigata di Cucina
+                </Link>
+              </div>
             </div>
           </div>
         </section>
 
         {/* Signature */}
-        <section className="direzione-signature">
+        <section className="signature-section">
           <div className="container">
             <div className="signature-box">
               <p className="signature-text">Con dedizione e professionalità,</p>
