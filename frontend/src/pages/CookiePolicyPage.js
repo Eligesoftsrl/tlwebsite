@@ -9,7 +9,7 @@ const CookiePolicyPage = () => {
       <Helmet>
         <title>Cookie Policy | Tenuta Leone - Location Matrimoni Salerno</title>
         <meta name="description" content="Informativa sull'utilizzo dei cookie sul sito Tenuta Leone, ai sensi del GDPR e della normativa italiana ed europea." />
-        <link rel="canonical" href={`${BASE_URL}/cookie-policy`} />
+        <link rel="canonical" href="https://www.tenutaleone.it/cookie-policy" />
         <meta name="robots" content="noindex, follow" />
       </Helmet>
 

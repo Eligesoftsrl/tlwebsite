@@ -126,7 +126,7 @@ const ContactPage = () => {
         <meta property="og:image" content={`${BASE_URL}/img/slide/slide_1.jpg`} />
         <meta property="og:url" content={`${BASE_URL}/contatti`} />
         
-        <link rel="canonical" href={`${BASE_URL}/contatti`} />
+        <link rel="canonical" href="https://www.tenutaleone.it/contatti" />
         
         <script type="application/ld+json">
           {JSON.stringify(contactSchema)}

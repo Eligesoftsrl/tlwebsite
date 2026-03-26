@@ -111,7 +111,7 @@ const HomePage = () => {
         <meta name="twitter:title" content="Tenuta Leone - Location Matrimoni Campania" />
         <meta name="twitter:description" content="Dimora storica per matrimoni ed eventi esclusivi a Salerno" />
         
-        <link rel="canonical" href={BASE_URL} />
+        <link rel="canonical" href="https://www.tenutaleone.it/" />
         
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}

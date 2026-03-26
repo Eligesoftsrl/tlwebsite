@@ -9,7 +9,7 @@ const PrivacyPolicyPage = () => {
       <Helmet>
         <title>Privacy Policy | Tenuta Leone - Location Matrimoni Salerno</title>
         <meta name="description" content="Informativa sulla privacy e trattamento dei dati personali di Tenuta Leone, ai sensi del GDPR e della normativa italiana." />
-        <link rel="canonical" href={`${BASE_URL}/privacy-policy`} />
+        <link rel="canonical" href="https://www.tenutaleone.it/privacy-policy" />
         <meta name="robots" content="noindex, follow" />
       </Helmet>
 

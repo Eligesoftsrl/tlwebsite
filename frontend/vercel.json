@@ -10,6 +10,16 @@
       ],
       "destination": "https://www.tenutaleone.it/:path*",
       "permanent": true
+    },
+    {
+      "source": "/index.html",
+      "destination": "https://www.tenutaleone.it/",
+      "permanent": true
+    },
+    {
+      "source": "/index",
+      "destination": "https://www.tenutaleone.it/",
+      "permanent": true
     }
   ],
   "headers": [
