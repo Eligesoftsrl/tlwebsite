@@ -264,7 +264,7 @@ export const brigata = [
   },
   {
     name: "Antonio Buonocore",
-    role: "Chef de Partie",
+    role: "Chef",
     image: "/img/brigata/c2.jpg",
     description: "Presiede i reparti con precisione artigianale"
   }

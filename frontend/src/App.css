@@ -834,7 +834,7 @@ a.mobile-nav-link.active {
 
 @media (max-width: 768px) {
   .hero-dots {
-    bottom: 320px;
+    bottom: 100px; /* Sotto la descrizione su mobile */
   }
 }
 
