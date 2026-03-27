@@ -15,7 +15,7 @@ const categories = [
     title: 'Sinfonie di Benvenuto:',
     highlight: "L'esordio di ogni evento a Tenuta Leone è un rito sensoriale che celebra la convivialità",
     icon: 'fas fa-seedling',
-    concept: "Le nostre Sinfonie di Benvenuto non sono semplici antipasti, ma un mosaico di sapori progettato per stupire: dai crudi di mare finissimi, selezionati quotidianamente, alle perle della tradizione casearia campana.",
+    concept: "Le nostre Sinfonie di Benvenuto sono progettate per stupire e deliziare ogni palato attraverso un percorso curato in ogni dettaglio, che celebra l'eccellenza della ristorazione interna della nostra Dimora Storica.",
     altText: "Antipasto gourmet Tenuta Leone - Prodotti tipici campani Salerno",
     images: piatti.antipasti
   },
