@@ -4604,6 +4604,12 @@ a.mobile-nav-link.active {
   .intro-block {
     grid-template-columns: 1.2fr 1fr;
   }
+  .intro-block.intro-block-reverse {
+    grid-template-columns: 1fr 1.2fr;
+  }
+  .intro-block.intro-block-reverse .intro-image-side {
+    order: -1;
+  }
 }
 
 .intro-text-side h2 {
