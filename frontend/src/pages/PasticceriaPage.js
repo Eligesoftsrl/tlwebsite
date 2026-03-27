@@ -31,14 +31,15 @@ const PasticceriaPage = () => {
     "@type": "Organization",
     "name": "Pasticceria Tenuta Leone",
     "description": "Il laboratorio di pasticceria di Tenuta Leone per torte nuziali, dessert e dolci per matrimoni ed eventi a Salerno",
-    "employee": [{
+    "parentOrganization": {
+      "@type": "LocalBusiness",
+      "name": "Tenuta Leone",
+      "url": "https://www.tenutaleone.it"
+    },
+    "member": [{
       "@type": "Person",
       "name": pasticciere.name,
-      "jobTitle": pasticciere.role,
-      "worksFor": {
-        "@type": "FoodEstablishment",
-        "name": "Tenuta Leone"
-      }
+      "jobTitle": pasticciere.role
     }]
   };
 

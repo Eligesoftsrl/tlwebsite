@@ -46,12 +46,7 @@ const PiattiPage = () => {
         "name": "I Dolci",
         "description": "Dolci e dessert della pasticceria"
       }
-    ],
-    "inMenu": {
-      "@type": "FoodEstablishment",
-      "name": "Tenuta Leone",
-      "servesCuisine": "Cucina Campana, Cucina Italiana"
-    }
+    ]
   };
 
   return (

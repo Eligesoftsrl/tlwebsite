@@ -11,16 +11,12 @@ const DirezionePage = () => {
     "name": "Luigi Ceruso",
     "jobTitle": "General Manager / Direttore di Struttura",
     "worksFor": {
-      "@type": "EventVenue",
-      "name": "Tenuta Leone"
+      "@type": "Organization",
+      "name": "Tenuta Leone",
+      "url": "https://www.tenutaleone.it"
     },
     "description": "Responsabile della regia e del coordinamento logistico per matrimoni ed eventi di lusso in Campania e provincia di Salerno.",
-    "image": `${BASE_URL}/img/team/luigi-ceruso.jpg`,
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Salerno",
-      "addressRegion": "Campania"
-    }
+    "image": `${BASE_URL}/img/team/luigi-ceruso.jpg`
   };
 
   return (

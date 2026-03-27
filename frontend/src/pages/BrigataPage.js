@@ -11,14 +11,15 @@ const BrigataPage = () => {
     "@type": "Organization",
     "name": "Brigata di Cucina - Tenuta Leone",
     "description": "Il team di chef professionisti di Tenuta Leone che cura la cucina per matrimoni ed eventi a Salerno",
-    "employee": brigata.map(chef => ({
+    "parentOrganization": {
+      "@type": "LocalBusiness",
+      "name": "Tenuta Leone",
+      "url": "https://www.tenutaleone.it"
+    },
+    "member": brigata.map(chef => ({
       "@type": "Person",
       "name": chef.name,
-      "jobTitle": chef.role,
-      "worksFor": {
-        "@type": "FoodEstablishment",
-        "name": "Tenuta Leone"
-      }
+      "jobTitle": chef.role
     }))
   };
 
