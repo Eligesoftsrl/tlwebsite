@@ -6334,7 +6334,7 @@ a.mobile-nav-link.active {
 
 .profile-description {
   font-size: 0.95rem;
-  color: var(--color-text);
+  color: var(--color-primary);
   line-height: 1.8;
 }
 
