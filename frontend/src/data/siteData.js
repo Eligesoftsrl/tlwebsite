@@ -38,8 +38,8 @@ export const heroSlides = [
   },
   {
     image: "/img/slide/slide_2.jpg",
-    title: "Dimora Storica per Eventi Esclusivi",
-    text: "Eleganza, tradizione e cucina d'eccellenza per il vostro giorno speciale."
+    title: "Il vostro sogno. La nostra Firma.",
+    text: "Diamo vita ai vostri traguardi più belli."
   },
   {
     image: "/img/slide/slide_3.jpg",
