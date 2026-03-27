@@ -53,9 +53,11 @@ const MatrimoniPage = () => {
           <div className="page-hero-overlay"></div>
           <div className="page-hero-content">
             <div className="container">
-              <span className="hero-label">MATRIMONI D'AUTORE</span>
-              <h1 className="page-title">Matrimoni d'Autore in Dimora Storica a Salerno.</h1>
-              <h2 className="page-subtitle-h2">Il vostro Sì nel cuore della Campania: tra eleganza secolare e regia millimetrica.</h2>
+              <div className="page-hero-text-center">
+                <span className="hero-label">MATRIMONI D'AUTORE</span>
+                <h1 className="page-title">Matrimoni d'Autore in Dimora Storica a Salerno.</h1>
+                <h2 className="page-subtitle-h2">Il vostro Sì nel cuore della Campania: tra eleganza secolare e regia millimetrica.</h2>
+              </div>
             </div>
           </div>
         </section>

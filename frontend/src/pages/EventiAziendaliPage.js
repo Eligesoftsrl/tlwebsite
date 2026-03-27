@@ -53,9 +53,11 @@ const EventiAziendaliPage = () => {
           <div className="page-hero-overlay"></div>
           <div className="page-hero-content">
             <div className="container">
-              <span className="hero-label">EVENTI AZIENDALI E GALA</span>
-              <h1 className="page-title">Location per Eventi Aziendali e Meeting a Salerno.</h1>
-              <h2 className="page-subtitle-h2">Prestigio, Logistica e Strategia: il palcoscenico per il tuo Business.</h2>
+              <div className="page-hero-text-center">
+                <span className="hero-label">EVENTI AZIENDALI E GALA</span>
+                <h1 className="page-title">Location per Eventi Aziendali e Meeting a Salerno.</h1>
+                <h2 className="page-subtitle-h2">Prestigio, Logistica e Strategia: il palcoscenico per il tuo Business.</h2>
+              </div>
             </div>
           </div>
         </section>

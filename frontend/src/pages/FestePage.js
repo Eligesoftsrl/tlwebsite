@@ -53,9 +53,11 @@ const FestePage = () => {
           <div className="page-hero-overlay"></div>
           <div className="page-hero-content">
             <div className="container">
-              <span className="hero-label">FESTE E RICORRENZE</span>
-              <h1 className="page-title">Feste di Laurea e Compleanni d'Autore a Salerno.</h1>
-              <h2 className="page-subtitle-h2">Trasforma il tuo traguardo in un evento leggendario nella nostra Dimora Storica.</h2>
+              <div className="page-hero-text-center">
+                <span className="hero-label">FESTE E RICORRENZE</span>
+                <h1 className="page-title">Feste di Laurea e Compleanni d'Autore a Salerno.</h1>
+                <h2 className="page-subtitle-h2">Trasforma il tuo traguardo in un evento leggendario nella nostra Dimora Storica.</h2>
+              </div>
             </div>
           </div>
         </section>

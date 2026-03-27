@@ -53,9 +53,11 @@ const ComunioniPage = () => {
           <div className="page-hero-overlay"></div>
           <div className="page-hero-content">
             <div className="container">
-              <span className="hero-label">COMUNIONI E BATTESIMI</span>
-              <h1 className="page-title">Comunioni e Battesimi d'Eccellenza in Campania.</h1>
-              <h2 className="page-subtitle-h2">Lo scenario ideale per i traguardi più preziosi della vostra famiglia.</h2>
+              <div className="page-hero-text-center">
+                <span className="hero-label">COMUNIONI E BATTESIMI</span>
+                <h1 className="page-title">Comunioni e Battesimi d'Eccellenza in Campania.</h1>
+                <h2 className="page-subtitle-h2">Lo scenario ideale per i traguardi più preziosi della vostra famiglia.</h2>
+              </div>
             </div>
           </div>
         </section>
