@@ -26,12 +26,12 @@ const BrigataPage = () => {
   return (
     <>
       <Helmet>
-        <title>La Brigata - I Nostri Chef | Tenuta Leone Salerno</title>
-        <meta name="description" content="Scopri il team di chef di Tenuta Leone: Executive Chef, Sous Chef e Chef de Partie. Tradizione campana e innovazione culinaria per matrimoni ed eventi a Salerno." />
-        <meta name="keywords" content="chef matrimonio salerno, brigata cucina, executive chef, tenuta leone, catering eventi campania" />
+        <title>La Brigata d'Autore | Cucina Interna d'Eccellenza | Tenuta Leone Salerno</title>
+        <meta name="description" content="La Brigata di Tenuta Leone: cucina interna d'eccellenza gestita dalla Famiglia Stasi. Alta gastronomia e tradizione campana per matrimoni ed eventi a Salerno e Avellino." />
+        <meta name="keywords" content="brigata cucina tenuta leone, cucina interna matrimoni salerno, chef matrimonio campania, alta gastronomia eventi avellino, ristorazione matrimoni salerno" />
         
-        <meta property="og:title" content="La Brigata - I Nostri Chef | Tenuta Leone" />
-        <meta property="og:description" content="Tradizione e innovazione: il team di chef che rende speciale ogni evento" />
+        <meta property="og:title" content="La Brigata d'Autore | Cucina Interna d'Eccellenza | Tenuta Leone" />
+        <meta property="og:description" content="Alta Gastronomia e Tradizione Campana: l'eccellenza firmata dalla Famiglia Stasi." />
         <meta property="og:image" content={`${BASE_URL}/img/brigata/c1.jpg`} />
         
         <link rel="canonical" href="https://www.tenutaleone.it/brigata" />
@@ -41,24 +41,55 @@ const BrigataPage = () => {
         </script>
       </Helmet>
 
-      <main className="brigata-page" data-testid="brigata-page">
+      <main className="brigata-page direzione-page" data-testid="brigata-page">
         {/* Hero */}
         <section className="page-hero" style={{ backgroundImage: 'url(/img/bg/bg_cucina.jpg)' }}>
           <div className="page-hero-overlay"></div>
           <div className="container">
             <div className="page-hero-content">
-              <h1 className="page-title">La Brigata di Cucina</h1>
-              <p className="page-subtitle">I nostri Chef</p>
-              <nav className="breadcrumb">
-                <Link to="/">Home</Link>
-                <span>/</span>
-                <span>La Brigata</span>
-              </nav>
+              <span className="hero-label">LA BRIGATA D'AUTORE</span>
+              <h1 className="page-title">La Brigata: Il Cuore Pulsante della Nostra Cucina.</h1>
+              <p className="page-subtitle">Alta Gastronomia e Tradizione Campana: l'eccellenza firmata dalla Famiglia Stasi.</p>
+            </div>
+          </div>
+          <div className="hero-scroll-indicator">
+            <span>Scopri</span>
+            <i className="fas fa-chevron-down"></i>
+          </div>
+        </section>
+
+        {/* Testo Introduttivo */}
+        <section className="content-section">
+          <div className="container">
+            <div className="intro-block">
+              <div className="intro-text-side">
+                <span className="section-label">QUALITÀ E CONTROLLO</span>
+                <h2>La Cucina Interna<br/><span className="highlight">della Famiglia Stasi</span></h2>
+                <p className="lead-text">
+                  A Tenuta Leone, il gusto non è un accessorio, ma l'essenza stessa dell'ospitalità. 
+                  A differenza delle comuni location, la nostra Dimora vanta una cucina interna d'eccellenza 
+                  gestita direttamente dalla Famiglia Stasi.
+                </p>
+                <p>
+                  La nostra Brigata è un'orchestra sincronizzata che trasforma le migliori materie prime della 
+                  Campania in opere d'arte gastronomiche. Scegliere la nostra cucina significa garantirsi il 
+                  controllo totale sulla filiera, la freschezza assoluta delle preparazioni espresse e l'autenticità 
+                  dei sapori del territorio di <strong>Salerno</strong> e <strong>Avellino</strong>.
+                </p>
+              </div>
+              <div className="intro-image-side">
+                <div className="image-card">
+                  <LazyImage 
+                    src="/img/brigata/c5.jpg" 
+                    alt="Brigata di cucina interna Tenuta Leone - Alta ristorazione per matrimoni Salerno" 
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </section>
 
-        {/* Team Section */}
+        {/* Team Section - 3 Chef + Foto Squadra (NON MODIFICATA) */}
         <section className="brigata-section">
           <div className="container">
             <div className="brigata-layout">
@@ -136,60 +167,83 @@ const BrigataPage = () => {
           </div>
         </section>
 
-        {/* Philosophy Section */}
-        <section className="philosophy-section">
+        {/* Il Valore della Tradizione */}
+        <section className="content-section">
           <div className="container">
-            <div className="philosophy-grid">
-              <div className="philosophy-image">
-                <LazyImage src="/img/piatti/p1.jpg" alt="Piatto Tenuta Leone" />
-              </div>
-              <div className="philosophy-content">
-                <span className="subtitle">LA NOSTRA FILOSOFIA</span>
-                <h2 className="section-title">Ogni piatto è <span>un'emozione</span></h2>
-                <p>
-                  Crediamo che il cibo sia molto più di un semplice nutrimento: è memoria, 
-                  è territorio, è condivisione. Per questo ogni menu viene studiato con cura, 
-                  rispettando le tradizioni ma con uno sguardo all'innovazione.
+            <div className="intro-block intro-block-reverse">
+              <div className="intro-text-side">
+                <span className="section-label">AUTORITÀ E MATERIA PRIMA</span>
+                <h2>Materie Prime e<br/><span className="highlight">Identità Territoriale</span></h2>
+                <p className="lead-text">
+                  La nostra Brigata lavora seguendo i ritmi delle stagioni. Ogni menù è un viaggio tra i profumi 
+                  del Mediterraneo, dove la tecnica moderna esalta la genuinità dei prodotti locali.
                 </p>
-                <ul className="philosophy-list">
-                  <li>
-                    <i className="fas fa-check"></i>
-                    Prodotti a km zero dai migliori produttori locali
-                  </li>
-                  <li>
-                    <i className="fas fa-check"></i>
-                    Menu personalizzati per ogni esigenza
-                  </li>
-                  <li>
-                    <i className="fas fa-check"></i>
-                    Attenzione alle intolleranze e allergie
-                  </li>
-                  <li>
-                    <i className="fas fa-check"></i>
-                    Degustazione pre-evento inclusa
-                  </li>
-                </ul>
+                <p>
+                  Dalla selezione delle farine per la panificazione interna alla scelta dei tagli di carne più pregiati 
+                  e del pescato freschissimo, ogni piatto è una conferma della nostra Firma d'Autore. La brigata non 
+                  si limita a cucinare: crea un'esperienza sensoriale che rimane impressa nei ricordi dei vostri ospiti.
+                </p>
+              </div>
+              <div className="intro-image-side">
+                <div className="image-card">
+                  <LazyImage 
+                    src="/img/piatti/p1.jpg" 
+                    alt="Dettaglio piatto gourmet della Famiglia Stasi - Cucina d'autore Campania" 
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* La Regia in Cucina */}
+        <section className="content-section">
+          <div className="container">
+            <div className="intro-block">
+              <div className="intro-text-side">
+                <span className="section-label">E-E-A-T / AFFIDABILITÀ</span>
+                <h2>Coordinamento e<br/><span className="highlight">Passione Operativa</span></h2>
+                <p className="lead-text">
+                  Sotto la supervisione attenta della Famiglia Stasi, la Brigata di Tenuta Leone opera con 
+                  una regia millimetrica.
+                </p>
+                <p>
+                  La coordinazione tra sala e cucina è il segreto della nostra fluidità: tempi perfetti, temperature 
+                  impeccabili e una presentazione visiva che anticipa il piacere del palato. Questo è il vantaggio 
+                  di una struttura che vive della propria ristorazione: la sicurezza di un risultato costante, 
+                  solido e inimitabile.
+                </p>
                 <Link to="/piatti" className="btn-primary" data-testid="brigata-piatti-btn">
                   SCOPRI I NOSTRI PIATTI
                   <i className="fas fa-arrow-right"></i>
                 </Link>
+              </div>
+              <div className="intro-image-side">
+                <div className="image-card">
+                  <LazyImage 
+                    src="/img/bg/bg_cucina.jpg" 
+                    alt="Brigata di cucina interna Tenuta Leone - Alta ristorazione per matrimoni Salerno" 
+                  />
+                </div>
               </div>
             </div>
           </div>
         </section>
 
         {/* CTA */}
-        <section className="brigata-cta cta-with-bg">
+        <section className="cta-section cta-with-bg">
           <div className="cta-bg-image" style={{ backgroundImage: 'url(/img/package_bg_1.webp)' }}></div>
           <div className="cta-overlay"></div>
           <div className="container">
-            <div className="brigata-cta-content">
+            <div className="cta-content">
               <h2>Vuoi provare la nostra cucina?</h2>
               <p>Prenota una degustazione e lasciati conquistare dai nostri sapori.</p>
-              <Link to="/contatti" className="btn-primary" data-testid="brigata-contact-btn">
-                PRENOTA UNA DEGUSTAZIONE
-                <i className="fas fa-arrow-right"></i>
-              </Link>
+              <div className="cta-buttons">
+                <Link to="/contatti" className="btn-outline" data-testid="brigata-contact-btn">
+                  Prenota una Degustazione
+                  <i className="fas fa-arrow-right"></i>
+                </Link>
+              </div>
             </div>
           </div>
         </section>
