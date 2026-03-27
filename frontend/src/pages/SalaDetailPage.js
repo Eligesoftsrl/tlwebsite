@@ -41,8 +41,9 @@ const SalaDetailPage = () => {
     "description": sala.description,
     "image": `${BASE_URL}${sala.image}`,
     "containedInPlace": {
-      "@type": "EventVenue",
+      "@type": "LocalBusiness",
       "name": "Tenuta Leone",
+      "image": `${BASE_URL}/img/slide/slide_1.jpg`,
       "address": {
         "@type": "PostalAddress",
         "streetAddress": siteConfig.address.street,
