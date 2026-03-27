@@ -2173,6 +2173,14 @@ a.mobile-nav-link.active {
   padding: var(--space-lg) 0;
 }
 
+.footer-geo {
+  text-align: center;
+  color: var(--color-secondary);
+  font-size: 0.85rem;
+  margin-bottom: var(--space-md);
+  font-weight: 500;
+}
+
 .footer-bottom-inner {
   display: flex;
   flex-direction: column;
@@ -6082,3 +6090,71 @@ a.mobile-nav-link.active {
 .coming-soon-content .btn {
   margin-top: var(--space-lg);
 }
+
+/* ============================================
+   Event Pages (Matrimoni, Comunioni, Feste, Aziendali)
+   ============================================ */
+
+.event-page {
+  background: var(--color-bg);
+}
+
+.page-subtitle-h2 {
+  font-family: var(--font-display);
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.9);
+  margin-top: var(--space-md);
+  max-width: 600px;
+}
+
+.event-content-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-2xl);
+  align-items: center;
+}
+
+@media (min-width: 992px) {
+  .event-content-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.event-text .lead-text {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: var(--color-text);
+  margin-bottom: var(--space-lg);
+}
+
+.event-text p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--color-text);
+  margin-bottom: var(--space-md);
+}
+
+.event-text strong {
+  color: var(--color-secondary);
+}
+
+.event-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-md);
+}
+
+.event-image-placeholder {
+  aspect-ratio: 4/5;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.event-image-placeholder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+

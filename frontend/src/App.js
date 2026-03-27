@@ -20,6 +20,10 @@ const MusicBandPage = lazy(() => import("./pages/MusicBandPage"));
 const QualcosaDiBluPage = lazy(() => import("./pages/QualcosaDiBluPage"));
 const DirezionePage = lazy(() => import("./pages/DirezionePage"));
 const FrontdeskPage = lazy(() => import("./pages/FrontdeskPage"));
+const MatrimoniPage = lazy(() => import("./pages/MatrimoniPage"));
+const ComunioniPage = lazy(() => import("./pages/ComunioniPage"));
+const FestePage = lazy(() => import("./pages/FestePage"));
+const EventiAziendaliPage = lazy(() => import("./pages/EventiAziendaliPage"));
 const PrivacyPolicyPage = lazy(() => import("./pages/PrivacyPolicyPage"));
 const CookiePolicyPage = lazy(() => import("./pages/CookiePolicyPage"));
 
@@ -62,6 +66,10 @@ function AppContent() {
             <Route path="/qualcosa-di-blu" element={<QualcosaDiBluPage />} />
             <Route path="/direzione" element={<DirezionePage />} />
             <Route path="/frontdesk" element={<FrontdeskPage />} />
+            <Route path="/matrimoni-autore-salerno" element={<MatrimoniPage />} />
+            <Route path="/comunioni-battesimi-campania" element={<ComunioniPage />} />
+            <Route path="/feste-laurea-salerno" element={<FestePage />} />
+            <Route path="/eventi-aziendali-salerno" element={<EventiAziendaliPage />} />
             <Route path="/sala/:slug" element={<SalaDetailPage />} />
             <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
             <Route path="/cookie-policy" element={<CookiePolicyPage />} />

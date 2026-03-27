@@ -21,11 +21,13 @@ const menuStructure = [
     ]
   },
   { 
-    label: "I Servizi", 
-    path: "/music-band",
+    label: "Gli Eventi", 
+    path: "/matrimoni-autore-salerno",
     submenu: [
-      { label: "Music Band", path: "/music-band" },
-      { label: "Qualcosa di Blu", path: "/qualcosa-di-blu", subtitle: "Wedding Consultant" }
+      { label: "Matrimoni d'Autore", path: "/matrimoni-autore-salerno" },
+      { label: "Comunioni e Battesimi", path: "/comunioni-battesimi-campania" },
+      { label: "Feste e Ricorrenze", path: "/feste-laurea-salerno" },
+      { label: "Eventi Aziendali e Gala", path: "/eventi-aziendali-salerno" }
     ]
   },
   { 

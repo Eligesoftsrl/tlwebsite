@@ -41,11 +41,10 @@ const Footer = () => {
             <div className="footer-col">
               <h4 className="footer-title">I Nostri Eventi</h4>
               <ul className="footer-links">
-                <li><Link to="/contatti">Matrimoni</Link></li>
-                <li><Link to="/contatti">Comunioni</Link></li>
-                <li><Link to="/contatti">Battesimi</Link></li>
-                <li><Link to="/contatti">Eventi Aziendali</Link></li>
-                <li><Link to="/tour">Tour Virtuale</Link></li>
+                <li><Link to="/matrimoni-autore-salerno">Matrimoni d'Autore</Link></li>
+                <li><Link to="/comunioni-battesimi-campania">Comunioni e Battesimi</Link></li>
+                <li><Link to="/feste-laurea-salerno">Feste e Ricorrenze</Link></li>
+                <li><Link to="/eventi-aziendali-salerno">Eventi Aziendali e Gala</Link></li>
               </ul>
             </div>
 
@@ -76,6 +75,7 @@ const Footer = () => {
 
       <div className="footer-bottom">
         <div className="container">
+          <p className="footer-geo">Tenuta Leone: Dimora Storica per eventi a Salerno, Avellino, Napoli e provincia.</p>
           <div className="footer-bottom-inner">
             <div className="footer-company">
               <p>&copy; {currentYear} {siteConfig.name} - Orocifrado Group S.R.L.</p>
