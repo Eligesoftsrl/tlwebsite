@@ -93,10 +93,21 @@ const FrontdeskPage = () => {
                     perfetto all'interno della nostra Dimora."
                   </blockquote>
                   <p className="profile-description">
-                    Adele è la prima guida nel mondo Orocifrado. Con un approccio empatico e professionale, 
-                    accoglie i vostri desideri per proporre soluzioni sartoriali. Cura il primo contatto e 
-                    la definizione del progetto iniziale con trasparenza, dedizione e una profonda conoscenza 
-                    dell'arte dell'accoglienza.
+                    Adele rappresenta il primo punto di contatto e l'inizio del viaggio nel mondo Orocifrado. 
+                    Con un approccio basato sull'ascolto empatico e sulla consulenza strategica, Adele si dedica 
+                    a decodificare i desideri di ogni coppia e famiglia, trasformandoli in un progetto concreto e sostenibile.
+                  </p>
+                  <p className="profile-description">
+                    La sua profonda conoscenza della Dimora Storica le permette di guidarvi nella scelta degli spazi 
+                    più idonei, dal fascino del parco secolare alla solennità delle sale ottocentesche, garantendo che 
+                    ogni evento a <strong>Salerno</strong> e provincia rifletta fedelmente l'identità di chi lo vive. 
+                    Attraverso una gestione trasparente della fase di preventivazione e un'attenzione maniacale alla 
+                    relazione interpersonale, Adele pone le basi per un evento d'eccellenza, assicurando che la 
+                    Firma d'Autore di Tenuta Leone sia visibile fin dal primo incontro conoscitivo.
+                  </p>
+                  <p className="profile-description">
+                    Il suo ruolo è fondamentale per chi cerca non una semplice location in <strong>Campania</strong>, 
+                    ma un partner professionale capace di dare ordine e armonia ai sogni più ambiziosi.
                   </p>
                 </div>
               </div>
@@ -119,11 +130,23 @@ const FrontdeskPage = () => {
                     vostro giorno speciale senza pensieri."
                   </blockquote>
                   <p className="profile-description">
-                    Anna è il pilastro operativo e il punto di riferimento costante per le coppie. 
-                    Si occupa del coordinamento millimetrico di ogni fase e fornisce supporto diretto 
-                    per qualsiasi problema o necessità logistica. È la figura che garantisce che la 
-                    macchina organizzativa giri alla perfezione, offrendo soluzioni immediate e una 
-                    presenza rassicurante durante tutta la progettazione.
+                    Anna rappresenta il pilastro operativo e la garanzia di tranquillità per ogni coppia che sceglie 
+                    la nostra Dimora Storica. Specializzata nel coordinamento logistico e nel supporto diretto, il suo 
+                    compito è trasformare la pianificazione in una realtà fluida e impeccabile. Anna agisce come l'anello 
+                    di congiunzione tra il vostro sogno e la complessa macchina organizzativa di Tenuta Leone, monitorando 
+                    ogni fase con una presenza costante e rassicurante.
+                  </p>
+                  <p className="profile-description">
+                    Dalla gestione dei fornitori esterni alla risoluzione immediata di qualsiasi necessità tecnica, 
+                    Anna mette a disposizione la sua competenza per eliminare ogni fonte di stress. Il suo supporto 
+                    costante garantisce che la Firma d'Autore si traduca in una regia millimetrica, dove ogni dettaglio 
+                    — dal timing del banchetto nuziale all'allestimento degli spazi interni ed esterni — sia gestito 
+                    con la massima precisione.
+                  </p>
+                  <p className="profile-description">
+                    Affidarsi ad Anna significa avere una professionista dedicata che veglia sulla perfetta riuscita 
+                    dell'evento a <strong>Salerno</strong> e in tutta la <strong>Campania</strong>, permettendo ai 
+                    protagonisti di godersi ogni istante della festa con la certezza di un risultato d'eccellenza.
                   </p>
                 </div>
               </div>
