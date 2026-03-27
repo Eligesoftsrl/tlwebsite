@@ -65,8 +65,10 @@ const MatrimoniPage = () => {
         {/* Content Section */}
         <section className="content-section">
           <div className="container">
-            <div className="event-content-grid">
-              <div className="event-text">
+            <div className="intro-block">
+              <div className="intro-text-side">
+                <span className="section-label">MATRIMONI D'AUTORE</span>
+                <h2>La Dimora dei vostri Sogni<br/><span className="highlight">a Salerno e in Campania</span></h2>
                 <p className="lead-text">
                   Scegliere <strong>Tenuta Leone</strong> significa affidarsi a una Dimora Storica d'eccellenza. 
                   Grazie alla Direzione Tecnica di Luigi Ceruso e alla tradizione della Famiglia Stasi, 
@@ -78,18 +80,11 @@ const MatrimoniPage = () => {
                   <strong>Napoli</strong> o <strong>Avellino</strong> diventa un'esperienza indimenticabile.
                 </p>
               </div>
-              
-              <div className="event-images">
-                <div className="event-image-placeholder">
+              <div className="intro-image-side">
+                <div className="image-card">
                   <LazyImage 
                     src="/img/slide/slide_1.jpg" 
                     alt="Banchetto nuziale d'autore a Tenuta Leone - Dettaglio allestimento" 
-                  />
-                </div>
-                <div className="event-image-placeholder">
-                  <LazyImage 
-                    src="/img/slide/slide_2.jpg" 
-                    alt="Spazi esterni Dimora Storica per rito civile a Salerno" 
                   />
                 </div>
               </div>

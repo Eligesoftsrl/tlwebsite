@@ -65,8 +65,10 @@ const ComunioniPage = () => {
         {/* Content Section */}
         <section className="content-section">
           <div className="container">
-            <div className="event-content-grid">
-              <div className="event-text">
+            <div className="intro-block">
+              <div className="intro-text-side">
+                <span className="section-label">COMUNIONI E BATTESIMI</span>
+                <h2>I Traguardi della Famiglia<br/><span className="highlight">in uno Scenario d'Eccellenza</span></h2>
                 <p className="lead-text">
                   Le ricorrenze familiari meritano il prestigio di una Tenuta storica. A <strong>Tenuta Leone</strong> progettiamo 
                   comunioni e battesimi unendo l'alta cucina del territorio alla sicurezza di ampi spazi verdi e sale ariose.
@@ -77,18 +79,11 @@ const ComunioniPage = () => {
                   al menù gourmet.
                 </p>
               </div>
-              
-              <div className="event-images">
-                <div className="event-image-placeholder">
+              <div className="intro-image-side">
+                <div className="image-card">
                   <LazyImage 
                     src="/img/slide/slide_2.jpg" 
                     alt="Tavolo buffet comunione in giardino a Tenuta Leone" 
-                  />
-                </div>
-                <div className="event-image-placeholder">
-                  <LazyImage 
-                    src="/img/slide/slide_3.jpg" 
-                    alt="Sala ricevimenti ariosa per eventi famiglia in Campania" 
                   />
                 </div>
               </div>

@@ -65,8 +65,10 @@ const EventiAziendaliPage = () => {
         {/* Content Section */}
         <section className="content-section">
           <div className="container">
-            <div className="event-content-grid">
-              <div className="event-text">
+            <div className="intro-block">
+              <div className="intro-text-side">
+                <span className="section-label">EVENTI AZIENDALI E GALA</span>
+                <h2>Il Palcoscenico del Business<br/><span className="highlight">nel cuore della Campania</span></h2>
                 <p className="lead-text">
                   <strong>Tenuta Leone</strong> è la scelta d'élite per meeting, congressi e cene di gala vicino all'uscita 
                   autostradale di Fisciano (A3). Garantiamo riservatezza, parcheggio privato e tecnologie all'avanguardia.
@@ -77,18 +79,11 @@ const EventiAziendaliPage = () => {
                   <strong>Napoli</strong> e <strong>Avellino</strong>.
                 </p>
               </div>
-              
-              <div className="event-images">
-                <div className="event-image-placeholder">
+              <div className="intro-image-side">
+                <div className="image-card">
                   <LazyImage 
                     src="/img/slide/slide_1.jpg" 
                     alt="Allestimento sala meeting prestigiosa a Tenuta Leone" 
-                  />
-                </div>
-                <div className="event-image-placeholder">
-                  <LazyImage 
-                    src="/img/slide/slide_2.jpg" 
-                    alt="Cena di gala aziendale con regia tecnica in Dimora Storica" 
                   />
                 </div>
               </div>

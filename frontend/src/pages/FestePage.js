@@ -65,8 +65,10 @@ const FestePage = () => {
         {/* Content Section */}
         <section className="content-section">
           <div className="container">
-            <div className="event-content-grid">
-              <div className="event-text">
+            <div className="intro-block">
+              <div className="intro-text-side">
+                <span className="section-label">FESTE E RICORRENZE</span>
+                <h2>Il Palcoscenico dei tuoi Traguardi<br/><span className="highlight">tra Salerno e Avellino</span></h2>
                 <p className="lead-text">
                   Dimentica le solite sale feste. Per il tuo diciottesimo, la tua festa di laurea o un anniversario speciale, 
                   <strong>Tenuta Leone</strong> offre un'atmosfera glamour tra <strong>Salerno</strong> e <strong>Avellino</strong>.
@@ -76,18 +78,11 @@ const FestePage = () => {
                   esclusivi firmati con uno stile inconfondibile nel cuore della <strong>Campania</strong>.
                 </p>
               </div>
-              
-              <div className="event-images">
-                <div className="event-image-placeholder">
+              <div className="intro-image-side">
+                <div className="image-card">
                   <LazyImage 
                     src="/img/slide/slide_3.jpg" 
                     alt="Party esclusivo nel porticato illuminato di Tenuta Leone" 
-                  />
-                </div>
-                <div className="event-image-placeholder">
-                  <LazyImage 
-                    src="/img/slide/slide_1.jpg" 
-                    alt="Dettaglio cocktail bar d'autore per festa di laurea a Salerno" 
                   />
                 </div>
               </div>
