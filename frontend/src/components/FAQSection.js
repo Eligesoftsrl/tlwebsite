@@ -27,8 +27,8 @@ const faqData = [
     answer: "Offriamo: suite sposi per la prima notte, piscina panoramica, ludoteca per bambini, parcheggio gratuito, WiFi, allestimenti personalizzati, coordinamento evento, servizio fotografico in location storica. Collaboriamo con i migliori fornitori della zona."
   },
   {
-    question: "È possibile celebrare il rito civile o religioso nella vostra location?",
-    answer: "Sì, Tenuta Leone dispone di una cappella privata consacrata per cerimonie religiose e di splendidi spazi all'aperto autorizzati per i riti civili. Possiamo organizzare sia la cerimonia che il ricevimento nella stessa location."
+    question: "È possibile celebrare il rito civile nella vostra location?",
+    answer: "Sì, Tenuta Leone dispone di splendidi spazi all'aperto autorizzati per i riti civili, tra cui il nostro meraviglioso uliveto che regala un'atmosfera romantica e suggestiva. Possiamo organizzare sia la cerimonia che il ricevimento nella stessa location."
   },
   {
     question: "Quali sono i vantaggi di scegliere una dimora storica per il matrimonio?",
