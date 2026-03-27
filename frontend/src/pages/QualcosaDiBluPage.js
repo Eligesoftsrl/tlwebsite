@@ -44,7 +44,7 @@ const QualcosaDiBluPage = () => {
 
       <main className="qualcosa-page direzione-page" data-testid="qualcosa-blu-page">
         {/* Hero */}
-        <section className="page-hero" style={{ backgroundImage: 'url(/img/slide/slide_1.jpg)' }}>
+        <section className="page-hero" style={{ backgroundImage: 'url(/img/qualcosa-di-blu/qdb_5.jpg)' }}>
           <div className="page-hero-overlay"></div>
           <div className="container">
             <div className="page-hero-content">
@@ -81,7 +81,7 @@ const QualcosaDiBluPage = () => {
               <div className="intro-image-side">
                 <div className="image-card">
                   <LazyImage 
-                    src="/img/slide/slide_2.jpg" 
+                    src="/img/qualcosa-di-blu/qdb_1.jpg" 
                     alt="Dettaglio allestimento blu per matrimonio d'autore a Tenuta Leone" 
                   />
                 </div>
@@ -113,7 +113,7 @@ const QualcosaDiBluPage = () => {
               <div className="intro-image-side">
                 <div className="image-card">
                   <LazyImage 
-                    src="/img/stanze/sala_ottocentesca/ottocento1.webp" 
+                    src="/img/qualcosa-di-blu/qdb_2.jpg" 
                     alt="Scenografia luminosa blu nelle sale storiche di Tenuta Leone Salerno" 
                   />
                 </div>
@@ -145,10 +145,28 @@ const QualcosaDiBluPage = () => {
               <div className="intro-image-side">
                 <div className="image-card">
                   <LazyImage 
-                    src="/img/stanze/gli_esterni/esterno2.webp" 
+                    src="/img/qualcosa-di-blu/qdb_3.jpg" 
                     alt="Allestimento esclusivo nel parco secolare di Tenuta Leone Salerno" 
                   />
                 </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Gallery Allestimenti */}
+        <section className="content-section">
+          <div className="container">
+            <div className="section-header centered">
+              <span className="section-label">I NOSTRI ALLESTIMENTI</span>
+              <h2>Dettagli che<br/><span className="highlight">fanno la Differenza</span></h2>
+            </div>
+            <div className="piatti-category-gallery">
+              <div className="piatto-card">
+                <LazyImage src="/img/qualcosa-di-blu/qdb_4.jpg" alt="Tableau de mariage con decorazioni verdi e fiori - Tenuta Leone Salerno" />
+              </div>
+              <div className="piatto-card">
+                <LazyImage src="/img/qualcosa-di-blu/qdb_5.jpg" alt="Allestimento tavola d'autore con candelabro e torta nuziale - Tenuta Leone" />
               </div>
             </div>
           </div>
