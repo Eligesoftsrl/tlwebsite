@@ -166,6 +166,9 @@ const QualcosaDiBluPage = () => {
                 <LazyImage src="/img/qualcosa-di-blu/qdb_4.jpg" alt="Tableau de mariage con decorazioni verdi e fiori - Tenuta Leone Salerno" />
               </div>
               <div className="piatto-card">
+                <LazyImage src="/img/qualcosa-di-blu/qdb_6.jpg" alt="Dettaglio mise en place blu con menu personalizzato - Tenuta Leone" />
+              </div>
+              <div className="piatto-card">
                 <LazyImage src="/img/qualcosa-di-blu/qdb_5.jpg" alt="Allestimento tavola d'autore con candelabro e torta nuziale - Tenuta Leone" />
               </div>
             </div>
