@@ -14,10 +14,7 @@ const menuStructure = [
   },
   { 
     label: "La Cucina", 
-    path: "/piatti",
-    submenu: [
-      { label: "I Piatti", path: "/piatti" }
-    ]
+    path: "/piatti"
   },
   { 
     label: "Gli Eventi", 
