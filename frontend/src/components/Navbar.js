@@ -33,7 +33,9 @@ const menuStructure = [
       { label: "La Direzione", path: "/direzione", subtitle: "La Regia" },
       { label: "Consulenza Eventi", path: "/frontdesk", subtitle: "Front Desk" },
       { label: "La Brigata", path: "/brigata", subtitle: "L'Eccellenza a tavola" },
-      { label: "La Pasticceria", path: "/pasticceria", subtitle: "L'Arte della Dolcezza" }
+      { label: "La Pasticceria", path: "/pasticceria", subtitle: "L'Arte della Dolcezza" },
+      { label: "La Music Band", path: "/music-band", subtitle: "Sound Design" },
+      { label: "Qualcosa di Blu", path: "/qualcosa-di-blu", subtitle: "Wedding Consultant" }
     ]
   },
   { label: "Contatti", path: "/contatti" }
