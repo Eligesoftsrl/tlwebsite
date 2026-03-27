@@ -92,18 +92,18 @@ const HeroSlider = () => {
             )}
             
             <div className="hero-overlay"></div>
-            {!slide.hideText && (
-              <div className="hero-content">
-                <div className="container">
-                  <div className="hero-text-wrapper">
+            <div className={`hero-content ${slide.isVideoSlide ? 'video-content' : ''}`}>
+              <div className="container">
+                <div className="hero-text-wrapper">
+                  {slide.title && (
                     <h1 className="hero-title" data-testid="hero-title">
                       {slide.title}
                     </h1>
-                    <p className="hero-text">{slide.text}</p>
-                  </div>
+                  )}
+                  {slide.text && <p className="hero-text">{slide.text}</p>}
                 </div>
               </div>
-            )}
+            </div>
           </div>
         ))}
       </div>
