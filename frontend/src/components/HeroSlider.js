@@ -48,7 +48,7 @@ const HeroSlider = () => {
   // Auto-advance slides (longer time for video slide)
   useEffect(() => {
     const currentSlideData = heroSlides[currentSlide];
-    const duration = currentSlideData.video ? 12000 : 6000; // 12s for video, 6s for images
+    const duration = currentSlideData.video ? 20000 : 6000; // 20s for video, 6s for images
     const timer = setInterval(nextSlide, duration);
     return () => clearInterval(timer);
   }, [nextSlide, currentSlide]);
@@ -92,16 +92,18 @@ const HeroSlider = () => {
             )}
             
             <div className="hero-overlay"></div>
-            <div className="hero-content">
-              <div className="container">
-                <div className="hero-text-wrapper">
-                  <h1 className="hero-title" data-testid="hero-title">
-                    {slide.title}
-                  </h1>
-                  <p className="hero-text">{slide.text}</p>
+            {!slide.hideText && (
+              <div className="hero-content">
+                <div className="container">
+                  <div className="hero-text-wrapper">
+                    <h1 className="hero-title" data-testid="hero-title">
+                      {slide.title}
+                    </h1>
+                    <p className="hero-text">{slide.text}</p>
+                  </div>
                 </div>
               </div>
-            </div>
+            )}
           </div>
         ))}
       </div>

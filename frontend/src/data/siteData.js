@@ -27,8 +27,9 @@ export const heroSlides = [
   {
     video: "/img/video/hero-video.mp4",
     poster: "/img/slide/slide_1.jpg",
-    title: "Tenuta Leone - Location Matrimoni ed Eventi a Salerno",
-    text: "Un'antica tenuta immersa nel verde, pensata per emozioni che durano nel tempo."
+    title: "",
+    text: "",
+    hideText: true
   },
   {
     image: "/img/slide/slide_1.jpg",
