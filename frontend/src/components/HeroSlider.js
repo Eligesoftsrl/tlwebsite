@@ -108,24 +108,6 @@ const HeroSlider = () => {
         ))}
       </div>
 
-      {/* Navigation Arrows */}
-      <button 
-        className="hero-arrow hero-prev" 
-        onClick={prevSlide}
-        aria-label="Slide precedente"
-        data-testid="hero-prev"
-      >
-        <i className="fas fa-chevron-left"></i>
-      </button>
-      <button 
-        className="hero-arrow hero-next" 
-        onClick={nextSlide}
-        aria-label="Slide successiva"
-        data-testid="hero-next"
-      >
-        <i className="fas fa-chevron-right"></i>
-      </button>
-
       {/* Dots */}
       <div className="hero-dots">
         {heroSlides.map((_, index) => (
