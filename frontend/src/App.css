@@ -3307,6 +3307,51 @@ a.mobile-nav-link.active {
   text-align: center;
 }
 
+/* Piatti Category Sections */
+.piatti-category-header {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto var(--space-2xl);
+}
+
+.piatti-category-header .pillar-icon-wrapper {
+  margin: 0 auto var(--space-md);
+}
+
+.piatti-category-header .section-label {
+  display: block;
+  margin-bottom: var(--space-sm);
+}
+
+.piatti-category-header h2 {
+  font-size: clamp(1.5rem, 4vw, 2.25rem);
+  line-height: 1.3;
+  margin-bottom: var(--space-lg);
+}
+
+.piatti-category-concept {
+  font-size: 1rem;
+  color: var(--color-text-muted);
+  line-height: 1.8;
+  font-style: italic;
+}
+
+.piatti-category-gallery {
+  display: grid;
+  gap: var(--space-md);
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+
+@media (min-width: 768px) {
+  .piatti-category-gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.piatti-category-section.dark-section {
+  background: var(--color-primary);
+}
+
 /* Only apply solid background when NOT using cta-with-bg */
 .piatti-cta:not(.cta-with-bg) {
   background: var(--color-primary-light);
