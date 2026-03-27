@@ -48,17 +48,18 @@ const ComunioniPage = () => {
 
       <main className="event-page" data-testid="comunioni-page">
         {/* Hero Section */}
-        <section className="page-hero">
-          <div className="page-hero-bg" style={{ backgroundImage: 'url(/img/slide/slide_2.jpg)' }}></div>
+        <section className="page-hero" style={{ backgroundImage: 'url(/img/slide/slide_2.jpg)' }}>
           <div className="page-hero-overlay"></div>
-          <div className="page-hero-content">
-            <div className="container">
-              <div className="page-hero-text-center">
-                <span className="hero-label">COMUNIONI E BATTESIMI</span>
-                <h1 className="page-title">Comunioni e Battesimi d'Eccellenza in Campania.</h1>
-                <h2 className="page-subtitle-h2">Lo scenario ideale per i traguardi più preziosi della vostra famiglia.</h2>
-              </div>
+          <div className="container">
+            <div className="page-hero-content">
+              <span className="hero-label">COMUNIONI E BATTESIMI</span>
+              <h1 className="page-title">Comunioni e Battesimi d'Eccellenza in Campania.</h1>
+              <p className="page-subtitle">Lo scenario ideale per i traguardi più preziosi della vostra famiglia.</p>
             </div>
+          </div>
+          <div className="hero-scroll-indicator">
+            <span>Scopri</span>
+            <i className="fas fa-chevron-down"></i>
           </div>
         </section>
 

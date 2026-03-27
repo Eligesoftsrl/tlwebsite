@@ -48,17 +48,18 @@ const FestePage = () => {
 
       <main className="event-page" data-testid="feste-page">
         {/* Hero Section */}
-        <section className="page-hero">
-          <div className="page-hero-bg" style={{ backgroundImage: 'url(/img/slide/slide_3.jpg)' }}></div>
+        <section className="page-hero" style={{ backgroundImage: 'url(/img/slide/slide_3.jpg)' }}>
           <div className="page-hero-overlay"></div>
-          <div className="page-hero-content">
-            <div className="container">
-              <div className="page-hero-text-center">
-                <span className="hero-label">FESTE E RICORRENZE</span>
-                <h1 className="page-title">Feste di Laurea e Compleanni d'Autore a Salerno.</h1>
-                <h2 className="page-subtitle-h2">Trasforma il tuo traguardo in un evento leggendario nella nostra Dimora Storica.</h2>
-              </div>
+          <div className="container">
+            <div className="page-hero-content">
+              <span className="hero-label">FESTE E RICORRENZE</span>
+              <h1 className="page-title">Feste di Laurea e Compleanni d'Autore a Salerno.</h1>
+              <p className="page-subtitle">Trasforma il tuo traguardo in un evento leggendario nella nostra Dimora Storica.</p>
             </div>
+          </div>
+          <div className="hero-scroll-indicator">
+            <span>Scopri</span>
+            <i className="fas fa-chevron-down"></i>
           </div>
         </section>
 

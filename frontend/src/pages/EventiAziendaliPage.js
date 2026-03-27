@@ -48,17 +48,18 @@ const EventiAziendaliPage = () => {
 
       <main className="event-page" data-testid="eventi-aziendali-page">
         {/* Hero Section */}
-        <section className="page-hero">
-          <div className="page-hero-bg" style={{ backgroundImage: 'url(/img/slide/slide_1.jpg)' }}></div>
+        <section className="page-hero" style={{ backgroundImage: 'url(/img/slide/slide_1.jpg)' }}>
           <div className="page-hero-overlay"></div>
-          <div className="page-hero-content">
-            <div className="container">
-              <div className="page-hero-text-center">
-                <span className="hero-label">EVENTI AZIENDALI E GALA</span>
-                <h1 className="page-title">Location per Eventi Aziendali e Meeting a Salerno.</h1>
-                <h2 className="page-subtitle-h2">Prestigio, Logistica e Strategia: il palcoscenico per il tuo Business.</h2>
-              </div>
+          <div className="container">
+            <div className="page-hero-content">
+              <span className="hero-label">EVENTI AZIENDALI E GALA</span>
+              <h1 className="page-title">Location per Eventi Aziendali e Meeting a Salerno.</h1>
+              <p className="page-subtitle">Prestigio, Logistica e Strategia: il palcoscenico per il tuo Business.</p>
             </div>
+          </div>
+          <div className="hero-scroll-indicator">
+            <span>Scopri</span>
+            <i className="fas fa-chevron-down"></i>
           </div>
         </section>
 
