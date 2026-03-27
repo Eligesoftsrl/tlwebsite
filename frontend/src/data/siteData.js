@@ -33,8 +33,8 @@ export const heroSlides = [
   },
   {
     image: "/img/slide/slide_1.jpg",
-    title: "Location per Matrimoni ed Eventi in Campania",
-    text: "Una sala incantevole, una piscina immersa nella natura, la magia di un \"sì\" indimenticabile."
+    title: "Spazi d'autore. Regia impeccabile",
+    text: "L'armonia di una dimora storica al servizio del vostro evento."
   },
   {
     image: "/img/slide/slide_2.jpg",
