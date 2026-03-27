@@ -130,8 +130,8 @@ const PiattiPage = () => {
               <div className="intro-image-side">
                 <div className="image-card">
                   <LazyImage 
-                    src="/img/piatti/p1.jpg" 
-                    alt="Alta cucina per matrimoni in Dimora Storica - Famiglia Stasi" 
+                    src="/img/piatti/fusilli_scampi.jpg" 
+                    alt="Fusilli con cremolata di scampi - Alta cucina Tenuta Leone Salerno" 
                   />
                 </div>
               </div>
