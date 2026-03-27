@@ -4686,6 +4686,18 @@ a.mobile-nav-link.active {
   object-fit: cover;
 }
 
+/* Team pages: show full portrait photos without cropping */
+[data-testid="direzione-page"] .intro-image-side .image-card,
+[data-testid="frontdesk-page"] .intro-image-side .image-card {
+  aspect-ratio: auto;
+}
+
+[data-testid="direzione-page"] .intro-image-side .image-card img,
+[data-testid="frontdesk-page"] .intro-image-side .image-card img {
+  height: auto;
+  object-fit: contain;
+}
+
 .intro-image-side .image-card::after {
   content: '';
   position: absolute;
