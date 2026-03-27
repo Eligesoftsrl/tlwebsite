@@ -43,8 +43,8 @@ export const heroSlides = [
   },
   {
     image: "/img/slide/slide_3.jpg",
-    title: "La Tua Location per Eventi a Salerno",
-    text: "Benvenuti a Tenuta Leone, qui ogni sogno diventa realtà."
+    title: "Unica. Come il vostro traguardo.",
+    text: "Uno scenario d'eccezione. Ricordi indelebili."
   }
 ];
 
