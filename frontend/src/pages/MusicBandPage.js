@@ -9,17 +9,24 @@ const MusicBandPage = () => {
     "@context": "https://schema.org",
     "@type": "MusicGroup",
     "name": "Tenuta Leone Music Band",
-    "description": "Band musicale residente per matrimoni ed eventi a Tenuta Leone, Salerno. Quintetto professionale specializzato in musica live per cerimonie e ricevimenti.",
-    "genre": ["Jazz", "Pop", "Soul", "Funk", "Dance", "Lounge"],
+    "description": "La Regia Sonora di Tenuta Leone: Sound Design professionale per matrimoni ed eventi a Salerno e Campania. Performance dal vivo di alto profilo.",
+    "genre": ["Jazz", "Bossanova", "Swing", "Pop", "Soul", "Funk", "Dance", "Lounge"],
     "numberOfMembers": 5,
-    "foundingLocation": {
-      "@type": "Place",
-      "name": "Tenuta Leone",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Calvanico",
-        "addressRegion": "Salerno",
-        "addressCountry": "IT"
+    "event": {
+      "@type": "Event",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "name": "Live Music Performance - Matrimoni ed Eventi",
+      "location": {
+        "@type": "Place",
+        "name": "Tenuta Leone",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Via Roma, 19",
+          "addressLocality": "Calvanico",
+          "addressRegion": "SA",
+          "postalCode": "84080",
+          "addressCountry": "IT"
+        }
       }
     }
   };
@@ -27,22 +34,27 @@ const MusicBandPage = () => {
   return (
     <>
       <Helmet>
-        <title>Music Band per Matrimoni Salerno | Tenuta Leone Music Band | Musica Live Eventi</title>
-        <meta name="description" content="Tenuta Leone Music Band: quintetto professionale per matrimoni ed eventi a Salerno e Campania. Musica live Jazz, Pop, Soul e Dance per il vostro ricevimento." />
-        <meta name="keywords" content="band matrimonio salerno, musica live matrimonio campania, gruppo musicale eventi, jazz band wedding, tenuta leone music band" />
+        <title>Music Band & Sound Design | Musica Live Matrimoni | Tenuta Leone Salerno</title>
+        <meta name="description" content="La Regia Sonora di Tenuta Leone: Sound Design professionale per matrimoni ed eventi. Jazz, Bossanova, Swing e party esclusivi dal vivo a Salerno e Campania." />
+        <meta name="keywords" content="musica aperitivo matrimonio salerno, jazz band eventi campania, musica dal vivo matrimoni, band feste esclusive, DJ set d'autore, sound design matrimonio" />
+        
+        <meta property="og:title" content="Music Band & Sound Design | Tenuta Leone" />
+        <meta property="og:description" content="Dalle atmosfere d'autore al party esclusivo: la colonna sonora del vostro evento." />
+        <meta property="og:image" content={`${BASE_URL}/img/gallery/insta_5.jpg`} />
+        
         <link rel="canonical" href="https://www.tenutaleone.it/music-band" />
         <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
       </Helmet>
 
-      <main className="music-band-page" data-testid="music-band-page">
-        {/* Hero Full Screen */}
+      <main className="music-band-page direzione-page" data-testid="music-band-page">
+        {/* Hero */}
         <section className="page-hero" style={{ backgroundImage: 'url(/img/gallery/insta_5.jpg)' }}>
           <div className="page-hero-overlay"></div>
           <div className="container">
             <div className="page-hero-content">
-              <span className="hero-label">FORMAZIONE RESIDENTE</span>
-              <h1 className="page-title">Tenuta Leone<br/><span>Music Band</span></h1>
-              <p className="page-subtitle">Il Ritmo del Vostro Sogno</p>
+              <span className="hero-label">MUSIC BAND & SOUND DESIGN</span>
+              <h1 className="page-title">La Regia Sonora: L'Anima Musicale di Tenuta Leone.</h1>
+              <p className="page-subtitle">Dalle atmosfere d'autore al party esclusivo: la colonna sonora del vostro evento.</p>
             </div>
           </div>
           <div className="hero-scroll-indicator">
@@ -51,32 +63,40 @@ const MusicBandPage = () => {
           </div>
         </section>
 
-        {/* Intro Section */}
+        {/* Il Manifesto Musicale */}
         <section className="content-section">
           <div className="container">
             <div className="intro-block">
               <div className="intro-text-side">
-                <span className="section-label">UN'ESPERIENZA SONORA SU MISURA</span>
-                <h2>La musica non è un semplice sottofondo,<br/>è <span className="highlight">l'anima del vostro matrimonio</span></h2>
+                <span className="section-label">IL MANIFESTO MUSICALE</span>
+                <h2>Sound Design<br/><span className="highlight">d'Autore</span></h2>
                 <p className="lead-text">
-                  La Tenuta Leone Music Band è la nostra formazione residente: un quintetto di professionisti 
-                  nato per offrire un viaggio sonoro unico, capace di adattarsi a ogni fase del ricevimento.
+                  A Tenuta Leone, la musica è l'elemento invisibile che trasforma un evento in un'emozione 
+                  memorabile. La nostra proposta musicale non è un semplice intrattenimento, ma un vero 
+                  Sound Design studiato per armonizzarsi con l'architettura della Dimora e i tempi della 
+                  nostra cucina.
                 </p>
                 <p>
-                  Scegliere la nostra band interna significa affidarsi a musicisti che vivono la Tenuta ogni giorno, 
-                  garantendo un'armonia perfetta tra performance live, acustica degli ambienti e scaletta dell'evento.
+                  Che si tratti delle note soffuse durante il rito civile nel parco secolare o del ritmo 
+                  coinvolgente del banchetto nelle sale storiche, ogni fase della giornata è scandita da una 
+                  selezione artistica d'eccellenza. La nostra Music Band garantisce performance dal vivo di 
+                  alto profilo a <strong>Salerno</strong> e in <strong>Campania</strong>, assicurando un 
+                  equilibrio perfetto tra eleganza e divertimento.
                 </p>
               </div>
               <div className="intro-image-side">
                 <div className="image-card">
-                  <LazyImage src="/img/slide/slide_1.jpg" alt="Music Band Tenuta Leone" />
+                  <LazyImage 
+                    src="/img/slide/slide_1.jpg" 
+                    alt="Music Band dal vivo durante un matrimonio a Tenuta Leone" 
+                  />
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* La Formazione - Visual Cards */}
+        {/* La Formazione */}
         <section className="dark-section">
           <div className="container">
             <div className="section-header centered">
@@ -148,161 +168,95 @@ const MusicBandPage = () => {
           </div>
         </section>
 
-        {/* I 4 Mood - Timeline Visual */}
+        {/* I Momenti dell'Evento */}
+
+        {/* A. Welcome & Aperitivo */}
         <section className="content-section">
           <div className="container">
-            <div className="section-header centered">
-              <span className="section-label">I NOSTRI MOOD MUSICALI</span>
-              <h2>Una Colonna Sonora <span className="highlight">in 4 Atti</span></h2>
-            </div>
-
-            <div className="mood-journey">
-              <div className="mood-item" data-testid="mood-1">
-                <div className="mood-number">01</div>
-                <div className="mood-content">
-                  <div className="mood-badge">L'Accoglienza</div>
-                  <h3>Musica in Filodiffusione</h3>
-                  <p>
-                    Il primo impatto definisce l'eleganza dell'evento. Mentre gli ospiti sorseggiano 
-                    il welcome drink tra i giardini, la musica in filodiffusione crea un'atmosfera 
-                    sospesa e raffinata.
-                  </p>
-                  <div className="mood-highlight">
-                    <strong>Protagonista:</strong> Selezione musicale curata per l'accoglienza
-                  </div>
-                </div>
-                <div className="mood-visual">
-                  <LazyImage src="/img/slide/slide_3.jpg" alt="Aperitivo Jazz" />
-                </div>
-              </div>
-
-              <div className="mood-item reverse" data-testid="mood-2">
-                <div className="mood-number">02</div>
-                <div className="mood-content">
-                  <div className="mood-badge">Il Banchetto</div>
-                  <h3>Elegant Pop & Soul</h3>
-                  <p>
-                    La musica si fa discreta ma presente, come un filo conduttore che accompagna 
-                    il piacere della tavola senza mai sovrastarlo.
-                  </p>
-                  <div className="mood-highlight">
-                    <strong>Protagonista:</strong> La Voce accarezza i momenti conviviali
-                  </div>
-                </div>
-                <div className="mood-visual">
-                  <LazyImage src="/img/slide/slide_1.jpg" alt="Cena di Gala" />
-                </div>
-              </div>
-
-              <div className="mood-item" data-testid="mood-3">
-                <div className="mood-number">03</div>
-                <div className="mood-content">
-                  <div className="mood-badge">Il Taglio della Torta</div>
-                  <h3>Emotional Moments</h3>
-                  <p>
-                    Il climax dell'evento richiede una regia sonora millimetrica. Il vostro 
-                    "brano del cuore" eseguito interamente dal vivo con arrangiamento orchestrale.
-                  </p>
-                  <div className="mood-highlight">
-                    <strong>Protagonista:</strong> Il Sax si esibisce durante il Taglio della Torta
-                  </div>
-                  <div className="mood-note">
-                    <em>Nota: Il Sax è disponibile esclusivamente per gli eventi serali</em>
-                  </div>
-                </div>
-                <div className="mood-visual">
-                  <LazyImage src="/img/slide/slide_2.jpg" alt="Taglio Torta" />
-                </div>
-              </div>
-
-              <div className="mood-item reverse" data-testid="mood-4">
-                <div className="mood-number">04</div>
-                <div className="mood-content">
-                  <div className="mood-badge">La Festa</div>
-                  <h3>Power Dance & Funky Party</h3>
-                  <p>
-                    Le luci cambiano, il ritmo sale. È il momento di sciogliere le formalità 
-                    e dare inizio al divertimento puro. Il DJ Set sprigiona tutta la sua energia.
-                  </p>
-                  <div className="mood-highlight">
-                    <strong>Protagonista:</strong> DJ Set per il ballo e il divertimento della serata
-                  </div>
-                </div>
-                <div className="mood-visual">
-                  <LazyImage src="/img/tenuta_antica/antica_8.jpg" alt="Party" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Perché Sceglierci - Feature Boxes */}
-        <section className="accent-section">
-          <div className="container">
-            <div className="features-grid">
-              <div className="feature-main">
-                <span className="section-label">PERCHÉ SCEGLIERCI</span>
-                <h2>Non eseguiamo solo canzoni,<br/><span className="highlight">creiamo atmosfere</span></h2>
-                <p>
-                  La Tenuta Leone Music Band trasforma ogni momento del vostro matrimonio 
-                  in un'esperienza sonora indimenticabile.
+            <div className="intro-block intro-block-reverse">
+              <div className="intro-text-side">
+                <span className="section-label">WELCOME & APERITIVO</span>
+                <h2>Atmosfere<br/><span className="highlight">Soffuse</span></h2>
+                <p className="lead-text">
+                  L'accoglienza dei vostri ospiti tra i giardini e il porticato è accompagnata da sonorità 
+                  raffinate — Jazz, Bossanova o Swing — che invitano alla conversazione e al relax, 
+                  preparando il cuore al resto della giornata.
                 </p>
-                <Link to="/contatti" className="btn-primary">
-                  Richiedi il Repertorio
-                  <i className="fas fa-arrow-right"></i>
-                </Link>
               </div>
-              
-              <div className="feature-box">
-                <div className="feature-icon">
-                  <i className="fas fa-sliders"></i>
+              <div className="intro-image-side">
+                <div className="image-card">
+                  <LazyImage 
+                    src="/img/slide/slide_3.jpg" 
+                    alt="Musica aperitivo matrimonio nel parco di Tenuta Leone Salerno" 
+                  />
                 </div>
-                <h4>Repertorio Personalizzato</h4>
-                <p>Costruiamo insieme a voi la colonna sonora perfetta</p>
-              </div>
-              
-              <div className="feature-box">
-                <div className="feature-icon">
-                  <i className="fas fa-check-circle"></i>
-                </div>
-                <h4>Affidabilità Tecnica</h4>
-                <p>Strumentazione residente di alta qualità</p>
-              </div>
-              
-              <div className="feature-box">
-                <div className="feature-icon">
-                  <i className="fas fa-music"></i>
-                </div>
-                <h4>Versatilità Stilistica</h4>
-                <p>Dal Chic Lounge al Power Dance coinvolgente</p>
-              </div>
-              
-              <div className="feature-box">
-                <div className="feature-icon">
-                  <i className="fas fa-users"></i>
-                </div>
-                <h4>Sincronia Totale</h4>
-                <p>Coordinamento perfetto con lo staff della Tenuta</p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* CTA Final */}
+        {/* B. Il Banchetto */}
+        <section className="content-section">
+          <div className="container">
+            <div className="intro-block">
+              <div className="intro-text-side">
+                <span className="section-label">IL BANCHETTO</span>
+                <h2>Eleganza e<br/><span className="highlight">Discrezione</span></h2>
+                <p className="lead-text">
+                  Durante il ricevimento, la musica diventa un filo conduttore discreto. Selezioni lounge 
+                  o acustiche che esaltano il piacere della tavola senza mai sovrastarlo, mantenendo sempre 
+                  quel tono di classe che contraddistingue la nostra Firma d'Autore.
+                </p>
+              </div>
+              <div className="intro-image-side">
+                <div className="image-card">
+                  <LazyImage 
+                    src="/img/slide/slide_2.jpg" 
+                    alt="Dettaglio setup musicale d'autore in Dimora Storica Salerno" 
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* C. Il Party */}
+        <section className="content-section">
+          <div className="container">
+            <div className="intro-block intro-block-reverse">
+              <div className="intro-text-side">
+                <span className="section-label">IL PARTY</span>
+                <h2>Energia e<br/><span className="highlight">Coinvolgimento</span></h2>
+                <p className="lead-text">
+                  Dopo il taglio della torta, la Dimora cambia pelle. Il ritmo sale e la band trascina 
+                  gli ospiti in un party esclusivo con i grandi successi internazionali e nazionali, 
+                  trasformando il finale dell'evento in una festa leggendaria.
+                </p>
+              </div>
+              <div className="intro-image-side">
+                <div className="image-card">
+                  <LazyImage 
+                    src="/img/tenuta_antica/antica_8.jpg" 
+                    alt="Music Band dal vivo durante un matrimonio a Tenuta Leone" 
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* CTA */}
         <section className="cta-section cta-with-bg">
           <div className="cta-bg-image" style={{ backgroundImage: 'url(/img/location_bg_1.webp)' }}></div>
           <div className="cta-overlay"></div>
           <div className="container">
             <div className="cta-content">
               <h2>Ascolta il nostro sound</h2>
-              <p>Richiedi la playlist d'ispirazione e inizia a costruire la colonna sonora del tuo grande giorno</p>
+              <p>Richiedi la playlist d'ispirazione e inizia a costruire la colonna sonora del tuo grande giorno.</p>
               <div className="cta-buttons">
-                <Link to="/contatti" className="btn-primary" data-testid="music-contact-btn">
+                <Link to="/contatti" className="btn-outline" data-testid="music-contact-btn">
                   Contattaci
                   <i className="fas fa-arrow-right"></i>
-                </Link>
-                <Link to="/qualcosa-di-blu" className="btn-outline">
-                  Scopri il Team Wedding
                 </Link>
               </div>
             </div>
