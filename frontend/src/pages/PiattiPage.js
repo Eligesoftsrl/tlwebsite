@@ -98,9 +98,9 @@ const PiattiPage = () => {
           <div className="page-hero-overlay"></div>
           <div className="container">
             <div className="page-hero-content">
-              <span className="hero-label">L'ESPERIENZA GASTRONOMICA</span>
-              <h1 className="page-title">L'Arte nel Piatto: La Nostra Firma d'Autore.</h1>
-              <p className="page-subtitle">Materie Prime d'Eccellenza e Alta Tecnica in Dimora Storica.</p>
+              <span className="hero-label">LA FIRMA GASTRONOMICA</span>
+              <h1 className="page-title">La Firma Gastronomica.</h1>
+              <p className="page-subtitle">L'eccellenza della cucina interna, tra rigore tecnico e identità campana.</p>
             </div>
           </div>
           <div className="hero-scroll-indicator">
