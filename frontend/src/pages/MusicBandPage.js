@@ -137,7 +137,7 @@ const MusicBandPage = () => {
                 </div>
                 <div className="instrument-info">
                   <h3>Sax</h3>
-                  <p>Il tocco glamour che accende l'aperitivo</p>
+                  <p>Il tocco glamour che accende l'atmosfera</p>
                 </div>
               </div>
               
