@@ -1178,6 +1178,32 @@ a.mobile-nav-link.active {
   line-height: 1.9;
 }
 
+.about-tagline {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-style: italic;
+  color: var(--color-secondary);
+  margin-bottom: var(--space-lg);
+  line-height: 1.6;
+}
+
+.about-highlight {
+  margin-top: var(--space-lg);
+  margin-bottom: var(--space-sm);
+}
+
+.inline-link {
+  color: var(--color-secondary);
+  text-decoration: none;
+  font-weight: 600;
+  transition: var(--transition-fast);
+}
+
+.inline-link:hover {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
 .about-buttons {
   display: flex;
   flex-wrap: wrap;

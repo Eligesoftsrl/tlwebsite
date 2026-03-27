@@ -143,19 +143,32 @@ const HomePage = () => {
 
               <div className="about-content">
                 <span className="subtitle">Orocifrado Group</span>
-                <h2 className="section-title">Benvenuti a Tenuta Leone</h2>
+                <h2 className="section-title">Orocifrado Group: La Firma d'Autore sui vostri Traguardi.</h2>
+                <h3 className="about-tagline">La nostra storia nella ristorazione è la vostra garanzia di successo.</h3>
                 <p className="about-text">
-                  Una dimora storica nel cuore della <strong>Campania</strong>, a pochi minuti da <strong>Salerno</strong>. 
-                  Con una solida tradizione nella ristorazione, la famiglia Stasi porta passione e cura in ogni dettaglio.
+                  Benvenuti nell'universo Orocifrado, il punto di riferimento in <strong>Campania</strong> per chi cerca 
+                  l'eccellenza in una location per matrimoni a <strong>Salerno</strong>, <strong>Napoli</strong> e <strong>Avellino</strong>. 
+                  Guidato dalla visione della Famiglia Stasi, il nostro gruppo trasforma la passione per l'accoglienza 
+                  in un metodo organizzativo d'élite.
                 </p>
                 <p className="about-text">
-                  La location ideale per <strong>matrimoni</strong>, comunioni, battesimi e <strong>eventi</strong> esclusivi. 
-                  Attraverso le nostre due location d'eccellenza – Tenuta Leone e Villa Vittoria – offriamo 
-                  accoglienza autentica, eleganza e un servizio impeccabile.
+                  Da oltre trent'anni, la nostra solida esperienza nella ristorazione rappresenta la vostra massima tutela: 
+                  una storia familiare che mettiamo al servizio di ogni coppia e di ogni famiglia per garantire 
+                  un <strong>evento impeccabile</strong> e privo di imprevisti.
+                </p>
+                <p className="about-text about-highlight">
+                  <strong>I Nostri Scenari d'Eccellenza:</strong>
                 </p>
                 <p className="about-text">
-                  Scegliere Orocifrado significa vivere un'esperienza curata con amore, raffinatezza e dedizione 
-                  nel cuore delle <strong>dimore storiche campane</strong>.
+                  Attraverso le nostre due dimore storiche — <Link to="/tour" className="inline-link">Tenuta Leone</Link> e 
+                  <a href="https://www.villavittoria.it" target="_blank" rel="noopener noreferrer" className="inline-link"> Villa Vittoria</a> — 
+                  firmiamo i momenti più preziosi della vostra vita. Che si tratti di un <strong>matrimonio</strong> da sogno, 
+                  di una comunione, di un battesimo o di un evento aziendale esclusivo in tutta la provincia di <strong>Salerno</strong>, 
+                  scegliere Orocifrado significa affidarsi a una consulenza dedicata e a una regia tecnica millimetrica.
+                </p>
+                <p className="about-text">
+                  Qui, l'eleganza delle nostre strutture incontra il rigore di un progetto su misura. 
+                  Perché ogni vostro traguardo merita la nostra <em>Firma d'Autore</em>.
                 </p>
 
                 <div className="about-buttons">
