@@ -19,10 +19,15 @@ const SpacesSlider = () => {
         <div className="container">
           <div className="spaces-header-inner">
             <div className="spaces-title-area">
-              <span className="subtitle">SCOPRI OGNI ANGOLO DELLA DIMORA STORICA</span>
+              <span className="subtitle">ESPLORA OGNI ANGOLO DELLA NOSTRA DIMORA STORICA</span>
               <h2 className="section-title">
-                Ogni spazio racconta <span>una storia</span>
+                Scenari d'Autore: <span>Il Palcoscenico dei vostri Traguardi.</span>
               </h2>
+              <p className="spaces-description">
+                Dalla solennità della Corte d'Onore alla raffinatezza delle Sale Ottocentesche, ogni spazio è progettato 
+                per garantire il ritmo perfetto del vostro evento a <strong>Salerno</strong>. Che sia un matrimonio da sogno 
+                o un evento aziendale d'élite, i nostri ambienti offrono la versatilità necessaria per una regia tecnica senza imprevisti.
+              </p>
             </div>
             <div className="spaces-actions">
               <Link to="/tour" className="btn-outline" data-testid="view-all-spaces">

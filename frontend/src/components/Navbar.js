@@ -17,7 +17,6 @@ const menuStructure = [
     path: "/piatti",
     submenu: [
       { label: "I Piatti", path: "/piatti" },
-      { label: "La Brigata", path: "/brigata" },
       { label: "La Pasticceria", path: "/pasticceria" }
     ]
   },
@@ -30,11 +29,12 @@ const menuStructure = [
     ]
   },
   { 
-    label: "Team", 
+    label: "Il Team", 
     path: "/direzione",
     submenu: [
-      { label: "Direzione di Struttura", path: "/direzione" },
-      { label: "Frontdesk", path: "/frontdesk" }
+      { label: "La Direzione", path: "/direzione", subtitle: "La Regia" },
+      { label: "Consulenza Eventi", path: "/frontdesk", subtitle: "Front Desk" },
+      { label: "La Brigata", path: "/brigata", subtitle: "L'Eccellenza a tavola" }
     ]
   },
   { label: "Contatti", path: "/contatti" }

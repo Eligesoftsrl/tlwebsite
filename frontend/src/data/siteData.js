@@ -27,24 +27,24 @@ export const heroSlides = [
   {
     video: "/img/video/hero-video.mp4",
     poster: "/img/slide/slide_1.jpg",
-    title: "La Firma d'Autore sul vostro Matrimonio",
-    text: "Oltre la bellezza, l'emozione di un evento impeccabile.",
+    title: "Tenuta Leone: La Firma d'Autore sui vostri Traguardi.",
+    text: "L'eccellenza dell'accoglienza. La perfezione di ogni istante.",
     isVideoSlide: true
   },
   {
     image: "/img/slide/slide_1.jpg",
-    title: "Spazi d'autore. Regia impeccabile",
+    title: "Spazi d'autore. Regia impeccabile.",
     text: "L'armonia di una dimora storica al servizio del vostro evento."
   },
   {
     image: "/img/slide/slide_2.jpg",
-    title: "Il vostro sogno. La nostra Firma.",
+    title: "Il vostro sogno. La nostra firma.",
     text: "Diamo vita ai vostri traguardi più belli."
   },
   {
     image: "/img/slide/slide_3.jpg",
-    title: "Unica. Come il vostro traguardo.",
-    text: "Uno scenario d'eccezione. Ricordi indelebili."
+    title: "Scenario unico. Solo per voi.",
+    text: "L'esclusività di un evento d'autore nel cuore della Campania."
   }
 ];
 
