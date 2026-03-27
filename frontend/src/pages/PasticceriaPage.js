@@ -127,6 +127,36 @@ const PasticceriaPage = () => {
           </div>
         </section>
 
+        {/* Il Maestro Pasticcere */}
+        <section className="content-section">
+          <div className="container">
+            <div className="intro-block intro-block-reverse">
+              <div className="intro-text-side">
+                <span className="section-label">IL MAESTRO PASTICCERE</span>
+                <h2>Gelsomino Cuozzo:<br/><span className="highlight">Pastry Chef</span></h2>
+                <p className="lead-text">
+                  "Ogni dolce che creo è un'emozione che prende forma. Il mio obiettivo è che il 
+                  primo sguardo e il primo assaggio siano un ricordo indelebile."
+                </p>
+                <p>
+                  Maestro pasticcere con anni di esperienza nel settore wedding, Gelsomino Cuozzo firma 
+                  dessert su misura per matrimoni ed eventi esclusivi. Stagionalità, tecnica e senso 
+                  estetico si fondono in dolci che emozionano al primo sguardo e al primo assaggio. 
+                  Ogni creazione è un'opera d'arte pensata per rendere indimenticabile il vostro giorno speciale.
+                </p>
+              </div>
+              <div className="intro-image-side">
+                <div className="image-card">
+                  <LazyImage 
+                    src="/img/brigata/p1.jpg" 
+                    alt="Gelsomino Cuozzo - Pastry Chef Tenuta Leone Salerno" 
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* La Wedding Cake */}
         <section className="content-section">
           <div className="container">
