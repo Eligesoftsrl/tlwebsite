@@ -15,7 +15,8 @@ const HomePage = () => {
   // Enhanced structured data for SEO
   const structuredData = {
     "@context": "https://schema.org",
-    "@type": "EventVenue",
+    "@type": "LocalBusiness",
+    "@id": "https://www.tenutaleone.it",
     "name": "Tenuta Leone",
     "alternateName": "Location Matrimoni Salerno",
     "description": "Tenuta Leone è una dimora storica a Calvanico (Salerno) che offre location esclusiva per matrimoni, eventi, comunioni e ricevimenti in Campania. Tour virtuali 360°, piscina panoramica, cucina gourmet.",
@@ -43,7 +44,6 @@ const HomePage = () => {
     "priceRange": "$$$$",
     "amenityFeature": [
       {"@type": "LocationFeatureSpecification", "name": "Piscina Panoramica", "value": true},
-      {"@type": "LocationFeatureSpecification", "name": "Cappella Privata", "value": true},
       {"@type": "LocationFeatureSpecification", "name": "Parcheggio Gratuito", "value": true},
       {"@type": "LocationFeatureSpecification", "name": "WiFi Gratuito", "value": true},
       {"@type": "LocationFeatureSpecification", "name": "Ludoteca", "value": true},
@@ -55,7 +55,6 @@ const HomePage = () => {
       "ratingValue": "5",
       "bestRating": "5",
       "worstRating": "1",
-      "reviewCount": "156",
       "ratingCount": "156"
     },
     "areaServed": [
