@@ -27,8 +27,8 @@ export const heroSlides = [
   {
     video: "/img/video/hero-video.mp4",
     poster: "/img/slide/slide_1.jpg",
-    title: "Tenuta Leone: La Firma d'Autore sul vostro Matrimonio",
-    text: "Dalla visione della Famiglia Stasi alla nostra Direzione Tecnica: garantiamo una regia millimetrica per ogni fase del vostro evento.",
+    title: "La Firma d'Autore sul vostro Matrimonio",
+    text: "Oltre la bellezza, l'emozione di un evento impeccabile.",
     isVideoSlide: true
   },
   {
