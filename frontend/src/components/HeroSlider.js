@@ -6,6 +6,7 @@ const HeroSlider = () => {
   const [isAnimating, setIsAnimating] = useState(false);
   const touchStartX = useRef(0);
   const touchEndX = useRef(0);
+  const videoRef = useRef(null);
 
   const goToSlide = useCallback((index) => {
     if (isAnimating) return;
@@ -44,10 +45,20 @@ const HeroSlider = () => {
     }
   };
 
+  // Auto-advance slides (longer time for video slide)
   useEffect(() => {
-    const timer = setInterval(nextSlide, 6000);
+    const currentSlideData = heroSlides[currentSlide];
+    const duration = currentSlideData.video ? 12000 : 6000; // 12s for video, 6s for images
+    const timer = setInterval(nextSlide, duration);
     return () => clearInterval(timer);
-  }, [nextSlide]);
+  }, [nextSlide, currentSlide]);
+
+  // Play video when it becomes active
+  useEffect(() => {
+    if (videoRef.current && heroSlides[currentSlide]?.video) {
+      videoRef.current.play().catch(() => {});
+    }
+  }, [currentSlide]);
 
   return (
     <section 
@@ -61,9 +72,25 @@ const HeroSlider = () => {
         {heroSlides.map((slide, index) => (
           <div 
             key={index}
-            className={`hero-slide ${index === currentSlide ? 'active' : ''}`}
-            style={{ backgroundImage: `url(${slide.image})` }}
+            className={`hero-slide ${index === currentSlide ? 'active' : ''} ${slide.video ? 'has-video' : ''}`}
+            style={!slide.video ? { backgroundImage: `url(${slide.image})` } : {}}
           >
+            {/* Video Background */}
+            {slide.video && (
+              <video
+                ref={index === 0 ? videoRef : null}
+                className="hero-video"
+                autoPlay
+                muted
+                loop
+                playsInline
+                preload="auto"
+                poster={slide.poster || ''}
+              >
+                <source src={slide.video} type="video/mp4" />
+              </video>
+            )}
+            
             <div className="hero-overlay"></div>
             <div className="hero-content">
               <div className="container">

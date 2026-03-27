@@ -25,14 +25,20 @@ export const siteConfig = {
 
 export const heroSlides = [
   {
-    image: "/img/slide/slide_1.jpg",
+    video: "/img/video/hero-video.mp4",
+    poster: "/img/slide/slide_1.jpg",
     title: "Tenuta Leone - Location Matrimoni ed Eventi a Salerno",
     text: "Un'antica tenuta immersa nel verde, pensata per emozioni che durano nel tempo."
   },
   {
-    image: "/img/slide/slide_2.jpg",
+    image: "/img/slide/slide_1.jpg",
     title: "Location per Matrimoni ed Eventi in Campania",
     text: "Una sala incantevole, una piscina immersa nella natura, la magia di un \"sì\" indimenticabile."
+  },
+  {
+    image: "/img/slide/slide_2.jpg",
+    title: "Dimora Storica per Eventi Esclusivi",
+    text: "Eleganza, tradizione e cucina d'eccellenza per il vostro giorno speciale."
   },
   {
     image: "/img/slide/slide_3.jpg",
