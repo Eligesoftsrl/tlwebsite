@@ -111,16 +111,22 @@ const BrigataPage = () => {
               {/* Center Column - Text */}
               <div className="brigata-center">
                 <div className="brigata-content">
-                  <span className="subtitle">LA NOSTRA CUCINA</span>
-                  <h2 className="section-title">Tradizione & <span>Innovazione</span></h2>
+                  <span className="subtitle">LA FORZA DELLA NOSTRA BRIGATA</span>
+                  <h2 className="section-title">L'Eccellenza di una Squadra,<br/><span>la Firma di una Famiglia.</span></h2>
                   <p className="brigata-text">
-                    A Tenuta Leone ogni piatto nasce da un lavoro di squadra: lo Chef firma i menù 
-                    e guida la visione culinaria, il Sous Chef coordina tempi e qualità in ogni servizio, 
-                    gli Chef de Partie presidiano i reparti — antipasti, primi e secondi — con precisione artigianale.
+                    A Tenuta Leone, ogni piatto è il risultato di una sinergia perfetta: un lavoro di squadra dove 
+                    il talento individuale si fonde in un'unica visione culinaria d'eccellenza. La nostra Brigata 
+                    interna opera come un organismo coordinato, dove ogni specialista presidia con precisione 
+                    artigianale il proprio reparto — dagli antipasti d'autore ai primi della tradizione, fino ai 
+                    secondi più ricercati.
                   </p>
                   <p className="brigata-text">
-                    Tradizione campana, ingredienti di stagione e cura del dettaglio danno vita a menù 
-                    personalizzati per eventi e matrimoni indimenticabili.
+                    Non affidiamo il vostro evento a un semplice servizio di catering: la forza della nostra squadra 
+                    risiede nel controllo totale di ogni fase della preparazione. Sotto la guida sapiente della 
+                    Famiglia Stasi, la cucina di Tenuta Leone trasforma le migliori materie prime della Campania in 
+                    menù personalizzati e scenografici. È questa unione di competenze, unita a una cura maniacale per 
+                    il dettaglio e alla freschezza degli ingredienti di stagione, a rendere ogni matrimonio e ogni 
+                    ricorrenza un traguardo indimenticabile di gusto e bellezza a Salerno e provincia.
                   </p>
                   
                   <div className="brigata-features">
