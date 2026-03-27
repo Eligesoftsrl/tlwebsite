@@ -27,7 +27,7 @@ export const heroSlides = [
   {
     video: "/img/video/hero-video.mp4",
     poster: "/img/slide/slide_1.jpg",
-    title: "Tenuta Leone: La Firma d'Autore sui vostri Traguardi.",
+    title: "La Firma d'Autore sui vostri momenti più preziosi.",
     text: "L'eccellenza dell'accoglienza. La perfezione di ogni istante.",
     isVideoSlide: true
   },
