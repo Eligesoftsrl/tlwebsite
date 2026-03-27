@@ -83,7 +83,7 @@ const MatrimoniPage = () => {
               <div className="intro-image-side">
                 <div className="image-card">
                   <LazyImage 
-                    src="/img/slide/slide_1.jpg" 
+                    src="/img/slide/slide_3.jpg" 
                     alt="Banchetto nuziale d'autore a Tenuta Leone - Dettaglio allestimento" 
                   />
                 </div>
