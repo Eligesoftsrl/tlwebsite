@@ -77,15 +77,16 @@ const FrontdeskPage = () => {
               
               {/* Adele Celentano */}
               <div className="team-profile-card">
-                <div className="profile-image-placeholder">
-                  <div className="placeholder-icon">
-                    <i className="fas fa-user"></i>
+                <div className="profile-header">
+                  <div className="profile-image-circle">
+                    <img src="/img/team/adele-celentano.jpg" alt="Adele Celentano Consulente Progetto Tenuta Leone" />
                   </div>
-                  <span className="placeholder-text">Foto in arrivo</span>
+                  <div className="profile-header-text">
+                    <h3 className="profile-name">Adele Celentano</h3>
+                    <p className="profile-role">Consulente di Progetto & Relazioni</p>
+                  </div>
                 </div>
                 <div className="profile-content">
-                  <h3 className="profile-name">Adele Celentano</h3>
-                  <p className="profile-role">Consulente di Progetto & Relazioni</p>
                   <blockquote className="profile-quote">
                     "La mia missione è tradurre le vostre emozioni in una pianificazione impeccabile. 
                     In Tenuta Leone, il mio compito è assicurarmi che la vostra visione trovi lo spazio 
@@ -102,15 +103,16 @@ const FrontdeskPage = () => {
 
               {/* Anna De Filippis */}
               <div className="team-profile-card">
-                <div className="profile-image-placeholder">
-                  <div className="placeholder-icon">
-                    <i className="fas fa-user"></i>
+                <div className="profile-header">
+                  <div className="profile-image-circle">
+                    <img src="/img/team/anna-de-filippis.jpg" alt="Anna De Filippis Coordinamento e Supporto Eventi Tenuta Leone" />
                   </div>
-                  <span className="placeholder-text">Foto in arrivo</span>
+                  <div className="profile-header-text">
+                    <h3 className="profile-name">Anna De Filippis</h3>
+                    <p className="profile-role">Consulente di Coordinamento & Supporto Eventi</p>
+                  </div>
                 </div>
                 <div className="profile-content">
-                  <h3 className="profile-name">Anna De Filippis</h3>
-                  <p className="profile-role">Consulente di Coordinamento & Supporto Eventi</p>
                   <blockquote className="profile-quote">
                     "La vostra serenità è il mio obiettivo. Il mio ruolo è essere al vostro fianco per 
                     risolvere ogni necessità e coordinare ogni dettaglio, affinché possiate vivere il 

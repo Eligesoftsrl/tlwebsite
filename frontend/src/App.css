@@ -6213,6 +6213,56 @@ a.mobile-nav-link.active {
   box-shadow: 0 25px 60px rgba(0, 0, 0, 0.12);
 }
 
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-lg);
+  padding: var(--space-xl);
+  background: linear-gradient(135deg, var(--color-primary) 0%, #1a2a3a 100%);
+}
+
+.profile-image-circle {
+  width: 90px;
+  height: 90px;
+  min-width: 90px;
+  border-radius: 50%;
+  border: 3px solid var(--color-secondary);
+  overflow: hidden;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.profile-image-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(20%);
+  transition: var(--transition-base);
+}
+
+.team-profile-card:hover .profile-image-circle img {
+  filter: grayscale(0%);
+}
+
+.profile-header-text {
+  flex: 1;
+}
+
+.profile-header-text .profile-name {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  color: var(--color-white);
+  margin-bottom: var(--space-xs);
+}
+
+.profile-header-text .profile-role {
+  font-size: 0.8rem;
+  color: var(--color-secondary);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 0;
+}
+
 .profile-image-placeholder {
   aspect-ratio: 4/5;
   background: linear-gradient(135deg, var(--color-bg-alt) 0%, var(--color-bg) 100%);
@@ -6254,14 +6304,14 @@ a.mobile-nav-link.active {
   padding: var(--space-xl);
 }
 
-.profile-name {
+.profile-content .profile-name {
   font-family: var(--font-display);
   font-size: 1.5rem;
   color: var(--color-primary);
   margin-bottom: var(--space-xs);
 }
 
-.profile-role {
+.profile-content .profile-role {
   font-size: 0.9rem;
   color: var(--color-secondary);
   font-weight: 600;
