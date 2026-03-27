@@ -4,6 +4,7 @@ import { heroSlides } from '../data/siteData';
 const HeroSlider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isAnimating, setIsAnimating] = useState(false);
+  const [animationKey, setAnimationKey] = useState(0);
   const touchStartX = useRef(0);
   const touchEndX = useRef(0);
   const videoRef = useRef(null);
@@ -12,6 +13,12 @@ const HeroSlider = () => {
     if (isAnimating) return;
     setIsAnimating(true);
     setCurrentSlide(index);
+    
+    // Reset animation key when going to video slide to retrigger fade
+    if (heroSlides[index]?.isVideoSlide) {
+      setAnimationKey(prev => prev + 1);
+    }
+    
     setTimeout(() => setIsAnimating(false), 800);
   }, [isAnimating]);
 
@@ -38,24 +45,25 @@ const HeroSlider = () => {
 
     if (Math.abs(swipeDistance) > minSwipeDistance) {
       if (swipeDistance > 0) {
-        nextSlide(); // Swipe left = next
+        nextSlide();
       } else {
-        prevSlide(); // Swipe right = prev
+        prevSlide();
       }
     }
   };
 
-  // Auto-advance slides (longer time for video slide)
+  // Auto-advance slides
   useEffect(() => {
     const currentSlideData = heroSlides[currentSlide];
-    const duration = currentSlideData.video ? 12000 : 6000; // 12s for video, 6s for images
+    const duration = currentSlideData.video ? 12000 : 6000;
     const timer = setInterval(nextSlide, duration);
     return () => clearInterval(timer);
   }, [nextSlide, currentSlide]);
 
-  // Play video when it becomes active
+  // Reset and play video when video slide becomes active
   useEffect(() => {
     if (videoRef.current && heroSlides[currentSlide]?.video) {
+      videoRef.current.currentTime = 0;
       videoRef.current.play().catch(() => {});
     }
   }, [currentSlide]);
@@ -78,7 +86,7 @@ const HeroSlider = () => {
             {/* Video Background */}
             {slide.video && (
               <video
-                ref={index === 0 ? videoRef : null}
+                ref={videoRef}
                 className="hero-video"
                 autoPlay
                 muted
@@ -94,7 +102,10 @@ const HeroSlider = () => {
             <div className="hero-overlay"></div>
             <div className={`hero-content ${slide.isVideoSlide ? 'video-content' : ''}`}>
               <div className="container">
-                <div className="hero-text-wrapper">
+                <div 
+                  className="hero-text-wrapper"
+                  key={slide.isVideoSlide ? animationKey : index}
+                >
                   {slide.title && (
                     <h1 className="hero-title" data-testid="hero-title">
                       {slide.title}
