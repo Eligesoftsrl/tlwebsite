@@ -82,8 +82,8 @@ const EventiAziendaliPage = () => {
               <div className="intro-image-side">
                 <div className="image-card">
                   <LazyImage 
-                    src="/img/slide/slide_1.jpg" 
-                    alt="Allestimento sala meeting prestigiosa a Tenuta Leone" 
+                    src="/img/eventi/piscina-tenuta.jpg" 
+                    alt="Location eventi aziendali con piscina panoramica a Tenuta Leone Salerno" 
                   />
                 </div>
               </div>

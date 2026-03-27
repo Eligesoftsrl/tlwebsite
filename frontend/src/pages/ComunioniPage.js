@@ -82,8 +82,8 @@ const ComunioniPage = () => {
               <div className="intro-image-side">
                 <div className="image-card">
                   <LazyImage 
-                    src="/img/slide/slide_2.jpg" 
-                    alt="Tavolo buffet comunione in giardino a Tenuta Leone" 
+                    src="/img/eventi/piscina-tenuta.jpg" 
+                    alt="Piscina panoramica Tenuta Leone per comunioni e battesimi in Campania" 
                   />
                 </div>
               </div>
