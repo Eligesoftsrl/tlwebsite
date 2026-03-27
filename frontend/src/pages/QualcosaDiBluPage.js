@@ -8,30 +8,49 @@ const QualcosaDiBluPage = () => {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
-    "name": "Qualcosa di Blu - Wedding Consultant Team",
-    "description": "Team interno di Wedding Consultancy di Tenuta Leone. Organizzazione professionale matrimoni ed eventi a Salerno e Campania.",
-    "serviceType": ["Wedding Planning", "Event Coordination", "Wedding Design"]
+    "name": "Qualcosa di Blu - Wedding Consultant Tenuta Leone",
+    "description": "Qualcosa di Blu: il segno distintivo di stile e raffinatezza di Tenuta Leone. Allestimenti d'autore, scenografie nuziali e wedding consultancy a Salerno e Campania.",
+    "serviceType": ["Wedding Planning", "Wedding Design", "Event Styling", "Allestimenti Matrimoni"],
+    "areaServed": {
+      "@type": "GeoCircle",
+      "geoMidpoint": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.733,
+        "longitude": 14.865
+      },
+      "geoRadius": "50000"
+    },
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "Tenuta Leone",
+      "url": "https://www.tenutaleone.it"
+    }
   };
 
   return (
     <>
       <Helmet>
-        <title>Wedding Planner Salerno | Qualcosa di Blu | Organizzazione Matrimoni Campania</title>
-        <meta name="description" content="Qualcosa di Blu: il team di Wedding Consultant interno di Tenuta Leone. Organizzazione professionale matrimoni a Salerno e Campania." />
-        <meta name="keywords" content="wedding planner salerno, organizzazione matrimoni campania, wedding consultant, allestimenti matrimonio" />
+        <title>Qualcosa di Blu | Wedding Consultant d'Autore | Tenuta Leone Salerno</title>
+        <meta name="description" content="Scopri il significato di 'Qualcosa di Blu' a Tenuta Leone: dove la tradizione del matrimonio incontra l'esclusività di allestimenti d'autore a Salerno." />
+        <meta name="keywords" content="allestimenti matrimonio eleganti salerno, decorazioni blu d'autore, scenografie nuziali ricercate, wedding consultant campania, wedding design dimora storica" />
+        
+        <meta property="og:title" content="Qualcosa di Blu | Wedding Consultant d'Autore | Tenuta Leone" />
+        <meta property="og:description" content="Oltre la tradizione: un segno distintivo di stile e raffinatezza in Dimora Storica." />
+        <meta property="og:image" content={`${BASE_URL}/img/slide/slide_1.jpg`} />
+        
         <link rel="canonical" href="https://www.tenutaleone.it/qualcosa-di-blu" />
         <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
       </Helmet>
 
-      <main className="qualcosa-page" data-testid="qualcosa-blu-page">
+      <main className="qualcosa-page direzione-page" data-testid="qualcosa-blu-page">
         {/* Hero */}
         <section className="page-hero" style={{ backgroundImage: 'url(/img/slide/slide_1.jpg)' }}>
           <div className="page-hero-overlay"></div>
           <div className="container">
             <div className="page-hero-content">
-              <span className="hero-label">WEDDING CONSULTANCY</span>
-              <h1 className="page-title">Qualcosa<br/><span>di Blu</span></h1>
-              <p className="page-subtitle">Il Team al Servizio del Vostro Sogno</p>
+              <span className="hero-label">L'ESCLUSIVIT&Agrave; DI UN DETTAGLIO</span>
+              <h1 className="page-title">Qualcosa di Blu: L'Anima Elegante di Tenuta Leone.</h1>
+              <p className="page-subtitle">Oltre la tradizione: un segno distintivo di stile e raffinatezza in Dimora Storica.</p>
             </div>
           </div>
           <div className="hero-scroll-indicator">
@@ -40,143 +59,95 @@ const QualcosaDiBluPage = () => {
           </div>
         </section>
 
-        {/* Intro */}
+        {/* Il Manifesto del Dettaglio */}
         <section className="content-section">
           <div className="container">
             <div className="intro-block">
               <div className="intro-text-side">
-                <span className="section-label">L'ECCELLENZA DI UN PROGETTO CORALE</span>
-                <h2>Non una guida solitaria,<br/><span className="highlight">un'intera squadra</span></h2>
+                <span className="section-label">IL MANIFESTO DEL DETTAGLIO</span>
+                <h2>Dove il Blu diventa<br/><span className="highlight">Firma d'Autore</span></h2>
                 <p className="lead-text">
-                  Nella tradizione, il "blu" è simbolo di stabilità e armonia. Per Tenuta Leone, 
-                  <strong> "Qualcosa di Blu"</strong> rappresenta il nostro reparto interno di Wedding Consultancy.
+                  Nella simbologia del matrimonio, il blu rappresenta la purezza, la fedeltà e la costanza. 
+                  A Tenuta Leone, 'Qualcosa di Blu' non è solo un omaggio alla tradizione, ma una vera 
+                  dichiarazione d'intenti stilistica.
                 </p>
                 <p>
-                  Un team affiatato di professionisti che trasforma l'organizzazione del matrimonio 
-                  in un'esperienza d'eccellenza fluida e senza stress. Dalla direzione creativa alla 
-                  regia tecnica, lavoriamo in simbiosi con l'anima della Tenuta.
+                  La nostra Firma d'Autore si manifesta nell'attenzione a quei piccoli, grandi dettagli che 
+                  rendono un evento unico. Dalle sfumature dei nostri allestimenti floreali alle luci soffuse 
+                  che accarezzano le sale ottocentesche, il blu diventa il filo conduttore di un'eleganza senza 
+                  tempo che avvolge ogni matrimonio a <strong>Salerno</strong> e in <strong>Campania</strong>.
                 </p>
               </div>
               <div className="intro-image-side">
                 <div className="image-card">
-                  <LazyImage src="/img/slide/slide_2.jpg" alt="Team Qualcosa di Blu" />
-                  <div className="image-badge">
-                    <i className="fas fa-heart"></i>
-                    <span>Dal 2010</span>
-                  </div>
+                  <LazyImage 
+                    src="/img/slide/slide_2.jpg" 
+                    alt="Dettaglio allestimento blu per matrimonio d'autore a Tenuta Leone" 
+                  />
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* I Vantaggi - Visual Grid */}
-        <section className="dark-section">
-          <div className="container">
-            <div className="section-header centered">
-              <span className="section-label">I VANTAGGI</span>
-              <h2>Perché affidarsi a <span className="highlight">noi</span></h2>
-            </div>
-
-            <div className="benefits-showcase">
-              <div className="benefit-card featured">
-                <div className="benefit-icon">
-                  <i className="fas fa-users-gear"></i>
-                </div>
-                <h3>Competenze Multidisciplinari</h3>
-                <p>
-                  Un pool di esperti in design, logistica e coordinamento che lavora 
-                  simultaneamente sul vostro evento. Ogni dettaglio ha il suo specialista.
-                </p>
-              </div>
-              
-              <div className="benefit-card">
-                <div className="benefit-icon">
-                  <i className="fas fa-handshake"></i>
-                </div>
-                <h3>Sinergia con la Tenuta</h3>
-                <p>
-                  Conosciamo ogni angolo, luce e potenzialità della struttura. 
-                  Ottimizziamo tempi e risultati.
-                </p>
-              </div>
-              
-              <div className="benefit-card">
-                <div className="benefit-icon">
-                  <i className="fas fa-clipboard-check"></i>
-                </div>
-                <h3>Presenza e Regia</h3>
-                <p>
-                  Copertura totale durante il giorno del sì. Coordinamento 
-                  dell'accoglienza e supervisione del backstage.
-                </p>
-              </div>
-              
-              <div className="benefit-card">
-                <div className="benefit-icon">
-                  <i className="fas fa-lightbulb"></i>
-                </div>
-                <h3>Visione Creativa</h3>
-                <p>
-                  Un laboratorio di idee dove il confronto tra consulenti 
-                  genera soluzioni innovative e allestimenti sartoriali.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Stili di Matrimonio */}
+        {/* Atmosfere e Allestimenti d'Autore */}
         <section className="content-section">
           <div className="container">
-            <div className="section-header centered">
-              <span className="section-label">LA VOSTRA VISIONE, LA NOSTRA REGIA</span>
-              <h2>Qualunque sia <span className="highlight">il vostro stile</span></h2>
-              <p className="section-intro">
-                Il nostro obiettivo è permettervi di essere ospiti d'onore al vostro matrimonio
-              </p>
+            <div className="intro-block intro-block-reverse">
+              <div className="intro-text-side">
+                <span className="section-label">ATMOSFERE E ALLESTIMENTI</span>
+                <h2>Scenografie<br/><span className="highlight">d'Autore</span></h2>
+                <p className="lead-text">
+                  Progettiamo scenografie dove il blu si declina in texture preziose e decori ricercati.
+                </p>
+                <p>
+                  Che sia il dettaglio di una mise en place d'élite o un tocco floreale nel nostro parco secolare, 
+                  ogni elemento è coordinato per creare un'armonia visiva che parla di voi e della nostra 
+                  dedizione all'eccellenza.
+                </p>
+                <Link to="/matrimoni-autore-salerno" className="btn-primary" data-testid="link-matrimoni">
+                  Scopri i Matrimoni d'Autore
+                  <i className="fas fa-arrow-right"></i>
+                </Link>
+              </div>
+              <div className="intro-image-side">
+                <div className="image-card">
+                  <LazyImage 
+                    src="/img/stanze/sala_ottocentesca/ottocento1.webp" 
+                    alt="Scenografia luminosa blu nelle sale storiche di Tenuta Leone Salerno" 
+                  />
+                </div>
+              </div>
             </div>
+          </div>
+        </section>
 
-            <div className="styles-showcase">
-              <div className="style-card" data-testid="style-modern">
-                <div className="style-image">
-                  <LazyImage src="/img/stanze/sala_ricevimenti/sala1.webp" alt="Modern Luxury" />
-                  <div className="style-overlay"></div>
-                </div>
-                <div className="style-content">
-                  <div className="style-icon">
-                    <i className="fas fa-gem"></i>
-                  </div>
-                  <h3>Modern Luxury</h3>
-                  <p>Linee pulite, materiali pregiati e dettagli contemporanei per chi ama l'eleganza minimalista</p>
-                </div>
+        {/* Il Sogno e la Tradizione */}
+        <section className="content-section">
+          <div className="container">
+            <div className="intro-block">
+              <div className="intro-text-side">
+                <span className="section-label">IL SOGNO E LA TRADIZIONE</span>
+                <h2>Una Regia<br/><span className="highlight">Millimetrica</span></h2>
+                <p className="lead-text">
+                  Vogliamo che ogni sposa e ogni coppia si senta protetta da una regia millimetrica.
+                </p>
+                <p>
+                  Inserire 'Qualcosa di Blu' nel concept del vostro giorno significa affidarsi a una visione 
+                  che non lascia nulla al caso, trasformando una leggenda popolare in un'esperienza sensoriale 
+                  di alto profilo.
+                </p>
+                <Link to="/tour" className="btn-primary" data-testid="link-dimora">
+                  Esplora la Dimora
+                  <i className="fas fa-arrow-right"></i>
+                </Link>
               </div>
-
-              <div className="style-card" data-testid="style-timeless">
-                <div className="style-image">
-                  <LazyImage src="/img/stanze/sala_ottocentesca/ottocento1.webp" alt="Timeless Elegant" />
-                  <div className="style-overlay"></div>
-                </div>
-                <div className="style-content">
-                  <div className="style-icon">
-                    <i className="fas fa-crown"></i>
-                  </div>
-                  <h3>Timeless Elegant</h3>
-                  <p>Classico e raffinato, ispirato alle grandi tradizioni con un tocco di modernità</p>
-                </div>
-              </div>
-
-              <div className="style-card" data-testid="style-creative">
-                <div className="style-image">
-                  <LazyImage src="/img/stanze/gli_esterni/esterno2.webp" alt="Creative Chic" />
-                  <div className="style-overlay"></div>
-                </div>
-                <div className="style-content">
-                  <div className="style-icon">
-                    <i className="fas fa-palette"></i>
-                  </div>
-                  <h3>Creative Chic</h3>
-                  <p>Originale e personalizzato, per chi desidera un evento che rispecchi la propria personalità</p>
+              <div className="intro-image-side">
+                <div className="image-card">
+                  <LazyImage 
+                    src="/img/stanze/gli_esterni/esterno2.webp" 
+                    alt="Allestimento esclusivo nel parco secolare di Tenuta Leone Salerno" 
+                  />
                 </div>
               </div>
             </div>
@@ -184,48 +155,36 @@ const QualcosaDiBluPage = () => {
         </section>
 
         {/* Partner Interni */}
-        <section className="accent-section">
+        <section className="dark-section direzione-pillars">
           <div className="container">
             <div className="section-header centered">
               <span className="section-label">IN SINERGIA CON</span>
               <h2>I Nostri <span className="highlight">Partner Interni</span></h2>
             </div>
 
-            <div className="partners-grid">
-              <Link to="/music-band" className="partner-card">
-                <div className="partner-image">
-                  <LazyImage src="/img/gallery/insta_5.jpg" alt="Music Band" />
-                  <div className="partner-overlay"></div>
+            <div className="pillars-showcase">
+              <Link to="/frontdesk" className="pillar-card-large" style={{ textDecoration: 'none', color: 'inherit' }}>
+                <div className="pillar-icon-wrapper">
+                  <i className="fas fa-concierge-bell"></i>
                 </div>
-                <div className="partner-content">
+                <h3>Consulenza Eventi</h3>
+                <p>Adele e Anna vi guidano dalla prima visita alla realizzazione del vostro sogno.</p>
+              </Link>
+
+              <Link to="/music-band" className="pillar-card-large" style={{ textDecoration: 'none', color: 'inherit' }}>
+                <div className="pillar-icon-wrapper">
                   <i className="fas fa-music"></i>
-                  <h3>Music Band</h3>
-                  <p>La colonna sonora perfetta</p>
                 </div>
+                <h3>Music Band</h3>
+                <p>La colonna sonora perfetta per ogni momento del vostro evento.</p>
               </Link>
 
-              <Link to="/brigata" className="partner-card">
-                <div className="partner-image">
-                  <LazyImage src="/img/brigata/c1.jpg" alt="La Brigata" />
-                  <div className="partner-overlay"></div>
+              <Link to="/pasticceria" className="pillar-card-large" style={{ textDecoration: 'none', color: 'inherit' }}>
+                <div className="pillar-icon-wrapper">
+                  <i className="fas fa-birthday-cake"></i>
                 </div>
-                <div className="partner-content">
-                  <i className="fas fa-utensils"></i>
-                  <h3>La Brigata</h3>
-                  <p>Menu personalizzati d'autore</p>
-                </div>
-              </Link>
-
-              <Link to="/pasticceria" className="partner-card">
-                <div className="partner-image">
-                  <LazyImage src="/img/piatti/p17.jpg" alt="Pasticceria" />
-                  <div className="partner-overlay"></div>
-                </div>
-                <div className="partner-content">
-                  <i className="fas fa-cake-candles"></i>
-                  <h3>Pasticceria</h3>
-                  <p>Torte nuziali e dessert</p>
-                </div>
+                <h3>La Pasticceria</h3>
+                <p>Torte nuziali scenografiche e buffet dolci firmati dalla nostra Brigata.</p>
               </Link>
             </div>
           </div>
@@ -238,14 +197,11 @@ const QualcosaDiBluPage = () => {
           <div className="container">
             <div className="cta-content">
               <h2>Raccontateci il vostro sogno</h2>
-              <p>Il primo passo verso il matrimonio perfetto inizia con una conversazione</p>
+              <p>Il primo passo verso il matrimonio perfetto inizia con una conversazione.</p>
               <div className="cta-buttons">
-                <Link to="/contatti" className="btn-primary" data-testid="qualcosa-contact-btn">
+                <Link to="/contatti" className="btn-outline" data-testid="qualcosa-contact-btn">
                   Richiedi un Incontro
                   <i className="fas fa-arrow-right"></i>
-                </Link>
-                <Link to="/tour" className="btn-outline">
-                  Scopri la Tenuta
                 </Link>
               </div>
             </div>
