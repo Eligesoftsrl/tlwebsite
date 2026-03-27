@@ -28,7 +28,7 @@ export const heroSlides = [
     video: "/img/video/hero-video.mp4",
     poster: "/img/slide/slide_1.jpg",
     title: "Tenuta Leone",
-    text: "Dove i momenti diventano ricordi indimenticabili",
+    text: "Momenti, emozioni indimenticabili.",
     isVideoSlide: true
   },
   {

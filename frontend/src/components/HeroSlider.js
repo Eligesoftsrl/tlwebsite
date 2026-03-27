@@ -48,7 +48,7 @@ const HeroSlider = () => {
   // Auto-advance slides (longer time for video slide)
   useEffect(() => {
     const currentSlideData = heroSlides[currentSlide];
-    const duration = currentSlideData.video ? 20000 : 6000; // 20s for video, 6s for images
+    const duration = currentSlideData.video ? 12000 : 6000; // 12s for video, 6s for images
     const timer = setInterval(nextSlide, duration);
     return () => clearInterval(timer);
   }, [nextSlide, currentSlide]);
