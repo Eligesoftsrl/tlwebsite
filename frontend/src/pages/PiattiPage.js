@@ -11,8 +11,8 @@ const BASE_URL = 'https://www.tenutaleone.it';
 const categories = [
   {
     id: 'antipasti',
-    label: 'GLI ANTIPASTI',
-    title: 'Gli Antipasti:',
+    label: 'SINFONIE DI BENVENUTO',
+    title: 'Sinfonie di Benvenuto:',
     highlight: 'Sinfonie di Benvenuto',
     icon: 'fas fa-seedling',
     concept: "L'inizio di ogni sogno gastronomico. Crudi di mare finissimi, tempure croccanti e selezioni di latticini DOP campani. Un equilibrio perfetto tra estetica e freschezza, servito nei nostri giardini o nelle sale ottocentesche.",

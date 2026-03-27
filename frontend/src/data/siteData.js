@@ -243,7 +243,7 @@ export const navLinks = [
 // Piatti categorizzati
 export const piatti = {
   antipasti: [
-    "/img/piatti/p1.jpg", "/img/piatti/p2.jpg", "/img/piatti/p3.jpg"
+    "/img/piatti/antipasto_1.jpg", "/img/piatti/antipasto_2.jpg", "/img/piatti/antipasto_3.jpg"
   ],
   primi: [
     "/img/piatti/p4.jpg", "/img/piatti/p5.jpg", "/img/piatti/p6.jpg", "/img/piatti/p7.jpg",
