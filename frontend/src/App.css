@@ -4061,6 +4061,15 @@ a.mobile-nav-link.active {
   margin: 0 auto var(--space-2xl);
 }
 
+.faq-tagline {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-style: italic;
+  color: var(--color-secondary);
+  margin-top: var(--space-md);
+  font-weight: 400;
+}
+
 .faq-intro {
   color: var(--color-text-muted);
   margin-top: var(--space-sm);
@@ -4101,14 +4110,22 @@ a.mobile-nav-link.active {
   border: none;
   text-align: left;
   color: var(--color-white);
-  font-family: var(--font-body);
-  font-size: 1rem;
-  font-weight: 600;
   cursor: pointer;
   transition: var(--transition-fast);
 }
 
+.faq-question-text {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
 .faq-question:hover {
+  color: var(--color-secondary);
+}
+
+.faq-question:hover .faq-question-text {
   color: var(--color-secondary);
 }
 

@@ -3,36 +3,36 @@ import { Helmet } from 'react-helmet-async';
 
 const faqData = [
   {
-    question: "Quali tipi di eventi organizzate a Tenuta Leone?",
-    answer: "A Tenuta Leone organizziamo matrimoni, comunioni, battesimi, cresime, feste di compleanno, anniversari, eventi aziendali, gala dinner e ricevimenti privati. La nostra dimora storica è la location perfetta per qualsiasi evento speciale in Campania."
+    question: "Quali tipi di eventi d'eccellenza organizzate a Tenuta Leone?",
+    answer: "Siamo la cornice ideale per ogni traguardo che meriti una Firma d'Autore. Oltre a essere una delle più rinomate location per matrimoni a Salerno e in Campania, la nostra struttura ospita comunioni, battesimi, anniversari ed eventi aziendali esclusivi. Ogni celebrazione, dalla sacralità di un \"Sì\" alla gioia di un traguardo di famiglia, riceve la stessa regia tecnica e cura del dettaglio che contraddistingue il nostro metodo organizzativo."
   },
   {
-    question: "Dove si trova Tenuta Leone e come raggiungerla?",
-    answer: "Tenuta Leone si trova a Calvanico, in provincia di Salerno, nel cuore della Campania. Siamo facilmente raggiungibili dall'autostrada A3 (uscita Fisciano-Lancusi) e a soli 20 minuti da Salerno città. Offriamo ampio parcheggio gratuito per tutti gli ospiti."
+    question: "Dove si trova la Tenuta e come raggiungerla facilmente?",
+    answer: "Tenuta Leone sorge a Calvanico (Salerno), in una posizione strategica nel cuore della Campania, a soli 20 minuti da Salerno città e facilmente raggiungibile dalle province di Avellino e Napoli tramite l'autostrada A3 (uscita Fisciano-Lancusi). La dimora offre un ampio parcheggio riservato e gratuito per garantire massima comodità e sicurezza a tutti i vostri ospiti."
   },
   {
-    question: "Quanti ospiti può ospitare la location per matrimoni?",
-    answer: "Tenuta Leone può ospitare eventi da 60 a oltre 200 ospiti, grazie alle diverse sale della dimora storica e agli ampi spazi esterni. Ogni ambiente può essere personalizzato in base alle vostre esigenze, dalle cerimonie intime ai grandi ricevimenti."
+    question: "Quanti ospiti può ospitare la location per i grandi eventi?",
+    answer: "Le nostre Sale Ottocentesche e il suggestivo Porticato sono progettati per accogliere grandi numeri senza mai rinunciare all'eleganza. La versatilità degli spazi permette di modulare l'accoglienza per banchetti nuziali o meeting aziendali d'élite, garantendo volumi ariosi, comfort assoluto e una fluidità del servizio impeccabile in ogni momento della festa."
   },
   {
-    question: "È possibile visitare la location prima di prenotare?",
-    answer: "Certamente! Offriamo visite guidate gratuite su appuntamento. Potete anche esplorare i nostri spazi comodamente da casa grazie ai tour virtuali 360° disponibili sul nostro sito. Contattateci per prenotare la vostra visita."
+    question: "È possibile celebrare il rito civile autentico presso la vostra struttura?",
+    answer: "Certamente. Tenuta Leone permette di celebrare il rito civile in uno scenario d'eccezione, immersi nel fascino della nostra dimora storica. Questo consente di evitare spostamenti stressanti per gli ospiti, mantenendo l'intera celebrazione sotto la nostra regia coordinata e garantendo una continuità stilistica ed emozionale unica."
   },
   {
-    question: "Cosa include il servizio di catering per matrimoni?",
-    answer: "Il nostro servizio catering include menu personalizzati con cucina tradizionale campana, antipasti, primi, secondi, contorni, torta nuziale e sweet table. Utilizziamo ingredienti locali e di stagione. Offriamo degustazione gratuita prima dell'evento."
+    question: "Cosa include l'eccellenza del vostro servizio di ristorazione interna?",
+    answer: "La nostra storia nella ristorazione è la vostra garanzia. Non offriamo un semplice catering, ma una vera Brigata di cucina guidata dalla solida tradizione della Famiglia Stasi. Il servizio include lo studio di menù personalizzati con materie prime d'eccellenza del territorio campano. Dagli aperitivi d'autore nel porticato al gran buffet finale, ogni sapore è curato internamente per assicurare qualità e freschezza assoluta."
   },
   {
-    question: "Quali servizi aggiuntivi offrite per gli eventi?",
-    answer: "Offriamo: suite sposi per la prima notte, piscina panoramica, ludoteca per bambini, parcheggio gratuito, WiFi, allestimenti personalizzati, coordinamento evento, servizio fotografico in location storica. Collaboriamo con i migliori fornitori della zona."
+    question: "Quali sono i vantaggi di scegliere una dimora storica come Tenuta Leone?",
+    answer: "Scegliere una dimora storica significa regalare un'esperienza che va oltre il tempo. Il vero vantaggio risiede nell'unione tra il prestigio architettonico del passato e un management dell'evento contemporaneo. A Tenuta Leone, il fascino secolare è supportato da una macchina organizzativa perfetta che trasforma la bellezza in un evento senza imprevisti."
   },
   {
-    question: "È possibile celebrare il rito civile nella vostra location?",
-    answer: "Sì, Tenuta Leone dispone di splendidi spazi all'aperto autorizzati per i riti civili, tra cui il nostro meraviglioso uliveto che regala un'atmosfera romantica e suggestiva. Possiamo organizzare sia la cerimonia che il ricevimento nella stessa location."
+    question: "Offrite servizi aggiuntivi per la personalizzazione dell'evento?",
+    answer: "Attraverso la nostra Consulenza Eventi dedicata, vi supportiamo nella definizione di ogni dettaglio: dal light design scenografico al coordinamento dei partner esterni. Il nostro obiettivo è sollevarvi da ogni stress, mettendo a vostra disposizione specialisti capaci di dare forma a un progetto sartoriale che rispecchi fedelmente i vostri desideri."
   },
   {
-    question: "Quali sono i vantaggi di scegliere una dimora storica per il matrimonio?",
-    answer: "Una dimora storica come Tenuta Leone offre atmosfere uniche e irripetibili: architetture d'epoca, affreschi originali, giardini storici e un fascino senza tempo. Ogni foto del vostro matrimonio sarà un'opera d'arte, con sfondi scenografici naturali."
+    question: "Posso visitare la location prima di definire il mio progetto?",
+    answer: "Sì, crediamo che l'ascolto sia il primo passo per un evento di successo. Vi invitiamo a prenotare una consulenza privata per scoprire ogni angolo della dimora e incontrare il nostro team. Sarà l'occasione per verificare di persona la qualità e la professionalità che firmeranno il vostro traguardo nel cuore della provincia di Salerno."
   }
 ];
 
@@ -68,13 +68,13 @@ const FAQSection = () => {
       <section className="faq-section" data-testid="faq-section">
         <div className="container">
           <div className="faq-header">
-            <span className="subtitle">DOMANDE FREQUENTI</span>
+            <span className="subtitle">DOMANDE FREQUENTI & GARANZIA D'AUTORE</span>
             <h2 className="section-title">
-              Tutto quello che devi <span>sapere</span>
+              Le Risposte alla vostra <span>Eccellenza.</span>
             </h2>
-            <p className="faq-intro">
-              Le risposte alle domande più frequenti su matrimoni, eventi e la nostra location a Salerno
-            </p>
+            <h3 className="faq-tagline">
+              Tutto ciò che rende Tenuta Leone la scelta sicura per il vostro traguardo.
+            </h3>
           </div>
 
           <div className="faq-grid">
@@ -89,7 +89,7 @@ const FAQSection = () => {
                   onClick={() => toggleFAQ(index)}
                   aria-expanded={openIndex === index}
                 >
-                  <span>{faq.question}</span>
+                  <h3 className="faq-question-text">{faq.question}</h3>
                   <i className={`fas ${openIndex === index ? 'fa-minus' : 'fa-plus'}`}></i>
                 </button>
                 <div className="faq-answer">
