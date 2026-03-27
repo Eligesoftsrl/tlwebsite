@@ -759,14 +759,28 @@ a.mobile-nav-link.active {
   display: flex;
   align-items: center;
   padding-top: 100px;
+  padding-left: var(--space-xl);
 }
 
-/* Video slide centered text */
+@media (min-width: 992px) {
+  .hero-content {
+    padding-left: calc(var(--space-xl) + 5%);
+  }
+}
+
+@media (min-width: 1400px) {
+  .hero-content {
+    padding-left: calc((100vw - 1400px) / 2 + var(--space-xl));
+  }
+}
+
+/* Video slide centered text with fade effect */
 .hero-content.video-content {
   align-items: center;
   justify-content: center;
   text-align: center;
   padding-top: 0;
+  padding-left: 0;
 }
 
 .hero-content.video-content .hero-text-wrapper {
@@ -777,9 +791,29 @@ a.mobile-nav-link.active {
   align-items: center;
 }
 
+.hero-content.video-content .hero-title {
+  opacity: 0;
+  animation: fadeInElegant 1.5s ease-out 0.5s forwards;
+}
+
 .hero-content.video-content .hero-text {
   max-width: 100%;
   text-align: center;
+  opacity: 0;
+  animation: fadeInElegant 1.5s ease-out 1.2s forwards;
+}
+
+@keyframes fadeInElegant {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+    filter: blur(4px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
 }
 
 .hero-text-wrapper {
