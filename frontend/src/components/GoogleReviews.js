@@ -77,12 +77,16 @@ const GoogleReviews = ({ limit = 3 }) => {
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": averageRating.toString(),
-      "reviewCount": totalReviews.toString(),
+      "ratingCount": totalReviews.toString(),
       "bestRating": "5",
       "worstRating": "1"
     },
     "review": defaultReviews.map(review => ({
       "@type": "Review",
+      "itemReviewed": {
+        "@type": "LocalBusiness",
+        "name": "Tenuta Leone"
+      },
       "author": {
         "@type": "Person",
         "name": review.author
