@@ -183,6 +183,8 @@ const ContactPage = () => {
                     <a href={`tel:${siteConfig.phone}`}>{siteConfig.phone}</a>
                     <br />
                     <a href="tel:+39089957371">+39 089 957371</a>
+                    <br />
+                    <a href="tel:+393452294361">+39 345 229 4361</a>
                   </div>
                 </div>
 
