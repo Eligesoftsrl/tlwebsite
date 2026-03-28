@@ -250,7 +250,6 @@ export const piatti = {
     "/img/piatti/p8.jpg", "/img/piatti/p9.jpg"
   ],
   secondi: [
-    "/img/piatti/p10.jpg", "/img/piatti/p11.jpg", "/img/piatti/p12.jpg",
     "/img/piatti/p13.jpg", "/img/piatti/p14.jpg", "/img/piatti/p15.jpg"
   ],
   pasticceria: [
