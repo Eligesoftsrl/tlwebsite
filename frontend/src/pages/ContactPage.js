@@ -180,7 +180,7 @@ const ContactPage = () => {
                   </div>
                   <div className="info-content">
                     <h4>Telefono</h4>
-                    <a href={`tel:${siteConfig.phone}`}>{siteConfig.phone}</a>
+                    <a href={`tel:${siteConfig.phone}`}>+39 089 957360</a>
                     <br />
                     <a href="tel:+39089957371">+39 089 957371</a>
                     <br />

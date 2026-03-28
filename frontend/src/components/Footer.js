@@ -64,6 +64,14 @@ const Footer = () => {
                   <a href="tel:+39089957360">+39 089 957360</a>
                 </li>
                 <li>
+                  <i className="fas fa-phone"></i>
+                  <a href="tel:+39089957371">+39 089 957371</a>
+                </li>
+                <li>
+                  <i className="fas fa-mobile-alt"></i>
+                  <a href="tel:+393452294361">+39 345 229 4361</a>
+                </li>
+                <li>
                   <i className="fas fa-envelope"></i>
                   <a href="mailto:segreteria.tenutaleone@orocifradogroup.it">segreteria.tenutaleone@orocifradogroup.it</a>
                 </li>
