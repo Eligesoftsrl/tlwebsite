@@ -5,7 +5,7 @@
   <!-- Homepage -->
   <url>
     <loc>https://www.tenutaleone.it/</loc>
-    <lastmod>2026-03-27</lastmod>
+    <lastmod>2026-03-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -72,7 +72,7 @@
   <!-- La Cucina -->
   <url>
     <loc>https://www.tenutaleone.it/piatti</loc>
-    <lastmod>2026-03-27</lastmod>
+    <lastmod>2026-03-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -95,7 +95,7 @@
   
   <url>
     <loc>https://www.tenutaleone.it/frontdesk</loc>
-    <lastmod>2026-03-27</lastmod>
+    <lastmod>2026-03-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -106,7 +106,7 @@
   
   <url>
     <loc>https://www.tenutaleone.it/brigata</loc>
-    <lastmod>2026-03-27</lastmod>
+    <lastmod>2026-03-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -117,7 +117,7 @@
   
   <url>
     <loc>https://www.tenutaleone.it/pasticceria</loc>
-    <lastmod>2026-03-27</lastmod>
+    <lastmod>2026-03-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -128,14 +128,14 @@
   
   <url>
     <loc>https://www.tenutaleone.it/music-band</loc>
-    <lastmod>2026-03-27</lastmod>
+    <lastmod>2026-03-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://www.tenutaleone.it/qualcosa-di-blu</loc>
-    <lastmod>2026-03-27</lastmod>
+    <lastmod>2026-03-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -147,7 +147,7 @@
   <!-- Gli Eventi -->
   <url>
     <loc>https://www.tenutaleone.it/matrimoni-autore-salerno</loc>
-    <lastmod>2026-03-27</lastmod>
+    <lastmod>2026-03-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -158,21 +158,21 @@
   
   <url>
     <loc>https://www.tenutaleone.it/comunioni-battesimi-campania</loc>
-    <lastmod>2026-03-27</lastmod>
+    <lastmod>2026-03-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
     <loc>https://www.tenutaleone.it/feste-laurea-salerno</loc>
-    <lastmod>2026-03-27</lastmod>
+    <lastmod>2026-03-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
     <loc>https://www.tenutaleone.it/eventi-aziendali-salerno</loc>
-    <lastmod>2026-03-27</lastmod>
+    <lastmod>2026-03-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -180,12 +180,12 @@
   <!-- Contatti -->
   <url>
     <loc>https://www.tenutaleone.it/contatti</loc>
-    <lastmod>2026-03-24</lastmod>
+    <lastmod>2026-03-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   
-  <!-- Legal (low priority) -->
+  <!-- Legal -->
   <url>
     <loc>https://www.tenutaleone.it/privacy-policy</loc>
     <lastmod>2026-03-24</lastmod>
