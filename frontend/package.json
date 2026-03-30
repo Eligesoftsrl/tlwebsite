@@ -61,7 +61,7 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
-    "postbuild": "react-snap || echo 'react-snap skipped - pre-rendering not available in this environment'",
+    "build:prerender": "craco build && react-snap",
     "test": "craco test"
   },
   "reactSnap": {
