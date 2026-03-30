@@ -61,14 +61,13 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
-    "postbuild": "react-snap",
+    "postbuild": "react-snap || echo 'react-snap skipped - pre-rendering not available in this environment'",
     "test": "craco test"
   },
   "reactSnap": {
     "source": "build",
     "inlineCss": false,
-    "puppeteerArgs": ["--no-sandbox", "--disable-setuid-sandbox"],
-    "puppeteerExecutablePath": "/root/.cache/ms-playwright/chromium-1208/chrome-linux/chrome",
+    "puppeteerArgs": ["--no-sandbox", "--disable-setuid-sandbox", "--disable-gpu"],
     "include": [
       "/",
       "/tour",
