@@ -31,6 +31,7 @@ jobs:
         env:
           GENERATE_SOURCEMAP: 'false'
           CI: 'false'
+          PUPPETEER_EXECUTABLE_PATH: /usr/bin/google-chrome-stable
         run: yarn build:prerender
 
       - name: Deploy to Vercel
