@@ -7,6 +7,7 @@ import ServicesSection from '../components/ServicesSection';
 import GoogleReviews from '../components/GoogleReviews';
 import InstagramFeed from '../components/InstagramFeed';
 import FAQSection from '../components/FAQSection';
+import BlogPreview from '../components/BlogPreview';
 import LazyImage from '../components/LazyImage';
 
 const BASE_URL = 'https://www.tenutaleone.it';
@@ -204,6 +205,9 @@ const HomePage = () => {
 
         {/* Instagram Feed */}
         <InstagramFeed />
+
+        {/* Blog Preview */}
+        <BlogPreview />
 
         {/* FAQ Section */}
         <FAQSection />

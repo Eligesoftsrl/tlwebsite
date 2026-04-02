@@ -38,6 +38,7 @@ const menuStructure = [
       { label: "Qualcosa di Blu", path: "/qualcosa-di-blu", subtitle: "Wedding Consultant" }
     ]
   },
+  { label: "Blog", path: "/blog" },
   { label: "Contatti", path: "/contatti" }
 ];
 
