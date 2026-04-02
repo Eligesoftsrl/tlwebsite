@@ -614,7 +614,7 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-menu .nav-menu {
   display: flex;
   flex-direction: column;
-  gap: var(--space-md);
+  gap: var(--space-sm);
 }
 
 .mobile-nav-item {
@@ -655,7 +655,7 @@ a.mobile-nav-link.active {
 }
 
 .mobile-submenu.open {
-  max-height: 300px;
+  max-height: 600px;
   padding-top: var(--space-sm);
 }
 
