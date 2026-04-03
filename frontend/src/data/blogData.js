@@ -1,4 +1,29 @@
 // Blog articles data
+
+// Tag categories for reference:
+// Istituzionali: TenutaLeone, FirmaDAutore, FamigliaStasi, DimoraStorica, MatrimoniDAutore
+// Geografici: MatrimonioSalerno, WeddingCampania, LocationMatrimoniSalerno, EventiSalerno, WeddingItaly
+// Gastronomici: AltaCucinaDAutore, PasticceriaInterna, BanchettoNuziale, EccellenzaGastronomica, FoodDesignWedding
+// Ispirazione/Trend: WeddingInspiration, Sposi2026, WeddingTips, IdeeMatrimonio, DettagliDAutore, QualcosaDiBlu
+
+export const allTags = [
+  // Istituzionali
+  "TenutaLeone", "FirmaDAutore", "FamigliaStasi", "DimoraStorica", "MatrimoniDAutore",
+  // Geografici
+  "MatrimonioSalerno", "WeddingCampania", "LocationMatrimoniSalerno", "EventiSalerno", "WeddingItaly",
+  // Gastronomici
+  "AltaCucinaDAutore", "PasticceriaInterna", "BanchettoNuziale", "EccellenzaGastronomica", "FoodDesignWedding",
+  // Ispirazione e Trend
+  "WeddingInspiration", "Sposi2026", "WeddingTips", "IdeeMatrimonio", "DettagliDAutore", "QualcosaDiBlu"
+];
+
+export const tagCategories = {
+  "Istituzionali": ["TenutaLeone", "FirmaDAutore", "FamigliaStasi", "DimoraStorica", "MatrimoniDAutore"],
+  "Geografici": ["MatrimonioSalerno", "WeddingCampania", "LocationMatrimoniSalerno", "EventiSalerno", "WeddingItaly"],
+  "Gastronomici": ["AltaCucinaDAutore", "PasticceriaInterna", "BanchettoNuziale", "EccellenzaGastronomica", "FoodDesignWedding"],
+  "Ispirazione e Trend": ["WeddingInspiration", "Sposi2026", "WeddingTips", "IdeeMatrimonio", "DettagliDAutore", "QualcosaDiBlu"]
+};
+
 export const blogArticles = [
   {
     slug: "matrimonio-autunno-dimora-storica-salerno",
@@ -26,6 +51,12 @@ export const blogArticles = [
     date: "2026-03-15",
     author: "Tenuta Leone",
     category: "Matrimoni",
+    tags: [
+      "TenutaLeone", "FirmaDAutore", "FamigliaStasi", "DimoraStorica", "MatrimoniDAutore",
+      "MatrimonioSalerno", "WeddingCampania", "LocationMatrimoniSalerno", "WeddingItaly",
+      "AltaCucinaDAutore", "BanchettoNuziale", "EccellenzaGastronomica",
+      "WeddingInspiration", "Sposi2026", "IdeeMatrimonio", "DettagliDAutore", "QualcosaDiBlu"
+    ],
     keywords: "matrimonio autunno salerno, sposarsi in autunno campania, dimora storica matrimonio, wedding venue autunno"
   }
 ];

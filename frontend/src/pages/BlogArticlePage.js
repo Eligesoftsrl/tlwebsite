@@ -37,13 +37,14 @@ const BlogArticlePage = () => {
       "name": "Tenuta Leone",
       "url": "https://www.tenutaleone.it"
     },
-    "mainEntityOfPage": `https://www.tenutaleone.it/blog/${article.slug}`
+    "mainEntityOfPage": `https://www.tenutaleone.it/blog/${article.slug}`,
+    "keywords": (article.tags || []).map(t => `#${t}`).join(', ')
   };
 
   return (
     <>
       <Helmet>
-        <title>{article.title} | Blog Tenuta Leone</title>
+        <title>{`${article.title} | Blog Tenuta Leone`}</title>
         <meta name="description" content={article.excerpt} />
         <meta name="keywords" content={article.keywords} />
         <meta property="og:title" content={article.title} />
@@ -73,7 +74,30 @@ const BlogArticlePage = () => {
         <section className="content-section">
           <div className="container">
             <div className="blog-article-layout">
-              <div className="blog-article-body" dangerouslySetInnerHTML={{ __html: article.content }} />
+              <div>
+                <div className="blog-article-body" dangerouslySetInnerHTML={{ __html: article.content }} />
+
+                {/* Tags Section */}
+                {article.tags && article.tags.length > 0 && (
+                  <div className="blog-article-tags" data-testid="blog-article-tags">
+                    <span className="blog-article-tags-label">
+                      <i className="fas fa-tags"></i> Tag:
+                    </span>
+                    <div className="blog-article-tags-list">
+                      {article.tags.map(tag => (
+                        <Link
+                          key={tag}
+                          to={`/blog?tag=${tag}`}
+                          className="blog-tag-pill"
+                          data-testid={`article-tag-${tag}`}
+                        >
+                          #{tag}
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
               
               <aside className="blog-article-sidebar">
                 <div className="blog-sidebar-cta">
