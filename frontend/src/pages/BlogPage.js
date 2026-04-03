@@ -183,6 +183,18 @@ const BlogPage = () => {
             )}
           </div>
         </section>
+
+        {/* Back to Home */}
+        <section className="content-section" style={{ paddingTop: 0 }}>
+          <div className="container">
+            <div className="blog-article-nav">
+              <Link to="/" className="btn-outline" data-testid="blog-back-home-btn">
+                <i className="fas fa-arrow-left"></i>
+                Torna al Menu Principale
+              </Link>
+            </div>
+          </div>
+        </section>
       </main>
     </>
   );
