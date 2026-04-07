@@ -5,7 +5,7 @@
   <!-- Homepage -->
   <url>
     <loc>https://www.tenutaleone.it/</loc>
-    <lastmod>2026-03-28</lastmod>
+    <lastmod>2026-04-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -224,6 +224,25 @@
     <lastmod>2026-03-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  
+  <!-- Blog -->
+  <url>
+    <loc>https://www.tenutaleone.it/blog</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tenutaleone.it/blog/matrimonio-autunno-dimora-storica-salerno</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://www.tenutaleone.it/img/slide/slide_3.jpg</image:loc>
+      <image:title>Sposarsi in Autunno in Dimora Storica a Salerno - Tenuta Leone</image:title>
+    </image:image>
   </url>
   
   <!-- Contatti -->
