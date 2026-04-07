@@ -90,7 +90,16 @@
       "/sala/sala-affreschi",
       "/sala/la-bottaia",
       "/sala/gli-esterni",
-      "/sala/cappella-dimora"
+      "/sala/cappella-dimora",
+      "/sala/foyer",
+      "/sala/corte_accoglienza",
+      "/sala/antico_forno",
+      "/sala/scala_maestra",
+      "/sala/sala_note",
+      "/sala/sala_parole",
+      "/sala/sala_tempo",
+      "/blog",
+      "/blog/matrimonio-autunno-dimora-storica-salerno"
     ]
   },
   "browserslist": {
