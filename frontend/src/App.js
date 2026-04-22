@@ -26,6 +26,8 @@ const FestePage = lazy(() => import("./pages/FestePage"));
 const EventiAziendaliPage = lazy(() => import("./pages/EventiAziendaliPage"));
 const PrivacyPolicyPage = lazy(() => import("./pages/PrivacyPolicyPage"));
 const CookiePolicyPage = lazy(() => import("./pages/CookiePolicyPage"));
+const BlogPage = lazy(() => import("./pages/BlogPage"));
+const BlogArticlePage = lazy(() => import("./pages/BlogArticlePage"));
 
 // Styles
 import "./App.css";
@@ -73,6 +75,8 @@ function AppContent() {
             <Route path="/sala/:slug" element={<SalaDetailPage />} />
             <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
             <Route path="/cookie-policy" element={<CookiePolicyPage />} />
+            <Route path="/blog" element={<BlogPage />} />
+            <Route path="/blog/:slug" element={<BlogArticlePage />} />
             <Route path="*" element={<HomePage />} />
           </Routes>
         </Suspense>
