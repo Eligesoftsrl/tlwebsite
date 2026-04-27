@@ -167,6 +167,7 @@ const BookingForm = () => {
               value={formData.phone}
               onChange={handleChange}
               placeholder="Il tuo telefono"
+              required
               data-testid="phone-input"
             />
           </div>

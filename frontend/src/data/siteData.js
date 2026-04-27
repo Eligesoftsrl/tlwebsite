@@ -267,7 +267,7 @@ export const brigata = [
   },
   {
     name: "Nunzio Avventurato",
-    role: "Sous Chef",
+    role: "Chef",
     image: "/img/brigata/c3.jpg",
     description: "Coordina tempi e qualità in ogni servizio"
   },

@@ -249,4 +249,34 @@
     <priority>0.2</priority>
   </url>
 
+  <!-- Blog -->
+  <url>
+    <loc>https://www.tenutaleone.it/blog</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tenutaleone.it/blog/food-experience-2026-alta-cucina-performance</loc>
+    <lastmod>2026-04-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.tenutaleone.it/img/slide/slide_1.jpg</image:loc>
+      <image:title>Food Experience 2026 - Alta Cucina per Eventi a Tenuta Leone Salerno</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://www.tenutaleone.it/blog/matrimonio-autunno-dimora-storica-salerno</loc>
+    <lastmod>2026-03-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.tenutaleone.it/img/slide/slide_3.jpg</image:loc>
+      <image:title>Matrimonio Autunnale nel Parco Secolare di Tenuta Leone Salerno</image:title>
+    </image:image>
+  </url>
+
 </urlset>

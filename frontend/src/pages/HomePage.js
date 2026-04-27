@@ -96,7 +96,7 @@ const HomePage = () => {
   return (
     <>
       <Helmet>
-        <title>Tenuta Leone - Location Matrimoni ed Eventi | Dimora Storica Salerno Campania</title>
+        <title>Tenuta Leone | Location Matrimoni Salerno | Dimora Storica</title>
         <meta name="description" content="Tenuta Leone: dimora storica per matrimoni, eventi e ricevimenti a Calvanico (Salerno). Tour virtuali 360°, piscina panoramica, cucina campana. La location perfetta per il tuo evento in Campania." />
         <meta name="keywords" content="matrimoni salerno, location matrimoni campania, villa matrimoni salerno, eventi salerno, dimora storica campania, ricevimenti salerno, wedding venue italy, location eventi campania, tenuta leone, matrimonio campania" />
         

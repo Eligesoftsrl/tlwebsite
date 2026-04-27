@@ -90,7 +90,10 @@
       "/sala/sala-affreschi",
       "/sala/la-bottaia",
       "/sala/gli-esterni",
-      "/sala/cappella-dimora"
+      "/sala/cappella-dimora",
+      "/blog",
+      "/blog/food-experience-2026-alta-cucina-performance",
+      "/blog/matrimonio-autunno-dimora-storica-salerno"
     ]
   },
   "browserslist": {

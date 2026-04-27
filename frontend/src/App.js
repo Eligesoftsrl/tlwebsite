@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
-import { useEffect, lazy, Suspense } from "react";
+import { useEffect } from "react";
 import { HelmetProvider } from 'react-helmet-async';
 
 // Components (sempre caricati)
@@ -8,36 +8,30 @@ import Footer from "./components/Footer";
 import WhatsAppButton from "./components/WhatsAppButton";
 import CookieConsent from "./components/CookieConsent";
 
-// Pages - Lazy loaded per performance
-const HomePage = lazy(() => import("./pages/HomePage"));
-const ContactPage = lazy(() => import("./pages/ContactPage"));
-const TourPage = lazy(() => import("./pages/TourPage"));
-const SalaDetailPage = lazy(() => import("./pages/SalaDetailPage"));
-const PiattiPage = lazy(() => import("./pages/PiattiPage"));
-const BrigataPage = lazy(() => import("./pages/BrigataPage"));
-const PasticceriaPage = lazy(() => import("./pages/PasticceriaPage"));
-const MusicBandPage = lazy(() => import("./pages/MusicBandPage"));
-const QualcosaDiBluPage = lazy(() => import("./pages/QualcosaDiBluPage"));
-const DirezionePage = lazy(() => import("./pages/DirezionePage"));
-const FrontdeskPage = lazy(() => import("./pages/FrontdeskPage"));
-const MatrimoniPage = lazy(() => import("./pages/MatrimoniPage"));
-const ComunioniPage = lazy(() => import("./pages/ComunioniPage"));
-const FestePage = lazy(() => import("./pages/FestePage"));
-const EventiAziendaliPage = lazy(() => import("./pages/EventiAziendaliPage"));
-const PrivacyPolicyPage = lazy(() => import("./pages/PrivacyPolicyPage"));
-const CookiePolicyPage = lazy(() => import("./pages/CookiePolicyPage"));
-const BlogPage = lazy(() => import("./pages/BlogPage"));
-const BlogArticlePage = lazy(() => import("./pages/BlogArticlePage"));
+// Pages - Import diretto per compatibilità con react-snap pre-rendering
+// Nota: lazy() impediva a react-snap di catturare il contenuto HTML completo
+import HomePage from "./pages/HomePage";
+import ContactPage from "./pages/ContactPage";
+import TourPage from "./pages/TourPage";
+import SalaDetailPage from "./pages/SalaDetailPage";
+import PiattiPage from "./pages/PiattiPage";
+import BrigataPage from "./pages/BrigataPage";
+import PasticceriaPage from "./pages/PasticceriaPage";
+import MusicBandPage from "./pages/MusicBandPage";
+import QualcosaDiBluPage from "./pages/QualcosaDiBluPage";
+import DirezionePage from "./pages/DirezionePage";
+import FrontdeskPage from "./pages/FrontdeskPage";
+import MatrimoniPage from "./pages/MatrimoniPage";
+import ComunioniPage from "./pages/ComunioniPage";
+import FestePage from "./pages/FestePage";
+import EventiAziendaliPage from "./pages/EventiAziendaliPage";
+import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
+import CookiePolicyPage from "./pages/CookiePolicyPage";
+import BlogPage from "./pages/BlogPage";
+import BlogArticlePage from "./pages/BlogArticlePage";
 
 // Styles
 import "./App.css";
-
-// Loading fallback component
-const PageLoader = () => (
-  <div className="page-loader">
-    <div className="loader-spinner"></div>
-  </div>
-);
 
 // Scroll to top on route change
 const ScrollToTop = () => {
@@ -56,8 +50,7 @@ function AppContent() {
       <ScrollToTop />
       <div className="app">
         <Navbar />
-        <Suspense fallback={<PageLoader />}>
-          <Routes>
+        <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/contatti" element={<ContactPage />} />
             <Route path="/tour" element={<TourPage />} />
@@ -79,7 +72,6 @@ function AppContent() {
             <Route path="/blog/:slug" element={<BlogArticlePage />} />
             <Route path="*" element={<HomePage />} />
           </Routes>
-        </Suspense>
         <Footer />
         <WhatsAppButton />
         <CookieConsent />

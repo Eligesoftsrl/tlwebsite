@@ -34,6 +34,28 @@ jobs:
           PUPPETEER_EXECUTABLE_PATH: /usr/bin/google-chrome-stable
         run: yarn build:prerender
 
+      - name: Verify pre-rendered HTML content
+        working-directory: frontend/build
+        run: |
+          echo "=== Checking pre-rendered files ==="
+          for dir in contatti piatti brigata matrimoni-autore-salerno; do
+            if [ -f "$dir/index.html" ]; then
+              CONTENT_LENGTH=$(wc -c < "$dir/index.html")
+              echo "✅ $dir/index.html exists ($CONTENT_LENGTH bytes)"
+              # Check if it has actual content (not just the SPA shell)
+              if grep -q "noscript" "$dir/index.html" && ! grep -q "class=\"app\"" "$dir/index.html"; then
+                echo "⚠️  WARNING: $dir/index.html may only contain SPA shell"
+              else
+                echo "   Content verified: has rendered HTML"
+              fi
+            else
+              echo "❌ $dir/index.html NOT FOUND"
+            fi
+          done
+
+      - name: Copy vercel.json to build directory
+        run: cp frontend/vercel.json frontend/build/vercel.json
+
       - name: Install Vercel CLI
         run: npm install -g vercel
 

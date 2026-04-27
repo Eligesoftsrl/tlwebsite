@@ -245,12 +245,13 @@ const ContactPage = () => {
                 </div>
 
                 <div className="form-group">
-                  <label htmlFor="eventType">Tipo di Evento</label>
+                  <label htmlFor="eventType">Tipo di Evento *</label>
                   <select
                     id="eventType"
                     name="eventType"
                     value={formData.eventType}
                     onChange={handleChange}
+                    required
                     data-testid="contact-event-select"
                   >
                     <option value="">Seleziona tipo evento</option>
@@ -262,19 +263,20 @@ const ContactPage = () => {
 
                 <div className="form-row">
                   <div className="form-group">
-                    <label htmlFor="eventDate">Data Evento</label>
+                    <label htmlFor="eventDate">Data Evento *</label>
                     <input
                       type="date"
                       id="eventDate"
                       name="eventDate"
                       value={formData.eventDate}
                       onChange={handleChange}
+                      required
                       data-testid="contact-date-input"
                     />
                   </div>
 
                   <div className="form-group">
-                    <label htmlFor="guests">Numero Invitati</label>
+                    <label htmlFor="guests">Numero Invitati *</label>
                     <input
                       type="number"
                       id="guests"
@@ -283,13 +285,14 @@ const ContactPage = () => {
                       placeholder="es. 100"
                       value={formData.guests}
                       onChange={handleChange}
+                      required
                       data-testid="contact-guests-input"
                     />
                   </div>
                 </div>
 
                 <div className="form-group">
-                  <label htmlFor="message">Messaggio</label>
+                  <label htmlFor="message">Messaggio *</label>
                   <textarea
                     id="message"
                     name="message"
@@ -297,6 +300,7 @@ const ContactPage = () => {
                     placeholder="Raccontaci il tuo evento..."
                     value={formData.message}
                     onChange={handleChange}
+                    required
                     data-testid="contact-message-input"
                   ></textarea>
                 </div>
@@ -308,6 +312,7 @@ const ContactPage = () => {
                     name="privacyAccepted"
                     checked={formData.privacyAccepted}
                     onChange={handleChange}
+                    required
                     data-testid="contact-privacy-checkbox"
                   />
                   <label htmlFor="privacyAccepted">

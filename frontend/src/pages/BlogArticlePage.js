@@ -43,7 +43,7 @@ const BlogArticlePage = () => {
   return (
     <>
       <Helmet>
-        <title>{article.title} | Blog Tenuta Leone</title>
+        <title>{`${article.title} | Blog Tenuta Leone`}</title>
         <meta name="description" content={article.excerpt} />
         <meta name="keywords" content={article.keywords} />
         <meta property="og:title" content={article.title} />
