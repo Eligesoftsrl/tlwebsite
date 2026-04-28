@@ -12,21 +12,18 @@ const MusicBandPage = () => {
     "description": "La Regia Sonora di Tenuta Leone: Sound Design professionale per matrimoni ed eventi a Salerno e Campania. Performance dal vivo di alto profilo.",
     "genre": ["Jazz", "Bossanova", "Swing", "Pop", "Soul", "Funk", "Dance", "Lounge"],
     "numberOfMembers": 5,
-    "event": {
-      "@type": "Event",
-      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "name": "Live Music Performance - Matrimoni ed Eventi",
-      "location": {
-        "@type": "Place",
-        "name": "Tenuta Leone",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Via Roma, 19",
-          "addressLocality": "Calvanico",
-          "addressRegion": "SA",
-          "postalCode": "84080",
-          "addressCountry": "IT"
-        }
+    "image": "https://www.tenutaleone.it/img/gallery/insta_5.jpg",
+    "url": "https://www.tenutaleone.it/music-band",
+    "location": {
+      "@type": "Place",
+      "name": "Tenuta Leone",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Via Roma, 19",
+        "addressLocality": "Calvanico",
+        "addressRegion": "SA",
+        "postalCode": "84080",
+        "addressCountry": "IT"
       }
     }
   };
