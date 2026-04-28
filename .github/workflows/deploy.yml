@@ -56,11 +56,70 @@ jobs:
       - name: Copy vercel.json to build directory
         run: cp frontend/vercel.json frontend/build/vercel.json
 
-      - name: Link to Vercel project
+      - name: Prepare Vercel prebuilt output
         working-directory: frontend/build
         run: |
-          mkdir -p .vercel
+          mkdir -p .vercel/output/static
+          
+          # Create Vercel output config with routing rules
+          cat > .vercel/output/config.json << 'CONFIGEOF'
+          {
+            "version": 3,
+            "cleanUrls": true,
+            "trailingSlash": false,
+            "routes": [
+              {
+                "src": "/(.*)",
+                "has": [{"type": "host", "value": "tenutaleone.it"}],
+                "status": 308,
+                "headers": {"Location": "https://www.tenutaleone.it/$1"}
+              },
+              {
+                "src": "/index\\.html",
+                "status": 308,
+                "headers": {"Location": "https://www.tenutaleone.it/"}
+              },
+              {
+                "src": "/(.*)",
+                "headers": {
+                  "X-Content-Type-Options": "nosniff",
+                  "X-Frame-Options": "SAMEORIGIN",
+                  "Referrer-Policy": "strict-origin-when-cross-origin"
+                },
+                "continue": true
+              },
+              {
+                "src": "/static/(.*)",
+                "headers": {"Cache-Control": "public, max-age=31536000, immutable"},
+                "continue": true
+              },
+              {
+                "src": "/img/(.*)",
+                "headers": {"Cache-Control": "public, max-age=31536000, immutable"},
+                "continue": true
+              },
+              {
+                "handle": "filesystem"
+              },
+              {
+                "src": "/(.*)",
+                "dest": "/index.html"
+              }
+            ]
+          }
+          CONFIGEOF
+          
+          # Copy all build files to static output
+          cp -r * .vercel/output/static/ 2>/dev/null || true
+          # Remove the .vercel folder from static (avoid nesting)
+          rm -rf .vercel/output/static/.vercel
+          
+          # Create project link
           echo '{"orgId":"${{ secrets.VERCEL_ORG_ID }}","projectId":"${{ secrets.VERCEL_PROJECT_ID }}"}' > .vercel/project.json
+          
+          echo "=== Vercel output structure ==="
+          ls -la .vercel/output/
+          ls -la .vercel/output/static/ | head -20
 
       - name: Install Vercel CLI
         run: npm install -g vercel
@@ -69,4 +128,4 @@ jobs:
         working-directory: frontend/build
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
-        run: vercel deploy --prod --token=$VERCEL_TOKEN --yes
+        run: vercel deploy --prebuilt --prod --token=$VERCEL_TOKEN --yes
