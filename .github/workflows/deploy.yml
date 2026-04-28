@@ -56,6 +56,12 @@ jobs:
       - name: Copy vercel.json to build directory
         run: cp frontend/vercel.json frontend/build/vercel.json
 
+      - name: Link to Vercel project
+        working-directory: frontend/build
+        run: |
+          mkdir -p .vercel
+          echo '{"orgId":"${{ secrets.VERCEL_ORG_ID }}","projectId":"${{ secrets.VERCEL_PROJECT_ID }}"}' > .vercel/project.json
+
       - name: Install Vercel CLI
         run: npm install -g vercel
 
