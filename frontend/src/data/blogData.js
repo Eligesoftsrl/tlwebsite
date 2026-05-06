@@ -1,6 +1,40 @@
 // Blog articles data
 export const blogArticles = [
   {
+    slug: "dimora-storica-matrimoni-salerno-fascino-senza-tempo",
+    title: "Sposarsi in una Dimora Storica a Salerno: Il Fascino Senza Tempo di Tenuta Leone",
+    excerpt: "Cerchi una dimora storica per il tuo matrimonio a Salerno? Scopri perché Tenuta Leone è la scelta d'eccellenza tra lusso, storia e alta cucina d'autore.",
+    content: `
+      <p>Scegliere una <strong>dimora storica per il proprio matrimonio a Salerno</strong> significa legare il giorno più importante della propria vita a un'eredità fatta di eleganza, architettura e anima. A <strong>Tenuta Leone</strong>, ogni pietra racconta una storia di ospitalità, offrendo una cornice che non è solo una location, ma un vero e proprio viaggio nell'eccellenza campana.</p>
+
+      <h3>Perché scegliere una Dimora Storica per il "Sì"</h3>
+
+      <h4>I. Atmosfera e Prestigio</h4>
+      <p>A differenza delle strutture moderne, una dimora storica come Tenuta Leone offre spazi con una personalità definita. Dai giardini secolari alle sale affrescate, l'eleganza è intrinseca e richiede solo di essere esaltata dalla nostra <strong>Firma d'Autore</strong>.</p>
+      <img src="/img/slide/slide_3.jpg" alt="Facciata storica Tenuta Leone location matrimoni Salerno" loading="lazy" style="width:100%;border-radius:8px;margin:1.5rem 0" />
+
+      <h4>II. Versatilità del Piano B</h4>
+      <p>Uno dei timori degli sposi è il maltempo. In una dimora storica, gli spazi interni sono ampi e scenografici tanto quanto quelli esterni. I saloni di Tenuta Leone permettono di accogliere oltre 120 ospiti garantendo lo stesso impatto visivo e la stessa raffinatezza di un rito all'aperto.</p>
+      <img src="/img/slide/slide_1.jpg" alt="Salone interno Tenuta Leone allestimento matrimonio elegante" loading="lazy" style="width:100%;border-radius:8px;margin:1.5rem 0" />
+
+      <h4>III. Un'Esperienza Sensoriale Completa</h4>
+      <p>Il legame con il territorio non si ferma alla vista. La nostra cucina interna trasforma i prodotti locali in <strong>Sinfonie di Benvenuto</strong>, unendo la maestosità della struttura a un percorso gastronomico d'alta scuola.</p>
+      <img src="/img/slide/slide_2.jpg" alt="Dettaglio architettonico e alta cucina Tenuta Leone" loading="lazy" style="width:100%;border-radius:8px;margin:1.5rem 0" />
+
+      <h3>Il Matrimonio come Eredità</h3>
+      <p>Sposarsi in una dimora storica significa anche creare un ricordo che resti scolpito nel tempo. A Tenuta Leone, ogni evento è trattato come un'opera d'arte unica, dove la cura millimetrica del dettaglio si sposa con la grandezza degli spazi.</p>
+
+      <h3>Vivete l'emozione dal vivo</h3>
+      <p><em><strong>Volete vivere l'emozione di una Dimora Storica dal vivo?</strong> Prenotate una visita guidata e scoprite come trasformare il vostro sogno in realtà a Tenuta Leone. Contattate Adele e Anna del nostro Front Desk per organizzare il vostro appuntamento esclusivo.</em></p>
+    `,
+    image: "/img/slide/slide_3.jpg",
+    imageAlt: "Facciata storica Tenuta Leone location matrimoni Salerno",
+    date: "2026-04-28",
+    author: "Tenuta Leone",
+    category: "Dimora Storica",
+    keywords: "dimora storica matrimoni salerno, location matrimoni salerno, wedding venue salerno, matrimonio dimora storica campania, tenuta leone matrimonio, lusso matrimonio salerno"
+  },
+  {
     slug: "food-experience-2026-alta-cucina-performance",
     title: "Food Experience 2026: Quando l'Alta Cucina diventa Performance",
     excerpt: "Il format esclusivo di Tenuta Leone che trasforma il ricevimento in un'esperienza sensoriale totale. Scoprite come la nostra Brigata di Cucina reinventa i confini tra gastronomia e spettacolo nel vostro evento.",
