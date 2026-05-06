@@ -27,9 +27,9 @@ export const blogArticles = [
       <h3>Vivete l'emozione dal vivo</h3>
       <p><em><strong>Volete vivere l'emozione di una Dimora Storica dal vivo?</strong> Prenotate una visita guidata e scoprite come trasformare il vostro sogno in realtà a Tenuta Leone. Contattate Adele e Anna del nostro Front Desk per organizzare il vostro appuntamento esclusivo.</em></p>
     `,
-    image: "/img/slide/slide_3.jpg",
+    image: "/img/blog/dimora-storica-piscina-opt.jpg",
     imageAlt: "Facciata storica Tenuta Leone location matrimoni Salerno",
-    date: "2026-04-28",
+    date: "2026-05-06",
     author: "Tenuta Leone",
     category: "Dimora Storica",
     keywords: "dimora storica matrimoni salerno, location matrimoni salerno, wedding venue salerno, matrimonio dimora storica campania, tenuta leone matrimonio, lusso matrimonio salerno"
