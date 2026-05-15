@@ -1,6 +1,67 @@
 // Blog articles data
 export const blogArticles = [
   {
+    slug: "wedding-planner-venue-coordinator-matrimonio-salerno",
+    title: "Wedding Planner o Venue Coordinator? La Guida per Sposarsi a Salerno",
+    excerpt: "Qual è la differenza tra wedding planner e venue coordinator? Scopri quando ne hai davvero bisogno e come Tenuta Leone offre già entrambi in un'unica dimora storica.",
+    content: `
+      <p>La gioia di un fidanzamento è un momento magico, ma ben presto, accanto ai sorrisi, iniziano a sorgere le prime domande, e spesso, una delle più pressanti è: <em>"Abbiamo bisogno di un wedding planner?"</em>. Questa domanda, carica di incertezze, è una delle prime che affligge ogni coppia appena convolata a nozze, immersa in un mare di preparativi e decisioni. La buona notizia è che siamo qui per offrirvi una risposta chiara e onesta, guidandovi verso la scelta migliore per il vostro giorno più bello.</p>
+
+      <p>Molti confondono i ruoli del wedding planner e del venue coordinator, o pensano che siano la stessa figura. La realtà è un po' più sfumata, e capire questa differenza è fondamentale per organizzare un <strong>matrimonio da sogno</strong>, specialmente se la vostra meta è la splendida <strong>Salerno</strong> e i suoi dintorni.</p>
+
+      <h3>La Differenza che Nessuno Spiega Chiaramente</h3>
+      <p>Affrontiamo subito il cuore della questione: qual è la reale differenza tra un wedding planner e un venue coordinator? Immaginate il vostro matrimonio come un'orchestra complessa.</p>
+      <p>Il <strong>wedding planner esterno</strong> è il direttore d'orchestra generale, colui che arriva prima di tutti, sceglie ogni singolo musicista (i fornitori), definisce la melodia (il tema e lo stile), e dirige l'intera esecuzione, spesso anche fuori dalla sala da concerto. È il vostro alleato personale, che rappresenta i <em>vostri</em> interessi dal primo all'ultimo momento.</p>
+      <p>Il <strong>venue coordinator</strong>, invece, è il direttore di palcoscenico della vostra location. La sua priorità è garantire che tutto funzioni alla perfezione <em>all'interno</em> della dimora storica che avete scelto, dalla cucina al servizio, dall'allestimento ai tempi.</p>
+
+      <table style="width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:0.95rem">
+        <thead>
+          <tr style="background:rgba(17,46,46,0.1)">
+            <th style="padding:12px;text-align:left;border-bottom:2px solid #112E2E">Aspetto</th>
+            <th style="padding:12px;text-align:left;border-bottom:2px solid #112E2E">Wedding Planner esterno</th>
+            <th style="padding:12px;text-align:left;border-bottom:2px solid #112E2E">Venue Coordinator (Tenuta Leone)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td style="padding:10px;border-bottom:1px solid #eee"><strong>Chi rappresenta</strong></td><td style="padding:10px;border-bottom:1px solid #eee">Gli sposi</td><td style="padding:10px;border-bottom:1px solid #eee">La location (nell'interesse degli sposi)</td></tr>
+          <tr><td style="padding:10px;border-bottom:1px solid #eee"><strong>Quando interviene</strong></td><td style="padding:10px;border-bottom:1px solid #eee">Dall'inizio, anche 2 anni prima</td><td style="padding:10px;border-bottom:1px solid #eee">Dalla firma del contratto in poi</td></tr>
+          <tr><td style="padding:10px;border-bottom:1px solid #eee"><strong>Fornitori esterni</strong></td><td style="padding:10px;border-bottom:1px solid #eee">Gestione completa</td><td style="padding:10px;border-bottom:1px solid #eee">Parziale (quelli legati alla location)</td></tr>
+          <tr><td style="padding:10px;border-bottom:1px solid #eee"><strong>Coordinamento il giorno</strong></td><td style="padding:10px;border-bottom:1px solid #eee">Totale</td><td style="padding:10px;border-bottom:1px solid #eee">Totale (all'interno della struttura)</td></tr>
+          <tr><td style="padding:10px;border-bottom:1px solid #eee"><strong>Cucina, servizio, allestimento</strong></td><td style="padding:10px;border-bottom:1px solid #eee">Supervisiona fornitori esterni</td><td style="padding:10px;border-bottom:1px solid #eee">Gestione diretta (brigata interna)</td></tr>
+          <tr><td style="padding:10px;border-bottom:1px solid #eee"><strong>Wedding consulting</strong></td><td style="padding:10px;border-bottom:1px solid #eee">Incluso o a parte</td><td style="padding:10px;border-bottom:1px solid #eee">Incluso con "Qualcosa di Blu"</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Quando Non Hai Bisogno di un Wedding Planner Esterno</h3>
+      <p>In molti casi, la figura del wedding planner esterno diventa meno necessaria se scegliete una location che opera con un modello all-inclusive. A <strong>Tenuta Leone</strong>, per esempio, non affittiamo semplicemente degli spazi; vi offriamo un ecosistema completo di professionisti interni, pronti a prendersi cura di ogni dettaglio.</p>
+      <p>Pensate a noi come a una grande famiglia che lavora in sinergia. Abbiamo un team dedicato per la <strong>cucina d'autore</strong>, pronto a deliziarvi con menu personalizzati. La nostra <strong>pasticceria interna</strong> realizza torte nuziali che sono vere e proprie opere d'arte. Per l'intrattenimento, la nostra <strong>Music Band</strong> interna offre performance live con un sound design curato. E per la consulenza, potete contare su <strong>Adele e Anna del Front Desk</strong>, le nostre Wedding Consultant che vi guideranno passo dopo passo. Inoltre, il nostro servizio di <strong>Qualcosa di Blu</strong> vi offre una consulenza dedicata per tutto ciò che concerne l'organizzazione.</p>
+      <img src="/img/slide/slide_1.jpg" alt="Elegante sala da banchetto all'interno di Tenuta Leone, perfetta per ricevimenti nuziali raffinati in provincia di Salerno" loading="lazy" style="width:100%;border-radius:8px;margin:1.5rem 0" />
+
+      <h3>Quando Conviene Aggiungere un Wedding Planner Esterno</h3>
+      <p>Tuttavia, è importante essere onesti: ci sono situazioni in cui l'intervento di un wedding planner esterno può fare la differenza. La loro expertise è preziosa in scenari che richiedono una gestione complessa e una visione d'insieme che va oltre la singola location.</p>
+      <ul>
+        <li>Matrimoni con <strong>ospiti internazionali</strong>, dove la logistica di voli, hotel e transfer richiede una pianificazione meticolosa e spesso multilingue.</li>
+        <li><strong>Cerimonie civili o religiose in sedi esterne</strong> alla dimora prescelta, con spostamenti e logistica da coordinare.</li>
+        <li>Coppie con <strong>agende estremamente fitte</strong>, che hanno poco tempo per seguire anche solo la fase decisionale.</li>
+        <li><strong>Matrimoni di grande complessità</strong>, con fornitori altamente personalizzati e richieste specifiche.</li>
+      </ul>
+
+      <h3>Il Vantaggio di un Ecosistema Completo</h3>
+      <p>La differenza tra una location che semplicemente "affitta gli spazi" e una <strong>dimora storica come Tenuta Leone</strong>, che offre un ecosistema completo, è abissale. Immaginate una squadra che lavora insieme da anni, che conosce ogni anfratto della struttura, i tempi di preparazione, le peculiarità di ogni sala. Questo significa meno fornitori da gestire, meno margini di errore e, soprattutto, uno stress notevolmente ridotto.</p>
+      <p>Avere cucina, pasticceria, musica e consulenza organizzativa sotto lo stesso tetto, con un team affiatato, vi garantisce una fluidità e una coerenza che un insieme di professionisti esterni, pur bravi, difficilmente può eguagliare. È la tranquillità di sapere che ogni dettaglio è curato da chi vive e respira la vostra location ogni giorno.</p>
+      <img src="/img/slide/slide_2.jpg" alt="Adele e Anna, le consulenti matrimoni di Tenuta Leone, pronte ad accogliere e guidare gli sposi nella pianificazione" loading="lazy" style="width:100%;border-radius:8px;margin:1.5rem 0" />
+
+      <h3>Pronti a scoprire di più?</h3>
+      <p><em><strong>Pronti a scoprire come la nostra dimora storica può trasformare il vostro sogno in realtà?</strong> Vi invitiamo a contattare Adele e Anna del Front Desk per una consulenza personalizzata e senza impegno. Saranno felici di rispondere a ogni vostra domanda e mostrarvi come Tenuta Leone possa essere la soluzione perfetta per il vostro matrimonio.</em></p>
+    `,
+    image: "/img/slide/slide_2.jpg",
+    imageAlt: "Imponente facciata di Tenuta Leone, elegante dimora storica per matrimoni in Campania",
+    date: "2026-05-06",
+    author: "Tenuta Leone",
+    category: "Consigli & Organizzazione",
+    keywords: "wedding coordinator Salerno, wedding planner Campania, organizzare matrimonio dimora storica, location matrimoni tutto incluso Salerno, differenza wedding planner coordinator, Tenuta Leone matrimoni"
+  },
+  {
     slug: "dimora-storica-matrimoni-salerno-fascino-senza-tempo",
     title: "Sposarsi in una Dimora Storica a Salerno: Il Fascino Senza Tempo di Tenuta Leone",
     excerpt: "Cerchi una dimora storica per il tuo matrimonio a Salerno? Scopri perché Tenuta Leone è la scelta d'eccellenza tra lusso, storia e alta cucina d'autore.",
