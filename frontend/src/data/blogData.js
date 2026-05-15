@@ -56,7 +56,7 @@ export const blogArticles = [
     `,
     image: "/img/slide/slide_2.jpg",
     imageAlt: "Imponente facciata di Tenuta Leone, elegante dimora storica per matrimoni in Campania",
-    date: "2026-05-06",
+    date: "2026-05-15",
     author: "Tenuta Leone",
     category: "Consigli & Organizzazione",
     keywords: "wedding coordinator Salerno, wedding planner Campania, organizzare matrimonio dimora storica, location matrimoni tutto incluso Salerno, differenza wedding planner coordinator, Tenuta Leone matrimoni"
