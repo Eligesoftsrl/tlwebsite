@@ -31,7 +31,7 @@ const LandingVisitaPage = () => {
         messaggio: `[SITOWEB - Landing Visita] ${formData.message.trim() || 'Richiesta visita in struttura'}. Ospiti: ${formData.guests}`
       };
 
-      await fetch('/api/contact', {
+      await fetch('https://eliclient-production.up.railway.app/api/nuova_richiesta', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(gestionalData)

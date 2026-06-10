@@ -3,8 +3,8 @@ import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import { siteConfig, eventTypes } from '../data/siteData';
 
-// API proxy per il form contatti (Vercel serverless function)
-const API_URL = '/api/contact';
+// API per il form contatti
+const API_URL = 'https://eliclient-production.up.railway.app/api/nuova_richiesta';
 const BASE_URL = 'https://www.tenutaleone.it';
 
 const ContactPage = () => {
