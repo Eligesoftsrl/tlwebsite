@@ -17,8 +17,29 @@ const LandingVisitaPage = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    
+    try {
+      const gestionalData = {
+        nome_cliente: formData.name.trim(),
+        data_evento: formData.date || "",
+        telefono: formData.phone.trim(),
+        email: formData.email.trim(),
+        numero_invitati: formData.guests || "",
+        cerca: "Matrimonio",
+        messaggio: `[SITOWEB - Landing Visita] ${formData.message.trim() || 'Richiesta visita in struttura'}. Ospiti: ${formData.guests}`
+      };
+
+      await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(gestionalData)
+      });
+    } catch (err) {
+      // silent fail - redirect anyway
+    }
+
     if (typeof window.gtag === 'function') {
       window.gtag('event', 'generate_lead', {
         event_category: 'form',

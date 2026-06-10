@@ -49,7 +49,8 @@ const ContactPage = () => {
         email: formData.email.trim(),
         numero_invitati: formData.guests || "",
         cerca: formData.eventType || "Informazioni",
-        messaggio: formData.message.trim() || "Richiesta informazioni dal sito"
+        messaggio: formData.message.trim() || "Richiesta informazioni dal sito",
+        fonte: "sitoweb"
       };
 
       const response = await fetch(API_URL, {

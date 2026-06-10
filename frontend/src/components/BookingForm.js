@@ -36,7 +36,8 @@ const BookingForm = () => {
         email: formData.email.trim(),
         numero_invitati: formData.guests || "",
         cerca: formData.eventType || "Informazioni",
-        messaggio: formData.message.trim() || `Richiesta informazioni dal sito. Data: ${formData.date}, Ospiti: ${formData.guests}`
+        messaggio: formData.message.trim() || `Richiesta informazioni dal sito. Data: ${formData.date}, Ospiti: ${formData.guests}`,
+        fonte: "sitoweb"
       };
 
       const response = await fetch(API_URL, {
