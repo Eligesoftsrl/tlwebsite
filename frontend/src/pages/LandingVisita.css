@@ -624,20 +624,28 @@
 .lp-grazie-wa {
   margin-bottom: 40px;
   display: block;
+  width: 100%;
+  max-width: 380px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  box-sizing: border-box;
 }
 .lp-grazie-home-btn {
-  display: inline-flex !important;
+  display: flex !important;
   align-items: center;
   justify-content: center;
   gap: 8px;
   width: 100%;
   max-width: 380px;
+  margin: 0 auto;
   padding: 14px 28px !important;
   font-size: 0.95rem !important;
   background: #C9A96E !important;
   color: #fff !important;
   border: none !important;
   text-decoration: none;
+  box-sizing: border-box;
 }
 /* removed old grazie-home style */
 
