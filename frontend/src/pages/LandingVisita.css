@@ -170,9 +170,10 @@
 }
 .lp-privacy label {
   font-family: 'Manrope', sans-serif;
-  font-size: 0.78rem;
+  font-size: 0.72rem;
   line-height: 1.4;
-  color: #666;
+  color: #999;
+  font-style: italic;
 }
 .lp-privacy a {
   color: #C9A96E;
