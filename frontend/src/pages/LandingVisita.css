@@ -622,18 +622,17 @@
   margin-bottom: 28px;
 }
 .lp-grazie-wa {
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
-.lp-grazie-home {
-  display: inline-flex;
+.lp-grazie-home-btn {
+  display: inline-flex !important;
   align-items: center;
-  gap: 6px;
-  font-family: 'Manrope', sans-serif;
-  font-size: 0.9rem;
-  color: #C9A96E;
-  text-decoration: none;
+  gap: 8px;
+  margin-top: 8px;
+  padding: 12px 28px !important;
+  font-size: 0.9rem !important;
 }
-.lp-grazie-home:hover { text-decoration: underline; }
+/* removed old grazie-home style */
 
 /* ==================
    RESPONSIVE

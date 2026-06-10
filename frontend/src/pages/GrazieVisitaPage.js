@@ -45,8 +45,8 @@ const GrazieVisitaPage = () => {
             >
               <i className="fab fa-whatsapp"></i> Scrivici su WhatsApp
             </a>
-            <a href="/" className="lp-grazie-home" data-testid="grazie-home">
-              <i className="fas fa-arrow-left"></i> Torna al sito
+            <a href="/" className="lp-btn-secondary lp-grazie-home-btn" data-testid="grazie-home">
+              <i className="fas fa-home"></i> Torna al sito
             </a>
           </div>
         </section>
