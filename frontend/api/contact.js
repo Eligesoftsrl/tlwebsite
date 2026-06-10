@@ -8,7 +8,7 @@ export default async function handler(req, res) {
   }
 
   try {
-    const response = await fetch('https://www.tenutaleone.eliclient.it/api/nuova_richiesta', {
+    const response = await fetch('https://eliclient-production.up.railway.app/api/nuova_richiesta', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
