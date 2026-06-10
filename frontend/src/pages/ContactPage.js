@@ -3,10 +3,8 @@ import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import { siteConfig, eventTypes } from '../data/siteData';
 
-// In produzione (Vercel) usa il proxy API, altrimenti chiama direttamente
-const API_URL = process.env.NODE_ENV === 'production' 
-  ? '/api/contact' 
-  : 'https://www.tenutaleone.eliclient.it/api/nuova_richiesta';
+// API esterna per il form contatti
+const API_URL = 'https://www.tenutaleone.eliclient.it/api/nuova_richiesta';
 const BASE_URL = 'https://www.tenutaleone.it';
 
 const ContactPage = () => {

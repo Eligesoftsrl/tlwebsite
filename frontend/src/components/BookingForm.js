@@ -1,10 +1,8 @@
 import { useState } from 'react';
 import { eventTypes, guestRanges } from '../data/siteData';
 
-// In produzione (Vercel) usa il proxy API, altrimenti chiama direttamente
-const API_URL = process.env.NODE_ENV === 'production' 
-  ? '/api/contact' 
-  : 'https://www.tenutaleone.eliclient.it/api/nuova_richiesta';
+// API esterna per il form contatti
+const API_URL = 'https://www.tenutaleone.eliclient.it/api/nuova_richiesta';
 
 const BookingForm = () => {
   const [formData, setFormData] = useState({
