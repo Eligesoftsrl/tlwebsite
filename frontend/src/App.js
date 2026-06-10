@@ -29,9 +29,14 @@ import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
 import CookiePolicyPage from "./pages/CookiePolicyPage";
 import BlogPage from "./pages/BlogPage";
 import BlogArticlePage from "./pages/BlogArticlePage";
+import LandingVisitaPage from "./pages/LandingVisitaPage";
+import GrazieVisitaPage from "./pages/GrazieVisitaPage";
 
 // Styles
 import "./App.css";
+
+// Landing pages senza navbar/footer
+const LANDING_ROUTES = ['/visita-matrimonio', '/grazie-visita'];
 
 // Scroll to top on route change
 const ScrollToTop = () => {
@@ -45,11 +50,14 @@ const ScrollToTop = () => {
 };
 
 function AppContent() {
+  const { pathname } = useLocation();
+  const isLanding = LANDING_ROUTES.includes(pathname);
+
   return (
     <>
       <ScrollToTop />
       <div className="app">
-        <Navbar />
+        {!isLanding && <Navbar />}
         <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/contatti" element={<ContactPage />} />
@@ -70,10 +78,12 @@ function AppContent() {
             <Route path="/cookie-policy" element={<CookiePolicyPage />} />
             <Route path="/blog" element={<BlogPage />} />
             <Route path="/blog/:slug" element={<BlogArticlePage />} />
+            <Route path="/visita-matrimonio" element={<LandingVisitaPage />} />
+            <Route path="/grazie-visita" element={<GrazieVisitaPage />} />
             <Route path="*" element={<HomePage />} />
           </Routes>
-        <Footer />
-        <WhatsAppButton />
+        {!isLanding && <Footer />}
+        {!isLanding && <WhatsAppButton />}
         <CookieConsent />
       </div>
     </>
