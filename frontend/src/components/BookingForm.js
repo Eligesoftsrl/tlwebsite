@@ -12,18 +12,27 @@ const BookingForm = () => {
     name: '',
     email: '',
     phone: '',
-    message: ''
+    message: '',
+    privacyAccepted: false,
+    honeypot: ''
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState(null);
+  const [submitTime] = useState(Date.now());
 
   const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData(prev => ({ ...prev, [name]: value }));
+    const { name, value, type, checked } = e.target;
+    setFormData(prev => ({ ...prev, [name]: type === 'checkbox' ? checked : value }));
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    // Anti-spam
+    if (formData.honeypot) return;
+    if (Date.now() - submitTime < 3000) return;
+    if (!formData.privacyAccepted) return;
+
     setIsSubmitting(true);
     setSubmitStatus(null);
 
@@ -58,7 +67,9 @@ const BookingForm = () => {
           name: '',
           email: '',
           phone: '',
-          message: ''
+          message: '',
+          privacyAccepted: false,
+          honeypot: ''
         });
       } else {
         setSubmitStatus({ 
@@ -170,6 +181,24 @@ const BookingForm = () => {
               data-testid="phone-input"
             />
           </div>
+        </div>
+
+        {/* Honeypot anti-spam */}
+        <input type="text" name="honeypot" value={formData.honeypot} onChange={handleChange} style={{position:'absolute',left:'-9999px',opacity:0,height:0}} tabIndex="-1" autoComplete="off" />
+
+        <div className="privacy-checkbox">
+          <input
+            type="checkbox"
+            id="bookingPrivacy"
+            name="privacyAccepted"
+            checked={formData.privacyAccepted}
+            onChange={handleChange}
+            required
+            data-testid="booking-privacy-checkbox"
+          />
+          <label htmlFor="bookingPrivacy">
+            Ho letto e accetto la <a href="/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a> e acconsento al trattamento dei miei dati personali. *
+          </label>
         </div>
 
         <button 

@@ -16,10 +16,12 @@ const ContactPage = () => {
     eventDate: '',
     guests: '',
     message: '',
-    privacyAccepted: false
+    privacyAccepted: false,
+    honeypot: ''
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState(null);
+  const [submitTime] = useState(Date.now());
 
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
@@ -32,6 +34,10 @@ const ContactPage = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     
+    // Anti-spam
+    if (formData.honeypot) return;
+    if (Date.now() - submitTime < 3000) return;
+
     if (!formData.privacyAccepted) {
       setSubmitStatus({ success: false, message: 'Devi accettare la Privacy Policy per inviare il messaggio.' });
       return;
@@ -303,6 +309,9 @@ const ContactPage = () => {
                     data-testid="contact-message-input"
                   ></textarea>
                 </div>
+
+                {/* Honeypot anti-spam */}
+                <input type="text" name="honeypot" value={formData.honeypot} onChange={handleChange} style={{position:'absolute',left:'-9999px',opacity:0,height:0}} tabIndex="-1" autoComplete="off" />
 
                 <div className="privacy-checkbox">
                   <input

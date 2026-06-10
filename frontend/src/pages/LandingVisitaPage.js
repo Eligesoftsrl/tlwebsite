@@ -38,7 +38,7 @@ const LandingVisitaPage = () => {
         email: formData.email.trim(),
         numero_invitati: formData.guests || "",
         cerca: "Matrimonio",
-        messaggio: `[SITOWEB - Landing Visita] ${formData.message.trim() || 'Richiesta visita in struttura'}. Ospiti: ${formData.guests}`,
+        messaggio: formData.message.trim() || `Richiesta visita in struttura. Ospiti: ${formData.guests}`,
         fonte: "landing page"
       };
 
