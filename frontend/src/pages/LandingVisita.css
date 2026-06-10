@@ -155,6 +155,29 @@
   margin-top: 10px;
   font-family: 'Manrope', sans-serif;
 }
+.lp-privacy {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+.lp-privacy input[type="checkbox"] {
+  margin-top: 3px;
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+.lp-privacy label {
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.78rem;
+  line-height: 1.4;
+  color: #666;
+}
+.lp-privacy a {
+  color: #C9A96E;
+  text-decoration: underline;
+}
 .lp-form-success {
   text-align: center;
   padding: 40px 20px;

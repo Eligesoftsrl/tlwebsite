@@ -9,17 +9,27 @@ const BASE_URL = 'https://www.tenutaleone.it';
 const LandingVisitaPage = () => {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
-    name: '', phone: '', email: '', date: '', guests: '', message: ''
+    name: '', phone: '', email: '', date: '', guests: '', message: '', privacyAccepted: false, honeypot: ''
   });
   const [submitted, setSubmitted] = useState(false);
+  const [submitTime] = useState(Date.now());
 
   const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
+    const value = e.target.type === 'checkbox' ? e.target.checked : e.target.value;
+    setFormData({ ...formData, [e.target.name]: value });
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     
+    // Anti-spam: honeypot field must be empty
+    if (formData.honeypot) return;
+    
+    // Anti-spam: form must be filled in at least 3 seconds
+    if (Date.now() - submitTime < 3000) return;
+
+    if (!formData.privacyAccepted) return;
+
     try {
       const gestionalData = {
         nome_cliente: formData.name.trim(),
@@ -28,7 +38,8 @@ const LandingVisitaPage = () => {
         email: formData.email.trim(),
         numero_invitati: formData.guests || "",
         cerca: "Matrimonio",
-        messaggio: `[SITOWEB - Landing Visita] ${formData.message.trim() || 'Richiesta visita in struttura'}. Ospiti: ${formData.guests}`
+        messaggio: `[SITOWEB - Landing Visita] ${formData.message.trim() || 'Richiesta visita in struttura'}. Ospiti: ${formData.guests}`,
+        fonte: "visita-matrimonio"
       };
 
       await fetch('https://eliclient-production.up.railway.app/api/nuova_richiesta', {
@@ -182,6 +193,12 @@ const LandingVisitaPage = () => {
                   </div>
                   <div className="lp-form-group">
                     <textarea name="message" placeholder="Messaggio (opzionale)" rows="2" value={formData.message} onChange={handleChange} data-testid="lp-message"></textarea>
+                  </div>
+                  {/* Honeypot anti-spam - hidden from users */}
+                  <input type="text" name="honeypot" value={formData.honeypot} onChange={handleChange} style={{position:'absolute',left:'-9999px',opacity:0,height:0}} tabIndex="-1" autoComplete="off" />
+                  <div className="lp-privacy">
+                    <input type="checkbox" id="lp-privacy" name="privacyAccepted" checked={formData.privacyAccepted} onChange={handleChange} required data-testid="lp-privacy" />
+                    <label htmlFor="lp-privacy">Ho letto e accetto la <a href="/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a> e acconsento al trattamento dei miei dati personali. *</label>
                   </div>
                   <button type="submit" className="lp-btn-submit" data-testid="lp-submit">PRENOTA LA TUA VISITA GRATUITA</button>
                   <p className="lp-microcopy">Vi ricontattiamo entro 24 ore. Nessun impegno, nessun costo.</p>
