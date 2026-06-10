@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { eventTypes, guestRanges } from '../data/siteData';
 
-// API esterna per il form contatti
-const API_URL = 'https://www.tenutaleone.eliclient.it/api/nuova_richiesta';
+// API proxy per il form contatti (Vercel serverless function)
+const API_URL = '/api/contact';
 
 const BookingForm = () => {
   const [formData, setFormData] = useState({
