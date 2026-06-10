@@ -39,7 +39,7 @@ const LandingVisitaPage = () => {
         numero_invitati: formData.guests || "",
         cerca: "Matrimonio",
         messaggio: `[SITOWEB - Landing Visita] ${formData.message.trim() || 'Richiesta visita in struttura'}. Ospiti: ${formData.guests}`,
-        fonte: "visita-matrimonio"
+        fonte: "landing page"
       };
 
       await fetch('https://eliclient-production.up.railway.app/api/nuova_richiesta', {
