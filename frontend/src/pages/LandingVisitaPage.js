@@ -169,6 +169,23 @@ const LandingVisitaPage = () => {
             <div className="lp-hero-text">
               <h1 data-testid="lp-h1">Il vostro matrimonio merita una Firma d'Autore. Venite a scoprirla dal vivo.</h1>
               <p className="lp-hero-sub">Prenotate una visita privata e gratuita a Tenuta Leone, dimora storica a 20 minuti da Salerno. Tour della dimora, incontro con il nostro team e preventivo personalizzato, senza alcun impegno.</p>
+              
+              {/* TRUST BAR inline */}
+              <div className="lp-trust-inline" data-testid="lp-trust-bar">
+                <div className="lp-trust-item"><i className="fas fa-star"></i> 5.0 su Google &middot; 156 recensioni</div>
+                <div className="lp-trust-item"><i className="fas fa-award"></i> Oltre 30 anni di esperienza</div>
+                <div className="lp-trust-item"><i className="fas fa-handshake"></i> Visita senza impegno</div>
+                <div className="lp-trust-item"><i className="fas fa-file-invoice"></i> Preventivo gratuito</div>
+              </div>
+
+              {/* REGALO ESCLUSIVO inline */}
+              <div className="lp-gift-inline" data-testid="lp-gift">
+                <div className="lp-gift-inline-icon"><i className="fas fa-gift"></i></div>
+                <div className="lp-gift-inline-content">
+                  <h3>Un regalo esclusivo per la vostra visita</h3>
+                  <p>In caso di conferma della data, Tenuta Leone omaggerà: <strong>Partecipazioni Digitali personalizzate</strong> e <strong>Sito Web dedicato al vostro matrimonio</strong>. Il fascino della storia unito alla comodità del digitale, senza costi aggiuntivi.</p>
+                </div>
+              </div>
             </div>
             <div className="lp-form-card" id="landing-form" data-testid="lp-form-card">
               {!submitted ? (
@@ -210,36 +227,6 @@ const LandingVisitaPage = () => {
                   <p>Vi ricontatteremo entro 24 ore per fissare la vostra visita.</p>
                 </div>
               )}
-            </div>
-          </div>
-        </section>
-
-        {/* TRUST BAR */}
-        <div className="lp-trust-bar" data-testid="lp-trust-bar">
-          <div className="lp-trust-item"><i className="fas fa-star"></i> 5.0 su Google &middot; 156 recensioni</div>
-          <div className="lp-trust-item"><i className="fas fa-award"></i> Oltre 30 anni di esperienza</div>
-          <div className="lp-trust-item"><i className="fas fa-handshake"></i> Visita senza impegno</div>
-          <div className="lp-trust-item"><i className="fas fa-file-invoice"></i> Preventivo gratuito</div>
-        </div>
-
-        {/* REGALO ESCLUSIVO */}
-        <section className="lp-gift" data-testid="lp-gift">
-          <div className="lp-container">
-            <div className="lp-gift-card">
-              <div className="lp-gift-icon"><i className="fas fa-gift"></i></div>
-              <h2>Un regalo esclusivo per la vostra visita</h2>
-              <p className="lp-gift-intro">Scegliere la location è il primo grande passo. Vogliamo renderlo ancora più speciale: per tutte le coppie che prenoteranno la visita guidata, in caso di conferma della data, Tenuta Leone omaggerà il servizio digitale d'eccellenza per le vostre nozze:</p>
-              <div className="lp-gift-items">
-                <div className="lp-gift-item">
-                  <i className="fas fa-envelope-open-text"></i>
-                  <span>Partecipazioni Digitali personalizzate</span>
-                </div>
-                <div className="lp-gift-item">
-                  <i className="fas fa-globe"></i>
-                  <span>Sito Web dedicato al vostro matrimonio</span>
-                </div>
-              </div>
-              <p className="lp-gift-footer">Collegate il fascino della storia alla comodità del digitale, senza costi aggiuntivi.</p>
             </div>
           </div>
         </section>
