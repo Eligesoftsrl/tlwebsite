@@ -222,6 +222,28 @@ const LandingVisitaPage = () => {
           <div className="lp-trust-item"><i className="fas fa-file-invoice"></i> Preventivo gratuito</div>
         </div>
 
+        {/* REGALO ESCLUSIVO */}
+        <section className="lp-gift" data-testid="lp-gift">
+          <div className="lp-container">
+            <div className="lp-gift-card">
+              <div className="lp-gift-icon"><i className="fas fa-gift"></i></div>
+              <h2>Un regalo esclusivo per la vostra visita</h2>
+              <p className="lp-gift-intro">Scegliere la location è il primo grande passo. Vogliamo renderlo ancora più speciale: per tutte le coppie che prenoteranno la visita guidata, in caso di conferma della data, Tenuta Leone omaggerà il servizio digitale d'eccellenza per le vostre nozze:</p>
+              <div className="lp-gift-items">
+                <div className="lp-gift-item">
+                  <i className="fas fa-envelope-open-text"></i>
+                  <span>Partecipazioni Digitali personalizzate</span>
+                </div>
+                <div className="lp-gift-item">
+                  <i className="fas fa-globe"></i>
+                  <span>Sito Web dedicato al vostro matrimonio</span>
+                </div>
+              </div>
+              <p className="lp-gift-footer">Collegate il fascino della storia alla comodità del digitale, senza costi aggiuntivi.</p>
+            </div>
+          </div>
+        </section>
+
         {/* RECENSIONI */}
         <section className="lp-section lp-reviews" data-testid="lp-reviews">
           <div className="lp-container">

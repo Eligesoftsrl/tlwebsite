@@ -223,6 +223,79 @@
 .lp-section {
   padding: 80px 24px;
 }
+
+/* REGALO ESCLUSIVO */
+.lp-gift {
+  padding: 60px 24px;
+  background: #0D2424;
+}
+.lp-gift-card {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  background: linear-gradient(135deg, rgba(201,169,110,0.08) 0%, rgba(201,169,110,0.03) 100%);
+  border: 1px solid rgba(201,169,110,0.25);
+  border-radius: 14px;
+  padding: 48px 40px;
+}
+.lp-gift-icon {
+  margin-bottom: 20px;
+}
+.lp-gift-icon i {
+  font-size: 2.2rem;
+  color: #C9A96E;
+}
+.lp-gift-card h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 16px;
+  line-height: 1.3;
+}
+.lp-gift-intro {
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: rgba(255,255,255,0.75);
+  margin-bottom: 28px;
+}
+.lp-gift-items {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-bottom: 28px;
+  flex-wrap: wrap;
+}
+.lp-gift-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(201,169,110,0.12);
+  border: 1px solid rgba(201,169,110,0.2);
+  border-radius: 8px;
+  padding: 14px 22px;
+}
+.lp-gift-item i {
+  font-size: 1.2rem;
+  color: #C9A96E;
+}
+.lp-gift-item span {
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #fff;
+}
+.lp-gift-footer {
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.88rem;
+  color: rgba(255,255,255,0.55);
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .lp-gift-card { padding: 32px 20px; }
+  .lp-gift-items { flex-direction: column; gap: 12px; align-items: center; }
+}
 .lp-section-title {
   font-family: 'Playfair Display', serif;
   font-size: clamp(1.5rem, 2.5vw, 2rem);
