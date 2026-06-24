@@ -237,11 +237,33 @@
   <!-- Blog -->
   <url>
     <loc>https://www.tenutaleone.it/blog</loc>
-    <lastmod>2026-05-06</lastmod>
+    <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
+  <url>
+    <loc>https://www.tenutaleone.it/blog/location-eventi-matrimoni-campania-tenuta-leone</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.tenutaleone.it/img/blog/evento-corporate.jpg</image:loc>
+      <image:title>Location Eventi Matrimoni Campania - Tenuta Leone Dimora Storica Salerno</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.tenutaleone.it/blog/evento-aziendale-dimora-storica-salerno</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.tenutaleone.it/img/blog/evento-corporate.jpg</image:loc>
+      <image:title>Evento Aziendale Dimora Storica Tenuta Leone Salerno</image:title>
+    </image:image>
+  </url>
+
   <url>
     <loc>https://www.tenutaleone.it/blog/wedding-planner-venue-coordinator-matrimonio-salerno</loc>
     <lastmod>2026-05-15</lastmod>

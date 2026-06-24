@@ -1,6 +1,135 @@
 // Blog articles data
 export const blogArticles = [
   {
+    slug: "location-eventi-matrimoni-campania-tenuta-leone",
+    title: "Cerchi una Location per il Tuo Evento in Campania? Tutto Quello che Devi Sapere su Tenuta Leone",
+    excerpt: "Stai cercando la location perfetta per un matrimonio, una festa o un evento in Campania? Scopri Tenuta Leone: dimora storica a Salerno con cucina d'autore, team interno e servizio all-inclusive.",
+    content: `
+      <p>Stai cercando la location giusta per il tuo evento. Forse è il matrimonio che stai pianificando da mesi, forse è una festa di laurea che vuoi rendere indimenticabile, forse è un anniversario importante o una cena di gala per i tuoi ospiti più preziosi. Qualunque sia l'occasione, sei arrivato nel posto giusto — e in questo articolo trovi tutto quello che hai bisogno di sapere su <strong>Tenuta Leone</strong> prima di contattarci.</p>
+
+      <p>Lo scriviamo pensando a chi cerca una risposta chiara, completa, onesta. Niente formule vaghe: solo informazioni concrete su cosa siamo, cosa offriamo e perché tanti scelgono questa <strong>dimora storica nella Campania</strong> del Sud per i momenti più importanti della propria vita.</p>
+
+      <h3>Cos'è Tenuta Leone</h3>
+      <p><strong>Tenuta Leone</strong> è una dimora storica situata a Calvanico, in provincia di <strong>Salerno</strong>, raggiungibile in pochi minuti dall'uscita autostradale A3 di Fisciano. È una <strong>location d'eccellenza per eventi privati e aziendali</strong>, attiva tutto l'anno, che accoglie matrimoni, feste, cerimonie religiose, ricorrenze familiari, eventi corporate, cene di gala e molto altro.</p>
+
+      <p>La struttura è gestita dall'Orocifrado Group S.R.L., che coordina un team interno composto da figure professionali dedicate a ogni aspetto dell'evento: dalla direzione artistica alla brigata di cucina, dalla pasticceria alla music band, dalla consulenza agli sposi al coordinamento tecnico.</p>
+
+      <h3>Per Quali Occasioni è Pensata</h3>
+      <p>Tenuta Leone non è una location specializzata in un unico tipo di evento. È una dimora versatile, capace di adattarsi al tono e alle esigenze di ogni occasione importante:</p>
+
+      <h4>Matrimoni d'Autore</h4>
+      <p>Il matrimonio è il cuore della nostra identità. Offriamo un'esperienza completa per coppie che vogliono <strong>sposarsi in una dimora storica in Campania</strong> con un servizio all-inclusive: cucina personalizzata, pasticceria interna, music band, coordinamento nuziale con <strong>Qualcosa di Blu</strong> — la nostra agenzia di wedding planning esclusiva.</p>
+
+      <h4>Comunioni e Battesimi</h4>
+      <p>Gli eventi dedicati ai bambini meritano la stessa cura di quelli per gli adulti. Spazi accoglienti, menu studiati per famiglie, un'atmosfera capace di mettere a proprio agio tutti, dai nonni ai più piccoli.</p>
+
+      <h4>Feste e Ricorrenze</h4>
+      <p>Lauree, compleanni importanti, anniversari, rinnovi di promesse: ogni ricorrenza che merita di essere celebrata trova in Tenuta Leone uno scenario all'altezza. La dimora trasforma qualsiasi festeggiamento in qualcosa di più grande di una semplice cena.</p>
+
+      <h4>Feste di Laurea</h4>
+      <p>Un traguardo che si conquista una volta sola. Che il festeggiato preferisca un brunch mattutino, un pranzo elegante o una cena serale, costruiamo l'esperienza intorno alla sua personalità e ai suoi gusti.</p>
+
+      <h4>Eventi Aziendali e Cene di Gala</h4>
+      <p>Meeting, congressi, team building, dinner di rappresentanza: Tenuta Leone è attrezzata per accogliere il business al massimo livello, con tecnologia all'avanguardia, logistica impeccabile e un'immagine di alto profilo per le aziende di <strong>Salerno</strong>, <strong>Napoli</strong> e <strong>Avellino</strong>.</p>
+
+      <h3>Cosa Include il Servizio</h3>
+      <p>Una delle domande più frequenti di chi ci contatta per la prima volta è: <em>"Ma cosa è incluso?"</em>. La risposta è: molto più di quanto ci si aspetti da una location tradizionale.</p>
+
+      <p>A Tenuta Leone non affittiamo semplicemente uno spazio. Mettiamo a disposizione un ecosistema completo di professionisti che lavorano in sinergia da anni, con un unico obiettivo: che il vostro evento sia perfetto.</p>
+
+      <p>La <strong>Brigata di Cucina</strong> firma menu d'autore personalizzati, costruiti intorno alle preferenze degli ospiti e alle caratteristiche dell'occasione. La <strong>Pasticceria interna</strong> realizza torte e dessert artigianali che sono a tutti gli effetti opere d'arte. La <strong>Music Band</strong> garantisce intrattenimento live con un sound design calibrato su ogni momento della serata. Il <strong>Front Desk</strong> guida gli ospiti dall'organizzazione al giorno dell'evento, gestendo ogni dettaglio con attenzione e discrezione. E per i matrimoni, <strong>Qualcosa di Blu</strong> offre un servizio di wedding planning professionale integrato, senza costi aggiuntivi di agenzia esterna.</p>
+
+      <p>Tutto questo si traduce in meno fornitori da gestire, meno rischi di imprevisti, più coerenza nell'esperienza finale.</p>
+      <img src="/img/blog/evento-corporate.jpg" alt="Location eventi Campania - Tenuta Leone dimora storica Salerno" loading="lazy" style="width:100%;border-radius:8px;margin:1.5rem 0" />
+
+      <h3>Dov'è e Come Si Raggiunge</h3>
+      <p>Tenuta Leone si trova in <strong>Via Roma 19, 84080 Calvanico (SA)</strong>, nel cuore della Campania. La posizione è strategica per chi arriva da:</p>
+      <ul>
+        <li><strong>Salerno</strong> e provincia: pochi chilometri, facilmente raggiungibile con qualsiasi mezzo</li>
+        <li><strong>Napoli</strong> e area metropolitana: accesso diretto tramite A3, uscita Fisciano</li>
+        <li><strong>Avellino</strong> e provincia irpina: collegamento rapido senza traffico urbano</li>
+        <li><strong>Amalfi e Costiera</strong>: distanza contenuta per chi organizza eventi in combinazione con soggiorni in zona</li>
+      </ul>
+      <p>La struttura dispone di <strong>parcheggio privato</strong>, elemento particolarmente apprezzato per eventi con molti invitati.</p>
+
+      <h3>Come Funziona il Processo di Prenotazione</h3>
+      <p>Organizzare un evento importante richiede tempo, e noi lo sappiamo. Per questo il nostro approccio parte da una <strong>consulenza personalizzata e senza impegno</strong>, in cui il nostro team ascolta le vostre esigenze, risponde a tutte le domande e costruisce una proposta su misura.</p>
+
+      <p>Non esistono pacchetti standardizzati, perché non esistono eventi standardizzati. Ogni proposta che presentiamo è pensata per la persona, la famiglia o l'azienda che abbiamo davanti.</p>
+
+      <p>Per fissare un primo appuntamento conoscitivo potete contattarci via telefono (<strong>+39 089 957360</strong> oppure <strong>+39 345 229 4361</strong>), via email all'indirizzo <a href="mailto:info@tenutaleone.it" style="color:#C9A96E">info@tenutaleone.it</a>, tramite il modulo sul sito o direttamente via WhatsApp.</p>
+
+      <h3>Perché Scegliere una Dimora Storica per il Proprio Evento</h3>
+      <p>C'è un elemento che distingue Tenuta Leone da qualsiasi sala ricevimenti tradizionale: il contesto. Una <strong>dimora storica</strong> porta con sé una storia, un'architettura, un'atmosfera che nessun allestimento potrà mai replicare. I muri, i soffitti, i giardini parlano di un passato che aggiunge profondità al momento presente.</p>
+
+      <p>Per chi celebra un matrimonio, questo significa fotografie e ricordi in un frame di rara bellezza. Per chi organizza un evento aziendale, significa una cornice che comunica lusso, attenzione e cura dell'immagine senza bisogno di spiegazioni. Per chi festeggia una ricorrenza in famiglia, significa un luogo capace di restituire all'occasione il peso emotivo che merita.</p>
+
+      <p>Il fascino di una dimora storica non si descrive pienamente a parole. Per questo vi invitiamo a venire a vederla.</p>
+
+      <h3>Un Ultimo Pensiero</h3>
+      <p>Se stai leggendo questo articolo, probabilmente stai ancora raccogliendo informazioni, confrontando location, cercando di capire quale sia la scelta giusta. È esattamente la cosa da fare.</p>
+
+      <p>Quello che possiamo dirti, con la certezza che ci viene dall'esperienza, è questo: quando un evento viene curato in ogni dettaglio — dalla cucina all'accoglienza, dall'ambiente al coordinamento — gli ospiti lo sentono. Non sempre sanno spiegarlo, ma lo sentono. Ed è quella sensazione che resta, molto dopo che i fiori si sono appassiti e le luci si sono spente.</p>
+
+      <p><strong>Tenuta Leone esiste per creare quella sensazione.</strong></p>
+
+      <p><em>Siamo a vostra disposizione per una consulenza personalizzata. <a href="/contatti" style="color:#C9A96E;text-decoration:underline">Contattateci</a>: sarà un piacere raccontarvi la dimora di persona.</em></p>
+    `,
+    image: "/img/blog/evento-corporate.jpg",
+    imageAlt: "Tenuta Leone location eventi matrimoni Campania dimora storica Salerno",
+    date: "2026-05-30",
+    author: "Tenuta Leone",
+    category: "Consigli & Organizzazione",
+    keywords: "location matrimonio campania, location eventi salerno, dimora storica eventi campania, dove sposarsi salerno, location feste salerno avellino napoli, tenuta eventi salerno, villa matrimoni campania"
+  },
+  {
+    slug: "evento-aziendale-dimora-storica-salerno",
+    title: "Evento Aziendale in Dimora Storica a Salerno: Perché Tenuta Leone è la Scelta che Fa la Differenza",
+    excerpt: "Cerchi una location per eventi aziendali a Salerno? Scopri come Tenuta Leone trasforma meeting, cene di gala e team building in esperienze di alto profilo nella Campania più autentica.",
+    content: `
+      <p>Organizzare un evento aziendale non è scegliere una sala. È scegliere il messaggio che la vostra azienda manda ai propri ospiti, collaboratori e partner prima ancora che si apra la prima slide. <strong>Tenuta Leone</strong>, dimora storica nel cuore della <strong>Campania</strong>, è la risposta per le aziende che vogliono fare la differenza.</p>
+
+      <h3>Il Problema con le Location Aziendali "Standard"</h3>
+      <p>La maggior parte degli <strong>eventi aziendali a Salerno</strong> e in Campania si svolge in sale conferenze d'albergo o centri congressi anonimi. Funzionali, certo, ma privi di personalità. Il risultato è un evento che si dimentica nel giro di una settimana, perché la cornice non ha aggiunto nulla all'esperienza. La domanda giusta non è "Quanti posti a sedere ci sono?" ma piuttosto: <em>"Questo posto racconta qualcosa di noi?"</em>.</p>
+
+      <h3>Tenuta Leone: Dove il Business Incontra il Prestigio</h3>
+      <p>Tenuta Leone si trova a Calvanico, in provincia di <strong>Salerno</strong>, a pochi minuti dall'uscita A3 di Fisciano. Una posizione strategica che la rende facilmente raggiungibile da <strong>Napoli</strong>, <strong>Avellino</strong> e tutta l'area metropolitana campana. La dimora storica unisce l'estetica d'epoca — sale affrescate, architettura ottocentesca, giardini secolari — alla riservatezza e alle tecnologie moderne necessarie per eventi professionali di alto livello.</p>
+      <img src="/img/blog/evento-corporate.jpg" alt="Location eventi aziendali Salerno dimora storica Tenuta Leone" loading="lazy" style="width:100%;border-radius:8px;margin:1.5rem 0" />
+
+      <h3>I Format che Ospitiamo</h3>
+
+      <h4>Meeting e Riunioni Direttive</h4>
+      <p>Sale riservate per riunioni a porte chiuse, dove la riservatezza è totale e ogni dettaglio logistico è curato dal nostro team interno. Il rispetto dei tempi è garantito da una regia tecnica che conosce ogni angolo della struttura.</p>
+
+      <h4>Congressi e Convegni</h4>
+      <p>Spazi flessibili e modulari, capaci di adattarsi a platee di diverse dimensioni. L'architettura della dimora aggiunge solennità naturale a qualsiasi presentazione o tavola rotonda.</p>
+
+      <h4>Cene di Gala e Dinner di Rappresentanza</h4>
+      <p>La cucina d'autore della nostra <strong>Brigata</strong> diventa lo strumento di comunicazione più potente: un menu firmato, costruito sulle esigenze dell'azienda, che trasforma una cena in un'esperienza memorabile per clienti e partner.</p>
+
+      <h4>Team Building ed Experience Day</h4>
+      <p>Il contesto naturale e architettonico di Tenuta Leone offre un impatto emotivo che nessuna sala conferenze può replicare. Gli esterni, la piscina panoramica, il parco secolare: ambienti che favoriscono relazioni autentiche tra colleghi.</p>
+
+      <h4>Premiazioni e Cerimonie Aziendali</h4>
+      <p>Ogni premio, ogni riconoscimento merita un palcoscenico all'altezza. La dimora storica aggiunge peso simbolico e solennità al momento, elevando il valore percepito dell'evento.</p>
+
+      <h3>La Regia Tecnica: Efficienza come Valore di Marca</h3>
+      <p>Ciò che distingue Tenuta Leone dalle location tradizionali è il controllo operativo interno. La cucina, il servizio, il coordinamento, l'intrattenimento: tutto è gestito dal nostro team, che lavora insieme da anni. Questo riduce le variabili esterne, minimizza i rischi di imprevisti e garantisce un livello di qualità costante. Per un'azienda, questo si traduce in un evento che funziona come un orologio — esattamente l'immagine che volete trasmettere.</p>
+
+      <h3>L'Immagine della Vostra Azienda Inizia Prima della Sala</h3>
+      <p>Il primo impatto non avviene alla presentazione. Avviene all'arrivo: il viale d'ingresso, la Corte dell'Accoglienza, la pietra antica che accoglie gli ospiti. Ogni dettaglio architettonico comunica cura, attenzione, prestigio. Per la brand reputation della vostra azienda, il contesto in cui ospitate è importante quanto il contenuto che presentate.</p>
+
+      <h3>Pianifichiamo il Vostro Evento Insieme</h3>
+      <p><em>Il nostro metodo di lavoro si basa su una <strong>consulenza dedicata e personalizzata</strong>. Non proponiamo pacchetti standard: ascoltiamo le esigenze della vostra azienda, comprendiamo gli obiettivi dell'evento e costruiamo una proposta su misura. <a href="/contatti" style="color:#C9A96E;text-decoration:underline">Contattateci</a> per una consulenza senza impegno: scoprite come Tenuta Leone può diventare il palcoscenico del vostro prossimo <strong>evento aziendale a Salerno</strong> e in Campania.</em></p>
+    `,
+    image: "/img/blog/evento-corporate.jpg",
+    imageAlt: "Evento aziendale in dimora storica Tenuta Leone Salerno Campania",
+    date: "2026-05-30",
+    author: "Tenuta Leone",
+    category: "Eventi Aziendali",
+    keywords: "eventi aziendali salerno, location meeting campania, cena di gala aziendale salerno, team building dimora storica, congressi avellino napoli, corporate event campania"
+  },
+  {
     slug: "wedding-planner-venue-coordinator-matrimonio-salerno",
     title: "Wedding Planner o Venue Coordinator? La Guida per Sposarsi a Salerno",
     excerpt: "Qual è la differenza tra wedding planner e venue coordinator? Scopri quando ne hai davvero bisogno e come Tenuta Leone offre già entrambi in un'unica dimora storica.",
