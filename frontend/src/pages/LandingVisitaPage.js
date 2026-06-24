@@ -166,21 +166,36 @@ const LandingVisitaPage = () => {
           </div>
           <div className="lp-hero-overlay"></div>
           <div className="lp-hero-content">
-            <div className="lp-hero-text">
-              <div className="lp-deadline-badge" data-testid="lp-deadline">
-                <i className="fas fa-clock"></i> Prenota online la tua visita privata entro il <strong>31.07.2026</strong>
+            <div className="lp-hero-top">
+              <div className="lp-hero-text">
+                <div className="lp-deadline-badge" data-testid="lp-deadline">
+                  <i className="fas fa-clock"></i> Prenota online la tua visita privata entro il <strong>31.07.2026</strong>
+                </div>
+                <h1 data-testid="lp-h1">Il vostro matrimonio merita una Firma d'Autore. Venite a scoprirla dal vivo.</h1>
+                <p className="lp-hero-sub">Scopri Tenuta Leone, dove ogni evento vive in totale esclusiva: <strong>un solo ricevimento al giorno</strong>, l'intera struttura interamente riservata a te e ai tuoi ospiti.</p>
               </div>
-              <h1 data-testid="lp-h1">Il vostro matrimonio merita una Firma d'Autore. Venite a scoprirla dal vivo.</h1>
-              <p className="lp-hero-sub">Scopri Tenuta Leone, dove ogni evento vive in totale esclusiva: <strong>un solo ricevimento al giorno</strong>, l'intera struttura interamente riservata a te e ai tuoi ospiti.</p>
-              
-              {/* TRUST BAR inline */}
-              <div className="lp-trust-inline" data-testid="lp-trust-bar">
-                <div className="lp-trust-item"><i className="fas fa-star"></i> 5.0 su Google &middot; 156 recensioni</div>
-                <div className="lp-trust-item"><i className="fas fa-award"></i> Oltre 30 anni di esperienza</div>
-                <div className="lp-trust-item"><i className="fas fa-handshake"></i> Visita senza impegno</div>
-                <div className="lp-trust-item"><i className="fas fa-file-invoice"></i> Preventivo gratuito</div>
+              <div className="lp-hero-perks" data-testid="lp-signature">
+                <span className="lp-perks-label">SIGNATURE EVENT EXPERIENCE</span>
+                <p className="lp-perks-intro">Con la conferma del tuo evento, riceverai:</p>
+                <div className="lp-perks-list">
+                  <div className="lp-perk"><i className="fas fa-concierge-bell"></i><span><strong>Exclusive Stay</strong> — Una notte nella suite riservata</span></div>
+                  <div className="lp-perk"><i className="fas fa-champagne-glasses"></i><span><strong>Private Breakfast</strong> — Colazione esclusiva il mattino dopo</span></div>
+                  <div className="lp-perk"><i className="fas fa-seedling"></i><span><strong>Floral Elegance</strong> — Allestimento floreale per tutti i tavoli</span></div>
+                  <div className="lp-perk"><i className="fas fa-scroll"></i><span><strong>Signature Menu</strong> — Personalizzazione completa dei menù</span></div>
+                  <div className="lp-perk lp-perk-highlight"><i className="fas fa-gift"></i><span><strong>Voucher €200</strong> — Credito per servizi aggiuntivi</span></div>
+                </div>
+                <p className="lp-perks-deadline">Riservato a chi prenota la visita online <strong>entro il 31 luglio 2026</strong>.</p>
               </div>
             </div>
+
+            {/* TRUST BAR */}
+            <div className="lp-trust-inline" data-testid="lp-trust-bar">
+              <div className="lp-trust-item"><i className="fas fa-star"></i> 5.0 su Google &middot; 156 recensioni</div>
+              <div className="lp-trust-item"><i className="fas fa-award"></i> Oltre 30 anni di esperienza</div>
+              <div className="lp-trust-item"><i className="fas fa-handshake"></i> Visita senza impegno</div>
+              <div className="lp-trust-item"><i className="fas fa-file-invoice"></i> Preventivo gratuito</div>
+            </div>
+
             <div className="lp-form-card" id="landing-form" data-testid="lp-form-card">
               {!submitted ? (
                 <form onSubmit={handleSubmit} data-testid="lp-form">
@@ -221,48 +236,6 @@ const LandingVisitaPage = () => {
                   <p>Vi ricontatteremo entro 24 ore per fissare la vostra visita.</p>
                 </div>
               )}
-            </div>
-          </div>
-        </section>
-
-        {/* SIGNATURE EVENT EXPERIENCE */}
-        <section className="lp-section lp-signature" data-testid="lp-signature">
-          <div className="lp-container">
-            <div className="lp-signature-header">
-              <span className="lp-signature-label">SIGNATURE EVENT EXPERIENCE</span>
-              <h2 className="lp-section-title">Con la conferma del tuo evento, riceverai la nostra esclusiva selezione di privilegi.</h2>
-              <p className="lp-signature-intro">Una selezione pensata per rendere il tuo giorno ancora più speciale.</p>
-            </div>
-            <div className="lp-signature-grid">
-              <div className="lp-signature-card">
-                <div className="lp-signature-icon"><i className="fas fa-concierge-bell"></i></div>
-                <h3>Exclusive Stay Experience</h3>
-                <p>Una notte nella nostra suite riservata, per vivere ogni emozione senza fretta.</p>
-              </div>
-              <div className="lp-signature-card">
-                <div className="lp-signature-icon"><i className="fas fa-champagne-glasses"></i></div>
-                <h3>Private Morning Breakfast</h3>
-                <p>Una colazione esclusiva il mattino seguente, per prolungare la magia del tuo evento.</p>
-              </div>
-              <div className="lp-signature-card">
-                <div className="lp-signature-icon"><i className="fas fa-seedling"></i></div>
-                <h3>Floral Elegance Collection</h3>
-                <p>Un allestimento floreale dedicato a tutti i tavoli del ricevimento, pensato per valorizzare ogni spazio con eleganza e armonia.</p>
-              </div>
-              <div className="lp-signature-card">
-                <div className="lp-signature-icon"><i className="fas fa-scroll"></i></div>
-                <h3>Signature Menu Design</h3>
-                <p>Personalizzazione completa dei menù, per raccontare il tuo stile attraverso ogni dettaglio.</p>
-              </div>
-              <div className="lp-signature-card lp-signature-card-highlight">
-                <div className="lp-signature-icon"><i className="fas fa-gift"></i></div>
-                <h3>Experience Voucher &mdash; €200</h3>
-                <p>Un credito esclusivo da utilizzare per arricchire il tuo evento con servizi e personalizzazioni aggiuntive.</p>
-              </div>
-            </div>
-            <div className="lp-signature-footer">
-              <p>Un'opportunità riservata esclusivamente a chi prenota online la visita <strong>entro il 31 luglio 2026</strong>.</p>
-              <button className="lp-btn-submit" onClick={scrollToForm} data-testid="lp-signature-cta">PRENOTA ORA LA TUA VISITA PRIVATA</button>
             </div>
           </div>
         </section>

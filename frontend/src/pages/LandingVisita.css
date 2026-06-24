@@ -66,11 +66,16 @@
   z-index: 2;
   max-width: 1200px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 420px;
-  gap: 48px;
-  align-items: start;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
   width: 100%;
+}
+.lp-hero-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: start;
 }
 .lp-hero-text h1 {
   font-family: 'Playfair Display', serif;
@@ -85,49 +90,88 @@
   font-size: 1.05rem;
   line-height: 1.7;
   color: rgba(255,255,255,0.85);
-  margin-bottom: 24px;
+  margin-bottom: 0;
 }
 
-/* TRUST BAR INLINE (inside hero) */
+/* PERKS (Signature inline in hero) */
+.lp-hero-perks {
+  background: rgba(201,169,110,0.08);
+  border: 1px solid rgba(201,169,110,0.25);
+  border-radius: 12px;
+  padding: 24px 28px;
+}
+.lp-perks-label {
+  display: inline-block;
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  color: #C9A96E;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.lp-perks-intro {
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.88rem;
+  color: rgba(255,255,255,0.7);
+  margin-bottom: 14px;
+}
+.lp-perks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+.lp-perk {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.84rem;
+  color: rgba(255,255,255,0.8);
+  line-height: 1.4;
+}
+.lp-perk i {
+  color: #C9A96E;
+  font-size: 0.85rem;
+  width: 20px;
+  text-align: center;
+  flex-shrink: 0;
+}
+.lp-perk strong {
+  color: #fff;
+}
+.lp-perk-highlight {
+  background: rgba(201,169,110,0.1);
+  border-radius: 6px;
+  padding: 8px 10px;
+  margin: 2px -10px 0;
+}
+.lp-perks-deadline {
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.78rem;
+  color: rgba(255,255,255,0.5);
+  font-style: italic;
+}
+.lp-perks-deadline strong {
+  color: #C9A96E;
+}
+
+/* TRUST BAR INLINE */
 .lp-trust-inline {
   display: flex;
   flex-wrap: wrap;
   gap: 12px 20px;
-  margin-bottom: 24px;
   padding: 16px 0;
   border-top: 1px solid rgba(201,169,110,0.2);
   border-bottom: 1px solid rgba(201,169,110,0.2);
 }
 
-/* GIFT INLINE (inside hero) */
-.lp-gift-inline {
-  display: flex;
-  align-items: flex-start;
-  gap: 14px;
-  background: rgba(201,169,110,0.1);
-  border: 1px solid rgba(201,169,110,0.25);
-  border-radius: 10px;
-  padding: 18px 20px;
-}
-.lp-gift-inline-icon i {
-  font-size: 1.4rem;
-  color: #C9A96E;
-  margin-top: 2px;
-}
-.lp-gift-inline-content h3 {
-  font-family: 'Playfair Display', serif;
-  font-size: 1rem;
-  color: #fff;
-  margin-bottom: 6px;
-}
-.lp-gift-inline-content p {
-  font-family: 'Manrope', sans-serif;
-  font-size: 0.82rem;
-  line-height: 1.55;
-  color: rgba(255,255,255,0.7);
-}
-.lp-gift-inline-content strong {
-  color: #C9A96E;
+/* FORM in hero - centered */
+.lp-hero-content > .lp-form-card {
+  max-width: 680px;
+  margin: 0 auto;
+  width: 100%;
 }
 
 /* FORM CARD */
@@ -147,7 +191,7 @@
 .lp-form-group { margin-bottom: 12px; }
 .lp-form-row {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 12px;
   margin-bottom: 12px;
 }
@@ -890,6 +934,10 @@
     grid-template-columns: 1fr;
     gap: 28px;
   }
+  .lp-hero-top {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
   .lp-hero-text h1 {
     font-size: 1.6rem;
     text-align: center;
@@ -900,11 +948,6 @@
   }
   .lp-trust-inline {
     justify-content: center;
-  }
-  .lp-gift-inline {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
   }
   .lp-form-card {
     padding: 24px 20px;
