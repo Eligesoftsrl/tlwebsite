@@ -10,7 +10,7 @@ export const blogArticles = [
       <p>Lo scriviamo pensando a chi cerca una risposta chiara, completa, onesta. Niente formule vaghe: solo informazioni concrete su cosa siamo, cosa offriamo e perché tanti scelgono questa <strong>dimora storica nella Campania</strong> del Sud per i momenti più importanti della propria vita.</p>
 
       <h3>Cos'è Tenuta Leone</h3>
-      <p><strong>Tenuta Leone</strong> è una dimora storica situata a Calvanico, in provincia di <strong>Salerno</strong>, raggiungibile in pochi minuti dall'uscita autostradale A3 di Fisciano. È una <strong>location d'eccellenza per eventi privati e aziendali</strong>, attiva tutto l'anno, che accoglie matrimoni, feste, cerimonie religiose, ricorrenze familiari, eventi corporate, cene di gala e molto altro.</p>
+      <p><strong>Tenuta Leone</strong> è una dimora storica situata a Calvanico, in provincia di <strong>Salerno</strong>, raggiungibile in pochi minuti dall'uscita autostradale A3 di Fisciano. È una <strong>location d'eccellenza per eventi privati e aziendali</strong>, attiva tutto l'anno, che accoglie matrimoni, feste, ricorrenze familiari, eventi corporate, cene di gala e molto altro.</p>
 
       <p>La struttura è gestita dall'Orocifrado Group S.R.L., che coordina un team interno composto da figure professionali dedicate a ogni aspetto dell'evento: dalla direzione artistica alla brigata di cucina, dalla pasticceria alla music band, dalla consulenza agli sposi al coordinamento tecnico.</p>
 
