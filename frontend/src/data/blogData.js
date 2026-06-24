@@ -40,7 +40,7 @@ export const blogArticles = [
       <p>La <strong>Brigata di Cucina</strong> firma menu d'autore personalizzati, costruiti intorno alle preferenze degli ospiti e alle caratteristiche dell'occasione. La <strong>Pasticceria interna</strong> realizza torte e dessert artigianali che sono a tutti gli effetti opere d'arte. La <strong>Music Band</strong> garantisce intrattenimento live con un sound design calibrato su ogni momento della serata. Il <strong>Front Desk</strong> guida gli ospiti dall'organizzazione al giorno dell'evento, gestendo ogni dettaglio con attenzione e discrezione. E per i matrimoni, <strong>Qualcosa di Blu</strong> offre un servizio di wedding planning professionale integrato, senza costi aggiuntivi di agenzia esterna.</p>
 
       <p>Tutto questo si traduce in meno fornitori da gestire, meno rischi di imprevisti, più coerenza nell'esperienza finale.</p>
-      <img src="/img/blog/evento-corporate.jpg" alt="Location eventi Campania - Tenuta Leone dimora storica Salerno" loading="lazy" style="width:100%;border-radius:8px;margin:1.5rem 0" />
+      <img src="/img/blog/location-eventi-campania.jpg" alt="Location eventi Campania - Tenuta Leone dimora storica Salerno" loading="lazy" style="width:100%;border-radius:8px;margin:1.5rem 0" />
 
       <h3>Dov'è e Come Si Raggiunge</h3>
       <p>Tenuta Leone si trova in <strong>Via Roma 19, 84080 Calvanico (SA)</strong>, nel cuore della Campania. La posizione è strategica per chi arriva da:</p>
@@ -75,9 +75,9 @@ export const blogArticles = [
 
       <p><em>Siamo a vostra disposizione per una consulenza personalizzata. <a href="/contatti" style="color:#C9A96E;text-decoration:underline">Contattateci</a>: sarà un piacere raccontarvi la dimora di persona.</em></p>
     `,
-    image: "/img/blog/evento-corporate.jpg",
+    image: "/img/blog/location-eventi-campania.jpg",
     imageAlt: "Tenuta Leone location eventi matrimoni Campania dimora storica Salerno",
-    date: "2026-05-30",
+    date: "2026-06-15",
     author: "Tenuta Leone",
     category: "Consigli & Organizzazione",
     keywords: "location matrimonio campania, location eventi salerno, dimora storica eventi campania, dove sposarsi salerno, location feste salerno avellino napoli, tenuta eventi salerno, villa matrimoni campania"
