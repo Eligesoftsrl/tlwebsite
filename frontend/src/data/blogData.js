@@ -2,7 +2,7 @@
 export const blogArticles = [
   {
     slug: "location-eventi-matrimoni-campania-tenuta-leone",
-    title: "Cerchi una Location per il Tuo Evento in Campania? Tutto Quello che Devi Sapere su Tenuta Leone",
+    title: "Tenuta Leone: La Dimora per i Tuoi Eventi in Campania",
     excerpt: "Stai cercando la location perfetta per un matrimonio, una festa o un evento in Campania? Scopri Tenuta Leone: dimora storica a Salerno con cucina d'autore, team interno e servizio all-inclusive.",
     content: `
       <p>Stai cercando la location giusta per il tuo evento. Forse è il matrimonio che stai pianificando da mesi, forse è una festa di laurea che vuoi rendere indimenticabile, forse è un anniversario importante o una cena di gala per i tuoi ospiti più preziosi. Qualunque sia l'occasione, sei arrivato nel posto giusto — e in questo articolo trovi tutto quello che hai bisogno di sapere su <strong>Tenuta Leone</strong> prima di contattarci.</p>
