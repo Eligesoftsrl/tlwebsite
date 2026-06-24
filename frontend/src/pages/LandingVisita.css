@@ -262,6 +262,120 @@
 }
 .lp-trust-item i { color: #C9A96E; font-size: 0.9rem; }
 
+/* DEADLINE BADGE */
+.lp-deadline-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(201,169,110,0.15);
+  border: 1px solid rgba(201,169,110,0.4);
+  border-radius: 6px;
+  padding: 10px 16px;
+  margin-bottom: 20px;
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.88rem;
+  color: #C9A96E;
+}
+.lp-deadline-badge i { font-size: 0.85rem; }
+.lp-deadline-badge strong { color: #fff; }
+
+/* SIGNATURE EVENT EXPERIENCE */
+.lp-signature {
+  background: #0D2424;
+  padding: 80px 24px;
+}
+.lp-signature-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+.lp-signature-label {
+  display: inline-block;
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  color: #C9A96E;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+.lp-signature .lp-section-title {
+  color: #fff;
+  margin-bottom: 12px;
+}
+.lp-signature-intro {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1rem;
+  color: rgba(255,255,255,0.6);
+  font-style: italic;
+}
+.lp-signature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 40px;
+}
+.lp-signature-card {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(201,169,110,0.15);
+  border-radius: 12px;
+  padding: 28px 24px;
+  text-align: center;
+  transition: border-color 0.3s, transform 0.3s;
+}
+.lp-signature-card:hover {
+  border-color: rgba(201,169,110,0.4);
+  transform: translateY(-3px);
+}
+.lp-signature-card-highlight {
+  border-color: rgba(201,169,110,0.4);
+  background: rgba(201,169,110,0.08);
+}
+.lp-signature-icon {
+  margin-bottom: 16px;
+}
+.lp-signature-icon i {
+  font-size: 1.6rem;
+  color: #C9A96E;
+}
+.lp-signature-card h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.05rem;
+  color: #fff;
+  margin-bottom: 10px;
+  line-height: 1.3;
+}
+.lp-signature-card p {
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: rgba(255,255,255,0.65);
+}
+.lp-signature-footer {
+  text-align: center;
+}
+.lp-signature-footer p {
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.95rem;
+  color: rgba(255,255,255,0.7);
+  margin-bottom: 20px;
+}
+.lp-signature-footer strong {
+  color: #C9A96E;
+}
+.lp-signature-footer .lp-btn-submit {
+  width: auto;
+  padding: 14px 36px;
+}
+
+@media (max-width: 768px) {
+  .lp-signature-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+  .lp-signature-card { padding: 22px 18px; }
+  .lp-deadline-badge { font-size: 0.82rem; }
+}
+
 /* SECTIONS */
 .lp-section {
   padding: 80px 24px;
