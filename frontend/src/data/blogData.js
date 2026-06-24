@@ -84,7 +84,7 @@ export const blogArticles = [
   },
   {
     slug: "evento-aziendale-dimora-storica-salerno",
-    title: "Evento Aziendale in Dimora Storica a Salerno: Perché Tenuta Leone è la Scelta che Fa la Differenza",
+    title: "Meeting, Gala e Congressi a Salerno: Tenuta Leone per il Tuo Business",
     excerpt: "Cerchi una location per eventi aziendali a Salerno? Scopri come Tenuta Leone trasforma meeting, cene di gala e team building in esperienze di alto profilo nella Campania più autentica.",
     content: `
       <p>Organizzare un evento aziendale non è scegliere una sala. È scegliere il messaggio che la vostra azienda manda ai propri ospiti, collaboratori e partner prima ancora che si apra la prima slide. <strong>Tenuta Leone</strong>, dimora storica nel cuore della <strong>Campania</strong>, è la risposta per le aziende che vogliono fare la differenza.</p>
