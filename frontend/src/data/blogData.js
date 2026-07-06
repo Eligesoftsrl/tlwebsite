@@ -34,7 +34,7 @@ export const blogArticles = [
         Situata alle porte di Salerno, Tenuta Leone offre un parco secolare curato nei minimi dettagli, corti storiche ideali per ricevimenti estivi e una gestione logistica integrata. <a href="/contatti" style="color:#C9A96E;font-weight:bold;text-decoration:underline">Prenota un incontro con le nostre consulenti d'evento per strutturare il piano del tuo ricevimento.</a></p>
       </div>
     `,
-    image: "/img/slide/slide_2.jpg",
+    image: "/img/blog/location-matrimoni-salerno-guida-eventi-all-aperto.jpg",
     imageAlt: "Location matrimoni Salerno ricevimento all'aperto Tenuta Leone",
     date: "2027-07-06",
     author: "Redazione Tenuta Leone",
@@ -71,7 +71,7 @@ export const blogArticles = [
         Tenuta Leone unisce l'architettura di una dimora dell'Ottocento alla perfetta accessibilità geografica tra Salerno e Avellino, offrendo una regia interna e integrata per matrimoni indimenticabili. <a href="/contatti" style="color:#C9A96E;font-weight:bold;text-decoration:underline">Venite a scoprire i nostri spazi attraverso un tour dedicato.</a></p>
       </div>
     `,
-    image: "/img/slide/slide_1.jpg",
+    image: "/img/blog/come-scegliere-location-matrimoni-campania.jpg",
     imageAlt: "Location matrimoni Campania dimora storica Tenuta Leone Salerno",
     date: "2027-06-30",
     author: "Redazione Tenuta Leone",
