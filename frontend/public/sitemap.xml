@@ -237,11 +237,33 @@
   <!-- Blog -->
   <url>
     <loc>https://www.tenutaleone.it/blog</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2027-07-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
-  
+
+  <url>
+    <loc>https://www.tenutaleone.it/blog/location-matrimoni-salerno-guida-eventi-all-aperto</loc>
+    <lastmod>2027-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.tenutaleone.it/img/slide/slide_2.jpg</image:loc>
+      <image:title>Location Matrimoni Salerno Ricevimento All Aperto Tenuta Leone</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.tenutaleone.it/blog/come-scegliere-location-matrimoni-campania</loc>
+    <lastmod>2027-06-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.tenutaleone.it/img/slide/slide_1.jpg</image:loc>
+      <image:title>Location Matrimoni Campania Come Scegliere Tenuta Leone</image:title>
+    </image:image>
+  </url>
+
   <url>
     <loc>https://www.tenutaleone.it/blog/location-eventi-matrimoni-campania-tenuta-leone</loc>
     <lastmod>2026-06-15</lastmod>

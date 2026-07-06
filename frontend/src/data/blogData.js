@@ -1,6 +1,84 @@
 // Blog articles data
 export const blogArticles = [
   {
+    slug: "location-matrimoni-salerno-guida-eventi-all-aperto",
+    title: "Location Matrimoni Salerno: Guida ai Ricevimenti all'Aperto",
+    excerpt: "Pianifichi un evento all'aperto a Salerno e provincia? Scopri i consigli di regia logistica, gestione degli spazi e ottimizzazione mobile per una giornata perfetta.",
+    content: `
+      <p>Il periodo estivo accende il desiderio di festeggiare le grandi ricorrenze all'aria aperta. Che si tratti di un matrimonio da sogno, di un battesimo o di un gala aziendale, la ricerca di una <strong>location matrimoni a Salerno</strong> si concentra inevitabilmente sulla qualità dei suoi spazi esterni. Tuttavia, trascorrere ore indimenticabili sotto il cielo della Campania richiede una macchina organizzativa invisibile ma rigidissima: la gestione delle zone d'ombra, il comfort termico degli invitati, l'acustica del sound design all'aperto e la fluidità del servizio di sala sono elementi che non possono essere lasciati al caso.</p>
+
+      <p>In questa guida vedremo come valutare la perfetta tenuta logistica di una <strong>sala ricevimenti a Salerno e provincia</strong> quando l'evento si sposta outdoor.</p>
+
+      <h3>L'importanza della Configurazione degli Spazi Esterni</h3>
+      <p>Un giardino d'effetto è solo il punto di partenza. Nelle migliori <em>ville per matrimoni a Salerno</em>, l'esterno è concepito come una sequenza di scenografie funzionali. Durante i mesi caldi, l'accoglienza degli ospiti deve poter contare su ampie zone d'ombra naturali o strutture architettoniche integrate che proteggano dal sole pomeridiano senza rovinare l'estetica delle fotografie.</p>
+
+      <p>Un perfetto layout outdoor prevede zone distinte per:</p>
+      <ul>
+        <li><strong>L'isola del gusto iniziale:</strong> dove i corner di show-cooking (come la cottura dei lievitati al momento) convivono con postazioni bar agili e spaziose.</li>
+        <li><strong>I salotti di conversazione:</strong> aree relax distanti dalle casse acustiche principali, pensate per il comfort dei parenti più anziani o per chi desidera dialogare amabilmente.</li>
+        <li><strong>La scenografia del taglio torta:</strong> una zona d'impatto visivo, idealmente valorizzata da specchi d'acqua o facciate storiche illuminate, che segni il culmine emozionale dell'evento.</li>
+      </ul>
+
+      <h3>Tecnologia e Regia: Il Sound Design all'Aperto</h3>
+      <p>Uno degli errori più frequenti negli eventi all'aperto è la gestione del suono. A differenza di una sala interna, lo spazio aperto non riflette le onde sonore: la musica rischia di disperdersi o, al contrario, di risultare fastidiosa per chi si trova vicino alle sorgenti. Una vera <strong>location per eventi a Salerno</strong> si riconosce dalla presenza di una regia tecnica specializzata e da un impianto audio distribuito, capace di garantire un sottofondo elegante durante il buffet e la giusta energia nel momento del party, senza mai sovrastare le conversazioni degli ospiti.</p>
+
+      <h3>L'Accesso Mobile alle Informazioni: Il Nuovo Standard per gli Invitati</h3>
+      <p>Oggi la pianificazione di un evento passa costantemente attraverso lo smartphone. Gli invitati utilizzano i dispositivi mobili per calcolare il percorso stradale verso la struttura, consultare le info-utili o guardare le anteprime degli ambienti tramite tour virtuali a 360°. Per una struttura moderna, garantire la massima connettività Wi-Fi anche nei punti più remoti del parco e mettere a disposizione degli sposi mappe interattive digitali è un servizio essenziale che ottimizza l'esperienza dei partecipanti ben prima del loro arrivo fisico ai cancelli.</p>
+
+      <h3>La Sinergia tra Cucina e Servizio Outdoor</h3>
+      <p>Servire piatti d'alta cucina all'aperto richiede standard operativi severissimi. La distanza tra le cucine principali e i tavoli esterni deve essere studiata millimetricamente per garantire che le temperature delle portate rimangano perfette. Inoltre, la presenza di corner esterni attrezzati per la brigata di sala permette di mantenere un servizio fluido, attento e tempestivo, lo stesso che ci si aspetterebbe all'interno di una sala reale.</p>
+
+      <hr />
+      <div style="background-color:rgba(201,169,110,0.08);border-left:4px solid #C9A96E;padding:20px;margin-top:30px;border-radius:0 8px 8px 0">
+        <p style="margin:0;font-size:0.95rem;color:rgba(255,255,255,0.85)"><strong>Pianifica il tuo evento outdoor a Salerno</strong><br />
+        Situata alle porte di Salerno, Tenuta Leone offre un parco secolare curato nei minimi dettagli, corti storiche ideali per ricevimenti estivi e una gestione logistica integrata. <a href="/contatti" style="color:#C9A96E;font-weight:bold;text-decoration:underline">Prenota un incontro con le nostre consulenti d'evento per strutturare il piano del tuo ricevimento.</a></p>
+      </div>
+    `,
+    image: "/img/slide/slide_2.jpg",
+    imageAlt: "Location matrimoni Salerno ricevimento all'aperto Tenuta Leone",
+    date: "2027-07-06",
+    author: "Redazione Tenuta Leone",
+    category: "Spazi d'Autore",
+    keywords: "location matrimoni salerno, location per eventi salerno, ville matrimoni salerno, sala ricevimenti salerno, matrimonio all aperto salerno"
+  },
+  {
+    slug: "come-scegliere-location-matrimoni-campania",
+    title: "Location Matrimoni Campania: Come Scegliere la Struttura Perfetta",
+    excerpt: "Cerchi la location ideale per matrimoni in Campania? Scopri i 5 requisiti fondamentali tra logistica, rito civile e catering interno per un evento senza imprevisti.",
+    content: `
+      <p>Organizzare un matrimonio d'autore nella nostra regione significa confrontarsi con un panorama ricchissimo di possibilità. Dalle coste famose in tutto il mondo alle valli interne, la scelta della giusta <strong>location matrimoni in Campania</strong> rappresenta il primo, vero pilastro su cui si regge il successo dell'intero evento. Tuttavia, non basta che una struttura sia "bella". Per garantire un ricevimento fluido, elegante e privo di stress per gli sposi e per gli ospiti, una dimora deve rispondere a precisi requisiti logistici, tecnici e gastronomici.</p>
+
+      <p>Se siete nel pieno della ricerca della vostra cornice ideale, ecco i 5 requisiti fondamentali che dovreste pretendere dalla struttura che ospiterà il vostro "Sì".</p>
+
+      <h3>1. Un Piano B Autentico (e non un semplice ripiego)</h3>
+      <p>Il clima della Campania è generalmente mite, ma i passaggi stagionali rischiano sempre di riservare sorprese climatiche. Quando valutate le diverse <em>ville per matrimoni in Campania</em>, non soffermatevi solo sulla bellezza dei giardini o del parco secolare. Domandatevi sempre: <em>"Se piovesse, dove si svolgerebbe l'aperitivo? E il taglio della torta?"</em>. Una location d'eccellenza deve disporre di ampi spazi interni (come sale ottocentesche o saloni con camino) capaci di ospitare lo stesso numero di invitati degli esterni, senza costringere a riduzioni dell'ultimo minuto o a fastidiosi assembramenti.</p>
+
+      <h3>2. Logistica e Accessibilità Territoriale</h3>
+      <p>La Campania ha una morfologia stradale complessa. Una delle criticità maggiori per gli invitati è raggiungere la struttura e trovare un posto auto sicuro. Scegliere una location situata in una posizione strategica — facilmente raggiungibile dai nodi autostradali di Napoli, Salerno e Avellino — è un enorme atto di cortesia verso i vostri ospiti. Requisiti come un ampio parcheggio interno gratuito e custodito e l'assenza di barriere architettoniche fanno la differenza tra un arrivo rilassato e un inizio d'evento stressante.</p>
+
+      <h3>3. La Gestione Interna dei Servizi (All-Inclusive d'Élite)</h3>
+      <p>Esternalizzare ogni singolo servizio (catering estraneo, service audio separato, agenzia di coordinamento esterna) aumenta esponenzialmente il rischio di incomprensioni e ritardi durante il giorno del matrimonio. Le migliori <strong>location per eventi in Campania</strong> si distinguono per una gestione centralizzata e coordinata. Avere una brigata di cucina stabile, una pasticceria interna artigianale e una direzione tecnica che dialoga nativamente con i professionisti del sound design e del wedding consulting garantisce una regia millimetrica e un'armonia stilistica impeccabile.</p>
+
+      <h3>4. Spazi Dedicati per il Rito Civile Autentico</h3>
+      <p>Sempre più coppie scelgono di celebrare il rito direttamente in location. Attenzione, però: c'è una grande differenza tra una "messa in scena" simbolica e un rito civile autentico con valore legale. Verificate che la dimora storica scelta sia una Casa Comunale ufficialmente riconosciuta. Questo vi permetterà di pronunciare il vostro "Sì" formale immersi nella natura di un parco secolare o all'ombra di architetture storiche, evitando scomodi trasferimenti per voi e per i vostri cari tra il municipio e il luogo del banchetto.</p>
+
+      <h3>5. Flessibilità e Versatilità degli Ambienti</h3>
+      <p>Un matrimonio moderno è un percorso dinamico fatto di momenti diversi: l'accoglienza, l'aperitivo a buffet, il pranzo o la cena serviti, il momento dei dolci e, infine, l'open bar con musica live. Una location ideale non deve costringervi a vivere l'intero evento in un unico ambiente. La presenza di corti esterne, foyer eleganti, giardini panoramici e sale d'epoca vi permetterà di muovere gli ospiti creando un effetto sorpresa continuo, mantenendo alta l'attenzione e il coinvolgimento dall'inizio alla fine.</p>
+
+      <hr />
+      <div style="background-color:rgba(201,169,110,0.08);border-left:4px solid #C9A96E;padding:20px;margin-top:30px;border-radius:0 8px 8px 0">
+        <p style="margin:0;font-size:0.95rem;color:rgba(255,255,255,0.85)"><strong>L'esperienza d'autore nel cuore della Campania</strong><br />
+        Tenuta Leone unisce l'architettura di una dimora dell'Ottocento alla perfetta accessibilità geografica tra Salerno e Avellino, offrendo una regia interna e integrata per matrimoni indimenticabili. <a href="/contatti" style="color:#C9A96E;font-weight:bold;text-decoration:underline">Venite a scoprire i nostri spazi attraverso un tour dedicato.</a></p>
+      </div>
+    `,
+    image: "/img/slide/slide_1.jpg",
+    imageAlt: "Location matrimoni Campania dimora storica Tenuta Leone Salerno",
+    date: "2027-06-30",
+    author: "Redazione Tenuta Leone",
+    category: "Consigli & Organizzazione",
+    keywords: "location matrimoni campania, ville per matrimoni campania, ricevimenti napoli salerno avellino, rito civile autentico campania, guida scelta location"
+  },
+  {
     slug: "location-eventi-matrimoni-campania-tenuta-leone",
     title: "Tenuta Leone: La Dimora per i Tuoi Eventi in Campania",
     excerpt: "Stai cercando la location perfetta per un matrimonio, una festa o un evento in Campania? Scopri Tenuta Leone: dimora storica a Salerno con cucina d'autore, team interno e servizio all-inclusive.",
