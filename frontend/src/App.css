@@ -1144,10 +1144,18 @@ a.mobile-nav-link.active {
   position: absolute;
   bottom: -30px;
   left: var(--space-lg);
-  background: transparent;
+  background: transparent !important;
   padding: 0;
   border-radius: 0;
   display: none;
+}
+
+#wp-ratedWA,
+#wp-ratedWA * {
+  background: transparent !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
 }
 
 @media (min-width: 768px) {

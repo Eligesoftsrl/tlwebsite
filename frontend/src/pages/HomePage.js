@@ -140,7 +140,7 @@ const HomePage = () => {
                 <div className="about-award">
                   <div id="wp-ratedWA">
                     <a target="_blank" href="https://www.matrimonio.com/location-matrimoni/tenuta-leone--e150948" rel="nofollow" title="Tenuta Leone, vincitore Wedding Awards 2026 Matrimonio.com">
-                      <img width="125" height="125" alt="Tenuta Leone, vincitore Wedding Awards 2026 Matrimonio.com" id="wp-ratedWA-img-2026" src="https://cdn1.matrimonio.com/img/badges/2026/badge-weddingawards_it_IT.jpg" />
+                      <img width="125" height="125" alt="Tenuta Leone, vincitore Wedding Awards 2026 Matrimonio.com" id="wp-ratedWA-img-2026" src="https://cdn1.matrimonio.com/img/badges/2026/badge-weddingawards_it_IT.jpg" onError={(e) => { e.target.style.display = 'none'; }} />
                     </a>
                   </div>
                 </div>
