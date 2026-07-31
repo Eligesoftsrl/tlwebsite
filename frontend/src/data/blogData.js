@@ -1,6 +1,94 @@
 // Blog articles data
 export const blogArticles = [
   {
+    slug: "quanto-costa-matrimonio-salerno-guida-prezzi",
+    title: "Quanto Costa un Matrimonio a Salerno? Guida ai Prezzi 2026-2027",
+    excerpt: "Quanto costa un matrimonio a Salerno e in Campania? Guida alle voci di spesa, alle fasce di prezzo e ai fattori che incidono sul budget: stagione, invitati, formula all-inclusive.",
+    content: `
+      <p>È la domanda che ogni coppia si pone prima ancora di fissare la data: <strong>quanto costa davvero un matrimonio a Salerno e in Campania?</strong> La risposta onesta è che non esiste un prezzo unico: il costo dipende dal numero di invitati, dalla stagione, dal giorno della settimana, dal livello del menù e — soprattutto — dal tipo di formula scelta. In questa guida vi spieghiamo, voce per voce, come si compone il budget di un ricevimento e quali domande fare per ricevere un preventivo davvero trasparente.</p>
+
+      <h3>La risposta in breve</h3>
+      <p>In Campania, il costo di un ricevimento di matrimonio in una location di fascia alta si calcola quasi sempre <strong>a persona</strong>, con quotazioni che variano in base a menù, servizi inclusi e periodo dell'anno. A questa base si aggiungono eventuali servizi extra (allestimenti floreali particolari, intrattenimento musicale, open bar prolungato). Il modo più affidabile per conoscere il costo reale del vostro matrimonio è richiedere un preventivo personalizzato dopo un sopralluogo: solo così ogni voce viene definita nero su bianco, senza sorprese.</p>
+
+      <h3>Come si compone il prezzo di un matrimonio: le voci principali</h3>
+
+      <h4>1. Il costo a persona: la voce più importante</h4>
+      <p>Nella tradizione campana, il ricevimento è il cuore della festa e il <strong>banqueting rappresenta la quota più rilevante del budget</strong>, spesso oltre la metà della spesa complessiva. Il costo a persona comprende in genere aperitivo di benvenuto, menù completo, torta nuziale, bevande e servizio di sala. Attenzione però: non tutti i preventivi includono le stesse cose. Chiedete sempre se nel prezzo a persona sono compresi il tableau, la mise en place, la degustazione del menù e il vino di qualità o se sono voci a parte.</p>
+
+      <h4>2. La stagione e il giorno della settimana</h4>
+      <p>Sposarsi a <strong>giugno o settembre di sabato</strong> ha un costo diverso rispetto a un venerdì di novembre o a una domenica invernale. Le date di alta stagione sono le più richieste e le prime a esaurirsi; scegliere la bassa stagione o un giorno infrasettimanale può liberare risorse da investire nel menù o negli allestimenti. Un matrimonio d'inverno in dimora storica, tra camini accesi e luci soffuse, ha peraltro un fascino che nulla ha da invidiare a un ricevimento estivo.</p>
+
+      <h4>3. Il numero di invitati</h4>
+      <p>Sembra ovvio, ma è il moltiplicatore di tutto: 100 invitati o 180 invitati cambiano radicalmente il budget finale a parità di menù. Il consiglio della nostra regia è definire <strong>prima la lista degli invitati, poi il livello del menù</strong> — e non il contrario. Ridurre la lista del 10% vale spesso più di qualsiasi trattativa sul prezzo.</p>
+
+      <h4>4. Servizi inclusi vs fornitori esterni</h4>
+      <p>È qui che i preventivi diventano difficili da confrontare. Una location con <strong>cucina interna, pasticceria propria, coordinamento eventi e wedding consultant</strong> integra nel prezzo servizi che altrove vanno acquistati separatamente da fornitori esterni, ciascuno con il proprio contratto, i propri tempi e i propri costi di trasferta. La formula all-inclusive non è solo una comodità organizzativa: è una tutela economica, perché elimina i costi nascosti che emergono a poche settimane dalle nozze. Scoprite la nostra <a href="/piatti" style="color:#C9A96E;text-decoration:underline">cucina d'autore</a> e il servizio <a href="/qualcosa-di-blu" style="color:#C9A96E;text-decoration:underline">Qualcosa di Blu</a>.</p>
+
+      <h4>5. Gli extra che fanno la differenza</h4>
+      <ul>
+        <li>Allestimenti floreali e scenografie personalizzate</li>
+        <li>Intrattenimento musicale (band dal vivo, DJ set, sound design della serata)</li>
+        <li>Fuochi pirotecnici, spettacoli, animazione per i bambini</li>
+        <li>Open bar prolungato e angoli food dopo il taglio della torta</li>
+        <li>Servizi fotografici in location nei giorni precedenti l'evento</li>
+      </ul>
+
+      <img src="/img/blog/quanto-costa-matrimonio-salerno.jpg" alt="Preventivo matrimonio a Salerno - ricevimento esclusivo a Tenuta Leone, dimora storica a Calvanico" loading="lazy" style="width:100%;border-radius:8px;margin:1.5rem 0" />
+
+      <h3>Il fattore che pochi considerano: l'esclusiva della location</h3>
+      <p>C'è una domanda che vale più di qualsiasi confronto tra preventivi: <strong>"Il giorno del mio matrimonio, ci saranno altri eventi nella struttura?"</strong> Molte location organizzano più ricevimenti in contemporanea o nella stessa giornata, condividendo parcheggi, cucine, personale e spazi comuni. Il prezzo può sembrare più conveniente, ma si paga in ritmo del servizio, privacy e attenzione.</p>
+      <p>A Tenuta Leone abbiamo fatto una scelta precisa: <strong>un solo evento al giorno</strong>. L'intera dimora — la corte d'onore, le sale ottocentesche, i giardini, la brigata di cucina e tutto il team — è dedicata esclusivamente ai vostri invitati, dall'arrivo all'ultimo brindisi. Quando valutate un preventivo, chiedetevi sempre se il prezzo che state confrontando include questa esclusività: è la differenza tra affittare uno spazio e avere una <a href="/matrimoni-autore-salerno" style="color:#C9A96E;text-decoration:underline">dimora tutta per voi</a>.</p>
+
+      <h3>Come leggere (davvero) un preventivo di matrimonio</h3>
+      <p>Prima di firmare, verificate che il preventivo risponda con chiarezza a queste domande:</p>
+      <ul>
+        <li><strong>Cosa include esattamente il prezzo a persona?</strong> Menù, bevande, torta, servizio, mise en place, tableau.</li>
+        <li><strong>La prova menù è inclusa?</strong> E per quante persone?</li>
+        <li><strong>Ci sono costi aggiuntivi obbligatori?</strong> Diritti di apertura, supplementi orari, corkage per fornitori esterni.</li>
+        <li><strong>Qual è la politica su acconti, saldo e conferma del numero finale di invitati?</strong> Entro quando si può variare il numero dei coperti?</li>
+        <li><strong>La location è in esclusiva?</strong> Quanti eventi si svolgono nella struttura quel giorno?</li>
+        <li><strong>Chi coordina la giornata?</strong> È previsto un venue coordinator interno o dovete incaricare un wedding planner esterno? Ne parliamo in dettaglio in <a href="/blog/wedding-planner-venue-coordinator-matrimonio-salerno" style="color:#C9A96E;text-decoration:underline">questa guida</a>.</li>
+      </ul>
+
+      <h3>Risparmiare senza rinunciare: 4 consigli della nostra regia</h3>
+      <ul>
+        <li><strong>Valutate le date fuori stagione o infrasettimanali:</strong> stessa dimora, stessa cucina, budget più leggero.</li>
+        <li><strong>Investite dove si concentra l'esperienza degli ospiti:</strong> il menù e il servizio si ricordano per sempre, alcuni dettagli scenografici molto meno.</li>
+        <li><strong>Scegliete una formula con servizi interni:</strong> meno fornitori significa meno contratti, meno trasferte e meno imprevisti economici.</li>
+        <li><strong>Chiudete la data con anticipo:</strong> prenotare 12-18 mesi prima consente di bloccare le condizioni ed evitare gli adeguamenti di listino.</li>
+      </ul>
+
+      <h3>Domande frequenti sul costo di un matrimonio a Salerno</h3>
+
+      <h4>Quanto costa in media un matrimonio in Campania?</h4>
+      <p>Dipende da invitati, stagione e formula scelta: il costo del ricevimento si calcola a persona e rappresenta in genere la voce principale del budget complessivo delle nozze. Il modo più affidabile per avere un numero reale è richiedere un preventivo personalizzato dopo un sopralluogo in location.</p>
+
+      <h4>Conviene di più un matrimonio all-inclusive o con fornitori esterni?</h4>
+      <p>La formula all-inclusive con cucina, pasticceria e coordinamento interni offre un controllo dei costi molto maggiore: ogni voce è definita in un unico contratto e non emergono spese impreviste da fornitori terzi. È la scelta consigliata a chi vuole certezza del budget.</p>
+
+      <h4>Sposarsi in bassa stagione fa davvero risparmiare?</h4>
+      <p>Sì. Le date autunnali, invernali e infrasettimanali hanno quotazioni più accessibili a parità di servizi, e in una dimora storica regalano atmosfere particolarmente suggestive.</p>
+
+      <h4>Il preventivo di Tenuta Leone è gratuito?</h4>
+      <p>Sì. Il preventivo è gratuito e viene costruito su misura durante una visita guidata su appuntamento, in cui potrete vedere gli spazi, conoscere la nostra regia e definire insieme ogni voce.</p>
+
+      <h4>Perché l'esclusiva della location incide sul valore del prezzo?</h4>
+      <p>Perché con un solo evento al giorno l'intera struttura e tutto il team lavorano esclusivamente per voi: nessuna condivisione di spazi, parcheggi o cucine con altri eventi. È una componente del valore che molti preventivi apparentemente più economici non includono.</p>
+
+      <hr />
+      <div style="background-color:rgba(201,169,110,0.08);border-left:4px solid #C9A96E;padding:20px;margin-top:30px;border-radius:0 8px 8px 0">
+        <p style="margin:0;font-size:0.95rem;color:rgba(255,255,255,0.85)"><strong>Il passo successivo: dal budget al preventivo reale</strong><br />
+        Le guide servono a orientarsi, ma il vostro matrimonio merita numeri veri. <a href="/visita-matrimonio" style="color:#C9A96E;font-weight:bold;text-decoration:underline">Prenotate una visita guidata a Tenuta Leone</a>: vi accoglieremo nella dimora, vi mostreremo gli spazi con il tour della struttura e costruiremo insieme un preventivo trasparente, voce per voce, cucito sul vostro evento. La visita è su appuntamento e il preventivo è gratuito.</p>
+      </div>
+    `,
+    image: "/img/blog/quanto-costa-matrimonio-salerno.jpg",
+    imageAlt: "Preventivo matrimonio a Salerno - ricevimento esclusivo a Tenuta Leone, dimora storica a Calvanico",
+    date: "2027-07-31",
+    author: "Redazione Tenuta Leone",
+    category: "Consigli & Organizzazione",
+    keywords: "quanto costa matrimonio salerno, costo matrimonio campania, prezzi matrimonio salerno, preventivo matrimonio, location matrimonio salerno, budget matrimonio, sposarsi salerno, matrimonio all-inclusive"
+  },
+  {
     slug: "location-matrimoni-salerno-guida-eventi-all-aperto",
     title: "Location Matrimoni Salerno: Guida ai Ricevimenti all'Aperto",
     excerpt: "Pianifichi un evento all'aperto a Salerno e provincia? Scopri i consigli di regia logistica, gestione degli spazi e ottimizzazione mobile per una giornata perfetta.",
