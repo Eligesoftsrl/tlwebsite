@@ -83,7 +83,7 @@ export const blogArticles = [
     `,
     image: "/img/blog/quanto-costa-matrimonio-salerno.jpg",
     imageAlt: "Preventivo matrimonio a Salerno - ricevimento esclusivo a Tenuta Leone, dimora storica a Calvanico",
-    date: "2027-07-31",
+    date: "2026-07-31",
     author: "Redazione Tenuta Leone",
     category: "Consigli & Organizzazione",
     keywords: "quanto costa matrimonio salerno, costo matrimonio campania, prezzi matrimonio salerno, preventivo matrimonio, location matrimonio salerno, budget matrimonio, sposarsi salerno, matrimonio all-inclusive"
@@ -124,7 +124,7 @@ export const blogArticles = [
     `,
     image: "/img/blog/location-matrimoni-salerno-guida-eventi-all-aperto.jpg",
     imageAlt: "Location matrimoni Salerno ricevimento all'aperto Tenuta Leone",
-    date: "2027-07-06",
+    date: "2026-07-06",
     author: "Redazione Tenuta Leone",
     category: "Spazi d'Autore",
     keywords: "location matrimoni salerno, location per eventi salerno, ville matrimoni salerno, sala ricevimenti salerno, matrimonio all aperto salerno"
@@ -161,7 +161,7 @@ export const blogArticles = [
     `,
     image: "/img/blog/come-scegliere-location-matrimoni-campania.jpg",
     imageAlt: "Location matrimoni Campania dimora storica Tenuta Leone Salerno",
-    date: "2027-06-30",
+    date: "2026-06-30",
     author: "Redazione Tenuta Leone",
     category: "Consigli & Organizzazione",
     keywords: "location matrimoni campania, ville per matrimoni campania, ricevimenti napoli salerno avellino, rito civile autentico campania, guida scelta location"
