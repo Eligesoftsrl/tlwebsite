@@ -169,7 +169,7 @@ const LandingVisitaPage = () => {
             <div className="lp-hero-top">
               <div className="lp-hero-text">
                 <div className="lp-deadline-badge" data-testid="lp-deadline">
-                  <i className="fas fa-clock"></i> Prenota online la tua visita privata entro il <strong>31.07.2026</strong>
+                  <i className="fas fa-clock"></i> Prenota online la tua visita privata entro il <strong>31.08.2026</strong>
                 </div>
                 <h1 data-testid="lp-h1">Il vostro matrimonio merita una Firma d'Autore. Venite a scoprirla dal vivo.</h1>
                 <p className="lp-hero-sub">Scopri Tenuta Leone, dove ogni evento vive in totale esclusiva: <strong>un solo ricevimento al giorno</strong>, l'intera struttura interamente riservata a te e ai tuoi ospiti.</p>
@@ -184,7 +184,7 @@ const LandingVisitaPage = () => {
                   <div className="lp-perk"><i className="fas fa-scroll"></i><span><strong>Signature Menu</strong> — Personalizzazione completa dei menù</span></div>
                   <div className="lp-perk lp-perk-highlight"><i className="fas fa-gift"></i><span><strong>Voucher €200</strong> — Credito per servizi aggiuntivi</span></div>
                 </div>
-                <p className="lp-perks-deadline">Riservato a chi prenota la visita online <strong>entro il 31 luglio 2026</strong>.</p>
+                <p className="lp-perks-deadline">Riservato a chi prenota la visita online <strong>entro il 31 agosto 2026</strong>.</p>
               </div>
             </div>
 
