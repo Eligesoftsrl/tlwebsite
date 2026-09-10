@@ -94,7 +94,7 @@ export const blogArticles = [
     `,
     image: "/img/blog/menu-matrimonio-campania.jpg",
     imageAlt: "Piatto d'autore della brigata di cucina di Tenuta Leone servito durante un ricevimento di matrimonio in Campania",
-    date: "2026-09-29",
+    date: "2026-08-20",
     author: "Redazione Tenuta Leone",
     category: "Food Experience",
     keywords: "menù matrimonio campania, menu matrimonio salerno, prova menù matrimonio, banqueting salerno, cucina interna matrimonio, menù nozze all-inclusive",
