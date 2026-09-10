@@ -1,6 +1,115 @@
 // Blog articles data
 export const blogArticles = [
   {
+    slug: "menu-matrimonio-campania-come-sceglierlo",
+    title: "Menù di Matrimonio in Campania: Come Sceglierlo e le 7 Domande da Fare alla Cucina",
+    excerpt: "Come si costruisce il menù di un matrimonio in Campania: struttura del ricevimento, stagionalità, prova menù e le domande giuste da fare alla cucina.",
+    content: `
+      <p>Passano gli anni, cambiano gli allestimenti, si alternano le mode negli abiti. Ma se chiedete a un invitato cosa ricorda di un matrimonio in Campania, vi parlerà quasi sempre di quello che ha mangiato. Il menù non è un dettaglio del ricevimento: è il ricevimento. Ed è anche la voce che pesa di più sul budget. In questa guida vi spieghiamo come si costruisce un menù di nozze equilibrato, come funziona davvero la prova menù e quali domande fare alla cucina prima di firmare.</p>
+
+      <h3>La risposta in breve</h3>
+      <p>Un <strong>menù di matrimonio in Campania</strong> si costruisce in quattro passaggi: si sceglie la struttura del ricevimento (aperitivo, portate servite, buffet finali), si calibra il numero di portate sulla durata dell'evento, si adatta la selezione alla stagione e si definiscono le varianti per ospiti con esigenze particolari. Il metodo migliore per validarlo è la prova menù, da fare a ridosso della stagione dell'evento e non troppi mesi prima. Una cucina interna alla location consente di personalizzare le portate e mantenere costante la qualità del servizio, cosa che un catering esterno in trasferta difficilmente può garantire.</p>
+
+      <h3>Anatomia di un ricevimento campano</h3>
+      <p>La tradizione campana ha una sua grammatica precisa, che si può interpretare ma non ignorare. Un ricevimento completo si articola in genere così:</p>
+      <ul>
+        <li><strong>L'aperitivo di benvenuto:</strong> il momento più lungo e più scenografico, spesso oltre un'ora, con isole tematiche, angoli di cucina espressa e bollicine. È qui che si forma la prima impressione degli ospiti.</li>
+        <li><strong>Gli antipasti serviti al tavolo:</strong> due o tre proposte che aprono il menù vero e proprio, in genere una di mare, una di terra e una vegetale.</li>
+        <li><strong>I primi piatti:</strong> la coppia di primi è un classico locale. Uno più identitario e territoriale, l'altro più contemporaneo.</li>
+        <li><strong>Il secondo:</strong> uno solo, ma di sostanza, con il suo contorno di accompagnamento.</li>
+        <li><strong>Il pre-dessert e la frutta:</strong> il momento di respiro prima del gran finale.</li>
+        <li><strong>La torta e il buffet di dolci:</strong> con la pasticceria interna diventa una vera scenografia. Scoprite il lavoro della nostra <a href="/pasticceria" style="color:#C9A96E;text-decoration:underline">pasticceria</a>.</li>
+        <li><strong>L'open bar e gli angoli notturni:</strong> per chi resta a ballare, dopo il taglio della torta.</li>
+      </ul>
+      <p>Non tutti gli elementi sono obbligatori. Un ricevimento pomeridiano più breve può ridurre le portate servite e potenziare aperitivo e buffet finale; un evento serale regge bene la sequenza completa.</p>
+
+      <img src="/img/blog/menu-matrimonio-campania.jpg" alt="Piatto d'autore della brigata di cucina di Tenuta Leone servito durante un ricevimento di matrimonio in Campania" loading="lazy" style="width:100%;border-radius:8px;margin:1.5rem 0" />
+
+      <h3>Quantità o qualità: il falso dilemma</h3>
+      <p>C'è una convinzione dura a morire: che un buon matrimonio si misuri dal numero di portate. In realtà un menù troppo lungo lavora contro l'esperienza degli ospiti. Dopo un aperitivo abbondante, tre antipasti e due primi, il secondo arriva su tavoli già sazi e la sala si svuota verso la pista. Il criterio corretto non è "quanti piatti", ma quanto tempo dura il ricevimento e come sono distribuite le portate in quel tempo. Una regia gastronomica ben fatta alterna momenti intensi e pause, tiene gli ospiti seduti nei momenti giusti e li libera negli altri.</p>
+
+      <h3>La stagione decide il menù (non il contrario)</h3>
+      <p>Scegliere prima i piatti e poi la data è l'errore più comune. In Campania la materia prima cambia radicalmente nel giro di poche settimane, e un piatto che a settembre è memorabile a febbraio è semplicemente fuori posto. Un menù di primavera vive di verdure novelle, agrumi e pesce leggero; un menù autunnale si costruisce su funghi, castagne, zucca e carni; l'inverno in dimora storica chiede consistenze più avvolgenti e brodi caldi all'arrivo degli ospiti. Il nostro lavoro comincia sempre dalla domanda su cosa sarà davvero buono in quella settimana dell'anno: potete vedere alcune delle nostre proposte nella sezione dedicata alla <a href="/piatti" style="color:#C9A96E;text-decoration:underline">cucina d'autore</a>.</p>
+
+      <h3>Cucina interna o catering esterno?</h3>
+      <p>È la scelta che condiziona tutte le altre. Un catering esterno arriva in trasferta, lavora in una cucina che non è la sua e con tempi compressi: funziona, ma con margini di personalizzazione ridotti e costi logistici che compaiono in fondo al preventivo. Una <a href="/brigata" style="color:#C9A96E;text-decoration:underline">brigata interna</a> conosce gli spazi, gli impianti, i percorsi di servizio e i tempi esatti tra la cucina e l'ultimo tavolo — e può permettersi cotture espresse e piatti costruiti su misura per voi. È la ragione per cui a Tenuta Leone la brigata di cucina è parte della struttura e non un fornitore esterno, e per cui possiamo trasformare il servizio in una vera <a href="/blog/food-experience-2026-alta-cucina-performance" style="color:#C9A96E;text-decoration:underline">food experience</a>.</p>
+
+      <h3>Gli ospiti che richiedono attenzione</h3>
+      <p>Su duecento invitati, statisticamente ne avrete sempre una ventina con esigenze specifiche. Vanno gestiti in fase di progettazione, non la sera prima:</p>
+      <ul>
+        <li><strong>Allergie e intolleranze:</strong> raccogliete le segnalazioni nella scheda di conferma degli invitati e trasmettetele alla cucina almeno quindici giorni prima. Ogni piatto alternativo deve essere identificato al tavolo, non chiesto a voce durante il servizio.</li>
+        <li><strong>Ospiti vegetariani e vegani:</strong> meritano un percorso pensato, non il contorno servito da solo.</li>
+        <li><strong>Bambini:</strong> un menù dedicato, servito prima degli adulti, e possibilmente un'area di intrattenimento. Bambini sereni significano genitori seduti a tavola.</li>
+        <li><strong>Ospiti anziani:</strong> porzioni misurate, cotture morbide, e tavoli lontani dalle casse audio.</li>
+        <li><strong>Ospiti stranieri:</strong> una piccola scheda menù bilingue è un gesto che viene notato e ricordato.</li>
+      </ul>
+
+      <h3>La prova menù: come farla bene</h3>
+      <p>La degustazione è il momento in cui il menù smette di essere un elenco e diventa un'esperienza. Per sfruttarla davvero:</p>
+      <ul>
+        <li><strong>Fatela nella stagione giusta,</strong> il più vicino possibile al periodo dell'evento. Assaggiare a gennaio un menù di luglio serve a poco.</li>
+        <li><strong>Andate in pochi.</strong> Voi due, e al massimo una coppia di persone di fiducia. Con otto opinioni diverse non deciderete nulla.</li>
+        <li><strong>Portate la lista delle criticità note:</strong> allergie, piatti che non volete, preferenze dei familiari più difficili.</li>
+        <li><strong>Valutate anche i tempi e le temperature,</strong> non solo il gusto: un piatto perfetto servito tiepido non è un piatto perfetto.</li>
+        <li><strong>Chiudete con una decisione scritta.</strong> Il menù definitivo va messo nero su bianco, con le varianti e le quantità.</li>
+      </ul>
+
+      <h3>Le 7 domande da fare alla cucina prima di firmare</h3>
+      <ol>
+        <li>La prova menù è inclusa nel prezzo a persona e per quante persone?</li>
+        <li>I piatti possono essere personalizzati o si sceglie da pacchetti chiusi?</li>
+        <li>Chi si occupa delle varianti per allergie e intolleranze e con quanto anticipo vanno comunicate?</li>
+        <li>Il vino è incluso e di che livello? È possibile fare un upgrade della carta?</li>
+        <li>Quanti camerieri per tavolo sono previsti e chi coordina la sala?</li>
+        <li>La cucina è interna alla struttura o il servizio è affidato a un catering esterno?</li>
+        <li>Il giorno del nostro evento la struttura ospiterà altri ricevimenti? Con quale cucina e quale personale?</li>
+      </ol>
+      <p>L'ultima domanda è quella che cambia tutto. A Tenuta Leone si svolge un solo evento al giorno: la brigata cucina per i vostri invitati e per nessun altro. È lo stesso criterio con cui vi consigliamo di leggere qualsiasi preventivo, come spieghiamo nella <a href="/blog/quanto-costa-matrimonio-salerno-guida-prezzi" style="color:#C9A96E;text-decoration:underline">guida ai costi del matrimonio</a>.</p>
+
+      <h3>Domande frequenti sul menù di matrimonio</h3>
+
+      <h4>Quante portate deve avere il menù di un matrimonio in Campania?</h4>
+      <p>Non esiste un numero fisso. Un ricevimento serale completo prevede in genere aperitivo, due o tre antipasti, due primi, un secondo con contorno, frutta, torta e buffet di dolci. Conta più la distribuzione delle portate nel tempo dell'evento che il loro numero.</p>
+
+      <h4>La prova menù è a pagamento?</h4>
+      <p>Dipende dalla struttura. In molte location di fascia alta la degustazione è inclusa per un numero definito di persone dopo la firma del contratto. È una delle prime cose da chiarire nel preventivo.</p>
+
+      <h4>Quando va scelto il menù definitivo?</h4>
+      <p>In genere tra i tre e i due mesi prima dell'evento, dopo la prova menù. Le varianti per allergie e intolleranze si confermano insieme al numero definitivo dei coperti, di solito quindici giorni prima.</p>
+
+      <h4>È possibile avere un menù interamente di mare o interamente di terra?</h4>
+      <p>Sì, e capita spesso. Con una cucina interna la struttura del menù può essere riscritta per intero, mantenendo l'equilibrio tra le portate e la stagionalità della materia prima.</p>
+
+      <h4>Come si gestiscono gli ospiti celiaci o con allergie gravi?</h4>
+      <p>Con piatti dedicati preparati separatamente, identificati al tavolo e comunicati alla brigata con almeno due settimane di anticipo. È una procedura, non un'improvvisazione del servizio.</p>
+
+      <h4>Meglio una cucina interna o un catering esterno?</h4>
+      <p>La cucina interna offre maggiore personalizzazione, tempi di servizio più controllati e nessun costo logistico aggiuntivo. Il catering esterno è la soluzione obbligata nelle location che non dispongono di una brigata propria.</p>
+
+      <hr />
+      <div style="background-color:rgba(201,169,110,0.08);border-left:4px solid #C9A96E;padding:20px;margin-top:30px;border-radius:0 8px 8px 0">
+        <p style="margin:0;font-size:0.95rem;color:rgba(255,255,255,0.85)"><strong>Il passo successivo: venite ad assaggiare</strong><br />
+        Un menù non si sceglie leggendo un elenco. <a href="/visita-matrimonio" style="color:#C9A96E;font-weight:bold;text-decoration:underline">Prenotate una visita guidata a Tenuta Leone</a>: visiterete la dimora, conoscerete la nostra regia e potrete programmare la degustazione con la brigata di cucina. La visita è su appuntamento e il preventivo è gratuito.</p>
+      </div>
+    `,
+    image: "/img/blog/menu-matrimonio-campania.jpg",
+    imageAlt: "Piatto d'autore della brigata di cucina di Tenuta Leone servito durante un ricevimento di matrimonio in Campania",
+    date: "2026-09-29",
+    author: "Redazione Tenuta Leone",
+    category: "Food Experience",
+    keywords: "menù matrimonio campania, menu matrimonio salerno, prova menù matrimonio, banqueting salerno, cucina interna matrimonio, menù nozze all-inclusive",
+    faqSchema: {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "Quante portate deve avere il menù di un matrimonio in Campania?", "acceptedAnswer": { "@type": "Answer", "text": "Non esiste un numero fisso. Un ricevimento serale completo prevede aperitivo, due o tre antipasti, due primi, un secondo con contorno, frutta, torta e buffet di dolci. Conta più la distribuzione delle portate nel tempo che il loro numero." } },
+        { "@type": "Question", "name": "La prova menù è a pagamento?", "acceptedAnswer": { "@type": "Answer", "text": "Dipende dalla struttura. In molte location di fascia alta la degustazione è inclusa per un numero definito di persone dopo la firma del contratto." } },
+        { "@type": "Question", "name": "Quando va scelto il menù definitivo?", "acceptedAnswer": { "@type": "Answer", "text": "In genere tra i tre e i due mesi prima dell'evento, dopo la prova menù. Le varianti per allergie si confermano con il numero definitivo dei coperti, circa quindici giorni prima." } },
+        { "@type": "Question", "name": "Meglio una cucina interna o un catering esterno?", "acceptedAnswer": { "@type": "Answer", "text": "La cucina interna offre maggiore personalizzazione, tempi di servizio più controllati e nessun costo logistico aggiuntivo. Il catering esterno è la soluzione obbligata dove non esiste una brigata propria." } }
+      ]
+    }
+  },
+  {
     slug: "quanto-costa-matrimonio-salerno-guida-prezzi",
     title: "Quanto Costa un Matrimonio a Salerno? Guida ai Prezzi 2026-2027",
     excerpt: "Quanto costa un matrimonio a Salerno e in Campania? Guida alle voci di spesa, alle fasce di prezzo e ai fattori che incidono sul budget: stagione, invitati, formula all-inclusive.",

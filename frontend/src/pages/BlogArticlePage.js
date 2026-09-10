@@ -40,6 +40,8 @@ const BlogArticlePage = () => {
     "mainEntityOfPage": `https://www.tenutaleone.it/blog/${article.slug}`
   };
 
+  const faqSchema = article.faqSchema || null;
+
   return (
     <>
       <Helmet>
@@ -52,6 +54,7 @@ const BlogArticlePage = () => {
         <meta property="og:type" content="article" />
         <link rel="canonical" href={`https://www.tenutaleone.it/blog/${article.slug}`} />
         <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
+        {faqSchema && <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>}
       </Helmet>
 
       <main className="blog-article-page direzione-page" data-testid="blog-article-page">
