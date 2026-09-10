@@ -6579,7 +6579,7 @@ a.mobile-nav-link.active {
 
 .blog-card-image {
   position: relative;
-  aspect-ratio: 16/10;
+  aspect-ratio: 1/1;
   overflow: hidden;
 }
 
