@@ -1,6 +1,164 @@
 // Blog articles data
 export const blogArticles = [
   {
+    slug: "trend-matrimoni-2027-campania",
+    title: "Trend Matrimoni 2027 in Campania: Allestimenti, Colori e la \"Food Experience\" Sensoriale",
+    excerpt: "I trend matrimoni 2027 in Campania: il ritorno del blu, ricevimenti dinamici e food experience con show cooking. Le idee di Tenuta Leone a Salerno.",
+    seoTitle: "Trend Matrimoni 2027 in Campania: colori e food experience",
+    inBrief: "I tre trend matrimonio 2027 in Campania sono: colori profondi (in particolare il blu), ricevimenti in movimento tra più spazi e cucina come spettacolo. A Tenuta Leone la regia e gli allestimenti sono curati dal team interno Qualcosa di Blu. Il ricevimento si sposta tra parco secolare, giardini all'italiana, sala, piscina e agrumeto. La Brigata d'Autore, cucina interna guidata dalla Famiglia Stasi, propone show cooking, tagli a vista e isole di crudi.",
+    content: `
+      <p>Organizzare le proprie nozze significa guardare al futuro. Per le coppie che stanno pianificando il loro grande giorno, conoscere in anticipo i <strong>trend matrimoni 2027</strong> è fondamentale per creare un evento che sia non solo elegante, ma anche attuale e sorprendente. Le tendenze wedding in Campania si stanno evolvendo rapidamente: addio ai banchetti statici di otto ore, benvenuti a ritmi dinamici, personalizzazione estrema e un approccio gastronomico immersivo. Se state cercando ispirazione per gli <strong>allestimenti matrimonio a Salerno</strong> e per le idee menù nozze 2027, ecco le tre tendenze principali che domineranno la prossima stagione a Tenuta Leone.</p>
+
+      <h2>1. Il ritorno del blu: eleganza senza tempo e identità</h2>
+      <p>Il 2027 segna un forte ritorno dei colori profondi e sofisticati in contrapposizione ai classici pastello. Tra tutti, il blu si afferma come il colore dell'eleganza assoluta. Non è un caso che a Tenuta Leone l'intero team di professionisti che cura la regia, gli allestimenti e il design dell'evento prenda il nome di <a href="/qualcosa-di-blu" style="color:#C9A96E;text-decoration:underline">Qualcosa di Blu</a>. Questo team interno trasforma il concetto di "wedding planning" in una vera e propria direzione artistica, utilizzando tocchi di blu polvere, navy o zaffiro nei tovagliati, nelle partecipazioni e nel floral design, per un risultato raffinato e altamente personalizzato.</p>
+
+      <h2>2. Ricevimenti dinamici: il ritmo prima di tutto</h2>
+      <p>Il format del <strong>matrimonio 2027</strong> abbandona la staticità. Le coppie e gli ospiti vogliono muoversi, interagire e scoprire spazi diversi della location. A Tenuta Leone, questo si traduce in un uso fluido degli ambienti: l'aperitivo nel parco secolare, isole tematiche nei giardini all'italiana, un passaggio più breve in sala per i piatti principali e infine il taglio della torta a bordo piscina o nell'agrumeto. Il ritmo dell'evento non subisce mai cali di energia.</p>
+
+      <h2>3. Cucina come spettacolo: la Food Experience sensoriale</h2>
+      <p>Il cibo non è più solo nutrimento, è intrattenimento. La tradizionale concezione del pranzo seduti lascia il posto a una vera e propria "<strong>Food Experience</strong>" interattiva. Grazie alla maestria della <a href="/brigata" style="color:#C9A96E;text-decoration:underline">Brigata d'Autore</a> — la cucina interna guidata dalla Famiglia Stasi — gli ospiti assistono a show cooking, tagli a vista e preparazioni espresse. Dalle isole di crudi di mare alle degustazioni di prodotti tipici campani, ogni momento gastronomico diventa uno spettacolo che coinvolge tutti i sensi.</p>
+
+      <div style="background-color:rgba(201,169,110,0.08);border-left:4px solid #C9A96E;padding:20px;margin:30px 0;border-radius:0 8px 8px 0">
+        <p style="margin:0;font-size:0.95rem;color:rgba(255,255,255,0.85)"><strong>Scoprite la nostra visione dal vivo</strong><br />
+        <a href="/visita-matrimonio" style="color:#C9A96E;font-weight:bold;text-decoration:underline">Prenotate una visita a Tenuta Leone</a> per vedere come questi trend prendono vita nella nostra dimora storica.</p>
+      </div>
+
+      <h2>Domande frequenti sui matrimoni a Tenuta Leone</h2>
+
+      <h3>Dove si trova esattamente Tenuta Leone?</h3>
+      <p>La tenuta si trova a Calvanico, in provincia di Salerno, immersa nel verde della Valle dell'Irno.</p>
+
+      <h3>Quanti invitati può ospitare la location?</h3>
+      <p>Le ampie sale interne e i parchi esterni di Tenuta Leone possono accogliere comodamente eventi di grandi dimensioni, oltre 300 ospiti, adattandosi perfettamente anche a ricevimenti più intimi.</p>
+
+      <h3>C'è un parcheggio interno per gli ospiti?</h3>
+      <p>Sì, la struttura dispone di un ampio e comodo parcheggio interno privato per garantire il massimo comfort agli invitati fin dal loro arrivo.</p>
+    `,
+    image: "/img/slide/slide_1.jpg",
+    imageAlt: "Mise en place elegante con tocchi di blu per matrimonio a Tenuta Leone Salerno",
+    date: "2026-10-05",
+    author: "Qualcosa di Blu – Team eventi di Tenuta Leone",
+    category: "Matrimoni",
+    keywords: "trend matrimoni 2027, matrimonio Campania, allestimenti matrimonio Salerno, menù nozze 2027, colori matrimonio 2027, show cooking matrimonio",
+    faqSchema: {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "Dove si trova esattamente Tenuta Leone?", "acceptedAnswer": { "@type": "Answer", "text": "La tenuta si trova a Calvanico, in provincia di Salerno, immersa nel verde della Valle dell'Irno." } },
+        { "@type": "Question", "name": "Quanti invitati può ospitare la location?", "acceptedAnswer": { "@type": "Answer", "text": "Le ampie sale interne e i parchi esterni di Tenuta Leone possono accogliere comodamente eventi di grandi dimensioni, oltre 300 ospiti, adattandosi perfettamente anche a ricevimenti più intimi." } },
+        { "@type": "Question", "name": "C'è un parcheggio interno per gli ospiti?", "acceptedAnswer": { "@type": "Answer", "text": "Sì, la struttura dispone di un ampio e comodo parcheggio interno privato per garantire il massimo comfort agli invitati fin dal loro arrivo." } }
+      ]
+    },
+    related: ["destination-wedding-salerno-valle-irno"]
+  },
+  {
+    slug: "destination-wedding-salerno-valle-irno",
+    title: "Destination Wedding a Salerno: Sposarsi tra il Fascino della Valle dell'Irno e la Costiera",
+    excerpt: "Destination wedding in Campania vicino alla Costiera Amalfitana: dimora storica a Calvanico (SA), suite per gli sposi, rito civile in struttura e aeroporti vicini.",
+    seoTitle: "Destination Wedding a Salerno: sposarsi a Calvanico",
+    inBrief: "Tenuta Leone è una dimora storica dell'Ottocento a Calvanico (Salerno), nella Valle dell'Irno. A circa 30 minuti dall'Aeroporto di Salerno-Costa d'Amalfi e a meno di un'ora da Napoli Capodichino. Ospita un solo evento al giorno, con suite per gli sposi, cappella privata e giardini. Il rito civile con validità legale si celebra direttamente in struttura.",
+    content: `
+      <p>La <strong>Campania</strong> è da sempre una delle mete più ambite al mondo per celebrare le proprie nozze. Tuttavia, chi cerca una <em>wedding venue in South Italy</em> spesso si scontra con il sovraffollamento, le difficoltà logistiche e i ritmi caotici delle zone più turistiche. Scegliere un <strong>destination wedding in Campania</strong> non significa dover rinunciare alla tranquillità. Sposarsi a <strong>Salerno</strong> e nella suggestiva Valle dell'Irno offre l'alternativa perfetta per le coppie italiane del Nord o straniere che cercano <strong>location per matrimoni vicino alla Costiera Amalfitana</strong>, ma desiderano un'atmosfera più intima, esclusiva e logisticamente impeccabile.</p>
+
+      <h2>Come arrivare a Calvanico: logistica e collegamenti strategici</h2>
+      <p>Uno dei motivi principali per scegliere Tenuta Leone a Calvanico è l'incredibile facilità di accesso.</p>
+      <p><strong>Aeroporti.</strong> La vicinanza al nuovo Aeroporto di Salerno-Costa d'Amalfi (a circa 30 minuti di auto) e all'Aeroporto Internazionale di Napoli Capodichino rende l'arrivo degli ospiti nazionali e internazionali estremamente agevole.</p>
+      <p><strong>Collegamenti stradali.</strong> A differenza delle tortuose strade costiere, la Valle dell'Irno è perfettamente servita dalla rete autostradale, permettendo l'uso di comodi transfer privati e bus GT per gli invitati.</p>
+
+      <h2>Il fascino della dimora storica rispetto al caos della Costiera</h2>
+      <p>La Costiera Amalfitana è meravigliosa, ma per un evento privato la vera esclusività è la privacy. Tenuta Leone offre un'architettura ottocentesca di raro pregio, circondata dal verde lussureggiante dei monti di Calvanico. Le ampie corti, la cappella privata e i giardini curati permettono di vivere l'intera giornata in una bolla di totale relax, senza lo stress del traffico turistico o degli spazi ristretti.</p>
+
+      <h2>Le suite interne: l'accoglienza per gli sposi</h2>
+      <p>Per un destination wedding, la possibilità di prepararsi sul posto è essenziale. Tenuta Leone dispone di eleganti suite interne dedicate agli sposi. Qui è possibile vivere i momenti del trucco, del parrucco e della vestizione in totale serenità, scattando fotografie meravigliose nelle stanze storiche prima di scendere ad accogliere i propri ospiti.</p>
+
+      <div style="background-color:rgba(201,169,110,0.08);border-left:4px solid #C9A96E;padding:20px;margin:30px 0;border-radius:0 8px 8px 0">
+        <p style="margin:0;font-size:0.95rem;color:rgba(255,255,255,0.85)"><strong>Organizzate il vostro destination wedding</strong><br />
+        <a href="/visita-matrimonio" style="color:#C9A96E;font-weight:bold;text-decoration:underline">Prenotate una visita a Tenuta Leone</a> per scoprire la dimora e pianificare il vostro evento esclusivo.</p>
+      </div>
+
+      <h2>Domande frequenti sul destination wedding a Calvanico (Salerno)</h2>
+
+      <h3>Quanto dista Tenuta Leone dall'Aeroporto di Salerno-Costa d'Amalfi?</h3>
+      <p>La location è strategicamente posizionata nella Valle dell'Irno, a circa 30 minuti di auto dal nuovo scalo aeroportuale di Salerno e a meno di un'ora da Napoli.</p>
+
+      <h3>Quanto è lontana dalla Costiera Amalfitana?</h3>
+      <p>Calvanico si trova a breve distanza da Salerno, considerata la porta d'accesso alla Costiera Amalfitana, permettendo di godere del mare nei giorni pre o post-evento, mantenendo la quiete per il giorno delle nozze.</p>
+
+      <h3>Si può celebrare il rito civile in struttura?</h3>
+      <p>Assolutamente sì. Tenuta Leone è casa comunale a Calvanico, permettendo la celebrazione del rito civile con validità legale direttamente nei propri giardini o sale.</p>
+    `,
+    image: "/img/slide/slide_3.jpg",
+    imageAlt: "Facciata ottocentesca di Tenuta Leone con corte interna e montagne della Valle dell'Irno sullo sfondo",
+    date: "2026-10-05",
+    author: "Team Qualcosa di Blu – Tenuta Leone",
+    category: "Matrimoni",
+    keywords: "destination wedding Salerno, destination wedding Campania, wedding venue South Italy, location matrimonio vicino Costiera Amalfitana, matrimonio dimora storica Salerno, rito civile in villa Salerno",
+    faqSchema: {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "Quanto dista Tenuta Leone dall'Aeroporto di Salerno-Costa d'Amalfi?", "acceptedAnswer": { "@type": "Answer", "text": "La location è strategicamente posizionata nella Valle dell'Irno, a circa 30 minuti di auto dal nuovo scalo aeroportuale di Salerno e a meno di un'ora da Napoli." } },
+        { "@type": "Question", "name": "Quanto è lontana dalla Costiera Amalfitana?", "acceptedAnswer": { "@type": "Answer", "text": "Calvanico si trova a breve distanza da Salerno, considerata la porta d'accesso alla Costiera Amalfitana, permettendo di godere del mare nei giorni pre o post-evento, mantenendo la quiete per il giorno delle nozze." } },
+        { "@type": "Question", "name": "Si può celebrare il rito civile in struttura?", "acceptedAnswer": { "@type": "Answer", "text": "Assolutamente sì. Tenuta Leone è casa comunale a Calvanico, permettendo la celebrazione del rito civile con validità legale direttamente nei propri giardini o sale." } }
+      ]
+    },
+    related: ["trend-matrimoni-2027-campania"]
+  },
+  {
+    slug: "comunioni-battesimi-salerno",
+    title: "Comunioni e Battesimi a Salerno: Come Creare un Evento Elegante che Stupisca Anche i Bambini",
+    excerpt: "Location per comunioni e battesimi a Salerno: ludoteca interna, gonfiabili, animatori per i bambini, eleganza e cucina per gli adulti.",
+    seoTitle: "Comunioni e Battesimi a Salerno: location elegante",
+    inBrief: "Tenuta Leone organizza comunioni e battesimi a Calvanico (Salerno) con spazi separati per adulti e bambini. Per i bambini: ludoteca interna coperta, gonfiabili e animatori professionisti. Per gli adulti: sale eleganti o bordo piscina, cucina interna e angolo parfum con profumi di nicchia. Menu bimbi dedicato con servizio più rapido e allestimenti a tema (sweet table, confettata, floral design).",
+    content: `
+      <p>Quando si tratta di festeggiare i momenti speciali dei propri figli, la sfida per i genitori è sempre la stessa: come organizzare una festa in cui i bambini si divertano davvero, ma che risulti al tempo stesso elegante e piacevole per gli ospiti adulti? La ricerca di <strong>location per comunioni a Salerno</strong> o per <strong>feste di battesimo in Campania</strong> si scontra spesso con due estremi: ristoranti troppo formali dove i bambini si annoiano, o ludoteche caotiche dove gli adulti non riescono a godersi il pasto. A Tenuta Leone abbiamo riscritto le regole per organizzare una comunione elegante e divertente, trasformando la cerimonia in un'esperienza curata in ogni dettaglio per tutte le fasce d'età.</p>
+
+      <h2>La soluzione: spazi separati ma sinergici</h2>
+      <p>Il segreto di un evento familiare di successo è l'intrattenimento mirato. A Tenuta Leone non offriamo "solo un pranzo", ma una vera e propria progettazione dell'evento.</p>
+
+      <h3>Per gli adulti: eleganza e cura dei dettagli</h3>
+      <p>Mentre i più piccoli giocano in sicurezza, gli adulti possono godersi l'eccellenza culinaria della cucina interna nei saloni raffinati o a bordo piscina. Tra i servizi più apprezzati spicca il nostro esclusivo angolo parfum: una station dedicata ai profumi di nicchia, un tocco di classe inaspettato che stupisce sempre gli ospiti più esigenti.</p>
+
+      <h3>Per i bambini e ragazzi: un vero parco divertimenti</h3>
+      <p>Per garantire lo svago totale, la tenuta mette a disposizione una ludoteca interna attrezzata, morbidi gonfiabili per i più piccoli. Il divertimento è assicurato, e i genitori possono rilassarsi sapendo che i figli sono intrattenuti da animatori professionisti in aree a loro dedicate.</p>
+
+      <h2>Allestimenti tematici e mise en place curata</h2>
+      <p>Essere tra i migliori <strong>locali per cerimonie a Salerno</strong> significa curare l'estetica tanto quanto il divertimento. Il team di Tenuta Leone progetta allestimenti scenografici personalizzati (dal tema del battesimo a quello della prima comunione), curando sweet table, confettate, palloncini e floral design, affinché ogni scatto fotografico rifletta l'eleganza che la vostra famiglia merita.</p>
+
+      <div style="background-color:rgba(201,169,110,0.08);border-left:4px solid #C9A96E;padding:20px;margin:30px 0;border-radius:0 8px 8px 0">
+        <p style="margin:0;font-size:0.95rem;color:rgba(255,255,255,0.85)"><strong>Organizza la festa perfetta</strong><br />
+        <a href="/contatti" style="color:#C9A96E;font-weight:bold;text-decoration:underline">Contattaci per una consulenza personalizzata</a> sul tuo evento o scrivici su <a href="https://wa.me/393452294361" style="color:#25D366;font-weight:bold;text-decoration:underline">WhatsApp</a>.</p>
+      </div>
+
+      <h2>Domande frequenti sulle feste di famiglia a Tenuta Leone</h2>
+
+      <h3>Tenuta Leone organizza menu dedicati per i bambini?</h3>
+      <p>Sì, la nostra brigata di cucina propone menu bimbi gustosi, sani e presentati in modo divertente, con tempistiche di servizio accelerate rispetto a quelle degli adulti.</p>
+
+      <h3>C'è un'area gioco coperta in caso di pioggia?</h3>
+      <p>Certamente. La nostra ludoteca interna garantisce che l'intrattenimento prosegua senza interruzioni indipendentemente dalle condizioni meteo.</p>
+
+      <h3>È possibile personalizzare l'intrattenimento e l'animazione?</h3>
+      <p>Sì, il nostro team vi aiuterà a selezionare l'animazione più adatta all'età dei piccoli ospiti presenti, dagli spettacoli di magia ai giochi di gruppo negli spazi esterni della Tenuta.</p>
+    `,
+    image: "/img/slide/slide_2.jpg",
+    imageAlt: "Sweet table elegante per comunione con dolci e confettata a Tenuta Leone Salerno",
+    date: "2026-10-05",
+    author: "Team Qualcosa di Blu – Tenuta Leone",
+    category: "Feste di famiglia",
+    keywords: "location comunioni Salerno, location battesimo Salerno, festa battesimo Campania, locali per cerimonie Salerno, comunione con animazione bambini, ristorante comunione con area giochi",
+    faqSchema: {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "Tenuta Leone organizza menu dedicati per i bambini?", "acceptedAnswer": { "@type": "Answer", "text": "Sì, la nostra brigata di cucina propone menu bimbi gustosi, sani e presentati in modo divertente, con tempistiche di servizio accelerate rispetto a quelle degli adulti." } },
+        { "@type": "Question", "name": "C'è un'area gioco coperta in caso di pioggia?", "acceptedAnswer": { "@type": "Answer", "text": "Certamente. La nostra ludoteca interna garantisce che l'intrattenimento prosegua senza interruzioni indipendentemente dalle condizioni meteo." } },
+        { "@type": "Question", "name": "È possibile personalizzare l'intrattenimento e l'animazione?", "acceptedAnswer": { "@type": "Answer", "text": "Sì, il nostro team vi aiuterà a selezionare l'animazione più adatta all'età dei piccoli ospiti presenti, dagli spettacoli di magia ai giochi di gruppo negli spazi esterni della Tenuta." } }
+      ]
+    },
+    related: ["trend-matrimoni-2027-campania"]
+  },
+  {
     slug: "menu-matrimonio-campania-come-sceglierlo",
     title: "Menù di Matrimonio in Campania: Come Sceglierlo e le 7 Domande da Fare alla Cucina",
     excerpt: "Come si costruisce il menù di un matrimonio in Campania: struttura del ricevimento, stagionalità, prova menù e le domande giuste da fare alla cucina.",

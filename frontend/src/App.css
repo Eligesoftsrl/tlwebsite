@@ -6688,6 +6688,80 @@ a.mobile-nav-link.active {
   font-style: italic;
 }
 
+/* Blog - Box "In breve" */
+.blog-in-brief {
+  background: rgba(201,169,110,0.08);
+  border-left: 4px solid #C9A96E;
+  border-radius: 0 8px 8px 0;
+  padding: 20px 24px;
+  margin-bottom: 28px;
+}
+.blog-in-brief h4 {
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #C9A96E;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.blog-in-brief p {
+  font-size: 0.9rem;
+  line-height: 1.65;
+  color: rgba(255,255,255,0.8);
+}
+
+/* Blog - Scheda Tenuta Leone in sintesi */
+.blog-venue-card {
+  background: rgba(17,46,46,0.5);
+  border: 1px solid rgba(201,169,110,0.2);
+  border-radius: 10px;
+  padding: 24px;
+  margin-top: 32px;
+}
+.blog-venue-card h4 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.05rem;
+  color: #C9A96E;
+  margin-bottom: 12px;
+}
+.blog-venue-card p {
+  font-size: 0.88rem;
+  line-height: 1.6;
+  color: rgba(255,255,255,0.7);
+  margin-bottom: 6px;
+}
+
+/* Blog - Articoli correlati */
+.blog-related {
+  margin-top: 28px;
+}
+.blog-related h4 {
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #C9A96E;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 12px;
+}
+.blog-related-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.9rem;
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  padding: 8px 0;
+  transition: color 0.2s;
+}
+.blog-related-link:hover { color: #C9A96E; }
+.blog-related-link i { color: #C9A96E; font-size: 0.75rem; }
+
 .blog-sidebar-cta {
   background: var(--color-primary-light);
   border: 1px solid var(--color-gold-transparent);

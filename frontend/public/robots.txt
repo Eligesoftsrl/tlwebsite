@@ -1,48 +1,35 @@
 User-agent: *
 Allow: /
 
-# Sitemap
-Sitemap: https://www.tenutaleone.it/sitemap.xml
-
-# Crawl-delay for polite crawling
-Crawl-delay: 1
-
-# Block admin/api routes
-Disallow: /api/
-Disallow: /_next/
-Disallow: /static/
-
-# Allow all images
-Allow: /img/
-
-# AI Crawlers - Welcome
-User-agent: GPTBot
+# Motori di ricerca e risposta AI – accesso consentito
+User-agent: OAI-SearchBot
 Allow: /
 
 User-agent: ChatGPT-User
 Allow: /
 
-User-agent: Google-Extended
-Allow: /
-
-User-agent: Anthropic-AI
+User-agent: GPTBot
 Allow: /
 
 User-agent: ClaudeBot
 Allow: /
 
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
 User-agent: PerplexityBot
 Allow: /
 
-# Social Media Crawlers
-User-agent: facebookexternalhit
+User-agent: Google-Extended
 Allow: /
 
-User-agent: Twitterbot
+User-agent: Applebot-Extended
 Allow: /
 
-User-agent: LinkedInBot
+User-agent: Bingbot
 Allow: /
 
-User-agent: Pinterest
-Allow: /
+Sitemap: https://www.tenutaleone.it/sitemap.xml

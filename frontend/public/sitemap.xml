@@ -237,9 +237,30 @@
   <!-- Blog -->
   <url>
     <loc>https://www.tenutaleone.it/blog</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.tenutaleone.it/blog/trend-matrimoni-2027-campania</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.tenutaleone.it/blog/destination-wedding-salerno-valle-irno</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.tenutaleone.it/blog/comunioni-battesimi-salerno</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
 
   <url>
