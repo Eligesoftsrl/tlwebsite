@@ -144,7 +144,7 @@ jobs:
           FUNCEOF
           cat > .vercel/output/functions/api/contact.func/.vc-config.json << 'VCEOF'
           {
-            "runtime": "nodejs20.x",
+            "runtime": "nodejs22.x",
             "handler": "index.js",
             "launcherType": "Nodejs"
           }
