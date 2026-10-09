@@ -34,7 +34,7 @@ export const blogArticles = [
       <h3>C'è un parcheggio interno per gli ospiti?</h3>
       <p>Sì, la struttura dispone di un ampio e comodo parcheggio interno privato per garantire il massimo comfort agli invitati fin dal loro arrivo.</p>
     `,
-    image: "/img/slide/slide_1.jpg",
+    image: "/img/blog/trend-matrimoni.jpg",
     imageAlt: "Mise en place elegante con tocchi di blu per matrimonio a Tenuta Leone Salerno",
     date: "2026-10-02",
     author: "Qualcosa di Blu – Team eventi di Tenuta Leone",
@@ -87,7 +87,7 @@ export const blogArticles = [
       <h3>Si può celebrare il rito civile in struttura?</h3>
       <p>Assolutamente sì. Tenuta Leone è casa comunale a Calvanico, permettendo la celebrazione del rito civile con validità legale direttamente nei propri giardini o sale.</p>
     `,
-    image: "/img/slide/slide_3.jpg",
+    image: "/img/blog/destination-wedding.jpg",
     imageAlt: "Facciata ottocentesca di Tenuta Leone con corte interna e montagne della Valle dell'Irno sullo sfondo",
     date: "2026-09-24",
     author: "Team Qualcosa di Blu – Tenuta Leone",
@@ -141,7 +141,7 @@ export const blogArticles = [
       <h3>È possibile personalizzare l'intrattenimento e l'animazione?</h3>
       <p>Sì, il nostro team vi aiuterà a selezionare l'animazione più adatta all'età dei piccoli ospiti presenti, dagli spettacoli di magia ai giochi di gruppo negli spazi esterni della Tenuta.</p>
     `,
-    image: "/img/slide/slide_2.jpg",
+    image: "/img/blog/comunioni-battesimi.jpg",
     imageAlt: "Sweet table elegante per comunione con dolci e confettata a Tenuta Leone Salerno",
     date: "2026-09-09",
     author: "Team Qualcosa di Blu – Tenuta Leone",
